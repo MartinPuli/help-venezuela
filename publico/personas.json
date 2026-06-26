@@ -1,7 +1,126 @@
 {
-  "generadoEn": "2026-06-26T05:40:02.890Z",
+  "generadoEn": "2026-06-26T07:01:47.080Z",
   "total": 95,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmquknp3v00l43an0y8hy8ydz",
+      "nombre": "Samuel Marcano",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:50:34.075Z",
+      "edadAprox": 11,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqukjxhh00l33an0gk3f24n3",
+      "nombre": "Sara Ojeda",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:47:38.309Z",
+      "edadAprox": 15,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqukife800l13an02c0wci1w",
+      "nombre": "Miriam Urbina",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:46:28.208Z",
+      "edadAprox": 51,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquk0rcc00l03an0ebyiqzfc",
+      "nombre": "Ivis Guevara",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:32:43.884Z",
+      "edadAprox": 64,
+      "ultimaUbicacion": {
+        "texto": "Miranda · Guarenas · Tanaguarenas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqujwxfy00kz3an00vn49cuj",
+      "nombre": "Thais Guevara",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:29:45.166Z",
+      "edadAprox": 62,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqujm5gn00ky3an0da14ai9h",
+      "nombre": "Ginna Vaamonde",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:21:22.343Z",
+      "ultimaUbicacion": {
+        "texto": "Miranda · Guatire · Zamora"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquj3v4y00kx3an0cnk0yxkz",
+      "nombre": "Laura Zuleyca Granatty Figueroa",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:07:09.154Z",
+      "edadAprox": 48,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Hotel Bel Air TANAGUARENA"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquj3cs400kw3an0mze8ffsw",
+      "nombre": "Juan Carlos Landaes",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T06:06:45.364Z",
+      "edadAprox": 30,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqui3n9f00kv3an0rr12zo15",
       "nombre": "Luisa Margarita Sucre",
@@ -168,124 +287,6 @@
       "reportadoEn": "2026-06-26T05:13:52.905Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Residencias caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh616o00kg3an0r4h4sbzq",
-      "nombre": "Marcos Andrés Sousa Márquez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:12:51.072Z",
-      "edadAprox": 17,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edif belo horizonte"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh5zbe00kf3an0y39o7uq4",
-      "nombre": "Aracelis Marin",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:12:48.650Z",
-      "edadAprox": 42,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh4yls00ke3an0y1c1f7me",
-      "nombre": "Greiber Gomez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:12:01.072Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Escuela naval"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh4w2f00kd3an0adzwi9fs",
-      "nombre": "Carlos Macías",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:11:57.783Z",
-      "edadAprox": 65,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · La sublet"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh4rvt00kc3an03xyujzup",
-      "nombre": "Wilmerys Gomzalez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:11:52.361Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Playa grande, edificio L7 Suma"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh4heh00kb3an05i2miq25",
-      "nombre": "Brigit cleidimar Díaz Guevara",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:11:38.777Z",
-      "edadAprox": 6,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh436g00k93an0rtl8520t",
-      "nombre": "Elys Jesús Aceituno",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:11:20.344Z",
-      "edadAprox": 63,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh3dtt00k83an0fr2gktss",
-      "nombre": "Roy Sanches",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:10:47.489Z",
-      "edadAprox": 22,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
       },
       "fuentes": [
         "desaparecidosvenezuela"
