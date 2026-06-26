@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cruce de Desaparecidos · Terremoto Venezuela 2026</title>
+  <style>
+    :root {
+      --bg: #0f1419; --panel: #1a2027; --borde: #2a333d; --texto: #e6edf3;
+      --tenue: #8b98a5; --acento: #ffcc4d; --rojo: #e5534b; --verde: #3fb950;
+      --naranja: #db8c2b; --azul: #4493f8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg); color: var(--texto); line-height: 1.5;
+    }
+    header {
+      padding: 20px 24px; border-bottom: 1px solid var(--borde);
+      background: linear-gradient(180deg, #161d26, #0f1419);
+    }
+    header h1 { margin: 0 0 4px; font-size: 20px; }
+    header p { margin: 0; color: var(--tenue); font-size: 14px; }
+    .badge-fuente {
+      display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px;
+      background: #21303f; color: var(--azul); margin: 1px 3px 1px 0; border: 1px solid #2c4257;
+    }
+    main { max-width: 920px; margin: 0 auto; padding: 24px; }
+    .stats { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+    .stat {
+      flex: 1; min-width: 130px; background: var(--panel); border: 1px solid var(--borde);
+      border-radius: 10px; padding: 14px 16px;
+    }
+    .stat .n { font-size: 26px; font-weight: 700; }
+    .stat .l { font-size: 12px; color: var(--tenue); text-transform: uppercase; letter-spacing: .04em; }
+    .buscador {
+      background: var(--panel); border: 1px solid var(--borde); border-radius: 12px;
+      padding: 18px; margin-bottom: 24px;
+    }
+    .buscador h2 { margin: 0 0 4px; font-size: 16px; }
+    .buscador .nota { color: var(--tenue); font-size: 13px; margin: 0 0 12px; }
+    .fila { display: flex; gap: 10px; flex-wrap: wrap; }
+    input {
+      flex: 1; min-width: 140px; padding: 10px 12px; border-radius: 8px;
+      border: 1px solid var(--borde); background: #0d1117; color: var(--texto); font-size: 14px;
+    }
+    button {
+      padding: 10px 18px; border-radius: 8px; border: none; cursor: pointer;
+      background: var(--acento); color: #1a1200; font-weight: 600; font-size: 14px;
+    }
+    button:hover { filter: brightness(1.08); }
+    #resultado { margin-top: 14px; font-size: 14px; }
+    .card {
+      background: var(--panel); border: 1px solid var(--borde); border-radius: 10px;
+      padding: 14px 16px; margin-bottom: 10px; display: flex; justify-content: space-between; gap: 12px;
+    }
+    .card .nombre { font-weight: 600; }
+    .card .meta { color: var(--tenue); font-size: 13px; margin-top: 2px; }
+    .estado {
+      font-size: 12px; padding: 3px 10px; border-radius: 12px; white-space: nowrap; height: fit-content;
+      font-weight: 600;
+    }
+    .estado.desaparecido { background: #3a2a1a; color: var(--naranja); border: 1px solid #5a3f24; }
+    .estado.visto_no_confirmado { background: #2a2f1a; color: var(--acento); border: 1px solid #4a4424; }
+    .estado.localizado_a_salvo { background: #16301d; color: var(--verde); border: 1px solid #235c33; }
+    .estado.fallecido_confirmado { background: #301818; color: var(--rojo); border: 1px solid #5c2323; }
+    .seccion-titulo { font-size: 13px; color: var(--tenue); text-transform: uppercase; letter-spacing: .05em; margin: 6px 0 12px; }
+    footer { color: var(--tenue); font-size: 12px; text-align: center; padding: 24px; }
+    code { background: #0d1117; padding: 1px 5px; border-radius: 4px; color: var(--acento); }
+    .conexion { background:#11202e; border:1px solid #21405a; border-radius:8px; padding:10px 14px; font-size:13px; color:#9fc7ef; margin-bottom:24px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔎 Cruce de Desaparecidos — Terremoto Venezuela 2026</h1>
+    <p>Datos unificados de todas las fuentes. Buscá una persona por cédula o mirá el listado.</p>
+  </header>
+
+  <main>
+    <div class="conexion">
+      <strong>Conectada a:</strong> <code id="apiBase">/</code> ·
+      feed <code>/feed.json</code> · búsqueda <code>/buscar</code> · listado <code>/personas.json</code>
+    </div>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="buscador">
+      <h2>Buscar por cédula</h2>
+      <p class="nota">Por privacidad, además de la cédula tenés que aportar el <strong>apellido</strong> o la fecha de nacimiento.</p>
+      <div class="fila">
+        <input id="cedula" placeholder="Cédula (ej. V-12.345.678)" />
+        <input id="apellido" placeholder="Apellido" />
+        <button onclick="buscar()">Buscar</button>
+      </div>
+      <div id="resultado"></div>
+    </div>
+
+    <div class="seccion-titulo">Personas reportadas (unificadas)</div>
+    <div id="listado"></div>
+  </main>
+
+  <footer>
+    Capa open source de cruce · solo datos redactados · el estado lo confirma un voluntario humano.
+  </footer>
+
+  <script>
+    // === AQUI SE CONECTA LA PAGINA AL MOTOR DE CRUCE ===
+    // Cambia API por la URL de tu servidor de cruce (o deja '' si se sirve junto).
+    const API = '';
+    document.getElementById('apiBase').textContent = (API || location.origin) + '/';
+
+    const ESTADO_LABEL = {
+      desaparecido: 'Desaparecido', visto_no_confirmado: 'Visto (sin confirmar)',
+      localizado_a_salvo: 'Localizado a salvo', fallecido_confirmado: 'Fallecido',
+    };
+
+    async function cargar() {
+      try {
+        const [salud, personas] = await Promise.all([
+          fetch(API + '/salud').then(r => r.json()).catch(() => null),
+          fetch(API + '/personas.json').then(r => r.json()).catch(() => ({ personas: [] })),
+        ]);
+        pintarStats(personas.personas || [], salud);
+        pintarListado(personas.personas || []);
+      } catch (e) {
+        document.getElementById('listado').innerHTML = '<p style="color:var(--rojo)">No se pudo conectar al motor de cruce.</p>';
+      }
+    }
+
+    function pintarStats(personas, salud) {
+      const porEstado = {};
+      for (const p of personas) porEstado[p.estado] = (porEstado[p.estado] || 0) + 1;
+      const stats = [
+        { n: personas.length, l: 'Personas unificadas' },
+        { n: porEstado.desaparecido || 0, l: 'Desaparecidos' },
+        { n: porEstado.localizado_a_salvo || 0, l: 'Localizados' },
+        { n: (salud && salud.registros) || personas.length, l: 'Reportes crudos' },
+      ];
+      document.getElementById('stats').innerHTML = stats.map(s =>
+        `<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join('');
+    }
+
+    function pintarListado(personas) {
+      if (!personas.length) {
+        document.getElementById('listado').innerHTML = '<p style="color:var(--tenue)">Sin personas todavía.</p>';
+        return;
+      }
+      document.getElementById('listado').innerHTML = personas.map(p => `
+        <div class="card">
+          <div>
+            <div class="nombre">${escapar(p.nombre)}</div>
+            <div class="meta">
+              ${p.edadAprox ? p.edadAprox + ' años · ' : ''}
+              ${p.ultimaUbicacion && p.ultimaUbicacion.texto ? escapar(p.ultimaUbicacion.texto) : 'ubicación s/d'}
+            </div>
+            <div style="margin-top:6px">${(p.fuentes || []).map(f => `<span class="badge-fuente">${escapar(f)}</span>`).join('')}</div>
+          </div>
+          <div class="estado ${p.estado}">${ESTADO_LABEL[p.estado] || p.estado}</div>
+        </div>`).join('');
+    }
+
+    async function buscar() {
+      const cedula = document.getElementById('cedula').value.trim();
+      const apellido = document.getElementById('apellido').value.trim();
+      const div = document.getElementById('resultado');
+      if (!cedula) { div.textContent = 'Ingresá una cédula.'; return; }
+      div.textContent = 'Buscando...';
+      const q = new URLSearchParams({ cedula, apellido });
+      try {
+        const r = await fetch(API + '/buscar?' + q).then(r => r.json());
+        if (!r.encontrado) { div.innerHTML = '<span style="color:var(--tenue)">Sin coincidencias.</span>'; return; }
+        if (!r.autorizado) { div.innerHTML = '<span style="color:var(--acento)">⚠️ ' + escapar(r.mensaje || 'Aportá el apellido o la fecha de nacimiento.') + '</span>'; return; }
+        const p = r.registro;
+        div.innerHTML = `<div class="card"><div>
+            <div class="nombre">${escapar(p.nombre)}</div>
+            <div class="meta">${p.cedula ? 'Cédula ' + escapar(p.cedula) + ' · ' : ''}${p.edadAprox ? p.edadAprox + ' años' : ''}</div>
+          </div><div class="estado ${p.estado}">${ESTADO_LABEL[p.estado] || p.estado}</div></div>`;
+      } catch (e) {
+        div.innerHTML = '<span style="color:var(--rojo)">Error al buscar.</span>';
+      }
+    }
+
+    function escapar(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
+    cargar();
+  </script>
+</body>
+</html>

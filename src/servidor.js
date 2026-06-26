@@ -20,10 +20,15 @@
  */
 
 import http from 'node:http';
+import { readFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { cruzar } from './cruce.js';
 import { aPfifJson, aPfifXml } from './pfif.js';
-import { buscarPorCedula, LimitadorTasa } from './privacidad.js';
+import { buscarPorCedula, redactarRegistro, LimitadorTasa } from './privacidad.js';
 import { ESTADOS, esEstadoValido } from './esquema.js';
+
+const DIR_WEB = join(dirname(fileURLToPath(import.meta.url)), '..', 'web');
 
 /**
  * @typedef {Object} AlmacenDatos
@@ -61,8 +66,27 @@ export function crearServidor(opciones) {
       res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
       if (req.method === 'OPTIONS') return fin(res, 204, '');
 
+      // Pagina web demo conectada al feed.
+      if (req.method === 'GET' && (ruta === '/' || ruta === '/index.html')) {
+        try {
+          const html = await readFile(join(DIR_WEB, 'index.html'), 'utf8');
+          return fin(res, 200, html, 'text/html; charset=utf-8');
+        } catch {
+          return fin(res, 200, 'Motor de cruce activo. Endpoints: /feed.json /buscar /personas.json');
+        }
+      }
+
       if (req.method === 'GET' && ruta === '/salud') {
         return json(res, 200, { ok: true, registros: almacen.listar().length });
+      }
+
+      // Listado redactado y amigable para la pagina.
+      if (req.method === 'GET' && ruta === '/personas.json') {
+        const personas = almacen.listar().map((r) => ({
+          ...redactarRegistro(r, 'publico'),
+          fuentes: /** @type {any} */ (r).fuentes ?? [r.fuente],
+        }));
+        return json(res, 200, { total: personas.length, personas });
       }
 
       if (req.method === 'GET' && ruta === '/feed.json') {
