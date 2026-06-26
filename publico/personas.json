@@ -1,7 +1,93 @@
 {
-  "generadoEn": "2026-06-26T08:24:51.000Z",
+  "generadoEn": "2026-06-26T09:44:12.073Z",
   "total": 95,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqupythn00lf3an0gxczhbnt",
+      "nombre": "Barbara Gonzalez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T09:19:11.051Z",
+      "edadAprox": 27,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Maiquetía · Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqupsane00le3an0fljse4qs",
+      "nombre": "Johnny Vargas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T09:14:06.698Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquppu0q00ld3an0wky1d87p",
+      "nombre": "Jhoanna Vargas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T09:12:11.834Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquoviol00lc3an023bxf2f5",
+      "nombre": "Susej Martinez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T08:48:37.461Z",
+      "edadAprox": 13,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquoqjai00lb3an0sm994n3i",
+      "nombre": "Maria Aragot",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T08:44:44.971Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquoon9a00la3an0tgwg9bhz",
+      "nombre": "Elba Grillo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T08:43:16.798Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqunx43w00l93an0dm3idlk0",
       "nombre": "Esteban Oropeza",
@@ -205,91 +291,6 @@
       "reportadoEn": "2026-06-26T05:38:59.331Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqui2fnr00ku3an00puoboiv",
-      "nombre": "Flor Valentina Sucre",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:38:02.823Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquhzi2l00kt3an0vmherxay",
-      "nombre": "Patricia Zambrano Guevara",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:35:45.981Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Vive en: OPPP 34, Edificio Eliézer Otaiza, Torre B, Piso 1, Apto B1-05, La Guair"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquhp36u00ks3an0h60vkxq3",
-      "nombre": "Raquel Aguirre Torres",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:27:40.134Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquhli5j00kr3an0dhyzlanv",
-      "nombre": "Hynda Ramírez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:24:52.903Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · viven en Caraballeda, en el edificio Arrecife, avenida Charama."
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquhhqrm00kq3an0asetnnys",
-      "nombre": "José Antonio Landaeta",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:21:57.442Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquhgwut00kp3an0uhoo99fr",
-      "nombre": "Cesar Flores",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:21:18.677Z",
-      "edadAprox": 44,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Residencia Oasis beach"
       },
       "fuentes": [
         "desaparecidosvenezuela"
