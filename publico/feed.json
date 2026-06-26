@@ -1,7 +1,84 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-26T23:25:06.045Z",
+  "generado_en": "2026-06-26T23:49:20.906Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T23:46:51.754Z",
+      "full_name": "Emma González",
+      "given_name": "Emma",
+      "family_name": "González",
+      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T23:46:51.754Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T23:45:03.127Z",
+      "full_name": "Lia González",
+      "given_name": "Lia",
+      "family_name": "González",
+      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T23:45:03.127Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T23:41:46.996Z",
+      "full_name": "Kleiver D'",
+      "given_name": "Kleiver",
+      "family_name": "D'",
+      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T23:41:46.996Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T23:40:28.319Z",
+      "full_name": "Marisol Vera",
+      "given_name": "Marisol",
+      "family_name": "Vera",
+      "age": "66",
+      "home_city": "La Guaira · Catia La Mar · Avenida el Ejército, Edificio Santa María, Catia La Mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T23:40:28.319Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj",
       "source_name": "desaparecidosvenezuela",
@@ -307,83 +384,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T20:16:36.056Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvdfd3w00073apk36owwqrj",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:15:54.140Z",
-      "full_name": "Luis Enrique Algarin graterol",
-      "given_name": "Luis",
-      "family_name": "Enrique Algarin graterol",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdfd3w00073apk36owwqrj",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:15:54.140Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvdcrwc00063apkcpgrjpve",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:13:53.340Z",
-      "full_name": "Angguie Dixon Torres albornoz",
-      "given_name": "Angguie",
-      "family_name": "Dixon Torres albornoz",
-      "age": "56",
-      "home_city": "La Guaira · Catia La Mar · Playa",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdcrwc00063apkcpgrjpve",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:13:53.340Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvd49p400053apko10ise7l",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:07:16.504Z",
-      "full_name": "Eyber Moreno perez",
-      "given_name": "Eyber",
-      "family_name": "Moreno perez",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvd49p400053apko10ise7l",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:07:16.504Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:04:13.929Z",
-      "full_name": "Nicole Garcia",
-      "given_name": "Nicole",
-      "family_name": "Garcia",
-      "home_city": "La Guaira · Caraballeda · A.v.Jose María España. Los Corales, edificio Ritamar Place",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:04:13.929Z"
         }
       ],
       "x_confianza": "baja",

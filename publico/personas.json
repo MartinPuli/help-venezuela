@@ -1,7 +1,64 @@
 {
-  "generadoEn": "2026-06-26T23:25:06.045Z",
+  "generadoEn": "2026-06-26T23:49:20.906Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
+      "nombre": "Emma González",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:46:51.754Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f",
+      "nombre": "Lia González",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:45:03.127Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1",
+      "nombre": "Kleiver D'",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:41:46.996Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q",
+      "nombre": "Marisol Vera",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:40:28.319Z",
+      "edadAprox": 66,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Avenida el Ejército, Edificio Santa María, Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj",
       "nombre": "Neiber Paez",
@@ -227,63 +284,6 @@
       "reportadoEn": "2026-06-26T20:16:36.056Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Los cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvdfd3w00073apk36owwqrj",
-      "nombre": "Luis Enrique Algarin graterol",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:15:54.140Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvdcrwc00063apkcpgrjpve",
-      "nombre": "Angguie Dixon Torres albornoz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:13:53.340Z",
-      "edadAprox": 56,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvd49p400053apko10ise7l",
-      "nombre": "Eyber Moreno perez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:07:16.504Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03",
-      "nombre": "Nicole Garcia",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:04:13.929Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · A.v.Jose María España. Los Corales, edificio Ritamar Place"
       },
       "fuentes": [
         "desaparecidosvenezuela"

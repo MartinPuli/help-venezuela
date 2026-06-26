@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T23:46:51.754Z</pfif:source_date>
+    <pfif:full_name>Emma González</pfif:full_name>
+    <pfif:given_name>Emma</pfif:given_name>
+    <pfif:family_name>González</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T23:46:51.754Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T23:45:03.127Z</pfif:source_date>
+    <pfif:full_name>Lia González</pfif:full_name>
+    <pfif:given_name>Lia</pfif:given_name>
+    <pfif:family_name>González</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T23:45:03.127Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T23:41:46.996Z</pfif:source_date>
+    <pfif:full_name>Kleiver D'</pfif:full_name>
+    <pfif:given_name>Kleiver</pfif:given_name>
+    <pfif:family_name>D'</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T23:41:46.996Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T23:40:28.319Z</pfif:source_date>
+    <pfif:full_name>Marisol Vera</pfif:full_name>
+    <pfif:given_name>Marisol</pfif:given_name>
+    <pfif:family_name>Vera</pfif:family_name>
+    <pfif:age>66</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Avenida el Ejército, Edificio Santa María, Catia La Mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T23:40:28.319Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-26T23:24:13.145Z</pfif:source_date>
@@ -226,63 +283,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdg9g800083apks36jfwfp</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-26T20:16:36.056Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvdfd3w00073apk36owwqrj</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:15:54.140Z</pfif:source_date>
-    <pfif:full_name>Luis Enrique Algarin graterol</pfif:full_name>
-    <pfif:given_name>Luis</pfif:given_name>
-    <pfif:family_name>Enrique Algarin graterol</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdfd3w00073apk36owwqrj</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:15:54.140Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvdcrwc00063apkcpgrjpve</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:13:53.340Z</pfif:source_date>
-    <pfif:full_name>Angguie Dixon Torres albornoz</pfif:full_name>
-    <pfif:given_name>Angguie</pfif:given_name>
-    <pfif:family_name>Dixon Torres albornoz</pfif:family_name>
-    <pfif:age>56</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Playa</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdcrwc00063apkcpgrjpve</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:13:53.340Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvd49p400053apko10ise7l</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:07:16.504Z</pfif:source_date>
-    <pfif:full_name>Eyber Moreno perez</pfif:full_name>
-    <pfif:given_name>Eyber</pfif:given_name>
-    <pfif:family_name>Moreno perez</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvd49p400053apko10ise7l</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:07:16.504Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:04:13.929Z</pfif:source_date>
-    <pfif:full_name>Nicole Garcia</pfif:full_name>
-    <pfif:given_name>Nicole</pfif:given_name>
-    <pfif:family_name>Garcia</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · A.v.Jose María España. Los Corales, edificio Ritamar Place</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:04:13.929Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
