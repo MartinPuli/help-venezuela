@@ -3,249 +3,289 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cruce de Desaparecidos · Terremoto Venezuela 2026</title>
-  <meta name="description" content="Buscador unificado de personas desaparecidas del terremoto de Venezuela 2026. Cruza y deduplica reportes de múltiples fuentes." />
+  <title>Buscador de Personas · Terremoto Venezuela 2026</title>
+  <meta name="description" content="Registro unificado de personas desaparecidas tras el terremoto de Venezuela de 2026. Cruza y deduplica reportes de varias fuentes públicas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg:#0b0f14; --bg2:#0f141b; --panel:#151c25; --panel2:#1b2430; --borde:#243042;
-      --texto:#e8eef5; --tenue:#93a1b1; --muy-tenue:#5e6b7a;
-      --amarillo:#ffd24d; --azul:#4f9cf9; --rojo:#f0625a; --verde:#41c277; --naranja:#e8932e; --violeta:#a98bff;
+      --azul:#0b4a8f; --azul-d:#08365f; --azul-claro:#e8f0fb;
+      --rojo:#b4232a; --rojo-bg:#fbeceb; --rojo-bd:#f1c4c2;
+      --ambar:#8a5a00; --ambar-bg:#fdf3d8; --ambar-bd:#eedaa3;
+      --verde:#1c6b3f; --verde-bg:#e6f5ec; --verde-bd:#bfe3cd;
+      --gris-1:#f5f6f8; --gris-2:#eceef1; --linea:#dfe3e8;
+      --tinta:#1a2230; --tinta-2:#48515e; --tinta-3:#6b7480;
+      --blanco:#ffffff;
+      --radio:10px; --sombra:0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.04);
     }
     * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
     body {
-      margin:0; background:var(--bg); color:var(--texto);
-      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-      line-height:1.55; -webkit-font-smoothing:antialiased;
+      margin:0; background:var(--gris-1); color:var(--tinta);
+      font-family:"Inter",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
     }
-    a { color:var(--azul); text-decoration:none; }
-    a:hover { text-decoration:underline; }
+    a { color:var(--azul); }
+    .contenedor { max-width:1120px; margin:0 auto; padding:0 24px; }
 
-    /* Barra superior bandera */
-    .bandera { height:4px; background:linear-gradient(90deg,#ffd24d 0 33%,#1565d8 33% 66%,#e5453b 66% 100%); }
+    /* franja institucional */
+    .franja { height:3px; background:linear-gradient(90deg,#ffcf3f 0 33.3%,#0a3d91 33.3% 66.6%,#cf2a27 66.6%); }
 
-    header {
-      position:sticky; top:0; z-index:20; backdrop-filter:blur(10px);
-      background:rgba(11,15,20,.82); border-bottom:1px solid var(--borde);
-    }
-    .head-in { max-width:1080px; margin:0 auto; padding:14px 20px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
-    .logo { font-size:20px; font-weight:800; letter-spacing:-.02em; display:flex; align-items:center; gap:9px; }
-    .logo .dot { width:9px; height:9px; border-radius:50%; background:var(--rojo); box-shadow:0 0 0 4px rgba(240,98,90,.18); animation:pulso 2s infinite; }
-    @keyframes pulso { 0%,100%{opacity:1} 50%{opacity:.45} }
-    .head-meta { margin-left:auto; font-size:12.5px; color:var(--tenue); text-align:right; }
-    .head-meta b { color:var(--texto); }
+    /* cabecera */
+    header { background:var(--blanco); border-bottom:1px solid var(--linea); position:sticky; top:0; z-index:30; }
+    .head { display:flex; align-items:center; gap:16px; padding:14px 0; }
+    .marca { display:flex; align-items:center; gap:11px; }
+    .marca .ic { width:34px; height:34px; border-radius:8px; background:var(--azul); display:grid; place-items:center; flex:0 0 auto; }
+    .marca .ic svg { width:19px; height:19px; fill:#fff; }
+    .marca .t { font-weight:700; font-size:15px; letter-spacing:-.01em; line-height:1.15; }
+    .marca .s { font-size:12px; color:var(--tinta-3); }
+    .head-estado { margin-left:auto; text-align:right; font-size:12px; color:var(--tinta-3); }
+    .head-estado .badge { display:inline-flex; align-items:center; gap:6px; font-weight:600; color:var(--tinta-2); }
+    .head-estado .punto { width:8px; height:8px; border-radius:50%; background:var(--verde); display:inline-block; }
+    .head-estado .punto.demo { background:var(--ambar); }
 
-    .hero { background:radial-gradient(1200px 380px at 50% -120px, rgba(79,156,249,.12), transparent), var(--bg); }
-    .hero-in { max-width:1080px; margin:0 auto; padding:30px 20px 8px; }
-    .hero h1 { margin:0 0 6px; font-size:26px; letter-spacing:-.02em; }
-    .hero p { margin:0; color:var(--tenue); max-width:680px; }
+    /* portada */
+    .portada { background:var(--blanco); border-bottom:1px solid var(--linea); }
+    .portada .in { padding:34px 0 26px; }
+    h1 { margin:0 0 8px; font-size:28px; font-weight:800; letter-spacing:-.02em; }
+    .portada p { margin:0; color:var(--tinta-2); max-width:720px; font-size:15.5px; }
 
-    .aviso {
-      max-width:1080px; margin:18px auto 0; padding:11px 16px; border-radius:10px;
-      background:rgba(232,147,46,.10); border:1px solid rgba(232,147,46,.35); color:#f3c98a;
-      font-size:13px; display:flex; gap:9px; align-items:flex-start;
-    }
-    .aviso b { color:var(--amarillo); }
+    .nota { margin-top:20px; display:flex; gap:11px; padding:13px 16px; border-radius:var(--radio);
+      background:var(--ambar-bg); border:1px solid var(--ambar-bd); color:#6b4a06; font-size:13.5px; }
+    .nota svg { width:18px; height:18px; flex:0 0 auto; fill:var(--ambar); margin-top:1px; }
+    .nota b { color:#5a3f06; }
 
-    .stats { max-width:1080px; margin:18px auto 0; padding:0 20px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
-    .stat { background:linear-gradient(180deg,var(--panel),var(--bg2)); border:1px solid var(--borde); border-radius:14px; padding:16px 18px; }
-    .stat .n { font-size:30px; font-weight:800; letter-spacing:-.03em; line-height:1; }
-    .stat .l { font-size:11.5px; color:var(--tenue); text-transform:uppercase; letter-spacing:.05em; margin-top:7px; }
-    .stat.s-desap .n { color:var(--naranja); } .stat.s-loc .n { color:var(--verde); } .stat.s-fuentes .n { color:var(--azul); }
+    /* estadisticas */
+    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:22px; }
+    .stat { background:var(--blanco); border:1px solid var(--linea); border-radius:var(--radio); padding:16px 18px; box-shadow:var(--sombra); }
+    .stat .n { font-size:30px; font-weight:800; letter-spacing:-.02em; line-height:1; }
+    .stat .l { margin-top:8px; font-size:12px; color:var(--tinta-3); font-weight:500; }
+    .stat .n.rojo{color:var(--rojo)} .stat .n.verde{color:var(--verde)} .stat .n.azul{color:var(--azul)}
 
-    main { max-width:1080px; margin:0 auto; padding:24px 20px 60px; }
+    main { padding:28px 0 64px; }
 
-    .toolbar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:18px; }
-    .buscar { flex:1; min-width:220px; position:relative; }
-    .buscar input { width:100%; padding:12px 14px 12px 40px; border-radius:11px; border:1px solid var(--borde);
-      background:var(--panel); color:var(--texto); font-size:14.5px; }
-    .buscar input:focus { outline:none; border-color:var(--azul); box-shadow:0 0 0 3px rgba(79,156,249,.18); }
-    .buscar .ico { position:absolute; left:13px; top:50%; transform:translateY(-50%); color:var(--muy-tenue); }
-    .chips { display:flex; gap:7px; flex-wrap:wrap; }
-    .chip { padding:8px 13px; border-radius:999px; border:1px solid var(--borde); background:var(--panel);
-      color:var(--tenue); font-size:13px; cursor:pointer; transition:.15s; user-select:none; }
-    .chip:hover { border-color:var(--azul); color:var(--texto); }
-    .chip.activo { background:var(--azul); border-color:var(--azul); color:#06121f; font-weight:700; }
+    /* controles */
+    .controles { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:20px; }
+    .campo { position:relative; flex:1; min-width:240px; }
+    .campo svg { position:absolute; left:12px; top:50%; transform:translateY(-50%); width:17px; height:17px; fill:var(--tinta-3); }
+    .campo input { width:100%; padding:11px 14px 11px 38px; border:1px solid var(--linea); border-radius:8px;
+      background:var(--blanco); color:var(--tinta); font-size:14.5px; font-family:inherit; box-shadow:var(--sombra); }
+    .campo input:focus { outline:none; border-color:var(--azul); box-shadow:0 0 0 3px rgba(11,74,143,.14); }
 
-    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; }
-    .card { background:linear-gradient(180deg,var(--panel),var(--bg2)); border:1px solid var(--borde); border-radius:14px;
-      padding:15px 16px; display:flex; flex-direction:column; gap:9px; transition:.15s; }
-    .card:hover { border-color:#33445c; transform:translateY(-1px); }
-    .card-top { display:flex; justify-content:space-between; gap:10px; align-items:flex-start; }
-    .nombre { font-weight:700; font-size:15.5px; letter-spacing:-.01em; }
-    .meta { color:var(--tenue); font-size:13px; }
-    .meta .sep { color:var(--muy-tenue); margin:0 5px; }
-    .fuentes { display:flex; gap:5px; flex-wrap:wrap; margin-top:2px; }
-    .fbadge { font-size:10.5px; padding:2px 8px; border-radius:999px; background:#1d2b3b; color:var(--azul); border:1px solid #2a3b50; }
-    .estado { font-size:11px; font-weight:700; padding:4px 11px; border-radius:999px; white-space:nowrap; height:fit-content; }
-    .e-desaparecido { background:rgba(232,147,46,.14); color:var(--naranja); border:1px solid rgba(232,147,46,.4); }
-    .e-visto_no_confirmado { background:rgba(255,210,77,.14); color:var(--amarillo); border:1px solid rgba(255,210,77,.4); }
-    .e-localizado_a_salvo { background:rgba(65,194,119,.14); color:var(--verde); border:1px solid rgba(65,194,119,.4); }
-    .e-fallecido_confirmado { background:rgba(240,98,90,.14); color:var(--rojo); border:1px solid rgba(240,98,90,.4); }
-    .verfuente { font-size:12px; margin-top:2px; }
+    .segmento { display:inline-flex; background:var(--blanco); border:1px solid var(--linea); border-radius:8px; overflow:hidden; box-shadow:var(--sombra); }
+    .segmento button { appearance:none; border:0; background:transparent; padding:10px 14px; font-size:13.5px; font-family:inherit;
+      color:var(--tinta-2); cursor:pointer; border-left:1px solid var(--linea); }
+    .segmento button:first-child { border-left:0; }
+    .segmento button:hover { background:var(--gris-1); }
+    .segmento button[aria-pressed="true"] { background:var(--azul); color:#fff; font-weight:600; }
 
-    .vacio { text-align:center; color:var(--tenue); padding:50px 20px; border:1px dashed var(--borde); border-radius:14px; }
-    .cargando { text-align:center; color:var(--tenue); padding:40px; }
+    .resumen-lista { font-size:13px; color:var(--tinta-3); margin:0 0 14px; }
 
-    .conexion { font-family:ui-monospace,Menlo,monospace; font-size:11.5px; color:var(--muy-tenue); margin-top:8px; }
-    .conexion b { color:var(--tenue); }
+    /* tarjetas */
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:14px; }
+    .persona { background:var(--blanco); border:1px solid var(--linea); border-radius:var(--radio); padding:16px 17px;
+      box-shadow:var(--sombra); display:flex; flex-direction:column; gap:10px; }
+    .persona:hover { border-color:#c6ccd4; }
+    .p-top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+    .p-nombre { font-weight:700; font-size:16px; letter-spacing:-.01em; }
+    .p-datos { font-size:13.5px; color:var(--tinta-2); }
+    .p-datos .sep { color:var(--tinta-3); padding:0 6px; }
+    .p-fuentes { display:flex; gap:6px; flex-wrap:wrap; }
+    .tag { font-size:11px; font-weight:500; padding:3px 9px; border-radius:6px; background:var(--gris-2); color:var(--tinta-2); border:1px solid var(--linea); }
+    .p-link { font-size:13px; font-weight:500; }
+    .p-link a { text-decoration:none; }
+    .p-link a:hover { text-decoration:underline; }
 
-    footer { border-top:1px solid var(--borde); background:var(--bg2); }
-    .foot-in { max-width:1080px; margin:0 auto; padding:24px 20px; color:var(--tenue); font-size:13px; display:flex; gap:24px; flex-wrap:wrap; justify-content:space-between; }
-    .foot-in h4 { margin:0 0 8px; color:var(--texto); font-size:13px; }
-    .foot-in ul { margin:0; padding-left:16px; }
+    .pill { font-size:11.5px; font-weight:600; padding:4px 11px; border-radius:999px; white-space:nowrap; height:fit-content; }
+    .st-desaparecido { background:var(--rojo-bg); color:var(--rojo); border:1px solid var(--rojo-bd); }
+    .st-visto_no_confirmado { background:var(--ambar-bg); color:var(--ambar); border:1px solid var(--ambar-bd); }
+    .st-localizado_a_salvo { background:var(--verde-bg); color:var(--verde); border:1px solid var(--verde-bd); }
+    .st-fallecido_confirmado { background:var(--gris-2); color:#3a3f45; border:1px solid var(--linea); }
 
-    @media (max-width:680px){ .stats{grid-template-columns:repeat(2,1fr)} .hero h1{font-size:22px} }
+    .vacio { background:var(--blanco); border:1px dashed var(--linea); border-radius:var(--radio); padding:48px 20px; text-align:center; color:var(--tinta-3); }
+    .cargando { padding:44px; text-align:center; color:var(--tinta-3); }
+
+    /* pie */
+    footer { background:var(--blanco); border-top:1px solid var(--linea); }
+    .pie { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:28px; padding:30px 0; }
+    .pie h4 { margin:0 0 9px; font-size:13px; font-weight:700; }
+    .pie p, .pie li { font-size:13px; color:var(--tinta-2); }
+    .pie ul { margin:0; padding-left:16px; }
+    .pie-bajo { border-top:1px solid var(--linea); padding:14px 0; font-size:12px; color:var(--tinta-3); }
+    .pie-bajo code { font-family:ui-monospace,Menlo,monospace; background:var(--gris-1); padding:1px 6px; border-radius:4px; }
+
+    @media (max-width:720px){ .stats{grid-template-columns:repeat(2,1fr)} h1{font-size:23px} .pie{grid-template-columns:1fr} }
   </style>
 </head>
 <body>
-  <div class="bandera"></div>
+  <div class="franja"></div>
 
   <header>
-    <div class="head-in">
-      <div class="logo"><span class="dot"></span> Cruce de Desaparecidos</div>
-      <div class="head-meta">
-        <div id="head-modo">cargando…</div>
-        <div id="head-actualizado"></div>
+    <div class="contenedor head">
+      <div class="marca">
+        <span class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        </span>
+        <div>
+          <div class="t">Buscador de Personas</div>
+          <div class="s">Terremoto de Venezuela · 2026</div>
+        </div>
+      </div>
+      <div class="head-estado">
+        <div class="badge"><span class="punto" id="punto-modo"></span><span id="modo-txt">cargando…</span></div>
+        <div id="actualizado"></div>
       </div>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-in">
-      <h1>Personas desaparecidas — Terremoto de Venezuela 2026</h1>
-      <p>Buscador <strong>unificado</strong>: cruza y deduplica los reportes de varias plataformas para que no tengas que revisar sitio por sitio. Si una persona está reportada en más de una fuente, aparece una sola vez.</p>
-    </div>
+  <section class="portada">
+    <div class="contenedor in">
+      <h1>Personas reportadas como desaparecidas</h1>
+      <p>Registro unificado que reúne y cruza los reportes de varias plataformas públicas para evitar
+        duplicados. Si una persona figura en más de una fuente, aquí aparece una sola vez.</p>
 
-    <div class="aviso">
-      <span>⚠️</span>
-      <span id="aviso-texto"><b>Datos agregados de fuentes públicas, sin verificación oficial.</b> Pueden contener errores o duplicados. El estado “localizado”/“fallecido” solo lo confirma un voluntario. Verificá siempre en la fuente original.</span>
-    </div>
+      <div class="nota">
+        <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22L12 2zm0 14h-1v-1h1v1zm0-3h-1V9h1v4z"/></svg>
+        <span id="nota-txt"><b>Datos agregados de fuentes públicas, sin verificación oficial.</b>
+          Pueden contener errores o duplicados. El estado “localizado” o “fallecido” solo se fija tras
+          verificación humana. Confirme siempre en la fuente original.</span>
+      </div>
 
-    <div class="stats" id="stats"></div>
+      <div class="stats" id="stats"></div>
+    </div>
   </section>
 
-  <main>
-    <div class="toolbar">
-      <div class="buscar">
-        <span class="ico">🔎</span>
-        <input id="q" type="search" placeholder="Buscar por nombre o zona…" oninput="render()" />
+  <main class="contenedor">
+    <div class="controles">
+      <div class="campo">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.49-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+        <input id="q" type="search" placeholder="Buscar por nombre o zona…" oninput="render()" aria-label="Buscar" />
       </div>
-      <div class="chips" id="filtros"></div>
+      <div class="segmento" id="filtros" role="group" aria-label="Filtrar por estado"></div>
     </div>
 
+    <p class="resumen-lista" id="resumen"></p>
     <div id="lista" class="cargando">Cargando reportes…</div>
-    <div class="conexion">Conectado a <b id="origen"></b> · feed <b>/feed.json</b> (PFIF)</div>
   </main>
 
   <footer>
-    <div class="foot-in">
-      <div style="max-width:420px">
-        <h4>Sobre esta página</h4>
-        Capa open source que unifica reportes de desaparecidos. Solo se muestran datos
-        redactados (sin contacto, cédula completa ni ubicación exacta). El código y el
-        <a href="https://github.com/MartinPuli/help-venezuela">catálogo de fuentes</a> son públicos.
+    <div class="contenedor pie">
+      <div>
+        <h4>Sobre este registro</h4>
+        <p>Capa de software libre que unifica reportes de personas desaparecidas. Solo se publican
+          datos redactados: sin teléfono, cédula completa, ubicación exacta ni fotografías.</p>
       </div>
       <div>
         <h4>Fuentes</h4>
-        <ul id="foot-fuentes"><li>cargando…</li></ul>
+        <ul id="pie-fuentes"><li>—</li></ul>
       </div>
+      <div>
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="https://github.com/MartinPuli/help-venezuela">Código y catálogo</a></li>
+          <li><a href="feed.json">Feed PFIF (JSON)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contenedor pie-bajo">
+      Conectado a <code id="origen"></code> · Proyecto comunitario sin fines de lucro.
     </div>
   </footer>
 
   <script>
     document.getElementById('origen').textContent = location.origin + location.pathname;
 
-    const ESTADOS = [
+    var ESTADOS = [
       { k:'todos', label:'Todos' },
       { k:'desaparecido', label:'Desaparecidos' },
       { k:'visto_no_confirmado', label:'Vistos' },
       { k:'localizado_a_salvo', label:'Localizados' },
-      { k:'fallecido_confirmado', label:'Fallecidos' },
+      { k:'fallecido_confirmado', label:'Fallecidos' }
     ];
-    const ESTADO_LABEL = {
-      desaparecido:'Desaparecido', visto_no_confirmado:'Visto (sin confirmar)',
-      localizado_a_salvo:'Localizado a salvo', fallecido_confirmado:'Fallecido',
+    var ESTADO_LABEL = {
+      desaparecido:'Desaparecido', visto_no_confirmado:'Visto, sin confirmar',
+      localizado_a_salvo:'Localizado a salvo', fallecido_confirmado:'Fallecido'
     };
-    let PERSONAS = [];
-    let filtroEstado = 'todos';
+    var PERSONAS = [];
+    var filtroEstado = 'todos';
 
-    function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+    function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
     function norm(s){ return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
 
-    async function cargar(){
-      let data = { personas:[], modo:'demo' };
-      try { data = await fetch('personas.json').then(r=>r.json()); } catch(e){}
-      PERSONAS = data.personas || [];
-      pintarModo(data);
-      pintarStats();
-      pintarFiltros();
-      pintarFuentes();
-      render();
+    function cargar(){
+      fetch('personas.json').then(function(r){return r.json();}).catch(function(){return {personas:[],modo:'demo'};})
+        .then(function(data){
+          PERSONAS = data.personas || [];
+          pintarModo(data); pintarStats(); pintarFiltros(); pintarFuentes(); render();
+        });
     }
 
     function pintarModo(data){
-      const real = data.modo === 'real';
-      document.getElementById('head-modo').innerHTML = real
-        ? '🟢 <b>Datos reales</b>'
-        : '🟡 <b>DEMO</b> (ejemplo)';
+      var real = data.modo === 'real';
+      document.getElementById('modo-txt').textContent = real ? 'Datos reales' : 'Datos de ejemplo (demo)';
+      document.getElementById('punto-modo').className = 'punto' + (real ? '' : ' demo');
       if (data.generadoEn){
-        const d = new Date(data.generadoEn);
-        document.getElementById('head-actualizado').textContent = 'actualizado ' + d.toLocaleString('es-VE',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+        var d = new Date(data.generadoEn);
+        document.getElementById('actualizado').textContent = 'Actualizado: ' + d.toLocaleString('es-VE',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
       }
       if (!real){
-        document.getElementById('aviso-texto').innerHTML = '<b>DEMO — datos de ejemplo (sintéticos).</b> No son personas reales; sirve para mostrar cómo funciona el cruce.';
+        document.getElementById('nota-txt').innerHTML = '<b>Demostración con datos de ejemplo (ficticios).</b> No corresponden a personas reales; ilustran el funcionamiento del cruce.';
       }
     }
 
     function pintarStats(){
-      const c = {}; for (const p of PERSONAS) c[p.estado]=(c[p.estado]||0)+1;
-      const fuentes = new Set(); for (const p of PERSONAS) (p.fuentes||[]).forEach(f=>fuentes.add(f));
-      const cards = [
-        { n:PERSONAS.length, l:'Personas unificadas', cls:'' },
-        { n:c.desaparecido||0, l:'Desaparecidos', cls:'s-desap' },
-        { n:c.localizado_a_salvo||0, l:'Localizados', cls:'s-loc' },
-        { n:fuentes.size||0, l:'Fuentes cruzadas', cls:'s-fuentes' },
+      var c = {}; PERSONAS.forEach(function(p){ c[p.estado]=(c[p.estado]||0)+1; });
+      var f = {}; PERSONAS.forEach(function(p){ (p.fuentes||[]).forEach(function(x){ f[x]=1; }); });
+      var cards = [
+        { n:PERSONAS.length, l:'Personas en el registro', cls:'' },
+        { n:c.desaparecido||0, l:'Desaparecidas', cls:'rojo' },
+        { n:c.localizado_a_salvo||0, l:'Localizadas', cls:'verde' },
+        { n:Object.keys(f).length, l:'Fuentes cruzadas', cls:'azul' }
       ];
-      document.getElementById('stats').innerHTML = cards.map(s=>
-        `<div class="stat ${s.cls}"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join('');
+      document.getElementById('stats').innerHTML = cards.map(function(s){
+        return '<div class="stat"><div class="n '+s.cls+'">'+s.n+'</div><div class="l">'+s.l+'</div></div>';
+      }).join('');
     }
 
     function pintarFiltros(){
-      document.getElementById('filtros').innerHTML = ESTADOS.map(e=>
-        `<span class="chip ${e.k===filtroEstado?'activo':''}" onclick="setFiltro('${e.k}')">${e.label}</span>`).join('');
+      document.getElementById('filtros').innerHTML = ESTADOS.map(function(e){
+        return '<button aria-pressed="'+(e.k===filtroEstado)+'" onclick="setFiltro(\''+e.k+'\')">'+e.label+'</button>';
+      }).join('');
     }
     function setFiltro(k){ filtroEstado=k; pintarFiltros(); render(); }
 
     function pintarFuentes(){
-      const f = new Set(); for (const p of PERSONAS) (p.fuentes||[]).forEach(x=>f.add(x));
-      const ul = document.getElementById('foot-fuentes');
-      ul.innerHTML = f.size ? [...f].map(x=>`<li>${esc(x)}</li>`).join('') : '<li>—</li>';
+      var f = {}; PERSONAS.forEach(function(p){ (p.fuentes||[]).forEach(function(x){ f[x]=1; }); });
+      var ks = Object.keys(f);
+      document.getElementById('pie-fuentes').innerHTML = ks.length ? ks.map(function(x){return '<li>'+esc(x)+'</li>';}).join('') : '<li>—</li>';
     }
 
     function render(){
-      const q = norm(document.getElementById('q').value);
-      let items = PERSONAS;
-      if (filtroEstado!=='todos') items = items.filter(p=>p.estado===filtroEstado);
-      if (q) items = items.filter(p => norm(p.nombre).includes(q) || norm(p.ultimaUbicacion && p.ultimaUbicacion.texto).includes(q));
+      var q = norm(document.getElementById('q').value);
+      var items = PERSONAS;
+      if (filtroEstado!=='todos') items = items.filter(function(p){ return p.estado===filtroEstado; });
+      if (q) items = items.filter(function(p){
+        var u = p.ultimaUbicacion && p.ultimaUbicacion.texto;
+        return norm(p.nombre).indexOf(q)>=0 || norm(u).indexOf(q)>=0;
+      });
 
-      const cont = document.getElementById('lista');
-      if (!items.length){ cont.className='vacio'; cont.innerHTML = PERSONAS.length ? 'Sin resultados para ese filtro.' : 'Todavía no hay reportes cargados.'; return; }
+      document.getElementById('resumen').textContent = PERSONAS.length
+        ? (items.length + ' de ' + PERSONAS.length + ' personas') : '';
+
+      var cont = document.getElementById('lista');
+      if (!items.length){ cont.className='vacio'; cont.textContent = PERSONAS.length ? 'No hay resultados para esa búsqueda.' : 'Aún no hay reportes cargados.'; return; }
       cont.className='grid';
-      cont.innerHTML = items.map(p=>{
-        const ubic = p.ultimaUbicacion && p.ultimaUbicacion.texto ? esc(p.ultimaUbicacion.texto) : 'ubicación s/d';
-        const edad = p.edadAprox ? `${p.edadAprox} años<span class="sep">·</span>` : '';
-        const chips = (p.fuentes||[p.fuente]).filter(Boolean).map(f=>`<span class="fbadge">${esc(f)}</span>`).join('');
-        const link = p.urlOrigen ? `<a class="verfuente" href="${esc(p.urlOrigen)}" target="_blank" rel="noopener">ver en la fuente ↗</a>` : '';
-        return `<div class="card">
-          <div class="card-top">
-            <div class="nombre">${esc(p.nombre)}</div>
-            <span class="estado e-${p.estado}">${ESTADO_LABEL[p.estado]||p.estado}</span>
-          </div>
-          <div class="meta">${edad}${ubic}</div>
-          <div class="fuentes">${chips}</div>
-          ${link}
-        </div>`;
+      cont.innerHTML = items.map(function(p){
+        var ubic = (p.ultimaUbicacion && p.ultimaUbicacion.texto) ? esc(p.ultimaUbicacion.texto) : 'Ubicación no disponible';
+        var edad = p.edadAprox ? esc(p.edadAprox)+' años<span class="sep">·</span>' : '';
+        var tags = (p.fuentes||[p.fuente]).filter(Boolean).map(function(f){ return '<span class="tag">'+esc(f)+'</span>'; }).join('');
+        var link = p.urlOrigen ? '<div class="p-link"><a href="'+esc(p.urlOrigen)+'" target="_blank" rel="noopener">Ver en la fuente →</a></div>' : '';
+        return '<article class="persona">'
+          + '<div class="p-top"><div class="p-nombre">'+esc(p.nombre)+'</div>'
+          + '<span class="pill st-'+p.estado+'">'+(ESTADO_LABEL[p.estado]||p.estado)+'</span></div>'
+          + '<div class="p-datos">'+edad+ubic+'</div>'
+          + '<div class="p-fuentes">'+tags+'</div>'+link+'</article>';
       }).join('');
     }
 
