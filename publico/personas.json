@@ -1,7 +1,82 @@
 {
-  "generadoEn": "2026-06-26T07:01:47.080Z",
+  "generadoEn": "2026-06-26T08:24:51.000Z",
   "total": 95,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqunx43w00l93an0dm3idlk0",
+      "nombre": "Esteban Oropeza",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T08:21:52.268Z",
+      "edadAprox": 8,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Miramar ( residencia)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqunvnbw00l83an0uvmcn8po",
+      "nombre": "Valery fernanda Oropeza",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T08:20:43.868Z",
+      "edadAprox": 19,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Miramar ( residencia)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqunsqxj00l73an0cr2n9nek",
+      "nombre": "Johana Morales",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T08:18:28.567Z",
+      "edadAprox": 46,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Miramar (residencias )"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqummain00l63an0zzkd4f4k",
+      "nombre": "Néstor Cervantes",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T07:45:27.743Z",
+      "edadAprox": 65,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Residencias Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquml7cs00l53an0ikqwm983",
+      "nombre": "Skarlent Rodriguez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T07:44:36.988Z",
+      "edadAprox": 23,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Residencias Vallarta"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmquknp3v00l43an0y8hy8ydz",
       "nombre": "Samuel Marcano",
@@ -215,78 +290,6 @@
       "edadAprox": 44,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Residencia Oasis beach"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquhfpih00ko3an0spcqk5jv",
-      "nombre": "Ana Jiménez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:20:22.505Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Naiguatá"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquhaum700kl3an03vx4qh7b",
-      "nombre": "Isis Navas Diaz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:16:35.839Z",
-      "edadAprox": 37,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh8z6q00kk3an09p5mdj0s",
-      "nombre": "Alirio José Aponte",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:15:08.450Z",
-      "edadAprox": 55,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh7xd400kj3an0va0l24jn",
-      "nombre": "Amir Gonzales",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:14:19.432Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmquh7cw900ki3an0i6pmohac",
-      "nombre": "Yessenia Galicia",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T05:13:52.905Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencias caribe"
       },
       "fuentes": [
         "desaparecidosvenezuela"
