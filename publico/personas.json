@@ -1,7 +1,93 @@
 {
-  "generadoEn": "2026-06-26T19:20:51.619Z",
-  "total": 98,
+  "generadoEn": "2026-06-26T20:08:16.904Z",
+  "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvd49p400053apko10ise7l",
+      "nombre": "Eyber Moreno perez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:07:16.504Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03",
+      "nombre": "Nicole Garcia",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:04:13.929Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · A.v.Jose María España. Los Corales, edificio Ritamar Place"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvcytip00033apkkj7r1hvj",
+      "nombre": "James Monrroy",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:03:02.257Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvcypko00023apkucoxsiz6",
+      "nombre": "Humberto Zambrano",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:02:57.144Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvcsoqs00013apkzip5e1xe",
+      "nombre": "Dilan Martines",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T19:58:16.132Z",
+      "edadAprox": 11,
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas · Edificio azul"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvc8mkq00003apkysm65uk4",
+      "nombre": "Michelle Villalobos",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T19:42:40.203Z",
+      "edadAprox": 9,
+      "ultimaUbicacion": {
+        "texto": "Miranda · Guarenas · Plaza · MENCA de leoni bloque 62 piso 1 apto. 0101"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvb83au00xw3an09fyx3t7v",
       "nombre": "Luisana Alemán",
@@ -209,89 +295,17 @@
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqv8qj3i00xg3an0qz10pz75",
-      "nombre": "Hector Neda",
+      "id": "terremotovenezuela-app:e2fa16c4-5ad1-4458-93b2-329624dfcff4",
+      "nombre": "Alexander Narvaez \nYariza Gomez\nAlejandro Narvaez (Niño)",
       "estado": "desaparecido",
       "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:04:37.038Z",
+      "fuente": "terremotovenezuela-app",
+      "reportadoEn": "2026-06-26T19:45:20.566Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Punta Piedra apto 5 Macuto"
+        "texto": "Edificios OPP33B Caraballeda"
       },
       "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv8nx2800xf3an0udn32huq",
-      "nombre": "Natali karolaynn Azuaje avella",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:02:35.169Z",
-      "edadAprox": 30,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Res Gradisca"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv8lg6l00xe3an0qie7b7hh",
-      "nombre": "María Zambrano Valero",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:00:39.981Z",
-      "edadAprox": 30,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Por el aeropuerto"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv8d7dl00xd3an01ycob1y2",
-      "nombre": "Williany Coromoto Delgado Rodríguez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:54:15.321Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv8cxv700xc3an036nfcg0h",
-      "nombre": "Levis Rondón",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:54:02.995Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Naiguatá"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv8a8ei00xb3an00brjimdl",
-      "nombre": "Fredi Rojas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:51:56.682Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Frente a Federación CCN Caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
+        "terremotovenezuela-app"
       ]
     },
     {

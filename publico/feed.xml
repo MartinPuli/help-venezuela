@@ -1,6 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvd49p400053apko10ise7l</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T20:07:16.504Z</pfif:source_date>
+    <pfif:full_name>Eyber Moreno perez</pfif:full_name>
+    <pfif:given_name>Eyber</pfif:given_name>
+    <pfif:family_name>Moreno perez</pfif:family_name>
+    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvd49p400053apko10ise7l</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T20:07:16.504Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T20:04:13.929Z</pfif:source_date>
+    <pfif:full_name>Nicole Garcia</pfif:full_name>
+    <pfif:given_name>Nicole</pfif:given_name>
+    <pfif:family_name>Garcia</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · A.v.Jose María España. Los Corales, edificio Ritamar Place</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvd0ctl00043apki9qdwq03</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T20:04:13.929Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvcytip00033apkkj7r1hvj</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T20:03:02.257Z</pfif:source_date>
+    <pfif:full_name>James Monrroy</pfif:full_name>
+    <pfif:given_name>James</pfif:given_name>
+    <pfif:family_name>Monrroy</pfif:family_name>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvcytip00033apkkj7r1hvj</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T20:03:02.257Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvcypko00023apkucoxsiz6</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T20:02:57.144Z</pfif:source_date>
+    <pfif:full_name>Humberto Zambrano</pfif:full_name>
+    <pfif:given_name>Humberto</pfif:given_name>
+    <pfif:family_name>Zambrano</pfif:family_name>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvcypko00023apkucoxsiz6</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T20:02:57.144Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvcsoqs00013apkzip5e1xe</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T19:58:16.132Z</pfif:source_date>
+    <pfif:full_name>Dilan Martines</pfif:full_name>
+    <pfif:given_name>Dilan</pfif:given_name>
+    <pfif:family_name>Martines</pfif:family_name>
+    <pfif:age>11</pfif:age>
+    <pfif:home_city>Distrito Capital · Caracas · Edificio azul</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvcsoqs00013apkzip5e1xe</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T19:58:16.132Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvc8mkq00003apkysm65uk4</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T19:42:40.203Z</pfif:source_date>
+    <pfif:full_name>Michelle Villalobos</pfif:full_name>
+    <pfif:given_name>Michelle</pfif:given_name>
+    <pfif:family_name>Villalobos</pfif:family_name>
+    <pfif:age>9</pfif:age>
+    <pfif:home_city>Miranda · Guarenas · Plaza · MENCA de leoni bloque 62 piso 1 apto. 0101</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvc8mkq00003apkysm65uk4</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T19:42:40.203Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvb83au00xw3an09fyx3t7v</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-26T19:14:15.606Z</pfif:source_date>
@@ -207,89 +293,19 @@
     </pfif:note>
   </pfif:person>
   <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqv8qj3i00xg3an0qz10pz75</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T18:04:37.038Z</pfif:source_date>
-    <pfif:full_name>Hector Neda</pfif:full_name>
-    <pfif:given_name>Hector</pfif:given_name>
-    <pfif:family_name>Neda</pfif:family_name>
-    <pfif:home_city>La Guaira · Macuto · Punta Piedra apto 5 Macuto</pfif:home_city>
+    <pfif:person_record_id>cruce-desaparecidos/terremotovenezuela-app:e2fa16c4-5ad1-4458-93b2-329624dfcff4</pfif:person_record_id>
+    <pfif:source_name>terremotovenezuela-app</pfif:source_name>
+    <pfif:source_date>2026-06-26T19:45:20.566Z</pfif:source_date>
+    <pfif:full_name>Alexander Narvaez 
+Yariza Gomez
+Alejandro Narvaez (Niño)</pfif:full_name>
+    <pfif:given_name>Alexander</pfif:given_name>
+    <pfif:family_name>Narvaez Yariza Gomez Alejandro Narvaez (Niño)</pfif:family_name>
+    <pfif:home_city>Edificios OPP33B Caraballeda</pfif:home_city>
     <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv8qj3i00xg3an0qz10pz75</pfif:note_record_id>
+      <pfif:note_record_id>cruce-desaparecidos/nota-terremotovenezuela-app:e2fa16c4-5ad1-4458-93b2-329624dfcff4</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T18:04:37.038Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqv8nx2800xf3an0udn32huq</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T18:02:35.169Z</pfif:source_date>
-    <pfif:full_name>Natali karolaynn Azuaje avella</pfif:full_name>
-    <pfif:given_name>Natali</pfif:given_name>
-    <pfif:family_name>karolaynn Azuaje avella</pfif:family_name>
-    <pfif:age>30</pfif:age>
-    <pfif:home_city>La Guaira · Macuto · Res Gradisca</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv8nx2800xf3an0udn32huq</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T18:02:35.169Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqv8lg6l00xe3an0qie7b7hh</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T18:00:39.981Z</pfif:source_date>
-    <pfif:full_name>María Zambrano Valero</pfif:full_name>
-    <pfif:given_name>María</pfif:given_name>
-    <pfif:family_name>Zambrano Valero</pfif:family_name>
-    <pfif:age>30</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Por el aeropuerto</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv8lg6l00xe3an0qie7b7hh</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T18:00:39.981Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqv8d7dl00xd3an01ycob1y2</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T17:54:15.321Z</pfif:source_date>
-    <pfif:full_name>Williany Coromoto Delgado Rodríguez</pfif:full_name>
-    <pfif:given_name>Williany</pfif:given_name>
-    <pfif:family_name>Coromoto Delgado Rodríguez</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv8d7dl00xd3an01ycob1y2</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T17:54:15.321Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqv8cxv700xc3an036nfcg0h</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T17:54:02.995Z</pfif:source_date>
-    <pfif:full_name>Levis Rondón</pfif:full_name>
-    <pfif:given_name>Levis</pfif:given_name>
-    <pfif:family_name>Rondón</pfif:family_name>
-    <pfif:home_city>La Guaira · Naiguatá</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv8cxv700xc3an036nfcg0h</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T17:54:02.995Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqv8a8ei00xb3an00brjimdl</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T17:51:56.682Z</pfif:source_date>
-    <pfif:full_name>Fredi Rojas</pfif:full_name>
-    <pfif:given_name>Fredi</pfif:given_name>
-    <pfif:family_name>Rojas</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Frente a Federación CCN Caribe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv8a8ei00xb3an00brjimdl</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T17:51:56.682Z</pfif:source_date>
+      <pfif:source_date>2026-06-26T19:45:20.566Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
