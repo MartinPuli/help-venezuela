@@ -1,7 +1,183 @@
 {
-  "generadoEn": "2026-06-26T18:34:18.583Z",
-  "total": 97,
+  "generadoEn": "2026-06-26T19:20:51.619Z",
+  "total": 98,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvb83au00xw3an09fyx3t7v",
+      "nombre": "Luisana Alemán",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T19:14:15.606Z",
+      "edadAprox": 26,
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvb834y00xv3an0bj52sp5t",
+      "nombre": "Aracelis Suarez Mosqueda",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T19:14:15.394Z",
+      "edadAprox": 63,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvb5iib00xu3an0kcqr6jvw",
+      "nombre": "Alberto jose figueroa ramos",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T19:12:15.347Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Oppe33"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvaobye00xt3an0ytkfkjm4",
+      "nombre": "Ccvc Ccccv",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:58:53.702Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Ddd"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvan4fr00xs3an0xd02ds6s",
+      "nombre": "OLGA MATHEUS CANCHICA",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:57:57.303Z",
+      "edadAprox": 52,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · PLAYA GRANDE"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvagemb00xr3an0dtkyq52k",
+      "nombre": "OLIYIL MATHEUS CANCHICA",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:52:43.907Z",
+      "edadAprox": 60,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · PLAYA GRANDE RESIDENCIAS LOS CORSARIOS"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvafksa00xq3an0o97l5901",
+      "nombre": "Itzel Aranza Aillon silva",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:52:05.242Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Playa caribe Opp 27 torre A"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvabvei00xp3an0x1hos6z4",
+      "nombre": "Alan Aillon silva",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:49:12.378Z",
+      "edadAprox": 4,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Playa caribe Opp 27 torre A"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvaajf900xo3an0tffzvrrw",
+      "nombre": "María García silva",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:48:10.197Z",
+      "edadAprox": 8,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Playa caribe Opp 27 torre A"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqva9ta600xn3an0tpm9wdm7",
+      "nombre": "Josleidy Sánchez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:47:36.318Z",
+      "edadAprox": 13,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqva894l00xm3an0j5r0tppx",
+      "nombre": "Génesis Marian Silva díaz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:46:23.541Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Playa caribe Opp 27 torre A"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqva7c4t00xl3an0x726xxke",
+      "nombre": "José Ramón Brito Calderón",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:45:40.781Z",
+      "edadAprox": 71,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · El edificio perlamar vivía en el 5to piso"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqv90kvh00xi3an0ec89vpzc",
       "nombre": "Romellys Hernandez",
@@ -119,183 +295,17 @@
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqv88t9k00xa3an02fbbw1sb",
-      "nombre": "Kevin González",
+      "id": "terremotovenezuela-app:04f13db5-f1ba-4f3f-b44e-abebbcdea990",
+      "nombre": "Carmen Doris Bolívar Gomez, 3.890.723\nSantana de Jesús Rodríguez Orellana, 2.901",
       "estado": "desaparecido",
       "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:50:50.408Z",
-      "edadAprox": 28,
+      "fuente": "terremotovenezuela-app",
+      "reportadoEn": "2026-06-26T18:50:02.535Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Los corales"
+        "texto": "Edificio Mi Club"
       },
       "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv86omw00x93an02gs4yzh2",
-      "nombre": "Carmen Machado Mujica",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:49:11.096Z",
-      "edadAprox": 55,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Los corales"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv7lvs400x83an0nd7zuvey",
-      "nombre": "Nailyn Nazaret Zambrano Velázquez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:33:00.580Z",
-      "edadAprox": 19,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Salió con su bbe en brazos y su pareja en barrio aeropuerto"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv7fq8m00x73an086bwozc0",
-      "nombre": "Eliecer Lopez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:28:13.462Z",
-      "edadAprox": 60,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa verde Calle almendro"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv744s300x63an0r91zgvgw",
-      "nombre": "Miraima Pulido",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:19:12.435Z",
-      "edadAprox": 59,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Mare abajo"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv6w1se00x53an0esvmap98",
-      "nombre": "Kerly Rada",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:12:55.310Z",
-      "edadAprox": 32,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv6vxop00x43an0k6ovsubj",
-      "nombre": "Jorge Eduardo Montañes Sosa",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:12:49.993Z",
-      "edadAprox": 60,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Cerca del club tanaguarenas entrada de playa escondida"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv6ux5c00x33an0ogupv68d",
-      "nombre": "Abraham León Julio",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:12:02.640Z",
-      "edadAprox": 12,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv6ulpy00x23an0i29uh7fx",
-      "nombre": "Carlos José Zambrano",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:11:47.830Z",
-      "edadAprox": 65,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · En la bahía"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv6tuoe00x13an0nu33ob73",
-      "nombre": "Elsy Peña",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:11:12.782Z",
-      "edadAprox": 70,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv6tdk800x03an08ggaihc1",
-      "nombre": "Jonathan Miliano",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:10:50.600Z",
-      "edadAprox": 44,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caribe los cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv6q7dx00wz3an0tpjtspf3",
-      "nombre": "Delfin Romero",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T17:08:22.629Z",
-      "edadAprox": 78,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
+        "terremotovenezuela-app"
       ]
     },
     {
