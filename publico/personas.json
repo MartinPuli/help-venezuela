@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-26T22:25:20.367Z",
+  "generadoEn": "2026-06-26T22:52:08.146Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvirfol000i3aqpai1k8l43",
+      "nombre": "Victor Fernandes",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T22:45:15.429Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
       "nombre": "Ronald Medina",
@@ -270,21 +284,6 @@
       "edadAprox": 9,
       "ultimaUbicacion": {
         "texto": "Miranda · Guarenas · Plaza · MENCA de leoni bloque 62 piso 1 apto. 0101"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvb83au00xw3an09fyx3t7v",
-      "nombre": "Luisana Alemán",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T19:14:15.606Z",
-      "edadAprox": 26,
-      "ultimaUbicacion": {
-        "texto": "Distrito Capital · Caracas"
       },
       "fuentes": [
         "desaparecidosvenezuela"

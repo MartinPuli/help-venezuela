@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-26T22:25:20.367Z",
+  "generado_en": "2026-06-26T22:52:08.146Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvirfol000i3aqpai1k8l43",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T22:45:15.429Z",
+      "full_name": "Victor Fernandes",
+      "given_name": "Victor",
+      "family_name": "Fernandes",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvirfol000i3aqpai1k8l43",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T22:45:15.429Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
       "source_name": "desaparecidosvenezuela",
@@ -365,26 +384,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T19:42:40.203Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvb83au00xw3an09fyx3t7v",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T19:14:15.606Z",
-      "full_name": "Luisana Alemán",
-      "given_name": "Luisana",
-      "family_name": "Alemán",
-      "age": "26",
-      "home_city": "Distrito Capital · Caracas",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvb83au00xw3an09fyx3t7v",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T19:14:15.606Z"
         }
       ],
       "x_confianza": "baja",
