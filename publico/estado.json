@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-26T22:52:08.146Z",
+  "generadoEn": "2026-06-26T23:25:06.045Z",
   "fuentesActivas": [
     "comunidad",
     "desaparecidosvenezuela",
@@ -14,7 +14,8 @@
     "posiblesDuplicados": 4
   },
   "porEstado": {
-    "desaparecido": 99
+    "desaparecido": 98,
+    "visto_no_confirmado": 1
   },
   "porFuente": {
     "desaparecidosvenezuela": 20,

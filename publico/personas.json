@@ -1,7 +1,65 @@
 {
-  "generadoEn": "2026-06-26T22:52:08.146Z",
+  "generadoEn": "2026-06-26T23:25:06.045Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj",
+      "nombre": "Neiber Paez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:24:13.145Z",
+      "edadAprox": 12,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvjz6f3000l3aqpgfdly0ml",
+      "nombre": "Dalimar Hurtado",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:19:16.287Z",
+      "edadAprox": 23,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 torre C Los Cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvjm2l9000k3aqpji1om9q4",
+      "nombre": "Rosmar",
+      "estado": "visto_no_confirmado",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:09:04.797Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Naiguatá"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvjkldj000j3aqpi8ug9yau",
+      "nombre": "Rosniely",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:07:55.831Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Naiguatá"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvirfol000i3aqpai1k8l43",
       "nombre": "Victor Fernandes",
@@ -226,64 +284,6 @@
       "reportadoEn": "2026-06-26T20:04:13.929Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · A.v.Jose María España. Los Corales, edificio Ritamar Place"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvcytip00033apkkj7r1hvj",
-      "nombre": "James Monrroy",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:03:02.257Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvcypko00023apkucoxsiz6",
-      "nombre": "Humberto Zambrano",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:02:57.144Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvcsoqs00013apkzip5e1xe",
-      "nombre": "Dilan Martines",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T19:58:16.132Z",
-      "edadAprox": 11,
-      "ultimaUbicacion": {
-        "texto": "Distrito Capital · Caracas · Edificio azul"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvc8mkq00003apkysm65uk4",
-      "nombre": "Michelle Villalobos",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T19:42:40.203Z",
-      "edadAprox": 9,
-      "ultimaUbicacion": {
-        "texto": "Miranda · Guarenas · Plaza · MENCA de leoni bloque 62 piso 1 apto. 0101"
       },
       "fuentes": [
         "desaparecidosvenezuela"
