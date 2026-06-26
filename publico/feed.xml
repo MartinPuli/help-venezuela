@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T22:08:45.562Z</pfif:source_date>
+    <pfif:full_name>Ronald Medina</pfif:full_name>
+    <pfif:given_name>Ronald</pfif:given_name>
+    <pfif:family_name>Medina</pfif:family_name>
+    <pfif:age>42</pfif:age>
+    <pfif:home_city>La Guaira · Naiguatá</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T22:08:45.562Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T21:57:10.711Z</pfif:source_date>
+    <pfif:full_name>Ronald Medina</pfif:full_name>
+    <pfif:given_name>Ronald</pfif:given_name>
+    <pfif:family_name>Medina</pfif:family_name>
+    <pfif:age>42</pfif:age>
+    <pfif:home_city>Miranda · Los Teques · Guaicaipuro</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T21:57:10.711Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-26T21:22:08.573Z</pfif:source_date>
@@ -256,35 +286,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvb83au00xw3an09fyx3t7v</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-26T19:14:15.606Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvb834y00xv3an0bj52sp5t</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T19:14:15.394Z</pfif:source_date>
-    <pfif:full_name>Aracelis Suarez Mosqueda</pfif:full_name>
-    <pfif:given_name>Aracelis</pfif:given_name>
-    <pfif:family_name>Suarez Mosqueda</pfif:family_name>
-    <pfif:age>63</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvb834y00xv3an0bj52sp5t</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T19:14:15.394Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvb5iib00xu3an0kcqr6jvw</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T19:12:15.347Z</pfif:source_date>
-    <pfif:full_name>Alberto jose figueroa ramos</pfif:full_name>
-    <pfif:given_name>Alberto</pfif:given_name>
-    <pfif:family_name>jose figueroa ramos</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Oppe33</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvb5iib00xu3an0kcqr6jvw</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T19:12:15.347Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

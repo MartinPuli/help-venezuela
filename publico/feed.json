@@ -1,7 +1,47 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-26T21:54:56.719Z",
+  "generado_en": "2026-06-26T22:25:20.367Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T22:08:45.562Z",
+      "full_name": "Ronald Medina",
+      "given_name": "Ronald",
+      "family_name": "Medina",
+      "age": "42",
+      "home_city": "La Guaira · Naiguatá",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T22:08:45.562Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T21:57:10.711Z",
+      "full_name": "Ronald Medina",
+      "given_name": "Ronald",
+      "family_name": "Medina",
+      "age": "42",
+      "home_city": "Miranda · Los Teques · Guaicaipuro",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T21:57:10.711Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
       "source_name": "desaparecidosvenezuela",
@@ -345,45 +385,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T19:14:15.606Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvb834y00xv3an0bj52sp5t",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T19:14:15.394Z",
-      "full_name": "Aracelis Suarez Mosqueda",
-      "given_name": "Aracelis",
-      "family_name": "Suarez Mosqueda",
-      "age": "63",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvb834y00xv3an0bj52sp5t",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T19:14:15.394Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvb5iib00xu3an0kcqr6jvw",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T19:12:15.347Z",
-      "full_name": "Alberto jose figueroa ramos",
-      "given_name": "Alberto",
-      "family_name": "jose figueroa ramos",
-      "home_city": "La Guaira · Caraballeda · Oppe33",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvb5iib00xu3an0kcqr6jvw",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T19:12:15.347Z"
         }
       ],
       "x_confianza": "baja",

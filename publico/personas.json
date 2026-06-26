@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-06-26T21:54:56.719Z",
+  "generadoEn": "2026-06-26T22:25:20.367Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
+      "nombre": "Ronald Medina",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T22:08:45.562Z",
+      "edadAprox": 42,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Naiguatá"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6",
+      "nombre": "Ronald Medina",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T21:57:10.711Z",
+      "edadAprox": 42,
+      "ultimaUbicacion": {
+        "texto": "Miranda · Los Teques · Guaicaipuro"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
       "nombre": "Luis Enrique Manrique",
@@ -255,35 +285,6 @@
       "edadAprox": 26,
       "ultimaUbicacion": {
         "texto": "Distrito Capital · Caracas"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvb834y00xv3an0bj52sp5t",
-      "nombre": "Aracelis Suarez Mosqueda",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T19:14:15.394Z",
-      "edadAprox": 63,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvb5iib00xu3an0kcqr6jvw",
-      "nombre": "Alberto jose figueroa ramos",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T19:12:15.347Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Oppe33"
       },
       "fuentes": [
         "desaparecidosvenezuela"
