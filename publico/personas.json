@@ -1,7 +1,107 @@
 {
-  "generadoEn": "2026-06-26T20:08:16.904Z",
+  "generadoEn": "2026-06-26T20:50:23.625Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6",
+      "nombre": "Luis hubrea",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:33:11.395Z",
+      "edadAprox": 29,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · tanaguarena"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvdx99w00043aqpd22qsclm",
+      "nombre": "Ruth Vargas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:29:48.980Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Residencias El Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvdsy4n00033aqpxgtjkdy8",
+      "nombre": "Angel Figuera",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:26:27.911Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvdnblb00023aqphu1m7smi",
+      "nombre": "Daniel Guilarte Urbaneja",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:22:05.423Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvdg9g800083apks36jfwfp",
+      "nombre": "Valentina Bernal",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:16:36.056Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Los cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvdfd3w00073apk36owwqrj",
+      "nombre": "Luis Enrique Algarin graterol",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:15:54.140Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvdcrwc00063apkcpgrjpve",
+      "nombre": "Angguie Dixon Torres albornoz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T20:13:53.340Z",
+      "edadAprox": 56,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvd49p400053apko10ise7l",
       "nombre": "Eyber Moreno perez",
@@ -185,110 +285,6 @@
       "reportadoEn": "2026-06-26T18:52:05.242Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Playa caribe Opp 27 torre A"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvabvei00xp3an0x1hos6z4",
-      "nombre": "Alan Aillon silva",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:49:12.378Z",
-      "edadAprox": 4,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Playa caribe Opp 27 torre A"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvaajf900xo3an0tffzvrrw",
-      "nombre": "María García silva",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:48:10.197Z",
-      "edadAprox": 8,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Playa caribe Opp 27 torre A"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqva9ta600xn3an0tpm9wdm7",
-      "nombre": "Josleidy Sánchez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:47:36.318Z",
-      "edadAprox": 13,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqva894l00xm3an0j5r0tppx",
-      "nombre": "Génesis Marian Silva díaz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:46:23.541Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Playa caribe Opp 27 torre A"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqva7c4t00xl3an0x726xxke",
-      "nombre": "José Ramón Brito Calderón",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:45:40.781Z",
-      "edadAprox": 71,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · El edificio perlamar vivía en el 5to piso"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv90kvh00xi3an0ec89vpzc",
-      "nombre": "Romellys Hernandez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:12:25.901Z",
-      "edadAprox": 58,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · punta piedra"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv8tbuk00xh3an00ejrblmr",
-      "nombre": "Dionisio Aguilarte",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:06:47.612Z",
-      "edadAprox": 47,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencias caribe"
       },
       "fuentes": [
         "desaparecidosvenezuela"
