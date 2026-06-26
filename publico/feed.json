@@ -1,7 +1,266 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-26T17:07:59.197Z",
+  "generado_en": "2026-06-26T17:52:07.620Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv8a8ei00xb3an00brjimdl",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:51:56.682Z",
+      "full_name": "Fredi Rojas",
+      "given_name": "Fredi",
+      "family_name": "Rojas",
+      "home_city": "La Guaira · Caraballeda · Frente a Federación CCN Caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv8a8ei00xb3an00brjimdl",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:51:56.682Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv88t9k00xa3an02fbbw1sb",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:50:50.408Z",
+      "full_name": "Kevin González",
+      "given_name": "Kevin",
+      "family_name": "González",
+      "age": "28",
+      "home_city": "La Guaira · Caraballeda · Los corales",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv88t9k00xa3an02fbbw1sb",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:50:50.408Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv86omw00x93an02gs4yzh2",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:49:11.096Z",
+      "full_name": "Carmen Machado Mujica",
+      "given_name": "Carmen",
+      "family_name": "Machado Mujica",
+      "age": "55",
+      "home_city": "La Guaira · Caraballeda · Los corales",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv86omw00x93an02gs4yzh2",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:49:11.096Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv7lvs400x83an0nd7zuvey",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:33:00.580Z",
+      "full_name": "Nailyn Nazaret Zambrano Velázquez",
+      "given_name": "Nailyn",
+      "family_name": "Nazaret Zambrano Velázquez",
+      "age": "19",
+      "home_city": "La Guaira · Catia La Mar · Salió con su bbe en brazos y su pareja en barrio aeropuerto",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv7lvs400x83an0nd7zuvey",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:33:00.580Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv7fq8m00x73an086bwozc0",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:28:13.462Z",
+      "full_name": "Eliecer Lopez",
+      "given_name": "Eliecer",
+      "family_name": "Lopez",
+      "age": "60",
+      "home_city": "La Guaira · Catia La Mar · Playa verde Calle almendro",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv7fq8m00x73an086bwozc0",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:28:13.462Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv744s300x63an0r91zgvgw",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:19:12.435Z",
+      "full_name": "Miraima Pulido",
+      "given_name": "Miraima",
+      "family_name": "Pulido",
+      "age": "59",
+      "home_city": "La Guaira · Mare abajo",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv744s300x63an0r91zgvgw",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:19:12.435Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6w1se00x53an0esvmap98",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:12:55.310Z",
+      "full_name": "Kerly Rada",
+      "given_name": "Kerly",
+      "family_name": "Rada",
+      "age": "32",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv6w1se00x53an0esvmap98",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:12:55.310Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6vxop00x43an0k6ovsubj",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:12:49.993Z",
+      "full_name": "Jorge Eduardo Montañes Sosa",
+      "given_name": "Jorge",
+      "family_name": "Eduardo Montañes Sosa",
+      "age": "60",
+      "home_city": "La Guaira · Cerca del club tanaguarenas entrada de playa escondida",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv6vxop00x43an0k6ovsubj",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:12:49.993Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6ux5c00x33an0ogupv68d",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:12:02.640Z",
+      "full_name": "Abraham León Julio",
+      "given_name": "Abraham",
+      "family_name": "León Julio",
+      "age": "12",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv6ux5c00x33an0ogupv68d",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:12:02.640Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6ulpy00x23an0i29uh7fx",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:11:47.830Z",
+      "full_name": "Carlos José Zambrano",
+      "given_name": "Carlos",
+      "family_name": "José Zambrano",
+      "age": "65",
+      "home_city": "La Guaira · Catia La Mar · En la bahía",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv6ulpy00x23an0i29uh7fx",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:11:47.830Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6tuoe00x13an0nu33ob73",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:11:12.782Z",
+      "full_name": "Elsy Peña",
+      "given_name": "Elsy",
+      "family_name": "Peña",
+      "age": "70",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv6tuoe00x13an0nu33ob73",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:11:12.782Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6tdk800x03an08ggaihc1",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:10:50.600Z",
+      "full_name": "Jonathan Miliano",
+      "given_name": "Jonathan",
+      "family_name": "Miliano",
+      "age": "44",
+      "home_city": "La Guaira · Caribe los cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv6tdk800x03an08ggaihc1",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:10:50.600Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6q7dx00wz3an0tpjtspf3",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T17:08:22.629Z",
+      "full_name": "Delfin Romero",
+      "given_name": "Delfin",
+      "family_name": "Romero",
+      "age": "78",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv6q7dx00wz3an0tpjtspf3",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T17:08:22.629Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv6eaog00wy3an0z1fp2fb8",
       "source_name": "desaparecidosvenezuela",
@@ -141,259 +400,1475 @@
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv4zxln00wr3an0woyq7ieu",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T16:19:57.275Z",
-      "full_name": "Nestor Mendoza",
-      "given_name": "Nestor",
-      "family_name": "Mendoza",
-      "age": "65",
-      "home_city": "La Guaira · Urbanismo Hugo Chavez sector playa grande",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:24cbd4d0-2268-4535-a278-4b6d665d60f0",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-26T12:50:35.427Z",
+      "full_name": "Nombre: Jose Luis Rojas\nTiene 46aprox.\nEs el tio de mi pareja, estamos muy preoc",
+      "given_name": "Nombre:",
+      "family_name": "Jose Luis Rojas Tiene 46aprox. Es el tio de mi pareja, estamos muy preoc",
+      "home_city": "La paez bloque 3 - Catia la mar",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv4zxln00wr3an0woyq7ieu",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:24cbd4d0-2268-4535-a278-4b6d665d60f0",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T16:19:57.275Z"
+          "source_date": "2026-06-26T12:50:35.427Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv4lgkk00wq3an0zqau1jmz",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T16:08:42.020Z",
-      "full_name": "Rouglas jose Ruiz cabello",
-      "given_name": "Rouglas",
-      "family_name": "jose Ruiz cabello",
-      "age": "28",
-      "home_city": "La Guaira · Catia La Mar · Hotel chipis",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:a6d5bc39-8264-4b4f-b85a-0b93df22a51d",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-26T04:47:35.230Z",
+      "full_name": "Mide",
+      "given_name": "Mide",
+      "family_name": "",
+      "home_city": "La Guaira, Vargas, Catia la Mar, Avenida Calle Real de Marapa, Marapa Piache, Detrás de los Bloques, Las Casitas",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv4lgkk00wq3an0zqau1jmz",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:a6d5bc39-8264-4b4f-b85a-0b93df22a51d",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T16:08:42.020Z"
+          "source_date": "2026-06-26T04:47:35.230Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv4i0c000wp3an0moflast3",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T16:06:01.008Z",
-      "full_name": "Mildred Gonzalez",
-      "given_name": "Mildred",
-      "family_name": "Gonzalez",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:9d6f320e-08e5-4cfc-aaf1-a2f002c94e9c",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-26T03:18:02.672Z",
+      "full_name": "Reinaldo Antonio Diaz Lozada",
+      "given_name": "Reinaldo",
+      "family_name": "Antonio Diaz Lozada",
+      "home_city": "La guaira residencia coral Beach",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:9d6f320e-08e5-4cfc-aaf1-a2f002c94e9c",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T03:18:02.672Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:c3c1aa98-c659-43e3-ac71-4d94563e9cee",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-26T02:46:05.248Z",
+      "full_name": "Se busca a Magaly obdeus  52 años\nSe busca a Abraham Garcia 16 años",
+      "given_name": "Se",
+      "family_name": "busca a Magaly obdeus 52 años Se busca a Abraham Garcia 16 años",
+      "age": "52",
+      "home_city": "La Guira. Playa grande  diagonal a panaderia Almendrina deli",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:c3c1aa98-c659-43e3-ac71-4d94563e9cee",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T02:46:05.248Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:d19a9e21-d1d4-4306-a917-ec74d9acac84",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-26T01:54:42.554Z",
+      "full_name": "Ronny Antonio Gil Rizo",
+      "given_name": "Ronny",
+      "family_name": "Antonio Gil Rizo",
+      "home_city": "Calle Los Profesores, Las Tunitas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:d19a9e21-d1d4-4306-a917-ec74d9acac84",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T01:54:42.554Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:4c550816-f060-4955-a197-96c896e19ea0",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T23:59:29.318Z",
+      "full_name": "Dra Libis Rivas",
+      "given_name": "Dra",
+      "family_name": "Libis Rivas",
+      "age": "49",
+      "home_city": "CDI el tigrillo Naiguata",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:4c550816-f060-4955-a197-96c896e19ea0",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T23:59:29.318Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:dd282498-f927-458f-a766-c25ad448f98f",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T23:52:17.884Z",
+      "full_name": "Dra Libis Rivas",
+      "given_name": "Dra",
+      "family_name": "Libis Rivas",
+      "home_city": "CDI el tigrillo",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:dd282498-f927-458f-a766-c25ad448f98f",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T23:52:17.884Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:9884248c-7cad-4264-b579-3c99842299cb",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T22:43:03.427Z",
+      "full_name": "Antonio Moreno",
+      "given_name": "Antonio",
+      "family_name": "Moreno",
       "age": "64",
-      "home_city": "La Guaira · Caraballeda · San Julian",
+      "home_city": "Residencia Costa Dorada (bajo escombros)",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv4i0c000wp3an0moflast3",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:9884248c-7cad-4264-b579-3c99842299cb",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T16:06:01.008Z"
+          "source_date": "2026-06-25T22:43:03.427Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv43td500wm3an0dmx2m88q",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:54:58.793Z",
-      "full_name": "Yontaco Ojeda",
-      "given_name": "Yontaco",
-      "family_name": "Ojeda",
-      "age": "62",
-      "home_city": "Distrito Capital · Caracas",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:bf0d6a90-7b8c-4ab9-8ff9-ab943e666c07",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T22:16:30.588Z",
+      "full_name": "Mujer de",
+      "given_name": "Mujer",
+      "family_name": "de",
+      "age": "50",
+      "home_city": "Edificio Villa Mar, Playa Grande.",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv43td500wm3an0dmx2m88q",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:bf0d6a90-7b8c-4ab9-8ff9-ab943e666c07",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:54:58.793Z"
+          "source_date": "2026-06-25T22:16:30.588Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv3sll200wk3an06cfkvghy",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:46:15.494Z",
-      "full_name": "Liz Roser",
-      "given_name": "Liz",
-      "family_name": "Roser",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:8591fb50-4374-47c2-90d6-b062cb59b710",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T20:54:32.810Z",
+      "full_name": "Nazareth del Carmen Isabel Correa Rodríguez de 19 años de 1.54m de complestura d",
+      "given_name": "Nazareth",
+      "family_name": "del Carmen Isabel Correa Rodríguez de 19 años de 1.54m de complestura d",
+      "age": "19",
+      "home_city": "La Guaira Catia la Mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:8591fb50-4374-47c2-90d6-b062cb59b710",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T20:54:32.810Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:67d652bf-1b77-4d6a-8d64-f5a6c7b3e5d8",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T19:41:46.295Z",
+      "full_name": "Alto moreno gordo",
+      "given_name": "Alto",
+      "family_name": "moreno gordo",
+      "home_city": "Colina del Canes",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:67d652bf-1b77-4d6a-8d64-f5a6c7b3e5d8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T19:41:46.295Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:15b31ece-7d2e-4b7b-bd4f-27c5e9e85c80",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T19:40:49.093Z",
+      "full_name": "Moreno",
+      "given_name": "Moreno",
+      "family_name": "",
+      "home_city": "Colinas del Canes",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:15b31ece-7d2e-4b7b-bd4f-27c5e9e85c80",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T19:40:49.093Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:84b2feb1-70ca-443b-874b-b067afe5d98e",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T19:05:38.231Z",
+      "full_name": "Mathias Ignacio Marrero",
+      "given_name": "Mathias",
+      "family_name": "Ignacio Marrero",
+      "home_city": "Residencia Gradisca, Piso 6, Las Quince Letras, Macuto",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:84b2feb1-70ca-443b-874b-b067afe5d98e",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T19:05:38.231Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:c62a6c29-323f-4b01-b86f-06c28909604c",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T18:22:39.174Z",
+      "full_name": "Carlos Eduardo Villanueva camero de 30 y su padre Carlos Villanueva porrello",
+      "given_name": "Carlos",
+      "family_name": "Eduardo Villanueva camero de 30 y su padre Carlos Villanueva porrello",
+      "home_city": "Visto la última ves en arenera de la Guaira Magdalena",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:c62a6c29-323f-4b01-b86f-06c28909604c",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T18:22:39.174Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:8639dec0-d619-4702-a62a-6551ed6ac59e",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T17:35:55.732Z",
+      "full_name": "Maria Carolina Delgado",
+      "given_name": "Maria",
+      "family_name": "Carolina Delgado",
+      "home_city": "Edificio Tanamar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:8639dec0-d619-4702-a62a-6551ed6ac59e",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T17:35:55.732Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:438d893a-9df7-4f96-bb78-987b3969757e",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T17:26:25.983Z",
+      "full_name": "Jesús Gabriel Ramirez Pérez y su mama Nahilet Pérez",
+      "given_name": "Jesús",
+      "family_name": "Gabriel Ramirez Pérez y su mama Nahilet Pérez",
+      "home_city": "Edificio Miramar, Playa Grande.",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:438d893a-9df7-4f96-bb78-987b3969757e",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T17:26:25.983Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:06a663bb-36cb-4818-a9fc-690845878303",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T17:24:45.231Z",
+      "full_name": "Jesús Gabriel Ramirez Pérez  y su Mama Nahilet Pérez",
+      "given_name": "Jesús",
+      "family_name": "Gabriel Ramirez Pérez y su Mama Nahilet Pérez",
+      "home_city": "Edificio Miramar, Playa Grande.",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:06a663bb-36cb-4818-a9fc-690845878303",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T17:24:45.231Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:ffd46170-1b4c-4b96-8e04-daf6628b6545",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T17:22:01.246Z",
+      "full_name": "Jesús Gabriel Ramirez Pérez y su mamá Nahilet Pérez",
+      "given_name": "Jesús",
+      "family_name": "Gabriel Ramirez Pérez y su mamá Nahilet Pérez",
+      "home_city": "Edificio Miramar, Playa Grande.",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:ffd46170-1b4c-4b96-8e04-daf6628b6545",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T17:22:01.246Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:97bf5afb-55f6-4859-a39f-290976a4d84c",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T17:04:21.019Z",
+      "full_name": "Laura Paz de Luis Hernandez",
+      "given_name": "Laura",
+      "family_name": "Paz de Luis Hernandez",
+      "age": "60",
+      "home_city": "Residencias RioMar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:97bf5afb-55f6-4859-a39f-290976a4d84c",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T17:04:21.019Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:95600772-fb33-4ded-aa70-018375edfe2e",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T16:49:22.544Z",
+      "full_name": "Luis Azocar",
+      "given_name": "Luis",
+      "family_name": "Azocar",
+      "home_city": "Instalaciones de Arepas Margaret",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:95600772-fb33-4ded-aa70-018375edfe2e",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T16:49:22.544Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:0b006c4f-5515-4333-ac1e-de020ddd83d4",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T16:35:27.190Z",
+      "full_name": "Pedro Onsalo",
+      "given_name": "Pedro",
+      "family_name": "Onsalo",
+      "age": "75",
+      "home_city": "Edificio Pez Vela",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:0b006c4f-5515-4333-ac1e-de020ddd83d4",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T16:35:27.190Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:0189343d-4d4c-4900-82b8-278e15c39177",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T15:51:51.058Z",
+      "full_name": "Sin nombre",
+      "given_name": "Sin",
+      "family_name": "nombre",
+      "home_city": "Sus nombres son ELY SULBARAN Y PEDRO HIDALGO (MADRE E HIJO) viven en los edificios misión vivienda 0p26 en los cocos - LA GUAIRA",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:0189343d-4d4c-4900-82b8-278e15c39177",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T15:51:51.058Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:6c995922-499e-4f57-8f7c-b094d2480462",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T14:42:43.571Z",
+      "full_name": "Tés delgada",
+      "given_name": "Tés",
+      "family_name": "delgada",
+      "home_city": "Desconocido",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:6c995922-499e-4f57-8f7c-b094d2480462",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T14:42:43.571Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:d6ddc570-1390-4c1c-a18b-f47400fdea51",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T14:37:44.596Z",
+      "full_name": "Dos hombres canosos",
+      "given_name": "Dos",
+      "family_name": "hombres canosos",
+      "home_city": "Residencias 10 de Marzo y La Llanada",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:d6ddc570-1390-4c1c-a18b-f47400fdea51",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T14:37:44.596Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:e62b6bc2-4f49-4631-9c9a-65ab40dc52be",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T14:33:52.441Z",
+      "full_name": "nombre rene acuña señor mayor caucasico con parkinson de 75 años",
+      "given_name": "nombre",
+      "family_name": "rene acuña señor mayor caucasico con parkinson de 75 años",
+      "age": "75",
+      "home_city": "av la playa caraballeda la guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:e62b6bc2-4f49-4631-9c9a-65ab40dc52be",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T14:33:52.441Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:9749c69f-6024-4c94-9930-639e12796e4e",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T14:27:30.703Z",
+      "full_name": "Yerika Garcia",
+      "given_name": "Yerika",
+      "family_name": "Garcia",
+      "age": "48",
+      "home_city": "Afuera a Hotel el Ciebo",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:9749c69f-6024-4c94-9930-639e12796e4e",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T14:27:30.703Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:8f937cd0-41af-42e9-b052-1a6b16ddff64",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T14:10:36.255Z",
+      "full_name": "Marco Blanco",
+      "given_name": "Marco",
+      "family_name": "Blanco",
       "age": "28",
+      "home_city": "Hotel chipis beach",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:8f937cd0-41af-42e9-b052-1a6b16ddff64",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T14:10:36.255Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:038f9607-425f-4bf7-b346-5f4f298d2010",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T14:05:42.064Z",
+      "full_name": "Vladimir Ríos Lisenko",
+      "given_name": "Vladimir",
+      "family_name": "Ríos Lisenko",
+      "age": "24",
       "home_city": "La Guaira",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv3sll200wk3an06cfkvghy",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:038f9607-425f-4bf7-b346-5f4f298d2010",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:46:15.494Z"
+          "source_date": "2026-06-25T14:05:42.064Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv3pn5f00wj3an0d3tjxar7",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:43:57.555Z",
-      "full_name": "Jose Rueda",
-      "given_name": "Jose",
-      "family_name": "Rueda",
-      "age": "45",
-      "home_city": "Distrito Capital · Caracas",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:6208b479-2c85-45cb-ad1b-b9b81de04da6",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T13:54:01.865Z",
+      "full_name": "Ricardo mogoollon",
+      "given_name": "Ricardo",
+      "family_name": "mogoollon",
+      "home_city": "Guaira",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv3pn5f00wj3an0d3tjxar7",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:6208b479-2c85-45cb-ad1b-b9b81de04da6",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:43:57.555Z"
+          "source_date": "2026-06-25T13:54:01.865Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv3ol3f00wi3an0370cv769",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:43:08.235Z",
-      "full_name": "Emilia Giglioti Marotta",
-      "given_name": "Emilia",
-      "family_name": "Giglioti Marotta",
-      "age": "62",
-      "home_city": "La Guaira · Catia La Mar · bloque 3 Urb La Paez",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:2597f4bc-5911-483c-8cd6-76b1acb37529",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T13:53:24.123Z",
+      "full_name": "Génesis Celeste Abreu Abreu",
+      "given_name": "Génesis",
+      "family_name": "Celeste Abreu Abreu",
+      "age": "22",
+      "home_city": "No me he comunicado con ella hace días pero vive por esa zona",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv3ol3f00wi3an0370cv769",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:2597f4bc-5911-483c-8cd6-76b1acb37529",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:43:08.235Z"
+          "source_date": "2026-06-25T13:53:24.123Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv3m9wl00wh3an0blqhx6oi",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:41:20.421Z",
-      "full_name": "deivis Coa",
-      "given_name": "deivis",
-      "family_name": "Coa",
-      "age": "36",
-      "home_city": "La Guaira",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:9d203baa-7eaf-4b54-b610-5943feab6b49",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T13:42:12.985Z",
+      "full_name": "Alto",
+      "given_name": "Alto",
+      "family_name": "",
+      "home_city": "Edificio baia mar, Caraballeda 1165",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv3m9wl00wh3an0blqhx6oi",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:9d203baa-7eaf-4b54-b610-5943feab6b49",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:41:20.421Z"
+          "source_date": "2026-06-25T13:42:12.985Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv37rzr00wg3an05q6r4blp",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:30:04.023Z",
-      "full_name": "Felicia Gil de Gutierrez",
-      "given_name": "Felicia",
-      "family_name": "Gil de Gutierrez",
-      "age": "70",
-      "home_city": "La Guaira · La Guaira (centro) · Mate Bajo",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:a53b5ce3-2a64-415d-aaca-34c21b787fd4",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T12:59:46.186Z",
+      "full_name": "Harold Peña y Julio Peña ( hijo y padre)",
+      "given_name": "Harold",
+      "family_name": "Peña y Julio Peña ( hijo y padre)",
+      "home_city": "Sin información",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv37rzr00wg3an05q6r4blp",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:a53b5ce3-2a64-415d-aaca-34c21b787fd4",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:30:04.023Z"
+          "source_date": "2026-06-25T12:59:46.186Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv35k1400wf3an08k9b3blb",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:28:20.392Z",
-      "full_name": "Keleanny Aisha Cardenas Iriarte",
-      "given_name": "Keleanny",
-      "family_name": "Aisha Cardenas Iriarte",
-      "age": "10",
-      "home_city": "La Guaira · Catia La Mar · Edificio Zulimar playa grande Catia la Mar",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:e459dc06-ac85-4a75-9ca3-ab0dd54c6dff",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T12:44:35.304Z",
+      "full_name": "Oswaldo Torres\nEDAD: 26 años\nESTATURA: 1,80 m\nTEZ: Trigueña\nCABELLO: Negro, cort",
+      "given_name": "Oswaldo",
+      "family_name": "Torres EDAD: 26 años ESTATURA: 1,80 m TEZ: Trigueña CABELLO: Negro, cort",
+      "age": "26",
+      "home_city": "Se encontraba cerca del aeropuerto Maiquetía o edificio caribe",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv35k1400wf3an08k9b3blb",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:e459dc06-ac85-4a75-9ca3-ab0dd54c6dff",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:28:20.392Z"
+          "source_date": "2026-06-25T12:44:35.304Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv3135z00we3an05mbjbl0x",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:24:51.911Z",
-      "full_name": "Helen Yubraska Abreu Iriarte",
-      "given_name": "Helen",
-      "family_name": "Yubraska Abreu Iriarte",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:7d9ca83d-8a00-4e31-a47a-e9eccdc46dc0",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T12:25:24.877Z",
+      "full_name": "José Manuel De Freitas \nJosiris De Freitas \nIris Dupuy\nJosé Roberto De Freitas \n",
+      "given_name": "José",
+      "family_name": "Manuel De Freitas Josiris De Freitas Iris Dupuy José Roberto De Freitas",
+      "age": "2",
+      "home_city": "Edificio Residencias Puerto Coral, Macuto, La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:7d9ca83d-8a00-4e31-a47a-e9eccdc46dc0",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T12:25:24.877Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:9dfd0dc9-0546-41b5-bc17-d42105920dd8",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T12:18:15.113Z",
+      "full_name": "Olga tovar: cabello amarillo, 1,60, viste de medico. Tiene 60 años \nRuben Rodrig",
+      "given_name": "Olga",
+      "family_name": "tovar: cabello amarillo, 1,60, viste de medico. Tiene 60 años Ruben Rodrig",
+      "age": "60",
+      "home_city": "Edificio la gabarra los corales",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:9dfd0dc9-0546-41b5-bc17-d42105920dd8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T12:18:15.113Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:32f39560-9c2d-4de2-93d5-575d4bfeca99",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T12:16:20.625Z",
+      "full_name": "Luisa Miriam Gonzalez Diaz",
+      "given_name": "Luisa",
+      "family_name": "Miriam Gonzalez Diaz",
+      "home_city": "Edificio Taguapire",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:32f39560-9c2d-4de2-93d5-575d4bfeca99",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T12:16:20.625Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:701314b7-2a4e-402a-a774-5313a3f0a89f",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T11:42:11.147Z",
+      "full_name": "Eliana Ramones",
+      "given_name": "Eliana",
+      "family_name": "Ramones",
+      "age": "11",
+      "home_city": "Catia la Mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:701314b7-2a4e-402a-a774-5313a3f0a89f",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T11:42:11.147Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:83d224fe-02b5-4198-bafd-2e2d102400b7",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T11:39:18.006Z",
+      "full_name": "Luisa Rojas",
+      "given_name": "Luisa",
+      "family_name": "Rojas",
+      "age": "64",
+      "home_city": "Su casa",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:83d224fe-02b5-4198-bafd-2e2d102400b7",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T11:39:18.006Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:10ba2ef8-5d6d-4230-9d80-c57fe3faca2a",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T11:38:30.373Z",
+      "full_name": "Ella tiene añitos",
+      "given_name": "Ella",
+      "family_name": "tiene añitos",
+      "home_city": "Residencias caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:10ba2ef8-5d6d-4230-9d80-c57fe3faca2a",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T11:38:30.373Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:97fa171c-ff97-464f-8909-9ffe280170f8",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T11:24:52.719Z",
+      "full_name": "Jean Pool",
+      "given_name": "Jean",
+      "family_name": "Pool",
+      "home_city": "Edificios de Caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:97fa171c-ff97-464f-8909-9ffe280170f8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T11:24:52.719Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:0414d0f5-1c9f-44c9-83f3-5f9d4022f7fa",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T11:12:37.900Z",
+      "full_name": "Graciela Luzón",
+      "given_name": "Graciela",
+      "family_name": "Luzón",
+      "home_city": "Los corales, edificio costa brava",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:0414d0f5-1c9f-44c9-83f3-5f9d4022f7fa",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T11:12:37.900Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:2d85f2b4-a2bc-42e7-9ae3-c21cc58a8653",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T11:08:48.479Z",
+      "full_name": "Alejandro Vivas Candamo",
+      "given_name": "Alejandro",
+      "family_name": "Vivas Candamo",
+      "age": "64",
+      "home_city": "Res. Doral Caraballeda Address: J575+28C, Av. Principal de Caribe, Caraballeda 1165, La Guaira, Venezuela",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:2d85f2b4-a2bc-42e7-9ae3-c21cc58a8653",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T11:08:48.479Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:6b34b371-d29c-4568-960d-b0e212a5da60",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T11:04:01.295Z",
+      "full_name": "Francisco De Atouguia Maia y Felicia Rodríguez Otero.",
+      "given_name": "Francisco",
+      "family_name": "De Atouguia Maia y Felicia Rodríguez Otero.",
+      "home_city": "La Guaira Palmar Este",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:6b34b371-d29c-4568-960d-b0e212a5da60",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T11:04:01.295Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:6e91593b-0269-4173-8367-bffc328c18b5",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T09:13:13.591Z",
+      "full_name": "Hombre",
+      "given_name": "Hombre",
+      "family_name": "",
       "age": "30",
-      "home_city": "La Guaira · Catia La Mar · Edificio Zulimar playa grande Catia la Mar",
+      "home_city": "Pueblo de Care",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv3135z00we3an05mbjbl0x",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:6e91593b-0269-4173-8367-bffc328c18b5",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:24:51.911Z"
+          "source_date": "2026-06-25T09:13:13.591Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv2vfvx00wc3an0dg0i4oij",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:20:28.461Z",
-      "full_name": "maria morales",
-      "given_name": "maria",
-      "family_name": "morales",
-      "age": "18",
-      "home_city": "La Guaira",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:75de88c1-99c7-4fea-9f29-44ecb991fcf8",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T08:47:45.314Z",
+      "full_name": "Aracelis Ascanio",
+      "given_name": "Aracelis",
+      "family_name": "Ascanio",
+      "home_city": "Casa del gobierno cerca de playa escondida tanaguarena",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv2vfvx00wc3an0dg0i4oij",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:75de88c1-99c7-4fea-9f29-44ecb991fcf8",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:20:28.461Z"
+          "source_date": "2026-06-25T08:47:45.314Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqv2ts2q00wb3an0sduxmu2l",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T15:19:10.946Z",
-      "full_name": "Victor Rafael Marcano Dasilva",
-      "given_name": "Victor",
-      "family_name": "Rafael Marcano Dasilva",
-      "home_city": "La Guaira · Misión vivienda OPP 27 Caribe",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:0dadbd39-57c7-46ef-9baf-2e94419ca335",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T08:44:17.457Z",
+      "full_name": "Enrique Tovar",
+      "given_name": "Enrique",
+      "family_name": "Tovar",
+      "age": "82",
+      "home_city": "Residencia Caribe",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqv2ts2q00wb3an0sduxmu2l",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:0dadbd39-57c7-46ef-9baf-2e94419ca335",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T15:19:10.946Z"
+          "source_date": "2026-06-25T08:44:17.457Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:653a5f96-cdd3-42e5-825b-7c4fb0bc5f95",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T08:37:46.905Z",
+      "full_name": "Tadeo Jamroz (65 años, Caucásico de ojos claros).\nNataly Morantes (50 años, Cauc",
+      "given_name": "Tadeo",
+      "family_name": "Jamroz (65 años, Caucásico de ojos claros). Nataly Morantes (50 años, Cauc",
+      "age": "65",
+      "home_city": "Qta. Rosalinda. Caraballeda.",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:653a5f96-cdd3-42e5-825b-7c4fb0bc5f95",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T08:37:46.905Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:57fea863-5151-43f7-85d0-483478ce4d01",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T08:33:54.086Z",
+      "full_name": "Yennifer Mildred Abrue Ascanio Y Yeirison Merlin Albornoz Padrón",
+      "given_name": "Yennifer",
+      "family_name": "Mildred Abrue Ascanio Y Yeirison Merlin Albornoz Padrón",
+      "home_city": "Quebrada seca los coco la guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:57fea863-5151-43f7-85d0-483478ce4d01",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T08:33:54.086Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:5566ec49-56b4-4f74-b74b-23a489add411",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T08:15:38.914Z",
+      "full_name": "Norellys Marrero",
+      "given_name": "Norellys",
+      "family_name": "Marrero",
+      "age": "65",
+      "home_city": "Macuto Edificio Punta Piedra",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:5566ec49-56b4-4f74-b74b-23a489add411",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T08:15:38.914Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:81da63e5-c5ef-4a54-9ae2-d11e67e37715",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T06:57:26.567Z",
+      "full_name": "Alrededor de 1.7 Mts, mujer blanca cabello rubio, de nombre Olga Tovar\nAlrededor",
+      "given_name": "Alrededor",
+      "family_name": "de 1.7 Mts, mujer blanca cabello rubio, de nombre Olga Tovar Alrededor",
+      "home_city": "Edificio La Gabarra",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:81da63e5-c5ef-4a54-9ae2-d11e67e37715",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T06:57:26.567Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:aa8aa43d-427d-4e89-b557-4d61b6886730",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T06:41:07.165Z",
+      "full_name": "Plata vasito marina grande",
+      "given_name": "Plata",
+      "family_name": "vasito marina grande",
+      "home_city": "Plata vasito marina grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:aa8aa43d-427d-4e89-b557-4d61b6886730",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T06:41:07.165Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:3c9ecb3d-8b3f-4d3c-b6f8-1b498dfb24f0",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T06:23:53.308Z",
+      "full_name": "Pedro Miguel García",
+      "given_name": "Pedro",
+      "family_name": "Miguel García",
+      "age": "43",
+      "home_city": "Restaurante",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:3c9ecb3d-8b3f-4d3c-b6f8-1b498dfb24f0",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T06:23:53.308Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:e27dda1b-e44f-4a75-8b73-cb6c816455d4",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T06:21:41.338Z",
+      "full_name": "Última vez en Residencias Hipocampo",
+      "given_name": "Última",
+      "family_name": "vez en Residencias Hipocampo",
+      "home_city": "Última vez en Residencias Hipocampo",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:e27dda1b-e44f-4a75-8b73-cb6c816455d4",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T06:21:41.338Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:03467c48-2ff5-4caa-801d-94e47eec7a30",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T05:39:48.634Z",
+      "full_name": "María Teresa Cadena",
+      "given_name": "María",
+      "family_name": "Teresa Cadena",
+      "age": "64",
+      "home_city": "Av principal edificio doña hilda frente al farmatodo",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:03467c48-2ff5-4caa-801d-94e47eec7a30",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T05:39:48.634Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:b23c6f61-58b0-4573-9928-f3f265d462f3",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T05:37:37.092Z",
+      "full_name": "1.5 metros, rubia, piel blanca y cejas pronunciadas",
+      "given_name": "1.5",
+      "family_name": "metros, rubia, piel blanca y cejas pronunciadas",
+      "home_city": "Los corales",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:b23c6f61-58b0-4573-9928-f3f265d462f3",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T05:37:37.092Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:867653a6-a21f-4b21-baec-3543a813ca00",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T05:28:58.522Z",
+      "full_name": "Hombre de",
+      "given_name": "Hombre",
+      "family_name": "de",
+      "age": "55",
+      "home_city": "Av. Álamo urbanización Álamo residencia Montemar piso 2",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:867653a6-a21f-4b21-baec-3543a813ca00",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T05:28:58.522Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:699f2ffe-086a-4e45-a961-1d3539900422",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T05:16:27.586Z",
+      "full_name": "Maira Falcón",
+      "given_name": "Maira",
+      "family_name": "Falcón",
+      "home_city": "Pueblo de Caraballeda al frente de la iglesia",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:699f2ffe-086a-4e45-a961-1d3539900422",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T05:16:27.586Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:f71cdc34-8cdb-4209-a015-39da3276e7bf",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T05:02:59.003Z",
+      "full_name": "Norilda Figuera",
+      "given_name": "Norilda",
+      "family_name": "Figuera",
+      "home_city": "Edificio Botánico La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:f71cdc34-8cdb-4209-a015-39da3276e7bf",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T05:02:59.003Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:950a1e2d-0fb8-4202-929e-5af9db46bda2",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T05:01:56.821Z",
+      "full_name": "Alto moreno pelo negro canoso con barriga chiva Mario Lira",
+      "given_name": "Alto",
+      "family_name": "moreno pelo negro canoso con barriga chiva Mario Lira",
+      "home_city": "En la playa d e osma",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:950a1e2d-0fb8-4202-929e-5af9db46bda2",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T05:01:56.821Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:10afc85e-188c-4279-b830-80700a6cba7c",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T05:01:24.494Z",
+      "full_name": "Mileidys Salazar",
+      "given_name": "Mileidys",
+      "family_name": "Salazar",
+      "age": "16",
+      "home_city": "Edificios suma playa grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:10afc85e-188c-4279-b830-80700a6cba7c",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T05:01:24.494Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:37871462-4620-4748-a8cc-3808aff5e2d5",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:59:52.631Z",
+      "full_name": "Gloria Nieves alondra Nieves",
+      "given_name": "Gloria",
+      "family_name": "Nieves alondra Nieves",
+      "home_city": "Oppe 22 caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:37871462-4620-4748-a8cc-3808aff5e2d5",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:59:52.631Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:ef589055-9953-4ca6-a25b-d56e81999d29",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:59:05.229Z",
+      "full_name": "Norilda Figueroa",
+      "given_name": "Norilda",
+      "family_name": "Figueroa",
+      "home_city": "Tanaguarena edificio botánico",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:ef589055-9953-4ca6-a25b-d56e81999d29",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:59:05.229Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:8a00ed6c-0da8-4453-b009-7dd281452a5c",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:52:15.735Z",
+      "full_name": "mujer de",
+      "given_name": "mujer",
+      "family_name": "de",
+      "age": "45",
+      "home_city": "Av el ejercito, catia la mar, la guaira, Edificio lo pilato, Vargas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:8a00ed6c-0da8-4453-b009-7dd281452a5c",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:52:15.735Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:a7de63f4-a731-4029-9b20-3a9f7ce92050",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:50:36.077Z",
+      "full_name": "Bruno Ginoble Amalia Ginoble Jesus Ruiz",
+      "given_name": "Bruno",
+      "family_name": "Ginoble Amalia Ginoble Jesus Ruiz",
+      "home_city": "Edificio la gabarra",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:a7de63f4-a731-4029-9b20-3a9f7ce92050",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:50:36.077Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:0883cfad-f29b-4f49-b38a-903558b871c8",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:49:02.724Z",
+      "full_name": "Una chica de",
+      "given_name": "Una",
+      "family_name": "chica de",
+      "age": "25",
+      "home_city": "Por las colinas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:0883cfad-f29b-4f49-b38a-903558b871c8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:49:02.724Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:b21a0ad8-bd73-4bbb-80b8-f572f87779c1",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:48:17.306Z",
+      "full_name": "Hernado Lleras",
+      "given_name": "Hernado",
+      "family_name": "Lleras",
+      "age": "25",
+      "home_city": "En la residencia",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:b21a0ad8-bd73-4bbb-80b8-f572f87779c1",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:48:17.306Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:9670ec5f-cf85-40c9-9ecc-c56f9df9471d",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:44:54.901Z",
+      "full_name": "Jorbelis Garcia",
+      "given_name": "Jorbelis",
+      "family_name": "Garcia",
+      "home_city": "Edificio La Gabarra, Frente a Playa Los Corales, Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:9670ec5f-cf85-40c9-9ecc-c56f9df9471d",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:44:54.901Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:6855b676-0f95-45f9-a805-f9a676ee2d66",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:41:10.942Z",
+      "full_name": "Lilibeth Ropero Zambrano Daniela Yarith Peña Ropero Edwin Joel Peña Ropero Oscar",
+      "given_name": "Lilibeth",
+      "family_name": "Ropero Zambrano Daniela Yarith Peña Ropero Edwin Joel Peña Ropero Oscar",
+      "home_city": "No se",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:6855b676-0f95-45f9-a805-f9a676ee2d66",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:41:10.942Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:68240f80-3352-4c17-82d9-f503573e0568",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:40:14.547Z",
+      "full_name": "Nerio Arias",
+      "given_name": "Nerio",
+      "family_name": "Arias",
+      "home_city": "Los corales",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:68240f80-3352-4c17-82d9-f503573e0568",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:40:14.547Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:be597026-adbf-4c6e-b2ac-5f7ce4670ebe",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:34:21.368Z",
+      "full_name": "Tomas Pribanic\n1.80m de altura\nOjos azules\nContextura gruesa\nProblemas para cami",
+      "given_name": "Tomas",
+      "family_name": "Pribanic 1.80m de altura Ojos azules Contextura gruesa Problemas para cami",
+      "home_city": "Edificio Palafito Del Mar Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:be597026-adbf-4c6e-b2ac-5f7ce4670ebe",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:34:21.368Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:74c1f588-98a2-4796-a7ce-85c18a44b1ee",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:16:37.436Z",
+      "full_name": "Juan",
+      "given_name": "Juan",
+      "family_name": "",
+      "home_city": "Edificio solymar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:74c1f588-98a2-4796-a7ce-85c18a44b1ee",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:16:37.436Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:f538675d-acfc-4892-9420-c4bbb885c5f9",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:10:36.399Z",
+      "full_name": "Venancio Hernandez, Alto",
+      "given_name": "Venancio",
+      "family_name": "Hernandez, Alto",
+      "home_city": "La Bandera",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:f538675d-acfc-4892-9420-c4bbb885c5f9",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:10:36.399Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:a2e1081b-ab86-480d-8926-a40fe7f9b0eb",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:07:19.797Z",
+      "full_name": "Se llama Elio Aguirre moreno operado de columna y rodilla",
+      "given_name": "Se",
+      "family_name": "llama Elio Aguirre moreno operado de columna y rodilla",
+      "home_city": "En su casa",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:a2e1081b-ab86-480d-8926-a40fe7f9b0eb",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:07:19.797Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:4829913f-db11-4394-87cc-d12c13cade9b",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:04:32.417Z",
+      "full_name": "Hombre de",
+      "given_name": "Hombre",
+      "family_name": "de",
+      "age": "61",
+      "home_city": "Camuri Grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:4829913f-db11-4394-87cc-d12c13cade9b",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:04:32.417Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:95ee8ab1-b76b-48b8-9329-118f64f04517",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T04:04:00.780Z",
+      "full_name": "Ana carolina González",
+      "given_name": "Ana",
+      "family_name": "carolina González",
+      "age": "62",
+      "home_city": "Edificio playate diagonal de Marriott calle 3",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:95ee8ab1-b76b-48b8-9329-118f64f04517",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T04:04:00.780Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:e9e37c26-3a61-46a4-9e07-3bfb9d2781c7",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-25T03:07:42.586Z",
+      "full_name": "Yasneidy y nicole",
+      "given_name": "Yasneidy",
+      "family_name": "y nicole",
+      "home_city": "MACUTO LA GUAIRA, av intercomunal de macuto",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:e9e37c26-3a61-46a4-9e07-3bfb9d2781c7",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T03:07:42.586Z"
         }
       ],
       "x_confianza": "baja",
