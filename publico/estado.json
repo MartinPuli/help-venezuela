@@ -1,21 +1,23 @@
 {
-  "generadoEn": "2026-06-26T03:29:34.562Z",
+  "generadoEn": "2026-06-26T03:50:36.523Z",
   "fuentesActivas": [
     "comunidad",
     "desaparecidosvenezuela",
+    "encuentralos",
     "terremotovenezuela-app"
   ],
   "totales": {
-    "registrosEntrada": 1,
-    "personas": 1,
+    "registrosEntrada": 94,
+    "personas": 94,
     "fusionesAutomaticasPorCedula": 0,
-    "candidatosRevisionHumana": 0,
-    "posiblesDuplicados": 0
+    "candidatosRevisionHumana": 7,
+    "posiblesDuplicados": 2
   },
   "porEstado": {
-    "desaparecido": 1
+    "desaparecido": 94
   },
   "porFuente": {
-    "comunidad": 1
+    "desaparecidosvenezuela": 20,
+    "terremotovenezuela-app": 74
   }
 }
