@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/comunidad:ejemplo-jose-cruz</pfif:person_record_id>
+    <pfif:source_name>comunidad</pfif:source_name>
+    <pfif:source_date>2026-06-25T10:00:00Z</pfif:source_date>
+    <pfif:full_name>Jose Cruz Pena (EJEMPLO SINTETICO - borrar)</pfif:full_name>
+    <pfif:given_name>Jose</pfif:given_name>
+    <pfif:family_name>Cruz Pena (EJEMPLO SINTETICO - borrar)</pfif:family_name>
+    <pfif:age>34</pfif:age>
+    <pfif:home_city>Los Palos Grandes, Caracas</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-comunidad:ejemplo-jose-cruz</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-25T10:00:00Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+</pfif:pfif>

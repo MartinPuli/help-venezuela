@@ -1,0 +1,19 @@
+{
+  "generadoEn": "2026-06-26T02:32:50.385Z",
+  "fuentesActivas": [
+    "comunidad"
+  ],
+  "totales": {
+    "registrosEntrada": 1,
+    "personas": 1,
+    "fusionesAutomaticasPorCedula": 0,
+    "candidatosRevisionHumana": 0,
+    "posiblesDuplicados": 0
+  },
+  "porEstado": {
+    "desaparecido": 1
+  },
+  "porFuente": {
+    "comunidad": 1
+  }
+}

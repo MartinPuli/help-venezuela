@@ -1,0 +1,22 @@
+{
+  "generadoEn": "2026-06-26T02:32:50.385Z",
+  "total": 1,
+  "personas": [
+    {
+      "id": "comunidad:ejemplo-jose-cruz",
+      "nombre": "Jose Cruz Pena (EJEMPLO SINTETICO - borrar)",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "comunidad",
+      "reportadoEn": "2026-06-25T10:00:00Z",
+      "edadAprox": 34,
+      "sexo": "M",
+      "ultimaUbicacion": {
+        "texto": "Los Palos Grandes, Caracas"
+      },
+      "fuentes": [
+        "comunidad"
+      ]
+    }
+  ]
+}

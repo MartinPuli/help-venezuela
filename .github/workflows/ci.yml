@@ -1,0 +1,33 @@
+name: CI
+
+# Corre en cada PR y push: pruebas + validacion del registro comunitario de
+# personas (formato, duplicados, fugas de datos sensibles).
+
+on:
+  pull_request: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Pruebas
+        run: node --test
+
+  validar-personas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validar registro de personas
+        run: node scripts/validar-personas.js

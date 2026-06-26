@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.*
+dist/
+coverage/
+# Nunca commitear datos reales de personas
+datos/
+*.reales.json
+*.pii.json

@@ -1,0 +1,18 @@
+{
+  "nombre": "Nombre Apellido (obligatorio)",
+  "estado": "desaparecido",
+  "edadAprox": 30,
+  "sexo": "M",
+  "ubicacion": "Zona/edificio, ciudad (texto general, NO direccion exacta)",
+  "fechaUltimoContacto": "2026-06-24T18:00:00Z",
+  "urlOrigen": "https://enlace-al-reporte-original-si-existe",
+  "reportadoEn": "2026-06-25T10:00:00Z",
+  "_ayuda": {
+    "estado": "uno de: desaparecido | visto_no_confirmado | localizado_a_salvo | fallecido_confirmado. Si no estas seguro, deja 'desaparecido'.",
+    "cedula": "OPCIONAL. NO recomendamos poner la cedula COMPLETA en este repo publico. Si la tienes, compartela por el canal privado de voluntarios. Aqui puedes omitirla.",
+    "sexo": "M | F | X (opcional)",
+    "ubicacion": "texto general de la ultima ubicacion conocida. NO pongas la direccion exacta del domicilio.",
+    "contacto": "NO pongas telefonos ni datos de contacto en este archivo publico. Eso va por el canal privado de voluntarios.",
+    "verificado": "lo marca un voluntario al confirmar, no el que reporta"
+  }
+}

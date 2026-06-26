@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Persona reportada (registro comunitario)",
+  "description": "Esquema de un archivo en personas/. Solo campos seguros para un repo PUBLICO. Datos sensibles (cedula completa, contacto, salud) NO van aqui.",
+  "type": ["object", "array"],
+  "items": { "$ref": "#/definitions/persona" },
+  "$ref": "#/definitions/persona",
+  "definitions": {
+    "persona": {
+      "type": "object",
+      "required": ["nombre"],
+      "additionalProperties": true,
+      "properties": {
+        "nombre": { "type": "string", "minLength": 2 },
+        "estado": {
+          "type": "string",
+          "enum": ["desaparecido", "visto_no_confirmado", "localizado_a_salvo", "fallecido_confirmado"]
+        },
+        "edadAprox": { "type": "number", "minimum": 0, "maximum": 120 },
+        "sexo": { "type": "string", "enum": ["M", "F", "X"] },
+        "ubicacion": { "type": "string" },
+        "fechaUltimoContacto": { "type": "string" },
+        "urlOrigen": { "type": "string" },
+        "reportadoEn": { "type": "string" },
+        "cedula": {
+          "type": "string",
+          "description": "DESACONSEJADO en repo publico. Preferir omitir o ultimos 3 digitos."
+        }
+      }
+    }
+  }
+}

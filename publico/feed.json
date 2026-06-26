@@ -1,0 +1,27 @@
+{
+  "pfif_version": "1.4",
+  "generado_en": "2026-06-26T02:32:50.385Z",
+  "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/comunidad:ejemplo-jose-cruz",
+      "source_name": "comunidad",
+      "source_date": "2026-06-25T10:00:00Z",
+      "full_name": "Jose Cruz Pena (EJEMPLO SINTETICO - borrar)",
+      "given_name": "Jose",
+      "family_name": "Cruz Pena (EJEMPLO SINTETICO - borrar)",
+      "age": "34",
+      "sex": "m",
+      "home_city": "Los Palos Grandes, Caracas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-comunidad:ejemplo-jose-cruz",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-25T10:00:00Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    }
+  ]
+}

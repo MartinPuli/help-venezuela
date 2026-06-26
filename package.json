@@ -1,0 +1,37 @@
+{
+  "name": "cruce-desaparecidos",
+  "version": "0.1.0",
+  "description": "Capa open source de cruce y deduplicacion de reportes de personas desaparecidas. Normaliza, deduplica y expone un feed estandar (estilo PFIF) que cualquier plataforma de busqueda puede consumir. Construida para el terremoto de Venezuela de 2026.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./servidor": "./src/servidor.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node ejemplos/demo.js",
+    "servidor": "node ejemplos/servidor-demo.js"
+  },
+  "keywords": [
+    "desaparecidos",
+    "personas",
+    "terremoto",
+    "venezuela",
+    "pfif",
+    "deduplicacion",
+    "matching",
+    "humanitario",
+    "person-finder"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "PRIVACIDAD.md",
+    "SEGURIDAD.md"
+  ]
+}
