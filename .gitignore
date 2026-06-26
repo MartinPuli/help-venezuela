@@ -9,3 +9,4 @@ coverage/
 datos/
 *.reales.json
 *.pii.json
+sitio/

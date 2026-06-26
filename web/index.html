@@ -108,9 +108,9 @@
 
   <script>
     // === AQUI SE CONECTA LA PAGINA AL MOTOR DE CRUCE ===
-    // Cambia API por la URL de tu servidor de cruce (o deja '' si se sirve junto).
-    const API = '';
-    document.getElementById('apiBase').textContent = (API || location.origin) + '/';
+    // Rutas RELATIVAS: funciona servida por el servidor (/) o por GitHub Pages (/help-venezuela/).
+    document.getElementById('apiBase').textContent = location.origin + location.pathname;
+    let datosBusquedaDemo = null;
 
     const ESTADO_LABEL = {
       desaparecido: 'Desaparecido', visto_no_confirmado: 'Visto (sin confirmar)',
@@ -120,8 +120,8 @@
     async function cargar() {
       try {
         const [salud, personas] = await Promise.all([
-          fetch(API + '/salud').then(r => r.json()).catch(() => null),
-          fetch(API + '/personas.json').then(r => r.json()).catch(() => ({ personas: [] })),
+          fetch('salud').then(r => r.ok ? r.json() : null).catch(() => null),
+          fetch('personas.json').then(r => r.json()).catch(() => ({ personas: [] })),
         ]);
         pintarStats(personas.personas || [], salud);
         pintarListado(personas.personas || []);
@@ -169,18 +169,45 @@
       if (!cedula) { div.textContent = 'Ingresá una cédula.'; return; }
       div.textContent = 'Buscando...';
       const q = new URLSearchParams({ cedula, apellido });
+
+      // 1) Intenta el servidor de cruce (API real con gate de privacidad).
+      let r = null;
       try {
-        const r = await fetch(API + '/buscar?' + q).then(r => r.json());
-        if (!r.encontrado) { div.innerHTML = '<span style="color:var(--tenue)">Sin coincidencias.</span>'; return; }
-        if (!r.autorizado) { div.innerHTML = '<span style="color:var(--acento)">⚠️ ' + escapar(r.mensaje || 'Aportá el apellido o la fecha de nacimiento.') + '</span>'; return; }
-        const p = r.registro;
-        div.innerHTML = `<div class="card"><div>
-            <div class="nombre">${escapar(p.nombre)}</div>
-            <div class="meta">${p.cedula ? 'Cédula ' + escapar(p.cedula) + ' · ' : ''}${p.edadAprox ? p.edadAprox + ' años' : ''}</div>
-          </div><div class="estado ${p.estado}">${ESTADO_LABEL[p.estado] || p.estado}</div></div>`;
-      } catch (e) {
-        div.innerHTML = '<span style="color:var(--rojo)">Error al buscar.</span>';
+        const resp = await fetch('buscar?' + q);
+        const ct = resp.headers.get('content-type') || '';
+        if (resp.ok && ct.includes('application/json')) r = await resp.json();
+      } catch (e) { /* sin API: caemos al modo estatico */ }
+
+      // 2) Modo estatico (GitHub Pages): la busqueda corre del lado del cliente
+      //    sobre los datos de ejemplo, aplicando el MISMO gate de segundo factor.
+      if (!r) r = await buscarEstatico(cedula, apellido);
+
+      if (!r.encontrado) { div.innerHTML = '<span style="color:var(--tenue)">Sin coincidencias.</span>'; return; }
+      if (!r.autorizado) { div.innerHTML = '<span style="color:var(--acento)">⚠️ ' + escapar(r.mensaje || 'Aportá el apellido o la fecha de nacimiento.') + '</span>'; return; }
+      const p = r.registro;
+      div.innerHTML = `<div class="card"><div>
+          <div class="nombre">${escapar(p.nombre)}</div>
+          <div class="meta">${p.cedula ? 'Cédula ' + escapar(p.cedula) + ' · ' : ''}${p.edadAprox ? p.edadAprox + ' años' : ''}</div>
+        </div><div class="estado ${p.estado}">${ESTADO_LABEL[p.estado] || p.estado}</div></div>`;
+    }
+
+    function normTexto(s) { return String(s == null ? '' : s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+    function normCed(s) { return String(s || '').replace(/\D/g, '').replace(/^0+/, ''); }
+
+    async function buscarEstatico(cedula, apellido) {
+      if (!datosBusquedaDemo) {
+        try { datosBusquedaDemo = await fetch('buscar-demo.json').then(r => r.json()); }
+        catch (e) { datosBusquedaDemo = []; }
       }
+      const ced = normCed(cedula);
+      const matches = datosBusquedaDemo.filter(r => normCed(r.cedula) === ced && ced);
+      if (!matches.length) return { encontrado: false };
+      const ap = normTexto(apellido).trim();
+      const ok = ap && matches.some(r => normTexto(r.nombre).split(/\s+/).includes(ap));
+      if (!ok) return { encontrado: true, autorizado: false, mensaje: 'Aportá el apellido o la fecha de nacimiento de la persona para ver el resultado completo.' };
+      const r = matches[0];
+      const cedMask = '*****' + normCed(r.cedula).slice(-3);
+      return { encontrado: true, autorizado: true, registro: { nombre: r.nombre, cedula: cedMask, edadAprox: r.edadAprox, estado: r.estado } };
     }
 
     function escapar(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
