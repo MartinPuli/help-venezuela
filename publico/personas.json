@@ -1,301 +1,296 @@
 {
-  "generadoEn": "2026-06-26T03:50:36.523Z",
+  "generadoEn": "2026-06-26T04:07:05.622Z",
   "total": 94,
   "personas": [
     {
-      "id": "desaparecidosvenezuela:cmque7jkf00gq3an0qbq8i1uu",
-      "nombre": "José Pascual",
+      "id": "desaparecidosvenezuela:cmquetfod00hk3an06r00kqvp",
+      "nombre": "Maria Milagros Alemán Marcano",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:50:02.703Z",
-      "edadAprox": 74,
+      "reportadoEn": "2026-06-26T04:07:04.093Z",
+      "edadAprox": 59,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Maiquetía · Maiquetía, detrás del san José"
+        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque7gwa00gp3an0efqrub4c",
-      "nombre": "Matilde Florentina Alemán Romero",
+      "id": "desaparecidosvenezuela:cmquerx6o00hj3an01dzyqxpj",
+      "nombre": "Badia El Souki ramirez",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:49:59.242Z",
-      "edadAprox": 70,
+      "reportadoEn": "2026-06-26T04:05:53.472Z",
+      "edadAprox": 15,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa Grande edificio Luisa Caseres de arismendi"
+        "texto": "La Guaira · Caraballeda · Oppe 26 torre C"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque79fd00go3an0vrzg0a0u",
-      "nombre": "Geibi Carrillos",
+      "id": "desaparecidosvenezuela:cmquerjpw00hi3an0jwe752ls",
+      "nombre": "Christhopher Moisés Pimentel Cedeño",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:49:49.561Z",
-      "edadAprox": 39,
+      "reportadoEn": "2026-06-26T04:05:36.020Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Residencia malecón en playa grande"
+        "texto": "La Guaira · Maiquetía"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque6zxv00gn3an0qnm3l8hw",
-      "nombre": "ELIZABETH COROMOTO TOVAR GARCIA",
+      "id": "desaparecidosvenezuela:cmquer5p800hh3an0gfisvi3p",
+      "nombre": "Luisbel Malpica",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:49:37.267Z",
-      "edadAprox": 70,
+      "reportadoEn": "2026-06-26T04:05:17.852Z",
+      "edadAprox": 13,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · EDIFICIO SUMMA PLANTA BAJA"
+        "texto": "La Guaira · Catia La Mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque6zds00gm3an0j7apkrfe",
-      "nombre": "Melvin Pérez",
+      "id": "desaparecidosvenezuela:cmqueqd7z00hg3an05bynlvx3",
+      "nombre": "Julio cesar Cadenas",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:49:36.544Z",
+      "reportadoEn": "2026-06-26T04:04:40.943Z",
+      "edadAprox": 68,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Carayaca"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqueq62800hf3an0x77rxgo6",
+      "nombre": "Greismar Diaz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T04:04:31.664Z",
+      "edadAprox": 7,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmquepp5l00he3an0kx8k5x1m",
+      "nombre": "Ysamar Oropeza",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T04:04:09.753Z",
       "edadAprox": 25,
       "ultimaUbicacion": {
-        "texto": "La Guaira · edificio Ritasol frente a la playa los corales"
+        "texto": "Distrito Capital · Caracas · Libertador · Cerca de fuerte Tiuna"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque6jm500gl3an06ymg12b9",
-      "nombre": "Ana alejandra Bello",
+      "id": "desaparecidosvenezuela:cmqueoyne00hd3an0npe09xdi",
+      "nombre": "Dreyslers Malpica",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:49:16.109Z",
+      "reportadoEn": "2026-06-26T04:03:35.402Z",
+      "edadAprox": 5,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Residencias belo horizonte"
+        "texto": "La Guaira · Catia La Mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque5i7u00gk3an0rzig3ldo",
-      "nombre": "Andrés Azuaje",
+      "id": "desaparecidosvenezuela:cmquengbp00hc3an0fbmhka6p",
+      "nombre": "Verita Lastra",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:48:27.642Z",
-      "edadAprox": 44,
+      "reportadoEn": "2026-06-26T04:02:24.997Z",
       "ultimaUbicacion": {
-        "texto": "Miranda · Charallave · Cristóbal Rojas"
+        "texto": "La Guaira · Edificio la gabarra"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque48uj00gi3an0dc821gah",
-      "nombre": "Ifigenia Rivas",
+      "id": "desaparecidosvenezuela:cmquen8wt00hb3an00il1ux3k",
+      "nombre": "José Martín Torres perez",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:47:28.843Z",
-      "edadAprox": 55,
+      "reportadoEn": "2026-06-26T04:02:15.389Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Residencias Belo Horizonte"
+        "texto": "La Guaira · Catia La Mar · Residencia oasis beach a la altura de playa grande"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque30j000gh3an0czr2f79g",
-      "nombre": "Romaira Ávila",
+      "id": "desaparecidosvenezuela:cmquen8bx00ha3an02bnoqzix",
+      "nombre": "Grisbel Malpica",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:46:31.404Z",
-      "edadAprox": 45,
+      "reportadoEn": "2026-06-26T04:02:14.637Z",
+      "edadAprox": 28,
       "ultimaUbicacion": {
-        "texto": "La Guaira"
+        "texto": "La Guaira · Catia La Mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque22se00gg3an08lrjyvv7",
-      "nombre": "Alejandro jose Ramirez pinto",
+      "id": "desaparecidosvenezuela:cmquem9ay00h93an0w7wz3r83",
+      "nombre": "Danny Herrera",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:45:47.678Z",
-      "edadAprox": 30,
+      "reportadoEn": "2026-06-26T04:01:29.242Z",
+      "edadAprox": 40,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · En un apartamento de macuto trabajando"
+        "texto": "La Guaira · La Guaira (centro)"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque1u5o00gf3an0nqzqdx6y",
-      "nombre": "Carlos Buegos",
+      "id": "desaparecidosvenezuela:cmquelxf700h83an0kw3xojg3",
+      "nombre": "Freddy Verdú",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:45:36.492Z",
-      "edadAprox": 51,
+      "reportadoEn": "2026-06-26T04:01:13.843Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Maiquetía · Edificio Cumanagoto"
+        "texto": "La Guaira · Naiguatá · Resd. Aguja Azul"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque1eif00ge3an06xv8x965",
-      "nombre": "Asmeli María Contreras Flores",
+      "id": "desaparecidosvenezuela:cmqueliih00h73an04ve13y5j",
+      "nombre": "Diego Lorenzo Gandica",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:45:16.215Z",
-      "edadAprox": 43,
+      "reportadoEn": "2026-06-26T04:00:54.521Z",
+      "edadAprox": 15,
       "ultimaUbicacion": {
-        "texto": "La Guaira"
+        "texto": "La Guaira · Caraballeda · Los corales"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque0thl00gd3an0i1unoh7b",
-      "nombre": "Edgar Medina Quintero",
+      "id": "desaparecidosvenezuela:cmquel93b00h63an0r2gc62yf",
+      "nombre": "luis algarin",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:44:48.969Z",
-      "edadAprox": 57,
+      "reportadoEn": "2026-06-26T04:00:42.311Z",
+      "edadAprox": 52,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto"
+        "texto": "La Guaira · La Guaira (centro) · residencia la gabarra"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque0r1a00gc3an03rb3wlsi",
-      "nombre": "Reinaldo José Farfan",
+      "id": "desaparecidosvenezuela:cmquejf2w00h53an00cospsn7",
+      "nombre": "edul siso",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:44:45.790Z",
-      "edadAprox": 57,
+      "reportadoEn": "2026-06-26T03:59:16.760Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Urb. Palmar Este"
+        "texto": "La Guaira · Caraballeda · edificio los corales"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmque037u00gb3an0syvhtw2x",
-      "nombre": "José Daniel López Romero",
+      "id": "desaparecidosvenezuela:cmqueid9q00h43an0q9si863o",
+      "nombre": "Mayra Alejandra Benavente de Isturiz",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:44:14.922Z",
-      "edadAprox": 37,
+      "reportadoEn": "2026-06-26T03:58:27.758Z",
+      "edadAprox": 48,
       "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Edificio justo donde se agarra bus para CCS"
+        "texto": "La Guaira · Tanaguarena- caribe"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqudzpz000ga3an0b5v54v7m",
-      "nombre": "Walter Javier Otero Sampayo y su familia",
+      "id": "desaparecidosvenezuela:cmquehb7p00h33an0cuqzsjsx",
+      "nombre": "Aidemar Gomez",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:43:57.756Z",
-      "edadAprox": 47,
+      "reportadoEn": "2026-06-26T03:57:38.437Z",
+      "edadAprox": 24,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Sector Los Corales Edif Residencias Ritasol Palace"
+        "texto": "La Guaira · Naiguatá"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqudzh3700g93an08z01lrj7",
-      "nombre": "Verónica Liendo López",
+      "id": "desaparecidosvenezuela:cmquefrvm00h23an0l96az6yf",
+      "nombre": "Luis alejandro algarin",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:43:46.243Z",
-      "edadAprox": 53,
+      "reportadoEn": "2026-06-26T03:56:26.722Z",
+      "edadAprox": 24,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Edf Tahití piso 9 frente a las Vic as as"
+        "texto": "La Guaira · residencia la gabarra"
       },
       "fuentes": [
         "desaparecidosvenezuela"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqudxb4j00g83an0x3tjvdtd",
-      "nombre": "Ana Bety Fernandes De Sousa y su familia",
+      "id": "desaparecidosvenezuela:cmqueetzn00h03an0kto25w1i",
+      "nombre": "Aura Barrios",
       "estado": "desaparecido",
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:42:05.203Z",
-      "edadAprox": 43,
+      "reportadoEn": "2026-06-26T03:55:42.803Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Sector Los Corales Edif Ritasol Palace"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqudwp6v00g73an0qmqseuia",
-      "nombre": "Anyer Gutiérrez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:41:36.775Z",
-      "edadAprox": 38,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Naiguatá · Los corales"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqudwn1100g63an02illzd2h",
-      "nombre": "Sheyla Guerra",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T03:41:33.973Z",
-      "edadAprox": 43,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Edif mansión Club"
+        "texto": "La Guaira · Macuto · Los corales"
       },
       "fuentes": [
         "desaparecidosvenezuela"
