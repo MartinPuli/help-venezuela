@@ -1,7 +1,64 @@
 {
-  "generadoEn": "2026-06-26T20:50:23.625Z",
+  "generadoEn": "2026-06-26T21:28:29.103Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
+      "nombre": "Luis Enrique Manrique",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T21:22:08.573Z",
+      "edadAprox": 68,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7",
+      "nombre": "Gervys Vasquez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T21:19:27.509Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau",
+      "nombre": "Lian González",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T21:16:43.467Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Maiquetía"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h",
+      "nombre": "María Correia",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T21:12:27.197Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Panadería la almendraba playa grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6",
       "nombre": "Luis hubrea",
@@ -227,64 +284,6 @@
       "reportadoEn": "2026-06-26T19:12:15.347Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Oppe33"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvaobye00xt3an0ytkfkjm4",
-      "nombre": "Ccvc Ccccv",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:58:53.702Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Ddd"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvan4fr00xs3an0xd02ds6s",
-      "nombre": "OLGA MATHEUS CANCHICA",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:57:57.303Z",
-      "edadAprox": 52,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · PLAYA GRANDE"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvagemb00xr3an0dtkyq52k",
-      "nombre": "OLIYIL MATHEUS CANCHICA",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:52:43.907Z",
-      "edadAprox": 60,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · PLAYA GRANDE RESIDENCIAS LOS CORSARIOS"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvafksa00xq3an0o97l5901",
-      "nombre": "Itzel Aranza Aillon silva",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T18:52:05.242Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Playa caribe Opp 27 torre A"
       },
       "fuentes": [
         "desaparecidosvenezuela"

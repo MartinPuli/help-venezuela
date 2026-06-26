@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T21:22:08.573Z</pfif:source_date>
+    <pfif:full_name>Luis Enrique Manrique</pfif:full_name>
+    <pfif:given_name>Luis</pfif:given_name>
+    <pfif:family_name>Enrique Manrique</pfif:family_name>
+    <pfif:age>68</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T21:22:08.573Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T21:19:27.509Z</pfif:source_date>
+    <pfif:full_name>Gervys Vasquez</pfif:full_name>
+    <pfif:given_name>Gervys</pfif:given_name>
+    <pfif:family_name>Vasquez</pfif:family_name>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T21:19:27.509Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T21:16:43.467Z</pfif:source_date>
+    <pfif:full_name>Lian González</pfif:full_name>
+    <pfif:given_name>Lian</pfif:given_name>
+    <pfif:family_name>González</pfif:family_name>
+    <pfif:home_city>La Guaira · Maiquetía</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T21:16:43.467Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T21:12:27.197Z</pfif:source_date>
+    <pfif:full_name>María Correia</pfif:full_name>
+    <pfif:given_name>María</pfif:given_name>
+    <pfif:family_name>Correia</pfif:family_name>
+    <pfif:home_city>La Guaira · Panadería la almendraba playa grande</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T21:12:27.197Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-26T20:33:11.395Z</pfif:source_date>
@@ -228,64 +285,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvb5iib00xu3an0kcqr6jvw</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-26T19:12:15.347Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvaobye00xt3an0ytkfkjm4</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T18:58:53.702Z</pfif:source_date>
-    <pfif:full_name>Ccvc Ccccv</pfif:full_name>
-    <pfif:given_name>Ccvc</pfif:given_name>
-    <pfif:family_name>Ccccv</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Ddd</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvaobye00xt3an0ytkfkjm4</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T18:58:53.702Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvan4fr00xs3an0xd02ds6s</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T18:57:57.303Z</pfif:source_date>
-    <pfif:full_name>OLGA MATHEUS CANCHICA</pfif:full_name>
-    <pfif:given_name>OLGA</pfif:given_name>
-    <pfif:family_name>MATHEUS CANCHICA</pfif:family_name>
-    <pfif:age>52</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · PLAYA GRANDE</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvan4fr00xs3an0xd02ds6s</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T18:57:57.303Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvagemb00xr3an0dtkyq52k</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T18:52:43.907Z</pfif:source_date>
-    <pfif:full_name>OLIYIL MATHEUS CANCHICA</pfif:full_name>
-    <pfif:given_name>OLIYIL</pfif:given_name>
-    <pfif:family_name>MATHEUS CANCHICA</pfif:family_name>
-    <pfif:age>60</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · PLAYA GRANDE RESIDENCIAS LOS CORSARIOS</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvagemb00xr3an0dtkyq52k</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T18:52:43.907Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvafksa00xq3an0o97l5901</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T18:52:05.242Z</pfif:source_date>
-    <pfif:full_name>Itzel Aranza Aillon silva</pfif:full_name>
-    <pfif:given_name>Itzel</pfif:given_name>
-    <pfif:family_name>Aranza Aillon silva</pfif:family_name>
-    <pfif:home_city>La Guaira · Playa caribe Opp 27 torre A</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvafksa00xq3an0o97l5901</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T18:52:05.242Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

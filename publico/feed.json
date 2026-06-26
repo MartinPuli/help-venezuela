@@ -1,7 +1,84 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-26T20:50:23.625Z",
+  "generado_en": "2026-06-26T21:28:29.103Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T21:22:08.573Z",
+      "full_name": "Luis Enrique Manrique",
+      "given_name": "Luis",
+      "family_name": "Enrique Manrique",
+      "age": "68",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T21:22:08.573Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T21:19:27.509Z",
+      "full_name": "Gervys Vasquez",
+      "given_name": "Gervys",
+      "family_name": "Vasquez",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T21:19:27.509Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T21:16:43.467Z",
+      "full_name": "Lian González",
+      "given_name": "Lian",
+      "family_name": "González",
+      "home_city": "La Guaira · Maiquetía",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T21:16:43.467Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T21:12:27.197Z",
+      "full_name": "María Correia",
+      "given_name": "María",
+      "family_name": "Correia",
+      "home_city": "La Guaira · Panadería la almendraba playa grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T21:12:27.197Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6",
       "source_name": "desaparecidosvenezuela",
@@ -307,84 +384,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T19:12:15.347Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvaobye00xt3an0ytkfkjm4",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T18:58:53.702Z",
-      "full_name": "Ccvc Ccccv",
-      "given_name": "Ccvc",
-      "family_name": "Ccccv",
-      "home_city": "La Guaira · La Guaira (centro) · Ddd",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvaobye00xt3an0ytkfkjm4",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T18:58:53.702Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvan4fr00xs3an0xd02ds6s",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T18:57:57.303Z",
-      "full_name": "OLGA MATHEUS CANCHICA",
-      "given_name": "OLGA",
-      "family_name": "MATHEUS CANCHICA",
-      "age": "52",
-      "home_city": "La Guaira · La Guaira (centro) · PLAYA GRANDE",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvan4fr00xs3an0xd02ds6s",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T18:57:57.303Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvagemb00xr3an0dtkyq52k",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T18:52:43.907Z",
-      "full_name": "OLIYIL MATHEUS CANCHICA",
-      "given_name": "OLIYIL",
-      "family_name": "MATHEUS CANCHICA",
-      "age": "60",
-      "home_city": "La Guaira · La Guaira (centro) · PLAYA GRANDE RESIDENCIAS LOS CORSARIOS",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvagemb00xr3an0dtkyq52k",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T18:52:43.907Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvafksa00xq3an0o97l5901",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T18:52:05.242Z",
-      "full_name": "Itzel Aranza Aillon silva",
-      "given_name": "Itzel",
-      "family_name": "Aranza Aillon silva",
-      "home_city": "La Guaira · Playa caribe Opp 27 torre A",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvafksa00xq3an0o97l5901",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T18:52:05.242Z"
         }
       ],
       "x_confianza": "baja",
