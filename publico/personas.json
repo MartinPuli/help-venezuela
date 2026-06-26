@@ -1,7 +1,109 @@
 {
-  "generadoEn": "2026-06-26T17:52:07.620Z",
-  "total": 96,
+  "generadoEn": "2026-06-26T18:34:18.583Z",
+  "total": 97,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqv90kvh00xi3an0ec89vpzc",
+      "nombre": "Romellys Hernandez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:12:25.901Z",
+      "edadAprox": 58,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · punta piedra"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqv8tbuk00xh3an00ejrblmr",
+      "nombre": "Dionisio Aguilarte",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:06:47.612Z",
+      "edadAprox": 47,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencias caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqv8qj3i00xg3an0qz10pz75",
+      "nombre": "Hector Neda",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:04:37.038Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Punta Piedra apto 5 Macuto"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqv8nx2800xf3an0udn32huq",
+      "nombre": "Natali karolaynn Azuaje avella",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:02:35.169Z",
+      "edadAprox": 30,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Res Gradisca"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqv8lg6l00xe3an0qie7b7hh",
+      "nombre": "María Zambrano Valero",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T18:00:39.981Z",
+      "edadAprox": 30,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Por el aeropuerto"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqv8d7dl00xd3an01ycob1y2",
+      "nombre": "Williany Coromoto Delgado Rodríguez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T17:54:15.321Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqv8cxv700xc3an036nfcg0h",
+      "nombre": "Levis Rondón",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T17:54:02.995Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Naiguatá"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqv8a8ei00xb3an00brjimdl",
       "nombre": "Fredi Rojas",
@@ -197,106 +299,17 @@
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqv6eaog00wy3an0z1fp2fb8",
-      "nombre": "Isabel Ocando",
+      "id": "terremotovenezuela-app:04db8abf-eeb6-4928-a7b3-db703abb2022",
+      "nombre": "Julián Antonio bellorin es claro no muy oscuro cabello oscuro ojos claros de 1.7",
       "estado": "desaparecido",
       "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T16:59:07.024Z",
+      "fuente": "terremotovenezuela-app",
+      "reportadoEn": "2026-06-26T18:14:21.660Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira"
+        "texto": "La guaira"
       },
       "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv62t2n00wx3an0nc1035x9",
-      "nombre": "Gustavo Ruiz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T16:50:10.991Z",
-      "edadAprox": 56,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv5vi0q00ww3an0enmqn1xx",
-      "nombre": "Edward arian López Guevara",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T16:44:30.074Z",
-      "edadAprox": 16,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv5kwj000wv3an074p60yfu",
-      "nombre": "Yenderlin Caborca",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T16:36:15.660Z",
-      "edadAprox": 13,
-      "ultimaUbicacion": {
-        "texto": "Distrito Capital · Caracas"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv5ft5q00wu3an0f4konepr",
-      "nombre": "Alfredo Quintero",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T16:32:18.014Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv59aek00wt3an0c9qd8a7b",
-      "nombre": "María de los Ángeles Avendaño",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T16:27:13.772Z",
-      "edadAprox": 19,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · VistaMar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqv590bi00ws3an0343icdd8",
-      "nombre": "Albert Medina",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T16:27:00.703Z",
-      "edadAprox": 36,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caribe, la Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
+        "terremotovenezuela-app"
       ]
     },
     {
