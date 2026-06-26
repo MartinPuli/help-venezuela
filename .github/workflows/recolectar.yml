@@ -39,8 +39,10 @@ jobs:
         with:
           node-version: 20
 
-      - name: Recolectar y cruzar
+      - name: Recolectar y cruzar (con fuentes reales)
         run: node scripts/recolectar.js
+        env:
+          HABILITAR_FUENTES_REALES: '1'
 
       - name: Commitear feed unificado si cambio
         run: |

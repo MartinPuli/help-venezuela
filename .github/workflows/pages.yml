@@ -31,8 +31,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Construir sitio estatico
+      - name: Construir sitio estatico (con fuentes reales)
         run: node scripts/build-pages.js
+        env:
+          HABILITAR_FUENTES_REALES: '1'
       - name: Configurar Pages
         uses: actions/configure-pages@v5
         with:

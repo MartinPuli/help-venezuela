@@ -2,19 +2,24 @@
 /**
  * Genera el sitio estatico para GitHub Pages en `sitio/`.
  *
- * Como Pages no tiene servidor, dejamos:
- *   index.html        la pagina (misma de web/, con fallback de busqueda en cliente)
- *   personas.json     listado unificado y redactado
- *   feed.json         feed PFIF
- *   buscar-demo.json  dataset SINTETICO para la busqueda del lado del cliente
- *   .nojekyll         para que Pages no ignore archivos
+ * Con HABILITAR_FUENTES_REALES=1 trae datos REALES de las fuentes con feed
+ * (desaparecidosvenezuela.com, terremotovenezuela.app, encuentralos...),
+ * los cruza/deduplica y publica el listado REDACTADO. Si no hay datos reales
+ * (flag apagado o fuentes caidas), cae a los datos de EJEMPLO (modo demo).
  *
- * Los datos son los de EJEMPLO (sinteticos): es una DEMO.
+ * Salidas:
+ *   index.html      la pagina
+ *   personas.json   { modo, generadoEn, total, personas }  (redactado)
+ *   feed.json       feed PFIF
+ *   .nojekyll
+ *
+ * NUNCA se publican: contacto, cedula completa, coordenadas exactas, fotos.
  */
 
 import { mkdir, writeFile, copyFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { cargarFuentes } from '../fuentes/registro.js';
 import { recolectar, adaptadorJSON, normalizarCrudo } from '../src/fuentes.js';
 import { cruzar } from '../src/cruce.js';
 import { aPfifJson } from '../src/pfif.js';
@@ -26,11 +31,38 @@ import {
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SALIDA = join(RAIZ, 'sitio');
 
-const registros = await recolectar([
-  adaptadorJSON('sos-venezuela', async () => crudosSosVenezuela),
-  adaptadorJSON('scraper-propio', async () => crudosScraperPropio),
-  { id: 'terremoto-app', obtenerCrudos: async () => crudosTerremotoApp, normalizar: (c) => normalizarCrudo(c, 'terremoto-app', mapaTerremotoApp) },
-]);
+async function recolectarReal() {
+  const fuentes = await cargarFuentes();
+  const registros = await recolectar(fuentes);
+  // El registro "comunidad" (personas/) puede traer ejemplos; lo consideramos
+  // real si hay datos de adaptadores externos. Contamos > la sola comunidad.
+  const deExternas = registros.filter((r) => r.fuente !== 'comunidad');
+  return { registros, hayReal: deExternas.length > 0 };
+}
+
+async function recolectarEjemplo() {
+  return recolectar([
+    adaptadorJSON('sos-venezuela', async () => crudosSosVenezuela),
+    adaptadorJSON('scraper-propio', async () => crudosScraperPropio),
+    { id: 'terremoto-app', obtenerCrudos: async () => crudosTerremotoApp, normalizar: (c) => normalizarCrudo(c, 'terremoto-app', mapaTerremotoApp) },
+  ]);
+}
+
+const generadoEn = new Date().toISOString();
+
+let registros = [];
+let modo = 'demo';
+try {
+  const real = await recolectarReal();
+  if (real.hayReal) { registros = real.registros; modo = 'real'; }
+} catch (e) {
+  console.warn('[build-pages] recoleccion real fallo:', e.message);
+}
+if (modo !== 'real') {
+  registros = await recolectarEjemplo();
+  modo = 'demo';
+}
+
 const { clusters } = cruzar(registros);
 
 await mkdir(SALIDA, { recursive: true });
@@ -40,14 +72,9 @@ await writeFile(join(SALIDA, '.nojekyll'), '');
 const personas = clusters.map((r) => ({
   ...redactarRegistro(r, 'publico'),
   fuentes: /** @type {any} */ (r).fuentes ?? [r.fuente],
+  urlOrigen: r.urlOrigen, // enlace a la fuente (no es dato sensible)
 }));
-await writeFile(join(SALIDA, 'personas.json'), JSON.stringify({ total: personas.length, personas }, null, 2));
-await writeFile(join(SALIDA, 'feed.json'), JSON.stringify(aPfifJson(clusters, { publico: true }), null, 2));
+await writeFile(join(SALIDA, 'personas.json'), JSON.stringify({ modo, generadoEn, total: personas.length, personas }, null, 2));
+await writeFile(join(SALIDA, 'feed.json'), JSON.stringify(aPfifJson(clusters, { publico: true, generadoEn }), null, 2));
 
-// Dataset de busqueda (SINTETICO): cedula completa de ejemplo + nombre para el gate.
-const buscarDemo = registros
-  .filter((r) => r.cedula)
-  .map((r) => ({ cedula: r.cedula, nombre: r.nombre, edadAprox: r.edadAprox, estado: r.estado }));
-await writeFile(join(SALIDA, 'buscar-demo.json'), JSON.stringify(buscarDemo, null, 2));
-
-console.log(`[build-pages] sitio/ generado: ${personas.length} personas, ${buscarDemo.length} buscables.`);
+console.log(`[build-pages] sitio/ generado: modo=${modo}, ${personas.length} personas (de ${registros.length} reportes crudos).`);

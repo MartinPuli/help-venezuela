@@ -4,213 +4,250 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cruce de Desaparecidos · Terremoto Venezuela 2026</title>
+  <meta name="description" content="Buscador unificado de personas desaparecidas del terremoto de Venezuela 2026. Cruza y deduplica reportes de múltiples fuentes." />
   <style>
     :root {
-      --bg: #0f1419; --panel: #1a2027; --borde: #2a333d; --texto: #e6edf3;
-      --tenue: #8b98a5; --acento: #ffcc4d; --rojo: #e5534b; --verde: #3fb950;
-      --naranja: #db8c2b; --azul: #4493f8;
+      --bg:#0b0f14; --bg2:#0f141b; --panel:#151c25; --panel2:#1b2430; --borde:#243042;
+      --texto:#e8eef5; --tenue:#93a1b1; --muy-tenue:#5e6b7a;
+      --amarillo:#ffd24d; --azul:#4f9cf9; --rojo:#f0625a; --verde:#41c277; --naranja:#e8932e; --violeta:#a98bff;
     }
-    * { box-sizing: border-box; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
     body {
-      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background: var(--bg); color: var(--texto); line-height: 1.5;
+      margin:0; background:var(--bg); color:var(--texto);
+      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      line-height:1.55; -webkit-font-smoothing:antialiased;
     }
+    a { color:var(--azul); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    /* Barra superior bandera */
+    .bandera { height:4px; background:linear-gradient(90deg,#ffd24d 0 33%,#1565d8 33% 66%,#e5453b 66% 100%); }
+
     header {
-      padding: 20px 24px; border-bottom: 1px solid var(--borde);
-      background: linear-gradient(180deg, #161d26, #0f1419);
+      position:sticky; top:0; z-index:20; backdrop-filter:blur(10px);
+      background:rgba(11,15,20,.82); border-bottom:1px solid var(--borde);
     }
-    header h1 { margin: 0 0 4px; font-size: 20px; }
-    header p { margin: 0; color: var(--tenue); font-size: 14px; }
-    .badge-fuente {
-      display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px;
-      background: #21303f; color: var(--azul); margin: 1px 3px 1px 0; border: 1px solid #2c4257;
+    .head-in { max-width:1080px; margin:0 auto; padding:14px 20px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+    .logo { font-size:20px; font-weight:800; letter-spacing:-.02em; display:flex; align-items:center; gap:9px; }
+    .logo .dot { width:9px; height:9px; border-radius:50%; background:var(--rojo); box-shadow:0 0 0 4px rgba(240,98,90,.18); animation:pulso 2s infinite; }
+    @keyframes pulso { 0%,100%{opacity:1} 50%{opacity:.45} }
+    .head-meta { margin-left:auto; font-size:12.5px; color:var(--tenue); text-align:right; }
+    .head-meta b { color:var(--texto); }
+
+    .hero { background:radial-gradient(1200px 380px at 50% -120px, rgba(79,156,249,.12), transparent), var(--bg); }
+    .hero-in { max-width:1080px; margin:0 auto; padding:30px 20px 8px; }
+    .hero h1 { margin:0 0 6px; font-size:26px; letter-spacing:-.02em; }
+    .hero p { margin:0; color:var(--tenue); max-width:680px; }
+
+    .aviso {
+      max-width:1080px; margin:18px auto 0; padding:11px 16px; border-radius:10px;
+      background:rgba(232,147,46,.10); border:1px solid rgba(232,147,46,.35); color:#f3c98a;
+      font-size:13px; display:flex; gap:9px; align-items:flex-start;
     }
-    main { max-width: 920px; margin: 0 auto; padding: 24px; }
-    .stats { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
-    .stat {
-      flex: 1; min-width: 130px; background: var(--panel); border: 1px solid var(--borde);
-      border-radius: 10px; padding: 14px 16px;
-    }
-    .stat .n { font-size: 26px; font-weight: 700; }
-    .stat .l { font-size: 12px; color: var(--tenue); text-transform: uppercase; letter-spacing: .04em; }
-    .buscador {
-      background: var(--panel); border: 1px solid var(--borde); border-radius: 12px;
-      padding: 18px; margin-bottom: 24px;
-    }
-    .buscador h2 { margin: 0 0 4px; font-size: 16px; }
-    .buscador .nota { color: var(--tenue); font-size: 13px; margin: 0 0 12px; }
-    .fila { display: flex; gap: 10px; flex-wrap: wrap; }
-    input {
-      flex: 1; min-width: 140px; padding: 10px 12px; border-radius: 8px;
-      border: 1px solid var(--borde); background: #0d1117; color: var(--texto); font-size: 14px;
-    }
-    button {
-      padding: 10px 18px; border-radius: 8px; border: none; cursor: pointer;
-      background: var(--acento); color: #1a1200; font-weight: 600; font-size: 14px;
-    }
-    button:hover { filter: brightness(1.08); }
-    #resultado { margin-top: 14px; font-size: 14px; }
-    .card {
-      background: var(--panel); border: 1px solid var(--borde); border-radius: 10px;
-      padding: 14px 16px; margin-bottom: 10px; display: flex; justify-content: space-between; gap: 12px;
-    }
-    .card .nombre { font-weight: 600; }
-    .card .meta { color: var(--tenue); font-size: 13px; margin-top: 2px; }
-    .estado {
-      font-size: 12px; padding: 3px 10px; border-radius: 12px; white-space: nowrap; height: fit-content;
-      font-weight: 600;
-    }
-    .estado.desaparecido { background: #3a2a1a; color: var(--naranja); border: 1px solid #5a3f24; }
-    .estado.visto_no_confirmado { background: #2a2f1a; color: var(--acento); border: 1px solid #4a4424; }
-    .estado.localizado_a_salvo { background: #16301d; color: var(--verde); border: 1px solid #235c33; }
-    .estado.fallecido_confirmado { background: #301818; color: var(--rojo); border: 1px solid #5c2323; }
-    .seccion-titulo { font-size: 13px; color: var(--tenue); text-transform: uppercase; letter-spacing: .05em; margin: 6px 0 12px; }
-    footer { color: var(--tenue); font-size: 12px; text-align: center; padding: 24px; }
-    code { background: #0d1117; padding: 1px 5px; border-radius: 4px; color: var(--acento); }
-    .conexion { background:#11202e; border:1px solid #21405a; border-radius:8px; padding:10px 14px; font-size:13px; color:#9fc7ef; margin-bottom:24px;}
+    .aviso b { color:var(--amarillo); }
+
+    .stats { max-width:1080px; margin:18px auto 0; padding:0 20px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .stat { background:linear-gradient(180deg,var(--panel),var(--bg2)); border:1px solid var(--borde); border-radius:14px; padding:16px 18px; }
+    .stat .n { font-size:30px; font-weight:800; letter-spacing:-.03em; line-height:1; }
+    .stat .l { font-size:11.5px; color:var(--tenue); text-transform:uppercase; letter-spacing:.05em; margin-top:7px; }
+    .stat.s-desap .n { color:var(--naranja); } .stat.s-loc .n { color:var(--verde); } .stat.s-fuentes .n { color:var(--azul); }
+
+    main { max-width:1080px; margin:0 auto; padding:24px 20px 60px; }
+
+    .toolbar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:18px; }
+    .buscar { flex:1; min-width:220px; position:relative; }
+    .buscar input { width:100%; padding:12px 14px 12px 40px; border-radius:11px; border:1px solid var(--borde);
+      background:var(--panel); color:var(--texto); font-size:14.5px; }
+    .buscar input:focus { outline:none; border-color:var(--azul); box-shadow:0 0 0 3px rgba(79,156,249,.18); }
+    .buscar .ico { position:absolute; left:13px; top:50%; transform:translateY(-50%); color:var(--muy-tenue); }
+    .chips { display:flex; gap:7px; flex-wrap:wrap; }
+    .chip { padding:8px 13px; border-radius:999px; border:1px solid var(--borde); background:var(--panel);
+      color:var(--tenue); font-size:13px; cursor:pointer; transition:.15s; user-select:none; }
+    .chip:hover { border-color:var(--azul); color:var(--texto); }
+    .chip.activo { background:var(--azul); border-color:var(--azul); color:#06121f; font-weight:700; }
+
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; }
+    .card { background:linear-gradient(180deg,var(--panel),var(--bg2)); border:1px solid var(--borde); border-radius:14px;
+      padding:15px 16px; display:flex; flex-direction:column; gap:9px; transition:.15s; }
+    .card:hover { border-color:#33445c; transform:translateY(-1px); }
+    .card-top { display:flex; justify-content:space-between; gap:10px; align-items:flex-start; }
+    .nombre { font-weight:700; font-size:15.5px; letter-spacing:-.01em; }
+    .meta { color:var(--tenue); font-size:13px; }
+    .meta .sep { color:var(--muy-tenue); margin:0 5px; }
+    .fuentes { display:flex; gap:5px; flex-wrap:wrap; margin-top:2px; }
+    .fbadge { font-size:10.5px; padding:2px 8px; border-radius:999px; background:#1d2b3b; color:var(--azul); border:1px solid #2a3b50; }
+    .estado { font-size:11px; font-weight:700; padding:4px 11px; border-radius:999px; white-space:nowrap; height:fit-content; }
+    .e-desaparecido { background:rgba(232,147,46,.14); color:var(--naranja); border:1px solid rgba(232,147,46,.4); }
+    .e-visto_no_confirmado { background:rgba(255,210,77,.14); color:var(--amarillo); border:1px solid rgba(255,210,77,.4); }
+    .e-localizado_a_salvo { background:rgba(65,194,119,.14); color:var(--verde); border:1px solid rgba(65,194,119,.4); }
+    .e-fallecido_confirmado { background:rgba(240,98,90,.14); color:var(--rojo); border:1px solid rgba(240,98,90,.4); }
+    .verfuente { font-size:12px; margin-top:2px; }
+
+    .vacio { text-align:center; color:var(--tenue); padding:50px 20px; border:1px dashed var(--borde); border-radius:14px; }
+    .cargando { text-align:center; color:var(--tenue); padding:40px; }
+
+    .conexion { font-family:ui-monospace,Menlo,monospace; font-size:11.5px; color:var(--muy-tenue); margin-top:8px; }
+    .conexion b { color:var(--tenue); }
+
+    footer { border-top:1px solid var(--borde); background:var(--bg2); }
+    .foot-in { max-width:1080px; margin:0 auto; padding:24px 20px; color:var(--tenue); font-size:13px; display:flex; gap:24px; flex-wrap:wrap; justify-content:space-between; }
+    .foot-in h4 { margin:0 0 8px; color:var(--texto); font-size:13px; }
+    .foot-in ul { margin:0; padding-left:16px; }
+
+    @media (max-width:680px){ .stats{grid-template-columns:repeat(2,1fr)} .hero h1{font-size:22px} }
   </style>
 </head>
 <body>
-  <div style="background:#3a2a1a;color:#ffcc4d;text-align:center;padding:7px;font-size:13px;font-weight:600;border-bottom:1px solid #5a3f24;">
-    ⚠️ DEMO — datos de ejemplo (sintéticos). No son personas reales.
-  </div>
+  <div class="bandera"></div>
+
   <header>
-    <h1>🔎 Cruce de Desaparecidos — Terremoto Venezuela 2026</h1>
-    <p>Datos unificados de todas las fuentes. Buscá una persona por cédula o mirá el listado.</p>
+    <div class="head-in">
+      <div class="logo"><span class="dot"></span> Cruce de Desaparecidos</div>
+      <div class="head-meta">
+        <div id="head-modo">cargando…</div>
+        <div id="head-actualizado"></div>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <div class="conexion">
-      <strong>Conectada a:</strong> <code id="apiBase">/</code> ·
-      feed <code>/feed.json</code> · búsqueda <code>/buscar</code> · listado <code>/personas.json</code>
+  <section class="hero">
+    <div class="hero-in">
+      <h1>Personas desaparecidas — Terremoto de Venezuela 2026</h1>
+      <p>Buscador <strong>unificado</strong>: cruza y deduplica los reportes de varias plataformas para que no tengas que revisar sitio por sitio. Si una persona está reportada en más de una fuente, aparece una sola vez.</p>
+    </div>
+
+    <div class="aviso">
+      <span>⚠️</span>
+      <span id="aviso-texto"><b>Datos agregados de fuentes públicas, sin verificación oficial.</b> Pueden contener errores o duplicados. El estado “localizado”/“fallecido” solo lo confirma un voluntario. Verificá siempre en la fuente original.</span>
     </div>
 
     <div class="stats" id="stats"></div>
+  </section>
 
-    <div class="buscador">
-      <h2>Buscar por cédula</h2>
-      <p class="nota">Por privacidad, además de la cédula tenés que aportar el <strong>apellido</strong> o la fecha de nacimiento.</p>
-      <div class="fila">
-        <input id="cedula" placeholder="Cédula (ej. V-12.345.678)" />
-        <input id="apellido" placeholder="Apellido" />
-        <button onclick="buscar()">Buscar</button>
+  <main>
+    <div class="toolbar">
+      <div class="buscar">
+        <span class="ico">🔎</span>
+        <input id="q" type="search" placeholder="Buscar por nombre o zona…" oninput="render()" />
       </div>
-      <div id="resultado"></div>
+      <div class="chips" id="filtros"></div>
     </div>
 
-    <div class="seccion-titulo">Personas reportadas (unificadas)</div>
-    <div id="listado"></div>
+    <div id="lista" class="cargando">Cargando reportes…</div>
+    <div class="conexion">Conectado a <b id="origen"></b> · feed <b>/feed.json</b> (PFIF)</div>
   </main>
 
   <footer>
-    Capa open source de cruce · solo datos redactados · el estado lo confirma un voluntario humano.
+    <div class="foot-in">
+      <div style="max-width:420px">
+        <h4>Sobre esta página</h4>
+        Capa open source que unifica reportes de desaparecidos. Solo se muestran datos
+        redactados (sin contacto, cédula completa ni ubicación exacta). El código y el
+        <a href="https://github.com/MartinPuli/help-venezuela">catálogo de fuentes</a> son públicos.
+      </div>
+      <div>
+        <h4>Fuentes</h4>
+        <ul id="foot-fuentes"><li>cargando…</li></ul>
+      </div>
+    </div>
   </footer>
 
   <script>
-    // === AQUI SE CONECTA LA PAGINA AL MOTOR DE CRUCE ===
-    // Rutas RELATIVAS: funciona servida por el servidor (/) o por GitHub Pages (/help-venezuela/).
-    document.getElementById('apiBase').textContent = location.origin + location.pathname;
-    let datosBusquedaDemo = null;
+    document.getElementById('origen').textContent = location.origin + location.pathname;
 
+    const ESTADOS = [
+      { k:'todos', label:'Todos' },
+      { k:'desaparecido', label:'Desaparecidos' },
+      { k:'visto_no_confirmado', label:'Vistos' },
+      { k:'localizado_a_salvo', label:'Localizados' },
+      { k:'fallecido_confirmado', label:'Fallecidos' },
+    ];
     const ESTADO_LABEL = {
-      desaparecido: 'Desaparecido', visto_no_confirmado: 'Visto (sin confirmar)',
-      localizado_a_salvo: 'Localizado a salvo', fallecido_confirmado: 'Fallecido',
+      desaparecido:'Desaparecido', visto_no_confirmado:'Visto (sin confirmar)',
+      localizado_a_salvo:'Localizado a salvo', fallecido_confirmado:'Fallecido',
     };
+    let PERSONAS = [];
+    let filtroEstado = 'todos';
 
-    async function cargar() {
-      try {
-        const [salud, personas] = await Promise.all([
-          fetch('salud').then(r => r.ok ? r.json() : null).catch(() => null),
-          fetch('personas.json').then(r => r.json()).catch(() => ({ personas: [] })),
-        ]);
-        pintarStats(personas.personas || [], salud);
-        pintarListado(personas.personas || []);
-      } catch (e) {
-        document.getElementById('listado').innerHTML = '<p style="color:var(--rojo)">No se pudo conectar al motor de cruce.</p>';
+    function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+    function norm(s){ return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
+
+    async function cargar(){
+      let data = { personas:[], modo:'demo' };
+      try { data = await fetch('personas.json').then(r=>r.json()); } catch(e){}
+      PERSONAS = data.personas || [];
+      pintarModo(data);
+      pintarStats();
+      pintarFiltros();
+      pintarFuentes();
+      render();
+    }
+
+    function pintarModo(data){
+      const real = data.modo === 'real';
+      document.getElementById('head-modo').innerHTML = real
+        ? '🟢 <b>Datos reales</b>'
+        : '🟡 <b>DEMO</b> (ejemplo)';
+      if (data.generadoEn){
+        const d = new Date(data.generadoEn);
+        document.getElementById('head-actualizado').textContent = 'actualizado ' + d.toLocaleString('es-VE',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+      }
+      if (!real){
+        document.getElementById('aviso-texto').innerHTML = '<b>DEMO — datos de ejemplo (sintéticos).</b> No son personas reales; sirve para mostrar cómo funciona el cruce.';
       }
     }
 
-    function pintarStats(personas, salud) {
-      const porEstado = {};
-      for (const p of personas) porEstado[p.estado] = (porEstado[p.estado] || 0) + 1;
-      const stats = [
-        { n: personas.length, l: 'Personas unificadas' },
-        { n: porEstado.desaparecido || 0, l: 'Desaparecidos' },
-        { n: porEstado.localizado_a_salvo || 0, l: 'Localizados' },
-        { n: (salud && salud.registros) || personas.length, l: 'Reportes crudos' },
+    function pintarStats(){
+      const c = {}; for (const p of PERSONAS) c[p.estado]=(c[p.estado]||0)+1;
+      const fuentes = new Set(); for (const p of PERSONAS) (p.fuentes||[]).forEach(f=>fuentes.add(f));
+      const cards = [
+        { n:PERSONAS.length, l:'Personas unificadas', cls:'' },
+        { n:c.desaparecido||0, l:'Desaparecidos', cls:'s-desap' },
+        { n:c.localizado_a_salvo||0, l:'Localizados', cls:'s-loc' },
+        { n:fuentes.size||0, l:'Fuentes cruzadas', cls:'s-fuentes' },
       ];
-      document.getElementById('stats').innerHTML = stats.map(s =>
-        `<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join('');
+      document.getElementById('stats').innerHTML = cards.map(s=>
+        `<div class="stat ${s.cls}"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join('');
     }
 
-    function pintarListado(personas) {
-      if (!personas.length) {
-        document.getElementById('listado').innerHTML = '<p style="color:var(--tenue)">Sin personas todavía.</p>';
-        return;
-      }
-      document.getElementById('listado').innerHTML = personas.map(p => `
-        <div class="card">
-          <div>
-            <div class="nombre">${escapar(p.nombre)}</div>
-            <div class="meta">
-              ${p.edadAprox ? p.edadAprox + ' años · ' : ''}
-              ${p.ultimaUbicacion && p.ultimaUbicacion.texto ? escapar(p.ultimaUbicacion.texto) : 'ubicación s/d'}
-            </div>
-            <div style="margin-top:6px">${(p.fuentes || []).map(f => `<span class="badge-fuente">${escapar(f)}</span>`).join('')}</div>
+    function pintarFiltros(){
+      document.getElementById('filtros').innerHTML = ESTADOS.map(e=>
+        `<span class="chip ${e.k===filtroEstado?'activo':''}" onclick="setFiltro('${e.k}')">${e.label}</span>`).join('');
+    }
+    function setFiltro(k){ filtroEstado=k; pintarFiltros(); render(); }
+
+    function pintarFuentes(){
+      const f = new Set(); for (const p of PERSONAS) (p.fuentes||[]).forEach(x=>f.add(x));
+      const ul = document.getElementById('foot-fuentes');
+      ul.innerHTML = f.size ? [...f].map(x=>`<li>${esc(x)}</li>`).join('') : '<li>—</li>';
+    }
+
+    function render(){
+      const q = norm(document.getElementById('q').value);
+      let items = PERSONAS;
+      if (filtroEstado!=='todos') items = items.filter(p=>p.estado===filtroEstado);
+      if (q) items = items.filter(p => norm(p.nombre).includes(q) || norm(p.ultimaUbicacion && p.ultimaUbicacion.texto).includes(q));
+
+      const cont = document.getElementById('lista');
+      if (!items.length){ cont.className='vacio'; cont.innerHTML = PERSONAS.length ? 'Sin resultados para ese filtro.' : 'Todavía no hay reportes cargados.'; return; }
+      cont.className='grid';
+      cont.innerHTML = items.map(p=>{
+        const ubic = p.ultimaUbicacion && p.ultimaUbicacion.texto ? esc(p.ultimaUbicacion.texto) : 'ubicación s/d';
+        const edad = p.edadAprox ? `${p.edadAprox} años<span class="sep">·</span>` : '';
+        const chips = (p.fuentes||[p.fuente]).filter(Boolean).map(f=>`<span class="fbadge">${esc(f)}</span>`).join('');
+        const link = p.urlOrigen ? `<a class="verfuente" href="${esc(p.urlOrigen)}" target="_blank" rel="noopener">ver en la fuente ↗</a>` : '';
+        return `<div class="card">
+          <div class="card-top">
+            <div class="nombre">${esc(p.nombre)}</div>
+            <span class="estado e-${p.estado}">${ESTADO_LABEL[p.estado]||p.estado}</span>
           </div>
-          <div class="estado ${p.estado}">${ESTADO_LABEL[p.estado] || p.estado}</div>
-        </div>`).join('');
+          <div class="meta">${edad}${ubic}</div>
+          <div class="fuentes">${chips}</div>
+          ${link}
+        </div>`;
+      }).join('');
     }
-
-    async function buscar() {
-      const cedula = document.getElementById('cedula').value.trim();
-      const apellido = document.getElementById('apellido').value.trim();
-      const div = document.getElementById('resultado');
-      if (!cedula) { div.textContent = 'Ingresá una cédula.'; return; }
-      div.textContent = 'Buscando...';
-      const q = new URLSearchParams({ cedula, apellido });
-
-      // 1) Intenta el servidor de cruce (API real con gate de privacidad).
-      let r = null;
-      try {
-        const resp = await fetch('buscar?' + q);
-        const ct = resp.headers.get('content-type') || '';
-        if (resp.ok && ct.includes('application/json')) r = await resp.json();
-      } catch (e) { /* sin API: caemos al modo estatico */ }
-
-      // 2) Modo estatico (GitHub Pages): la busqueda corre del lado del cliente
-      //    sobre los datos de ejemplo, aplicando el MISMO gate de segundo factor.
-      if (!r) r = await buscarEstatico(cedula, apellido);
-
-      if (!r.encontrado) { div.innerHTML = '<span style="color:var(--tenue)">Sin coincidencias.</span>'; return; }
-      if (!r.autorizado) { div.innerHTML = '<span style="color:var(--acento)">⚠️ ' + escapar(r.mensaje || 'Aportá el apellido o la fecha de nacimiento.') + '</span>'; return; }
-      const p = r.registro;
-      div.innerHTML = `<div class="card"><div>
-          <div class="nombre">${escapar(p.nombre)}</div>
-          <div class="meta">${p.cedula ? 'Cédula ' + escapar(p.cedula) + ' · ' : ''}${p.edadAprox ? p.edadAprox + ' años' : ''}</div>
-        </div><div class="estado ${p.estado}">${ESTADO_LABEL[p.estado] || p.estado}</div></div>`;
-    }
-
-    function normTexto(s) { return String(s == null ? '' : s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
-    function normCed(s) { return String(s || '').replace(/\D/g, '').replace(/^0+/, ''); }
-
-    async function buscarEstatico(cedula, apellido) {
-      if (!datosBusquedaDemo) {
-        try { datosBusquedaDemo = await fetch('buscar-demo.json').then(r => r.json()); }
-        catch (e) { datosBusquedaDemo = []; }
-      }
-      const ced = normCed(cedula);
-      const matches = datosBusquedaDemo.filter(r => normCed(r.cedula) === ced && ced);
-      if (!matches.length) return { encontrado: false };
-      const ap = normTexto(apellido).trim();
-      const ok = ap && matches.some(r => normTexto(r.nombre).split(/\s+/).includes(ap));
-      if (!ok) return { encontrado: true, autorizado: false, mensaje: 'Aportá el apellido o la fecha de nacimiento de la persona para ver el resultado completo.' };
-      const r = matches[0];
-      const cedMask = '*****' + normCed(r.cedula).slice(-3);
-      return { encontrado: true, autorizado: true, registro: { nombre: r.nombre, cedula: cedMask, edadAprox: r.edadAprox, estado: r.estado } };
-    }
-
-    function escapar(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
     cargar();
   </script>
