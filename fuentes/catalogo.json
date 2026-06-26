@@ -1,0 +1,1266 @@
+{
+  "resumen": "65 fuentes verificadas y deduplicadas. Por tipo: web=7, agregador=8, ong=7, oficial=13, cruz_roja=5, medio=16, app=1, red_social=3, mensajeria=1, otro=1, hospital=2, foro=1. Con API/feed automatizable: 8. Sospechosas de scam: 2.",
+  "fuentes": [
+    {
+      "nombre": "Desaparecidos Terremoto Venezuela",
+      "url": "https://desaparecidosterremotovenezuela.com/",
+      "url_api_o_feed": "",
+      "tipo": "web",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre completo",
+        "ultima ubicacion conocida",
+        "estado (sin contacto / localizado)"
+      ],
+      "descripcion": "Plataforma ciudadana para reportar y buscar personas tras el terremoto del 24-jun-2026. Permite registrar a familiares sin contacto y confirmar localizados. Es la que mas registros acumula (~40.223 reportados, ~37.380 sin contacto y ~2.843 localizados segun El Colombiano/diariolasamericas al 25-jun). Confirmada en vivo via WebFetch.",
+      "notas": "VERIFICADA. Existencia y volumen corroborados por El Colombiano, El Nacional, Canal26, diariolasamericas. Creada de forma voluntaria por venezolanos dentro y fuera del pais; explicitamente NO solicita ni gestiona dinero/donaciones/ayudas; apartidista y gratuita. Recopila campos MINIMOS (solo nombre + ultima ubicacion segun el propio sitio), mas pobre para deduplicacion que otras (la candidata listaba foto/descripcion/contacto que la pagina ya no expone claramente; corregido a minimo confirmado). Soporte: developer@theempire.tech. CORRECCION DE ACCESO: probe /api/personas, /api/reportes, /api/desaparecidos, /api/data -> todas devuelven HTTP 301 (redireccion, sin JSON abierto); /data.json -> 404. No hay feed JSON publico ingerible; por ahora solo HTML. Sin moderacion/verificacion (medios advierten riesgo de datos falsos/duplicados)."
+    },
+    {
+      "nombre": "Desaparecidos Venezuela (desaparecidosvenezuela.com)",
+      "url": "https://www.desaparecidosvenezuela.com/",
+      "url_api_o_feed": "https://www.desaparecidosvenezuela.com/api/personas",
+      "tipo": "web",
+      "metodo_acceso": "api",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre",
+        "edad",
+        "zona (estado/municipio/sector)",
+        "fotoUrl",
+        "fotoMime",
+        "descripcion",
+        "estado (BUSCADO)",
+        "tipo (BUSCO)",
+        "oculto",
+        "lat",
+        "lng",
+        "createdAt",
+        "updatedAt",
+        "actualizaciones"
+      ],
+      "descripcion": "Registro web para La Guaira/Caracas y regiones afectadas. Permite buscar, registrar desaparecidos, reportar 'estoy bien' y avisos de avistamiento. CLAVE PARA INGESTA: expone un feed JSON publico real en /api/personas con coordenadas lat/lng y estado estructurado. Es la fuente mas directamente ingerible de este lote.",
+      "notas": "VERIFICADA EN VIVO Y CON CURL. /api/personas -> HTTP 200, Content-Type application/json, ~8358 bytes; array de objetos {id, nombre, edad, zona, fotoUrl, fotoMime:'image/jpeg', descripcion, estado:'BUSCADO', tipo:'BUSCO', oculto:false, lat, lng, createdAt, updatedAt, actualizaciones:[]}. Ejemplo real confirmado: 'Joenderson Cabarcas', 14, 'La Guaira · Caraballeda · Caribe los cocos', lat 10.6122 lng -66.8497. Fotos en /api/personas/[ID]/foto. 'Hecho por venezolanos, para venezolanos', solidaria, apolitica, gratuita; no pide donaciones. Volumen menor (cientos) pero datos limpios y geolocalizados. Sin verificacion independiente de contenido -> validar al ingerir."
+    },
+    {
+      "nombre": "Mapa de Emergencia y Rescate - Terremoto en Venezuela (terremotovenezuela.app)",
+      "url": "https://terremotovenezuela.app/",
+      "url_api_o_feed": "https://terremotovenezuela.app/api/reports",
+      "tipo": "web",
+      "metodo_acceso": "api",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "type (building / critical / missing / nopower / shelter / supplies)",
+        "lat",
+        "lng",
+        "place (direccion)",
+        "affected (personas afectadas)",
+        "needs (descripcion / nombres y edades de buscados)",
+        "photoUrl",
+        "confirmations",
+        "createdAt"
+      ],
+      "descripcion": "Plataforma open-source de reportes ciudadanos en mapa para coordinar rescates, danos estructurales y ayuda; incluye marcadores 'missing' (personas desaparecidas) junto a emergencias, refugios y suministros. Open-source con codigo en GitHub. Confirmada en vivo.",
+      "notas": "VERIFICADA EN VIVO. CORRECCION IMPORTANTE DE ACCESO: la candidata afirmaba 'sin feed publico' (probo /api/markers -> 404). FALSO: SI existe feed JSON real en /api/reports -> HTTP 200, application/json. Estructura {reports:[{id, type, lat, lng, place, affected, needs, photoUrl, confirmations, createdAt(epoch ms)}]}. En la muestra: 73 entradas type='missing', 34 'critical', 6 'building', 5 'nopower', 3 'shelter', 2 'supplies'. Las 'missing' incluyen nombres y edades en el campo 'needs' (texto libre, ej. 'Se busca a Magaly obdeus 52 años'). Fotos en /api/reports/[id]/photo. Open-source 'sin fines de lucro', equipo voluntario (Allan Odreman, Cristian Mock, Vicky Torres, Andres G.) + Discord; no pide dinero. OJO: los desaparecidos van mezclados con otros marcadores y en texto libre -> requiere parsing/dedup. Existe sitio hermano 'terremotovenezuela.com' enfocado en edificios danados (distinto)."
+    },
+    {
+      "nombre": "SOS Venezuela 2026 (sosvenezuela2026.com)",
+      "url": "https://sosvenezuela2026.com/",
+      "url_api_o_feed": "https://sosvenezuela2026.com/api/reports",
+      "tipo": "agregador",
+      "metodo_acceso": "api",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "category (damaged_building / collapsed_building / etc.)",
+        "severity (rojo / amarillo / ...)",
+        "resource_status",
+        "verification (community_confirmed)",
+        "title",
+        "description (incluye fuente origen)",
+        "lat_pub (coordenada publica aproximada)",
+        "lng_pub",
+        "municipio",
+        "parroquia",
+        "building_type",
+        "people_trapped_count",
+        "source_url",
+        "image_url",
+        "created_at"
+      ],
+      "descripcion": "Mapa colaborativo en vivo del terremoto M7.5 (24-jun-2026): danos, colapsos, busqueda de desaparecidos por cedula/telefono/nombre, refugios y primeros auxilios. CORRECCION DE TIPO: el feed revela que es en buena parte un AGREGADOR que reingiere datos de otras plataformas (p.ej. terremotovenezuela.com). Confirmada en vivo.",
+      "notas": "VERIFICADA EN VIVO. CORRECCION IMPORTANTE DE ACCESO: la candidata afirmaba '/api/reportes -> 404, sin feed'. Parcialmente cierto pero el endpoint correcto SI existe: /api/reports -> HTTP 200, application/json. Estructura array {id, category, severity, resource_status, verification, title, description, lat_pub, lng_pub, municipio, parroquia, building_type, people_trapped_count, source_url, image_url, created_at}. CRITICO PARA DEDUP: muchos registros traen description '— Fuente: terremotovenezuela.com (mapa comunitario). Sin verificacion oficial en sitio.' y source_url a terremotovenezuela.com -> es agregador, ALTO riesgo de duplicar lo que ya ingieras de terremotovenezuela.app/.com. Usa coordenadas PUBLICAS aproximadas (lat_pub/lng_pub), no exactas ('tu ubicacion exacta nunca se comparte'). Uso humanitario no comercial, no pide donaciones. Operador NO identificado en la pagina (firma solo 'SOS Venezuela 2026') -> menor trazabilidad, sin senales de scam."
+    },
+    {
+      "nombre": "Venezuela Te Busca (venezuelatebusca.com)",
+      "url": "https://venezuelatebusca.com/",
+      "url_api_o_feed": "",
+      "tipo": "web",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre completo",
+        "numero de cedula",
+        "edad",
+        "genero",
+        "ultima ubicacion",
+        "fecha/hora del ultimo avistamiento",
+        "descripcion fisica",
+        "informacion de contacto del reportante",
+        "foto",
+        "estado (sin contacto / localizado)"
+      ],
+      "descripcion": "Plataforma ciudadana creada por la emprendedora Julia Alessandra Mariano tras el doble terremoto; registra/busca desaparecidos con campos MUY completos (cedula+edad+genero+descripcion+foto+contacto), ideal para deduplicacion. ~23.611 registrados (2.745 localizados, 20.866 pendientes) al 25-jun segun eldiario.com/El Colombiano (CriptoNoticias cito ~21.000+).",
+      "notas": "VERIFICADA. CORRECCION DE ACCESO: el HTTP 403 previo era anti-bot/WAF; con User-Agent de navegador devuelve HTTP 200 text/html. NO expone API JSON: probe /api/personas, /api/reportes, /api/desaparecidos, /api/casos, /data.json -> todos 404. metodo_acceso confirmado = html_publico (scraping, no feed). Creadora identificada publicamente (Julia A. Mariano confirmo autoria) -> alta trazabilidad; existencia y formulario bien sustentados por eldiario.com, El Colombiano, Telecinco, CriptoNoticias, Canal26, La Opinion, El Tiempo, Telemundo. NO es registro oficial; sin verificacion independiente (datos responsabilidad del reportante) -> validar al ingerir. La creadora reporto caidas intermitentes por alto trafico pero operativa."
+    },
+    {
+      "nombre": "Encuentralos (encuentralos.tecnosoft.dev)",
+      "url": "https://encuentralos.tecnosoft.dev/",
+      "url_api_o_feed": "https://encuentralos.tecnosoft.dev/api/personas",
+      "tipo": "web",
+      "metodo_acceso": "api",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre",
+        "edad",
+        "sexo",
+        "cedula (opcional, puede ser null)",
+        "descripcion fisica y vestimenta",
+        "foto",
+        "ultima_ubicacion (texto)",
+        "ultima_lat / ultima_lng (GPS, a menudo null)",
+        "ultima_vez (fecha visto, a menudo null)",
+        "reporta_contacto (telefono del reportante)",
+        "estado (desaparecido / ...)",
+        "creado"
+      ],
+      "descripcion": "Plataforma ciudadana sin fines de lucro para reportar desaparecidos y registrar prueba de vida sin necesidad de cuenta; los reportes aparecen de inmediato. Campos completos (incluye cedula opcional y GPS). CLAVE PARA INGESTA: expone feed JSON real. Confirmada en vivo.",
+      "notas": "VERIFICADA EN VIVO Y CON CURL. CORRECCION DE ACCESO: la candidata decia 'no halle API publica documentada'. SI existe feed JSON real en /api/personas -> HTTP 200, application/json. Estructura {items:[{id, nombre, edad, sexo, descripcion, foto, ultima_ubicacion, ultima_lat, ultima_lng, ultima_vez, reporta_contacto, estado:'desaparecido', creado, cedula}]}. Ejemplo real: 'Neyli Soto', 38, Femenino, contacto 04146781359, estado desaparecido. Fotos en /uploads/[uuid].jpg (verificado HTTP 200 image/jpeg). OJO: lat/lng, ultima_vez y cedula vienen frecuentemente null en la muestra. Creador identificado: Luis Camara (luiscamarafc@gmail.com) via Tecnosoft.dev -> alta trazabilidad. Se declara complemento, NO reemplazo, de autoridades; no pide donaciones (solo puntos de acopio). Sin verificacion de contenido (datos responsabilidad del usuario)."
+    },
+    {
+      "nombre": "Venezuela Resiste / terremotove.netlify.app (Acceso Libre)",
+      "url": "https://terremotove.netlify.app/",
+      "url_api_o_feed": "",
+      "tipo": "ong",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "ubicacion (punto en mapa o direccion con referencias)",
+        "tipo de incidente (edificio colapsado / persona desaparecida / centro de acopio)",
+        "informacion descriptiva",
+        "foto (opcional)"
+      ],
+      "descripcion": "Mapa ciudadano colaborativo creado por Acceso Libre (organizacion de sociedad civil venezolana) sobre KoboToolbox para documentar edificios colapsados, personas desaparecidas y centros de acopio tras los terremotos de junio 2026. Reporte sin registro, formulario de menos de 3 minutos. Codigo libre, acceso libre y no comercial, independiente del gobierno y de partidos.",
+      "notas": "VERIFICADA EN VIVO (WebSearch + WebFetch). Datos confirmados: construida con KoboToolbox (confirmado en la propia pagina), contacto accesolibreve@gmail.com confirmado, se declara independiente del gobierno y partidos. NO expone feed/API publico abierto; los datos PODRIAN exportarse via KoboToolbox API solo si Acceso Libre concede credenciales (no es dato abierto). Datos de personas mezclados con danos de edificios y acopios, lo que exige filtrado al ingerir. Sin red flags. Refiere al terremoto del 24/06/2026 (epicentro Yaracuy segun la pagina)."
+    },
+    {
+      "nombre": "Venezuela Reporta",
+      "url": "https://venezuelareporta.org/",
+      "url_api_o_feed": "",
+      "tipo": "agregador",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre",
+        "cedula/ID (busqueda por nombre, ciudad o zona)",
+        "edad, genero",
+        "ultima ubicacion conocida (estado, ciudad, sector, referencia)",
+        "fecha/hora del ultimo avistamiento",
+        "descripcion fisica (estatura, contextura, vestimenta, senas)",
+        "datos de contacto del reportante",
+        "foto (opcional)",
+        "marcas de duplicados / persona encontrada"
+      ],
+      "descripcion": "Registro comunitario que AGREGA reportes de desaparecidos de multiples fuentes en una base buscable (por nombre, ciudad o zona), con mapa de recursos, directorio de +15 plataformas relacionadas (Venezuela Te Busca, Desaparecidos Terremoto Venezuela, Habitable, Rescate VE, Refugios Venezuela, etc.) y agregacion de noticias. Tres acciones: reportar, buscar y marcar como encontrado. Realiza deduplicacion comunitaria.",
+      "notas": "VERIFICADA EN VIVO (WebSearch + WebFetch). CORRECCION DE DATO: la cifra de desaparecidos es dinamica; el candidato decia ~47.575, pero al verificar mostraba ~68.051 buscados / ~4.895 encontrados (variara). CORRECCION DE CONTACTO: contacto real es hola@buscados.org. Se declara explicitamente 'comunitario, gratuito y sin verificar', no oficial, sin fines de lucro; entradas enviadas por la comunidad. NO se encontro API/feed publico: se probo https://venezuelareporta.org/api -> HTTP 404, y no hay documentacion de endpoint JSON. Para ingerir habria que scrapear el HTML o contactar a los administradores. Muy relevante como 'mapa de mapas' y para dedupe, pero baja confianza en la existencia de API."
+    },
+    {
+      "nombre": "VenApp (canal oficial del Estado)",
+      "url": "https://venapp.com/",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "formulario",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "linea de persona desaparecida (datos de identidad del familiar)",
+        "solicitud de rescate / ayuda inmediata",
+        "danos de infraestructura",
+        "geolocalizacion / GPS del incidente",
+        "fotos de estructuras"
+      ],
+      "descripcion": "Aplicacion estatal soberana del Gobierno Bolivariano (originalmente del programa 1x10 de Buen Gobierno para servicios publicos) reconfigurada de emergencia y anunciada por la presidenta encargada Delcy Rodriguez tras el Estado de Excepcion. Canal OFICIAL para reportar desaparecidos, pedir rescate y notificar danos. App movil + web; descarga desde venapp.com.",
+      "notas": "VERIFICADA: venapp.com confirmado como el dominio OFICIAL real del Gobierno de Venezuela (corroborado por mppef.gob.ve, vicepresidencia.gob.ve, vtv.gob.ve y cobertura de prensa). El WebFetch inicial devolvio solo el titulo 'Ven App' porque la home es un SPA delgado, no porque el dominio sea falso. ADVERTENCIA IMPORTANTE QUE SE MANTIENE: VenApp fue originalmente herramienta de control/denuncia de opositores tras las elecciones de 2024 (cobertura critica de La Nacion, Gestion). Serias implicaciones de privacidad/consentimiento al ingerir datos de personas a una capa abierta. NO es open data: acceso via app/formulario, sin API publica conocida. Reportaba >40.000 reportes ciudadanos, cifra que no coincide con el balance oficial de victimas."
+    },
+    {
+      "nombre": "ICRC Restoring Family Links (familylinks.icrc.org)",
+      "url": "https://familylinks.icrc.org/",
+      "url_api_o_feed": "",
+      "tipo": "cruz_roja",
+      "metodo_acceso": "formulario",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es/en/multi",
+      "datos_que_recopila": [
+        "nombre",
+        "apellido",
+        "fecha de nacimiento",
+        "foto",
+        "ultima ubicacion conocida",
+        "parentesco / relacion con la persona buscada",
+        "datos de contacto del solicitante (enquirer)"
+      ],
+      "descripcion": "Plataforma global del Movimiento Internacional de la Cruz Roja y de la Media Luna Roja (CICR + Sociedades Nacionales) para restablecer el contacto familiar (RFL) tras conflicto, migracion o desastres naturales (incluye terremotos). Es la infraestructura estandar y oficial aplicable directamente a este evento. Permite buscar el directorio de Sociedades Nacionales, abrir una solicitud de busqueda (tracing request) y, cuando el CICR habilita un servicio de Online Tracing, consultar listas de nombres publicadas para una emergencia concreta.",
+      "notas": "CONFIRMADA real y activa (WebSearch; el sitio devuelve HTTP 403 al fetch automatizado, como anticipaba el candidato, pero existe y es legitimo). El primer paso es el tracing request form. IMPORTANTE para dedup: RFL NO publica un feed/registro abierto general de desaparecidos (privacidad por diseno; 'nada se comparte sin tu consentimiento'); el manejo es caso-por-caso. Puede existir un servicio temporal de Online Tracing con listas consultables manualmente para un evento, pero NO hay PFIF/API/feed publico estructurado. Punto de entrada para canalizar/derivar reportes, no para ingerir datos. Metodo de acceso real: formulario + solo lectura manual de cualquier lista que el CICR active."
+    },
+    {
+      "nombre": "Recursos Venezuela (directorio agregador) - recursos-venezuela.netlify.app",
+      "url": "https://recursos-venezuela.netlify.app/",
+      "url_api_o_feed": "",
+      "tipo": "agregador",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "NO recopila datos propios de personas",
+        "enlaza a plataformas de desaparecidos: Venezuela Te Busca, Desaparecidos Terremoto Venezuela, mapa de rescate (Venezuela Rescue Map), Cruz Roja - Contacto Familiar (RCF)",
+        "lista organizaciones de donacion verificadas y centros de acopio"
+      ],
+      "descripcion": "Directorio ciudadano sin fines de lucro que NO almacena datos de personas: agrega y enlaza recursos verificados (4 plataformas de desaparecidos + RCF Cruz Roja, donaciones, centros medicos y de acopio). Util como SEMILLA/crosswalk para descubrir fuentes y como referencia de cuales se consideran legitimas.",
+      "notas": "VERIFICADA EN VIVO (WebSearch + WebFetch). Confirmado: enlaza Venezuela Te Busca, Desaparecidos Terremoto Venezuela, Venezuela Rescue Map y Cruz Roja RCF; incluye seccion anti-fraude 'Como donar sin caer en estafas' (verificar credenciales, desconfiar de pagos en cripto/gift cards, preferir organizaciones con historial). Valor: fuente de descubrimiento y cross-check de legitimidad, no de datos. Administrador/organizacion NO identificado en el footer (solo 'directorio ciudadano sin fines de lucro') -> baja la trazabilidad, pero sin red flags. Sin API/feed."
+    },
+    {
+      "nombre": "ALERTA scam / desinformacion - dominios falsos y campanas fraudulentas (entrada de control de calidad, NO fuente)",
+      "url": "https://factchequeado.com/teexplicamos/20260625/terremotos-venezuela-danos-zonas-afectadas/",
+      "url_api_o_feed": "",
+      "tipo": "medio",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "sospechoso_scam",
+      "confianza_hallazgo": "media",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "N/A - entrada de advertencia, no es una fuente a ingerir"
+      ],
+      "descripcion": "Entrada NO-fuente para el pipeline. El articulo de Factchequeado (verificado real y vigente, sobre los terremotos del 24-25/06/2026 de magnitud 7.2 y 7.5) documenta desinformacion asociada al evento. Recordatorio de que tras el terremoto proliferan campanas y cuentas falsas que copian nombres reales con cambios minimos y piden datos bancarios/donaciones; esa categoria de fraude debe filtrarse en cualquier capa abierta.",
+      "notas": "MARCADA sospechoso_scam intencionalmente: es un RECORDATORIO de control de calidad, no una fuente de datos. CORRECCION/MATIZ: al verificar el articulo de Factchequeado, su desinformacion documentada se centra en IMAGENES FALSAS (supuestos tsunamis, falsos anuncios de cortes electricos, videos de otros sismos) y promueve el metodo SABE; NO nombra dominios de estafa de donaciones especificos. El directorio recursos-venezuela.netlify.app si trae una guia anti-estafa explicita. NO se pudo confirmar ningun dominio fraudulento concreto en esta busqueda, de ahi confianza_hallazgo media. Recomendaciones para la capa open source: (1) lista-blanca de los dominios verificados arriba; (2) rechazar dominios recien registrados que pidan datos bancarios o donaciones a cuentas personales/cripto; (3) desconfiar de typosquatting de 'desaparecidos/terremoto/venezuela'."
+    },
+    {
+      "nombre": "Talk360 (app de llamadas usada por la diáspora)",
+      "url": "https://play.google.com/store/apps/details?id=com.ringcredible",
+      "url_api_o_feed": "",
+      "tipo": "app",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "número de teléfono destino en Venezuela",
+        "datos de cuenta/pago del llamante"
+      ],
+      "descripcion": "App móvil real (Android id=com.ringcredible / iOS id=1036150883, sitio talk360.com) para llamadas internacionales económicas a líneas fijas y móviles en Venezuela SIN que el receptor necesite internet, smartphone ni la app: la llamada entra a la línea telefónica convencional venezolana. Solo el llamante necesita Wi-Fi o datos. Recomendada masivamente por la diáspora (p.ej. la creadora Gleydi Cartaya 'La Reina del Cosmo' en Instagram) tras la caída parcial de telecomunicaciones para reconectar con familiares.",
+      "notas": "VERIFICADA. App de tienda confirmada (Google Play + App Store + talk360.com con página de tarifas 'Call Venezuela +58'). Relevancia al evento confirmada por El Litoral, Pregón, Univision y otros que la citan como herramienta recomendada tras el terremoto del 24-jun-2026. NO es una fuente de datos estructurados de desaparecidos: no tiene registro/feed/API de personas. Es una herramienta de RECONEXIÓN por voz, no una fuente ingeribles automáticamente. Clasificar como herramienta de reconexión, no como fuente de reportes. Senal_confianza verificado_medio (empresa privada legítima, no oficial de emergencias)."
+    },
+    {
+      "nombre": "Google Person Finder",
+      "url": "https://google.org/personfinder/global/home.html",
+      "url_api_o_feed": "PFIF Atom feeds por repositorio (formato /personfinder/<repo>/feeds/person y /note) SOLO si Google levanta una instancia para el evento",
+      "tipo": "agregador",
+      "metodo_acceso": "feed_pfif",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "baja",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre",
+        "estado (buscado/visto)",
+        "ubicación",
+        "nota/foto",
+        "contacto"
+      ],
+      "descripcion": "Infraestructura estándar de Google para desastres que soporta el estándar abierto PFIF (People Finder Interchange Format) con feeds Atom, ideal como capa de deduplicación. Históricamente Google lo activa por evento como repositorio dedicado.",
+      "notas": "CONFIRMADO PARCIAL. La página home.html resuelve y carga; menciona el modelo PFIF y dirige a GitHub para integración. PERO no muestra ningún repositorio/desastre activo y NO existe evidencia de una instancia Person Finder ESPECÍFICA para el terremoto de Venezuela 2026 (por eso confianza_hallazgo BAJA). Lo protagónico de Google en este evento fue el sistema de alertas sísmicas de Android, no Person Finder. Incluido como infraestructura estándar relevante por su soporte PFIF/feed (vía de integración ideal SI Google levanta una instancia). NO inventar URL de repo de Venezuela; verificar manualmente si aparece google.org/personfinder/<repo> antes de ingerir. IMPORTANTE: en este evento la búsqueda de personas la cubren plataformas ciudadanas reales y ya activas (desaparecidosterremotovenezuela.com, venezuelatebusca.com, desaparecidosvenezuela.com) que NO son Person Finder; considerar esas como las fuentes vivas de desaparecidos."
+    },
+    {
+      "nombre": "Terremotovenezuela.com (mapa de edificios/daños — contexto de localización)",
+      "url": "https://terremotovenezuela.com/",
+      "url_api_o_feed": "",
+      "tipo": "web",
+      "metodo_acceso": "formulario",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre/dirección/zona/ciudad del edificio afectado",
+        "tipo de inmueble (residencia, hospital, escuela, comercio)",
+        "nivel de daño (total, severo, parcial)",
+        "indicador de si hay personas atrapadas",
+        "hasta 8 fotos"
+      ],
+      "descripcion": "Portal comunitario de mapeo de daños estructurales tras el sismo del 24-jun-2026 (704 estructuras al momento de la verificación, categorías total/severo/parcial). Permite buscar un edificio por nombre/dirección/zona/ciudad y enviar un reporte vía formulario en <30s. No es registro de personas, pero el formulario incluye un campo de 'personas atrapadas', útil como contexto geográfico para la búsqueda de desaparecidos.",
+      "descripcion_extra": "",
+      "notas": "VERIFICADA EN VIVO (corrige la candidata, que estaba en BAJA). El dominio terremotovenezuela.com resuelve y carga; WebFetch confirmó contenido real. Lo corro/cura @mariangelli en X; el sitio declara explícitamente que NO reemplaza a las autoridades y que las cifras se están validando desde información de usuarios (comunitario). metodo_acceso CORREGIDO de html_publico a 'formulario' porque la captura primaria es por formulario (con fotos y campo de atrapados); el listado de daños es HTML público navegable, sin API/feed conocido. Aporta contexto de colapsos + flag de atrapados, no reportes individuales por cédula/nombre. Confianza_hallazgo SUBIDA a alta tras confirmación directa. NOTA: existe un sitio hermano/alternativo sismovenezuela.org con función similar."
+    },
+    {
+      "nombre": "Protección Civil y Administración de Desastres (PCAD) - sitio oficial",
+      "url": "https://www.pcivil.gob.ve/",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "partes de rescate",
+        "ubicaciones de operativos",
+        "refugios",
+        "balances de afectados (agregado)"
+      ],
+      "idioma": "es",
+      "descripcion": "Organismo nacional rector de gestión de desastres. Coordina búsqueda y rescate del terremoto del 24-jun-2026 (epicentro Yaracuy; daños severos en Carabobo/Morón, Caracas/La Guaira, Aragua, Yaracuy). Publica partes y solicitudes operativas (ej. herramientas para remover escombros en puntos con señales de vida).",
+      "notas": "CONFIRMADO COMO DOMINIO OFICIAL (www.pcivil.gob.ve aparece como 'Home PC - Protección Civil y Administración de Desastres' en búsquedas, junto a @PCivil_Ve en X e Instagram @pcivil_venezuela). Al hacer WebFetch devolvió HTTP 503 (servidores gob.ve intermitentes/saturados, consistente con la emergencia). NO publica registro estructurado de personas con cédula/nombre; emite balances agregados y comunicados. Sin API/feed conocido; solo HTML y redes. Confirmar disponibilidad antes de ingerir; usar redes oficiales como fallback cuando el sitio esté caído. Confianza_hallazgo alta (oficialidad confirmada), aunque acceso técnico inestable.",
+      "confianza_hallazgo": "alta"
+    },
+    {
+      "nombre": "Protección Civil Venezuela (X / Twitter)",
+      "url": "https://x.com/PCivil_Ve",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "partes de rescate",
+        "ubicaciones de derrumbes y operativos",
+        "personas rescatadas (anecdótico, ej. rescate de una adolescente de 16 años en el edificio Obelisco, Altamira)",
+        "refugios y solicitudes de apoyo ciudadano"
+      ],
+      "idioma": "es",
+      "descripcion": "Cuenta oficial en X (@PCivil_Ve) de Protección Civil Venezuela. Fuente primaria de coordinación de rescate y mensajes en tiempo real durante la emergencia del terremoto 2026. Cuenta hermana en Instagram: @pcivil_venezuela.",
+      "notas": "HANDLE CONFIRMADO (@PCivil_Ve aparece consistentemente como cuenta oficial en resultados de búsqueda; coexiste con Instagram @pcivil_venezuela). WebFetch directo a x.com devolvió HTTP 402 (X bloquea scraping sin auth, ESPERADO; no implica que la cuenta no exista). metodo_acceso CORREGIDO de html_publico a 'solo_lectura_manual': X no expone HTML público raspable de forma fiable ni API gratuita; el contenido es texto/imágenes no estructurado (no por cédula). Útil para señales en tiempo real, NO como feed de personas. Subo confianza del handle pero confianza_hallazgo se mantiene MEDIA porque no pude verificar el badge/seguidores directamente vía WebFetch (bloqueo 402).",
+      "confianza_hallazgo": "media"
+    },
+    {
+      "nombre": "FUNVISIS - Fundación Venezolana de Investigaciones Sismológicas (Monitor de Sismos)",
+      "url": "http://www.funvisis.gob.ve/monitor.html",
+      "url_api_o_feed": "http://www.funvisis.gob.ve/old/sis_mes.php (listado mensual HTML; también http://www.funvisis.gob.ve/recientes.php para sismos recientes)",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "magnitud",
+        "profundidad",
+        "ubicación/epicentro del sismo",
+        "hora",
+        "coordenadas"
+      ],
+      "idioma": "es",
+      "descripcion": "Organismo sismológico oficial de Venezuela. Reportó el doblete sísmico del 24-jun-2026 (Mw 7.2 y 7.5, epicentro en Yaracuy, ~23 km de San Felipe / ~28 km al SE de Yumare). Monitor de sismos y listado mensual de eventos.",
+      "notas": "CONFIRMADO COMO OFICIAL. Dominio funvisis.gob.ve aparece en búsquedas con páginas monitor.html, /old/sis_mes.php y /recientes.php. IMPORTANTE: FUNVISIS solo aporta datos SÍSMICOS, NO de personas desaparecidas/heridas. Útil como capa de contexto geográfico (epicentro, réplicas) para georreferenciar reportes, no para deduplicar personas. WebFetch a monitor.html y a sis_mes.php devolvió HTTP 503 (servidores gob.ve intermitentes/saturados). Los endpoints son HTML (sis_mes.php / recientes.php son páginas PHP que renderizan tablas), NO una API JSON formal; por eso metodo_acceso=html_publico requiere scraping. ALTERNATIVAS si gob.ve sigue caído: agregadores no oficiales sismosvenezuela.com y sismosve.rafnixg.dev replican datos sísmicos de Venezuela. CONFIRMACIÓN DE DATO: el epicentro en Yaracuy (que daba la candidata) es CORRECTO según Wikipedia y prensa, pese a que el colapso vial y daños mayores fueron en Morón/Carabobo. Confianza_hallazgo alta.",
+      "confianza_hallazgo": "alta"
+    },
+    {
+      "nombre": "Sistema de emergencias de Venezuela: VEN 9-1-1 (número oficial actual) / 171 (legado)",
+      "url": "tel:911",
+      "url_api_o_feed": "https://ven911.gob.ve/",
+      "tipo": "oficial",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "reportes telefonicos de personas atrapadas",
+        "emergencias",
+        "posible nombre/ubicacion por llamada"
+      ],
+      "idioma": "es",
+      "descripcion": "Linea telefonica oficial de emergencias de Venezuela. CORRECCION IMPORTANTE: el numero oficial vigente es VEN 9-1-1, que sustituyo formalmente al 171 mediante resolucion ministerial N 169 (Gaceta Oficial 41.738, 15-oct-2019). El VEN 911 es administrado por el Ministerio del Poder Popular para Relaciones Interiores, Justicia y Paz y articula organismos de seguridad, salud y gestion de riesgos. El 171 es el numero legado, aun referido en algunas zonas/coberturas de prensa.",
+      "notas": "CORREGIDO: la candidata original presentaba el 171 como la linea primaria nacional, lo cual esta DESACTUALIZADO. El numero oficial unico desde 2019 es 911 (VEN 911); 171 es legado. Sigue sin ser fuente de datos digital: es telefonica, sin API ni feed publico; los datos quedan en sistemas internos del Estado, no expuestos. Ademas, amplias zonas de La Guaira quedaron sin senal telefonica/datos, limitando su uso. Relevante para entender el flujo oficial, pero NO ingerible automaticamente. Sitio institucional ven911.gob.ve existe (devolvio 503/no resuelve desde este entorno por geobloqueo .gob.ve, no por estar caido).",
+      "confianza_hallazgo": "alta"
+    },
+    {
+      "nombre": "VTV - Venezolana de Television (canal estatal)",
+      "url": "https://www.vtv.gob.ve/",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "balances oficiales agregados (fallecidos, heridos, desaparecidos)",
+        "declaraciones de ministros",
+        "refugios"
+      ],
+      "idioma": "es",
+      "descripcion": "Canal estatal por el que el gobierno comunica cifras oficiales. El Ministro de Salud Carlos Alvarado anuncio por VTV el balance (ej. 235 muertos, 4.300 heridos) la noche del jueves 25-jun-2026; el gobierno usa VTV como vocero institucional del evento.",
+      "descripcion_extra": "",
+      "notas": "URL vtv.gob.ve CONFIRMADA como dominio oficial: indexada y descrita como sitio oficial de VTV (con secciones /en-vivo/, /category/nacionales/, etc.); existe tambien el espejo vtv.com.ve. No resolvio por WebFetch/DNS desde este entorno (getent exit 2), pero esto es geobloqueo de dominios .gob.ve, NO sitio caido (control ciudadccs.info y google.com si resuelven). El rol de VTV como vocero oficial del balance esta corroborado por Infobae y otros. Fuente de cifras AGREGADAS oficiales, NO de registros individuales por nombre/cedula. Sin feed estructurado ni API. Subo confianza de la URL de media->alta; sigue siendo capa de contexto/cifras, no de individuos.",
+      "confianza_hallazgo": "alta"
+    },
+    {
+      "nombre": "Alcaldia de Caracas (Municipio Libertador) - sitio oficial",
+      "url": "https://www.caracas.gob.ve/",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "refugios habilitados y ubicaciones",
+        "comisiones tecnicas por parroquia",
+        "atencion a damnificados",
+        "alimentacion y atencion medica",
+        "centros de acopio (ej. Plaza Los Palos Grandes, UCV)"
+      ],
+      "idioma": "es",
+      "descripcion": "Alcaldia del Municipio Libertador (alcaldesa Carmen Melendez). Tras el doble sismo habilito 4 refugios de emergencia: Complejo Cultural y Deportivo Guayana Esequiba (San Bernardino), Estadio Chato Candela (23 de Enero), Instituto Nacional de Deportes/IND (El Paraiso), sede de Ipostel (San Juan). Despliegue tecnico-humano por parroquias para evaluar danos estructurales.",
+      "notas": "Los 4 refugios y el despliegue estan CONFIRMADOS por El Estimulo, El Diario y el organo oficial ciudadccs.info. NO se encontro evidencia de un programa llamado 'Plan Refugio Cero' (no aparece en ninguna fuente); el plan referido en prensa es el 'Plan de Emergencia Nacional' desplegado por la alcaldesa Melendez. La URL caracas.gob.ve es el dominio oficial historico pero NO se pudo verificar directamente (no resuelve desde este entorno por geobloqueo .gob.ve, ETIMEOUT). El canal donde la informacion realmente se publica de forma accesible es ciudadccs.info (ver fuente siguiente) y las redes de la alcaldesa, no el sitio caracas.gob.ve. Util para capa de REFUGIOS, NO registro nominal de personas. Sin API. Verificar handle de X de la alcaldia antes de usar. Mantengo confianza media por la URL no confirmable directamente.",
+      "confianza_hallazgo": "media"
+    },
+    {
+      "nombre": "Ciudad CCS (ciudadccs.info) - medio oficial de la Alcaldia de Caracas",
+      "url": "https://www.ciudadccs.info/",
+      "url_api_o_feed": "",
+      "tipo": "medio",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "operativos oficiales",
+        "refugios y centros de acopio (ubicaciones)",
+        "cifras de familias afectadas",
+        "plan de emergencia nacional",
+        "instrucciones de reporte ciudadano (VenApp, sistema 1x10)"
+      ],
+      "idioma": "es",
+      "descripcion": "Diario publico adscrito a la Alcaldia de Caracas (editado por la Fundacion para la Comunicacion Popular CCS de la Alcaldia de Caracas). Difunde comunicados oficiales del despliegue de emergencia: Plan de Emergencia Nacional, operativos por sismos, refugios, centros de acopio. Cobertura activa del terremoto (articulos 46081, 46107, 46121, 46126).",
+      "notas": "CONFIRMADO LIVE: el dominio resuelve (23.158.232.29) y el sitio carga con contenido fechado 26-jun-2026 y pie editorial que lo vincula explicitamente a la Alcaldia de Caracas. Es prensa estatal/oficialista (vocero institucional), NO un registro de personas. URLs de articulo accesibles via http://www.ciudadccs.info/publicacion/<id>. Sin API ni RSS detectado (solo enlaces a redes sociales); ingestion seria por scraping HTML. Util para corroborar acciones, cifras agregadas y ubicaciones de refugios/acopio. Por ser el canal donde realmente se publica lo de la alcaldia y estar verificado live, SUBO confianza de media a alta. Tratar como fuente de contexto/refugios, no de individuos.",
+      "confianza_hallazgo": "alta"
+    },
+    {
+      "nombre": "Ministerio de Educacion (MPPE) - escuelas como centros de acopio y refugios",
+      "url": "https://www.me.gob.ve/",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "datos_que_recopila": [
+        "ubicaciones de escuelas habilitadas como refugios/centros de acopio",
+        "suspension de actividades escolares"
+      ],
+      "idioma": "es",
+      "descripcion": "El Ministerio del Poder Popular para la Educacion (MPPE) suspendio las actividades escolares en todo el pais tras los sismos y anuncio la activacion selectiva de escuelas publicas como centros de acopio y refugios temporales para las familias afectadas.",
+      "notas": "El ROL y el anuncio estan CONFIRMADOS por prensa (Contrapunto reproduce el comunicado oficial; Nuevo Dia; CNN sobre actividades suspendidas). La URL me.gob.ve es el dominio oficial historico del MPPE pero NO se pudo verificar directamente (no resuelve desde este entorno por geobloqueo .gob.ve, ETIMEOUT). Aporta capa de REFUGIOS/acopio (escuelas), NO datos de personas. Sin API. Mantengo confianza media: solida sobre el rol/anuncio, no verificable directamente sobre la URL exacta. Nota: el comunicado dice 'activaremos algunas escuelas como centros de acopio y refugios', sin lista publica de planteles, por lo que la ubicacion concreta de cada escuela-refugio no es un dato estructurado disponible.",
+      "confianza_hallazgo": "media"
+    },
+    {
+      "nombre": "Trace the Face (CICR / Cruz Roja) + Restablecimiento del Contacto entre Familiares (RFL) Cruz Roja Venezolana",
+      "url": "https://tracetheface.familylinks.icrc.org/",
+      "url_api_o_feed": "https://familylinks.icrc.org/online-tracing",
+      "tipo": "cruz_roja",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "idioma": "multi",
+      "datos_que_recopila": [
+        "foto del rostro",
+        "nombre (opcional)",
+        "pais / region",
+        "mensaje publico para reconexion",
+        "solicitudes de busqueda/rastreo (via Online Tracing / linea RFL)"
+      ],
+      "descripcion": "Trace the Face es una galeria fotografica publica del CICR y las Sociedades Nacionales donde personas separadas publican su foto o buscan familiares por rostro ('Start your search' / 'Publish your picture'). CONFIRMADO real y oficial: 7.677 fotografias, 309 familias reconectadas, 95 nacionalidades, 30+ paises. HALLAZGO NUEVO RELEVANTE: la Cruz Roja Venezolana ACTIVO su servicio de Restablecimiento del Contacto entre Familiares (RFL) especificamente para este terremoto (linea +58 422-799-4880), lo que conecta la infraestructura CICR/RFL directamente con el evento de 2026.",
+      "notas": "Plataforma real y oficial (confirmada via WebFetch). Su enfoque historico/diseno es MIGRACION (personas separadas en rutas migratorias), NO desastres subitos; en la galeria publica no se confirmo un album especifico del terremoto de Venezuela 2026. PERO la rama RFL del CICR/Cruz Roja Venezolana SI se activo para este evento (busqueda de familiares, linea telefonica), lo que eleva su relevancia respecto a la candidata original. Acceso: HTML publico semi-estructurado con fotos; el formulario de busqueda esta en familylinks.icrc.org/online-tracing (devolvio 403 a WebFetch por anti-bot, no por inexistencia). SIN API ni feed PFIF de exportacion masiva documentado. La pagina de la Cruz Roja Venezolana en familylinks.icrc.org tambien existe (403 anti-bot). Mantengo confianza media para Trace the Face como album del evento (no confirmado), pero el canal RFL+linea de Cruz Roja Venezolana es de confianza alta y aplicable directamente.",
+      "confianza_hallazgo": "media"
+    },
+    {
+      "nombre": "Cruz Roja Venezolana - sitio oficial (cruzroja.ve)",
+      "url": "https://cruzroja.ve/",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "telefonos de sedes regionales",
+        "canales de Restablecimiento del Contacto entre Familiares (RCF/RFL)",
+        "informacion de contacto telefonica/WhatsApp/presencial"
+      ],
+      "descripcion": "Sitio web oficial de la Cruz Roja Venezolana (CRV). Tras el doble terremoto del 24 jun 2026 (M7.2 y M7.5, region de Yaracuy), la CRV activo su servicio gratuito y confidencial de Restablecimiento del Contacto entre Familiares (RCF). El sitio funciona como punto de contacto/derivacion con numeros de sedes regionales, no como base de datos descargable de personas desaparecidas.",
+      "notas": "VERIFICADO. El dominio cruzroja.ve resuelve (HTTP 202, detras de WAF/Cloudflare) y aparece de forma consistente como la web oficial de la CRV en resultados de busqueda y medios. Factchequeado (verificador) confirma que la CRV activo el RCF y remite a su sitio para numeros regionales adicionales. Confianza elevada de media a ALTA: existencia y rol oficial confirmados. Sigue siendo punto de contacto/derivacion, NO un feed ingerible de personas; la deduplicacion debe enrutarse a sus canales de voz/WhatsApp, no scrapear datos personales."
+    },
+    {
+      "nombre": "Cruz Roja Venezolana - Linea RCF/RFL telefonica (Restablecimiento del Contacto entre Familiares)",
+      "url": "tel:+584227994880",
+      "url_api_o_feed": "",
+      "tipo": "cruz_roja",
+      "metodo_acceso": "desconocido",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre del familiar buscado",
+        "ultimo contacto / ubicacion conocida",
+        "datos del solicitante"
+      ],
+      "descripcion": "Numero telefonico oficial de la Cruz Roja Venezolana para el servicio de Restablecimiento del Contacto entre Familiares tras el terremoto: +58 (422) 799-4880 (formato nacional: 04227994880). Canal de voz para abrir casos de personas incomunicadas. Mensaje oficial citado: 'Si perdiste comunicacion con algun familiar y necesitas saber que estan bien, contactanos al 04227994880'.",
+      "notas": "VERIFICADO. El numero +58 (422) 799-4880 / 04227994880 esta atribuido a la CRV por Factchequeado (verificador independiente) y por Noticiero Digital, ademas de su replicacion en multiples medios. Esto eleva la senal de 'verificado_medio' a OFICIAL y la confianza de media a ALTA. metodo_acceso se mantiene 'desconocido': es un canal de voz humano (tel:), sin datos digitales ingeribles ni API/feed; no encaja en solo_lectura_manual ni formulario. Relevante para enrutamiento y como nodo de confianza de la capa de cruce, no como fuente de datos estructurados."
+    },
+    {
+      "nombre": "Google Person Finder - estandar PFIF (People Finder Interchange Format)",
+      "url": "https://github.com/google/personfinder",
+      "url_api_o_feed": "PFIF / Atom feeds (pfif:person, pfif:note); Data API (PFIF import/export). Servicio en vivo: https://google.org/personfinder",
+      "tipo": "agregador",
+      "metodo_acceso": "feed_pfif",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "en",
+      "datos_que_recopila": [
+        "esquema PFIF: person_record_id",
+        "full_name",
+        "first/last name",
+        "sex",
+        "age/date_of_birth",
+        "home/last known location",
+        "photo_url",
+        "note records (status: believed_alive/believed_dead/is_note_author, last_known_location)"
+      ],
+      "descripcion": "Repositorio open source oficial de Google Person Finder y especificacion del formato PFIF. Base de datos de personas desaparecidas en Python (App Engine) que implementa el modelo PFIF con import/export y feeds Atom (pfif:person, pfif:note) ademas de una Data API. PFIF es el estandar de interoperabilidad para reportes de desaparecidos (identidad, ubicacion, estado), directamente aplicable a una capa de unificacion/deduplicacion.",
+      "notas": "VERIFICADO. La URL github.com/google/personfinder es correcta y existe (HTTP 200). IMPORTANTE: el repo esta ARCHIVADO y en SOLO LECTURA desde el 17 sep 2025 (no acepta nuevas contribuciones); el codigo y la spec PFIF siguen disponibles como referencia tecnica. El servicio en vivo opera en google.org/personfinder. Correccion: metodo_acceso ajustado de 'api' a 'feed_pfif' (su modo de interoperabilidad central son los feeds Atom PFIF, ademas de la Data API). Confianza elevada a ALTA tanto en URL como en que PFIF es el estandar correcto a adoptar. Es referencia de estandar/diseno, NO una fuente de datos de este evento."
+    },
+    {
+      "nombre": "IFRC - Federacion Internacional de la Cruz Roja (respuesta Venezuela 2026 + RFL multipais)",
+      "url": "https://www.ifrc.org/press-release/venezuela-red-cross-responds-needs-emerge-aftermath-powerful-back-back-earthquakes",
+      "url_api_o_feed": "",
+      "tipo": "cruz_roja",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "en",
+      "datos_que_recopila": [
+        "coordinacion de busqueda de familiares (RFL) entre sociedades nacionales",
+        "datos agregados de necesidades humanitarias"
+      ],
+      "descripcion": "Press release oficial de la IFRC sobre la respuesta de la Cruz Roja Venezolana al doble terremoto del 24 jun 2026. Confirma que las sociedades nacionales de Ecuador, Colombia, Mexico, Costa Rica, Honduras y Argentina activaron sus servicios de Restoring Family Links (RFL) para ayudar a buscar a seres queridos. Incluye una asignacion IFRC-DREF de CHF 2 millones.",
+      "notas": "VERIFICADO. La URL es la correcta y aparece como primer resultado en buscador con titulo coincidente; el WebFetch devolvio 403 (bloqueo anti-bot/proxy del CDN de ifrc.org), NO un 404 -> la pagina existe. El listado de paises RFL (Ecuador, Colombia, Mexico, Costa Rica, Honduras, Argentina) queda confirmado por el snippet de busqueda y por cobertura concordante (British Red Cross, ReliefWeb, X de @IFRC). Util como nodo de confianza y para descubrir/enrutar a los servicios RFL nacionales; NO es una lista buscable de personas ni un feed ingerible. Confianza ALTA."
+    },
+    {
+      "nombre": "Cruz Roja Espanola - Ayuda Terremoto Venezuela 2026 (DONACIONES, no datos)",
+      "url": "https://www2.cruzroja.es/-/ayuda-terremoto-venezuela-2026",
+      "url_api_o_feed": "",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "donaciones (formulario web; Bizum 33512; SMS VENEZUELA al 38092 segun difusion en medios)"
+      ],
+      "descripcion": "Pagina oficial de la Cruz Roja Espanola con el llamamiento de ayuda y donaciones para el terremoto de Venezuela 2026, en apoyo a la Cruz Roja Venezolana. La respuesta se centra en despliegue de personal especializado y movilizacion de recursos.",
+      "notas": "VERIFICADO (HTTP 200, dominio oficial cruzroja.es). ADVERTENCIA DE NO INGESTA: es fuente OFICIAL y legitima, pero es una pagina de DONACIONES, NO una fuente de datos de personas desaparecidas; incluida para marcarla y evitar ingesta erronea como feed de personas. Matiz: el HTML visible muestra el formulario de donacion (importes 30/60/120 EUR, boton COLABORAR) pero NO los identificadores Bizum/SMS literales en la propia pagina; el Bizum 33512 y el SMS 'VENEZUELA al 38092' provienen de difusion en medios (El Economista, Telenoche), no confirmados en el cuerpo visible de esta URL. Util solo como referencia de canal oficial de ayuda; distinguir de dominios scam que tambien piden donaciones."
+    },
+    {
+      "nombre": "Cruz Roja Colombiana - Seccional Valle del Cauca: lineas RCF/RFL para familiares de venezolanos",
+      "url": "https://www.cruzrojacolombiana.org/",
+      "url_api_o_feed": "Canales del evento (Valle del Cauca): linea 132; WhatsApp +57 310 279 5325; email rcf.valle@cruzrojacolombiana.org",
+      "tipo": "cruz_roja",
+      "metodo_acceso": "formulario",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "media",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre del familiar buscado en Venezuela",
+        "datos del solicitante (residente en Colombia/exterior)"
+      ],
+      "descripcion": "La seccional Valle del Cauca de la Cruz Roja Colombiana activo su servicio de Restablecimiento del Contacto entre Familiares (RCF) para venezolanos en Cali/Colombia y residentes con familia en Venezuela incomunicados tras el terremoto, canalizando via la red RFL del Movimiento. Canales del evento: linea de emergencia 132, WhatsApp 310 279 5325 y correo rcf.valle@cruzrojacolombiana.org.",
+      "notas": "VERIFICADO Y CORREGIDO. El dominio cruzrojacolombiana.org existe (HTTP 200) pero su home NO menciona RCF; los canales especificos del evento estan confirmados por El Pais (Cali): linea 132, WhatsApp 3102795325, email rcf.valle@cruzrojacolombiana.org (replicado por Occidente.co y Pulzo). Esto eleva la confianza de BAJA a MEDIA (canales del evento ahora verificados en medios; aun no confirmados en pagina institucional primaria de la seccional). metodo_acceso ajustado de 'desconocido' a 'formulario' (intake via WhatsApp/email/telefono que abre caso RCF). senal_confianza se mantiene 'verificado_medio' (atribucion por medios, no por pagina institucional propia). Relevante para deduplicacion: el mismo caso puede aparecer en RFL CICR + seccional + linea CRV. Canal de intake humano, sin datos digitales abiertos ingeribles."
+    },
+    {
+      "nombre": "Alianza Por Venezuela (@alianzaxvenezuela) - Instagram",
+      "url": "https://www.instagram.com/alianzaxvenezuela/",
+      "tipo": "red_social",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre",
+        "foto",
+        "ultima ubicacion conocida",
+        "estado (desaparecido/localizado)",
+        "datos de contacto del familiar"
+      ],
+      "url_api_o_feed": "",
+      "descripcion": "Cuenta de Instagram de Alianza por Venezuela, ONG de migrantes venezolanos en Argentina (~47K seguidores, fundada 2018). Tras el terremoto del 24-jun-2026 compartio guias y replico solicitudes para que venezolanos en el exterior localicen o sepan el estado de familiares. Difusora de pedidos de busqueda, no base estructurada.",
+      "descripcion_corregida": true,
+      "notas": "VERIFICADA Y CONFIRMADA. Existe: perfil @alianzaxvenezuela real y preexistente (web oficial alianzaporvenezuela.org y Facebook /alianzaxvenezuela coinciden; organizacion civil sin fines de lucro fundada en 2018, integra organizaciones de la comunidad venezolana en Argentina). Relevante: confirmado que tras el sismo compartio un post para ayudar a venezolanos en el exterior a comunicarse o conocer el estado de familiares. NOTA: la mencion explicita por CNN en Espanol que afirmaba la candidata NO la pude confirmar literalmente; el articulo de CNN sobre 'plataformas digitales para buscar desaparecidos' existe (cnnespanol.cnn.com/2026/06/25/.../terremoto-plataformas-buscar-desaparecidos-orix) pero no verifique que cite nominalmente a esta cuenta. metodo_acceso correcto: solo_lectura_manual; sin API publica (Instagram aplica rate-limit/429), datos en posts/reels/historias, requiere lectura manual o scraping. senal_confianza verificado_medio correcta (organizacion real difusora, no fuente normalizada; esperar duplicados)."
+    },
+    {
+      "nombre": "Observatorio Venezolano de Fake News (fakenewsvenezuela.org) - control de scams/desinformacion",
+      "url": "https://fakenewsvenezuela.org/",
+      "tipo": "ong",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "verificaciones de contenido falso",
+        "alertas de cuentas/posts enganosos sobre el terremoto"
+      ],
+      "url_api_o_feed": "",
+      "descripcion": "Proyecto de fact-checking de Medianalisis (fundado 2019) que ha verificado desinformacion del terremoto (supuestos tsunamis, falsos cortes de luz oficiales, videos de otros sismos presentados como actuales). Recurso para FILTRAR, no ingerir, contenido falso de redes antes de incorporarlo a la capa de desaparecidos.",
+      "notas": "VERIFICADA Y CONFIRMADA. Dominio fakenewsvenezuela.org resuelve (HTTP 202 servido por nginx/SiteGround, con un desafio anti-bot tipo captcha en acceso automatizado; el HTML carga en navegador). Es un proyecto de Medianalisis (no organizacion independiente aislada); listado en SembraMedia, Project Oasis y respaldado por Amnistia Internacional. Rol en el evento CONFIRMADO por Factchequeado, que cita textualmente: 'El Observatorio Venezolano de Fake News ya ha verificado varias desinformaciones... imagenes de supuestos tsunamis... cortes de luz anunciados oficialmente... videos... de otros terremotos'. metodo_acceso html_publico correcto: NO encontre API ni RSS/feed estructurado; articulos en HTML (tambien difunde por Facebook /ObservatorioVenezolanoDeFakeNews y X @ObservatorioFN). Usar como lista de control anti-scam para descartar virales falsos antes de deduplicar, NO como fuente de fichas. tipo podria ser 'medio' (es verificador periodistico) pero 'ong' es aceptable."
+    },
+    {
+      "nombre": "Meta / Facebook Crisis Response - Terremoto Venezuela 2026 (Safety Check)",
+      "url": "https://www.facebook.com/crisisresponse/",
+      "tipo": "red_social",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre (perfil de Facebook)",
+        "estado de seguridad (a salvo / sin actualizar)",
+        "ubicacion aproximada en zona afectada",
+        "relacion/contactos del usuario"
+      ],
+      "url_api_o_feed": "",
+      "descripcion": "Herramienta de Meta (Safety Check / Comprobacion del estado de seguridad) activada automaticamente tras el terremoto del 24-jun-2026. Usuarios en la zona se marcan 'a salvo'; familiares, incluidos los residentes en EE.UU., pueden ver quien confirmo estar bien sin contacto directo. Incluye Community Help para pedir/ofrecer ayuda.",
+      "notas": "VERIFICADA Y CONFIRMADA. Activacion para este evento confirmada por LA NACION (nota especifica: 'como buscar personas desde EE.UU. con la herramienta de crisis de Facebook') y por medios como Chimbote en Linea ('Facebook activa plataforma para que venezolanos comuniquen que se encuentran bien tras terremoto'). metodo_acceso solo_lectura_manual correcto: facebook.com/crisisresponse existe pero exige login y NO ofrece feed/API publico para ingesta; util como confirmacion de estado 'a salvo', no como lista estructurada de desaparecidos. La URL de crisis especifica con ID numerico que mencionaba la candidata sigue sin poder verificarse como correspondiente a este sismo; bien excluida. senal_confianza oficial correcta (herramienta de Meta)."
+    },
+    {
+      "nombre": "TikTok - cobertura terremoto Venezuela (cuentas de noticias/alertas)",
+      "url": "https://www.tiktok.com/tag/terremotovenezuela",
+      "tipo": "red_social",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "media",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "informacion de evento",
+        "zonas afectadas",
+        "menciones de desaparecidos y rescates"
+      ],
+      "url_api_o_feed": "",
+      "descripcion": "La conversacion del terremoto en TikTok esta dominada por cuentas de noticias/alertas (medios y agregadores) que cubren magnitud, danos, rescates (ej. La Guaira) y mencionan desaparecidos. Hashtags: #venezuela #sismo #temblor #terremoto. Baja densidad de fichas individuales extraibles.",
+      "notas": "PARCIALMENTE VERIFICADA. El evento y la cobertura social en TikTok/redes estan confirmados (El Tiempo documenta 'videos de rescates en Venezuela'; multiples medios reportan que WhatsApp, Telegram y redes se volvieron centros de coordinacion improvisados). PERO los handles concretos listados en la candidata (@radioadn, @alertamundialinfo, @informativost5, @noticiascaracol) NO los pude verificar uno por uno en estas busquedas; el WebSearch del hashtag no devolvio esos perfiles especificos, por eso confianza_hallazgo se mantiene en MEDIA. Confirmado que NO existe una cuenta de TikTok dedicada a fichas estructuradas de desaparecidos de este evento; lo que hay son medios/alertas que mencionan desaparecidos. metodo_acceso solo_lectura_manual correcto: TikTok no ofrece API publica abierta; ingesta = scraping/manual. Util como contexto/alcance, no como fuente de filas. Verificar los handles antes de ingerir."
+    },
+    {
+      "nombre": "Canal de Telegram de Delcy Rodriguez (@delcyrodriguezv) - Vicepresidenta Ejecutiva",
+      "url": "https://t.me/s/delcyrodriguezv",
+      "tipo": "oficial",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "media",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "comunicados oficiales",
+        "cifras agregadas de fallecidos/heridos/desaparecidos",
+        "anuncios de coordinacion de ayuda y estado de emergencia"
+      ],
+      "url_api_o_feed": "https://t.me/s/delcyrodriguezv (vista web publica del canal, scrapeable como HTML, sin login)",
+      "descripcion": "Canal de Telegram de Delcy Rodriguez, alto cargo del gobierno venezolano que lidero la respuesta oficial al terremoto (declaro estado de emergencia, reporto cifras y anuncio un fondo de reconstruccion de 200 millones de USD). Difunde balances oficiales agregados, NO un registro persona-por-persona.",
+      "descripcion_corregida": true,
+      "notas": "VERIFICADA CON CORRECCIONES. El canal @delcyrodriguezv EXISTE, es real y publico (t.me/s/ accesible sin login; ~905 suscriptores en la captura, 22 fotos / 35 videos / 43 enlaces). CORRECCION IMPORTANTE DE TITULO: el canal la identifica como 'Vicepresidente Ejecutivo de la Republica Bolivariana de Venezuela', NO 'presidenta interina' como decia la candidata. Varios medios la describen como quien encabezo la respuesta oficial al sismo (Proceso: 'Delcy Rodriguez reporta 164 muertos y 971 heridos'; Infobae: cifras del gobierno 188 muertos/1.520 heridos/157 desaparecidos), pero su cargo institucional verificado es Vicepresidenta Ejecutiva. SEGUNDA SALVEDAD: en el snapshot que se pudo leer del canal NO aparecian aun publicaciones del terremoto de jun-2026 (posible desfase de cache de la vista t.me/s/); las cifras oficiales si circulan via prensa que la atribuye. Por eso confianza_hallazgo MEDIA. metodo_acceso html_publico correcto (la vista /s/ es scrapeable). Aporta cifras agregadas, no filas individuales; sesgo conocido: cifras oficiales muy por debajo de reportes ciudadanos (>40.000-47.000 desaparecidos reportados en plataformas comunitarias)."
+    },
+    {
+      "nombre": "Línea WhatsApp de emergencia Cancillería de Ecuador (búsqueda de connacionales)",
+      "url": "https://wa.me/593984241667",
+      "tipo": "oficial",
+      "metodo_acceso": "formulario",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre del connacional",
+        "ubicación en Venezuela",
+        "datos de contacto del familiar",
+        "estado (localizado/no localizado)"
+      ],
+      "url_api_o_feed": "Sin API; intake humano por WhatsApp +593 984241667 (y líneas +57 3138414045 / +57 3233195354 del consulado de Ecuador en Bogotá, que asumió funciones consulares regionales).",
+      "descripcion": "El Ministerio de Relaciones Exteriores y Movilidad Humana de Ecuador habilitó el WhatsApp de emergencia +593 984241667 para atender a ecuatorianos en Caracas y zonas afectadas tras el terremoto del 24-jun-2026, incluyendo localización de familiares. Verificado en la página oficial cancilleria.gob.ec y en Expreso.ec.",
+      "notas": "VERIFICADO Y CONFIRMADO. El número +593 984241667 y las líneas de Bogotá +57 3138414045 / +57 3233195354 aparecen textualmente en el comunicado oficial cancilleria.gob.ec/2026/06/24/canales-prioritarios-de-atencion-para-ciudadanos-ecuatorianos-en-venezuela y en Expreso.ec. Por la ruptura de relaciones diplomáticas Ecuador-Venezuela, el consulado en Bogotá asume la asistencia regional. Ejemplo del patrón consular: Cruz Roja Ecuador ofrece además busquedadefamiliares@cruzroja.org.ec / 098 595 6683 (canal análogo, no el ecuatoriano de Cancillería). Datos confidenciales, intake humano, no feed. Confianza alta."
+    },
+    {
+      "nombre": "Estrella Digital — 'Las plataformas ciudadanas que buscan a miles de desaparecidos'",
+      "url": "https://www.estrelladigital.es/articulo/mundo/desaparecidos-terremoto-venezuela-plataformas-ciudadanas/20260625123121447982.html",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "directorio de plataformas (Venezuela Te Busca, Desaparecidos Terremoto Venezuela)",
+        "advertencias de verificación (duplicados, errores, casos sin verificar)",
+        "cifras de reportes de plataformas"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Medio español que cura las plataformas ciudadanas y advierte explícitamente sobre la necesidad de verificar la información antes de difundir, señalando que los datos ciudadanos pueden incluir duplicados, errores y casos pendientes de verificación, y que no deben tratarse como balances oficiales. Reporta cifras de una plataforma (p.ej. 11.153 entradas, 10.533 sin contacto, 620 localizados) como datos ciudadanos, no como registro oficial.",
+      "notas": "VERIFICADO vía WebFetch (HTTP 200, contenido confirmado). Subo confianza_hallazgo de media a ALTA: existe, resuelve y es directamente relevante. NO identifica sitios fraudulentos específicos (solo discute las dos plataformas legítimas), pero SÍ emite advertencias de calidad de datos muy relevantes para el pipeline de dedup/verificación. No recolecta reportes de lectores ni hostea lista nominal de víctimas."
+    },
+    {
+      "nombre": "VenApp (app estatal reconvertida a reporte de desaparecidos) — canal de difusión por Telegram/redes del gobierno",
+      "url": "https://www.rtvcnoticias.com/actualidad/venapp-la-app-para-reportar-desaparecidos-tras-el-doble-terremoto-en-venezuela",
+      "tipo": "oficial",
+      "metodo_acceso": "formulario",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "media",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre y datos de identidad del desaparecido",
+        "última ubicación/geolocalización del punto de contacto",
+        "tipo de reporte (línea de desaparecidos / solicitud de rescate / daños de infraestructura)",
+        "datos del reportante"
+      ],
+      "url_api_o_feed": "App móvil propietaria conectada al 'Comando Conjunto' de emergencia; sin API pública conocida. Difusión por canales oficiales (Telegram/X de Prensa Presidencial, teleSUR).",
+      "descripcion": "El gobierno (vicepresidenta Delcy Rodríguez) activó VenApp como canal digital oficial para reportar desaparecidos, solicitar rescate y notificar daños de infraestructura tras el terremoto. Permite elegir 'Línea de Desaparecidos', 'Solicitud de Rescate' o 'Daños', geolocalizar el último punto de contacto y agregar datos de identidad. Conectada directamente al Comando Conjunto. Verificado por RTVC, El Comercio (Perú), RT y teleSUR.",
+      "notas": "VERIFICADO. ADVERTENCIA DE PRIVACIDAD CONFIRMADA: La Nación (Argentina) y Gestión documentan que VenApp nació como herramienta de vigilancia/denuncia política y fue retirada de Google Play y App Store por ese uso ('app de represión'). Los datos NO son abiertos ni ingeribles, y hay riesgo ético/de DDHH al confiar datos sensibles de víctimas a esta plataforma. Incluir como fuente conocida pero NO recomendada para ingesta; útil solo para conciliar cifras oficiales. Confianza media en su rol operativo; alta en las preocupaciones de privacidad."
+    },
+    {
+      "nombre": "Patrón de SCAM: cuentas de WhatsApp secuestradas, grupos falsos de donaciones y 'desaparecidos' (regla anti-scam, no fuente)",
+      "url": "https://efectococuyo.com/cocuyo-chequea/tacticas-estafas-digitales-mas-comunes/",
+      "tipo": "mensajeria",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "sospechoso_scam",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "intenta capturar datos bancarios/personales vía formularios falsos (phishing)",
+        "suplanta nombres de fundaciones/ONG reales con cambios mínimos",
+        "secuestra cuentas de WhatsApp pidiendo el código de verificación",
+        "pide donaciones urgentes en cripto/tarjetas de regalo"
+      ],
+      "url_api_o_feed": "N/A — señal NEGATIVA para el filtro de ingesta, no una fuente a ingerir.",
+      "descripcion": "Efecto Cocuyo (Cocuyo Chequea) documenta las tácticas de estafa digital que se disparan en emergencias en Venezuela: secuestro de cuentas de WhatsApp (falsas llamadas del CICPC para obtener el código), suplantación de fundaciones reconocidas pidiendo donaciones 'urgentes', y links a formularios falsos que piden cédula+datos bancarios. UNICEF Venezuela y Factchequeado también alertan de fraude/mensajes falsos en torno a la emergencia 2026.",
+      "notas": "NO es una fuente a ingerir: es la REGLA anti-scam que la capa de cruce debe aplicar. Señales a marcar como sospechoso_scam: dominio/cuenta recién creada, urgencia extrema, pago en cripto o gift cards, nombre casi-idéntico al de una ONG real, formularios que piden cédula+datos bancarios. MATIZ DE VERIFICACIÓN: el patrón está sólidamente documentado por Efecto Cocuyo (genérico Venezuela) y Factchequeado/UNICEF lo ligan a la emergencia 2026; no hallé un artículo único dedicado a 'scams del terremoto 2026' en Efecto Cocuyo, pero el patrón aplicado a este evento está corroborado. Cruzar siempre con recursos-venezuela.netlify.app y Factchequeado. Cambié metodo_acceso de 'desconocido' a 'solo_lectura_manual' (la regla se aplica leyendo/contrastando, no ingiriendo). Confianza alta en la existencia del patrón."
+    },
+    {
+      "nombre": "emergenciavenezuela.com — agregador ciudadano con cuentas oficiales (X) y números de emergencia",
+      "url": "https://emergenciavenezuela.com/",
+      "tipo": "agregador",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "registro de desaparecidos (sección /desaparecidos)",
+        "formulario de reporte (/desaparecidos/reportar)",
+        "cuentas oficiales de X (Delcy Rodríguez, FUNVISIS, Protección Civil, Bomberos DC, Cruz Roja Venezolana)",
+        "números de emergencia (911, 171, Protección Civil 0800-3367268)",
+        "datos sísmicos y mapeo de daños"
+      ],
+      "url_api_o_feed": "HTML público; secciones https://emergenciavenezuela.com/desaparecidos y /desaparecidos/reportar scrapeables. Sin API/feed PFIF conocido. Operador independiente (contacto Telegram @miguelsantafe, email ms@ms.studio).",
+      "descripcion": "Sitio ciudadano independiente que centraliza información de emergencia tras los terremotos del 24-jun-2026: registro/formulario de desaparecidos, datos sísmicos, mapeo de daños, agregación de noticias, lista de cuentas oficiales de X a seguir (Delcy Rodríguez, FUNVISIS, Protección Civil, Bomberos DC, Cruz Roja Venezolana) y números de emergencia. Confirmado por WebFetch directo.",
+      "notas": "VERIFICADO POR ACCESO DIRECTO. Se autodeclara textualmente 'sitio ciudadano independiente, no es un portal oficial del gobierno'. Contacto Telegram @miguelsantafe y email ms@ms.studio confirmados. CORRECCIÓN DE DATOS: los números de emergencia reales que lista son 911, 171 y Protección Civil 0800-3367268; el '0212-5714380 (Cruz Roja)' que figuraba en la candidata NO fue confirmado en el sitio y se eliminó. Las cuentas listadas son de X, no Telegram, pero ayudan a identificar las contrapartes oficiales. Subí confianza_hallazgo a alta (sitio real, accesible y verificado en vivo); su sello de 'verificado' es auto-asignado, por eso senal_confianza se mantiene comunitario."
+    },
+    {
+      "nombre": "Caritas Venezuela (Conferencia Episcopal Venezolana / Caritas Internationalis)",
+      "url": "https://caritasvenezuela.org/",
+      "url_api_o_feed": "",
+      "tipo": "ong",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "evaluacion de daños por diocesis",
+        "recuento de victimas y daños materiales (agregado, interno diocesano)",
+        "mapa de necesidades de familias afectadas (damnificados)",
+        "ubicacion de centros de acopio nacionales y diocesanos",
+        "atenciones medicas / personas atendidas (agregado)"
+      ],
+      "descripcion": "Red caritativa de la Iglesia Catolica con estructura diocesana y parroquial nacional. Tras el doble sismo del 24/06/2026 (M7.2 y M7.5, epicentro Yaracuy) activa levantamiento de informacion y evaluacion de daños en las diocesis afectadas, canalizando datos hacia Caritas Nacional para un 'mapa real de necesidades', y abre centros de acopio (incluido uno nacional en la sede del Episcopado en Caracas). Caritas Española movilizo 300.000 EUR y Caritas Internationalis libero fondos de emergencia.",
+      "notas": "VERIFICADO. Dominio caritasvenezuela.org resuelve y es oficial (fetch ok). Confirmada participacion concreta en este sismo por Vida Nueva, COPE y Caritas Española (hoja de ruta tras doblete sismico; 300.000 EUR). El sitio ofrece informes PDF, 'Mapas de Geolocalizacion' y boletines, pero NO mantiene un registro publico buscable de personas desaparecidas: recopila a nivel de FAMILIA/necesidad y daños agregados. Sin API ni feed publico observado. Contacto: caritasvenezuela@gmail.com, (+58) 212-443-31-53, Av. Teheran, Montalban, Caracas (a 200m de la UCAB, sede CEV). Alto valor como fuente de refugios/censo de damnificados via parroquias, pero la ingesta exigiria acuerdo de datos, no scraping."
+    },
+    {
+      "nombre": "Conferencia Episcopal Venezolana (CEV) — red de Caritas parroquiales y centros de acopio",
+      "url": "https://conferenciaepiscopalvenezolana.com/",
+      "url_api_o_feed": "http://conferenciaepiscopalvenezolana.com/noticias/",
+      "tipo": "ong",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "ubicacion de refugios parroquiales",
+        "familias acogidas (disperso por parroquia)",
+        "centros de acopio activos",
+        "comunicados y noticias institucionales"
+      ],
+      "descripcion": "La CEV (45 obispos, presidida por Mons. Jesus Gonzalez de Zarate, arzobispo de Valencia) coordina la respuesta de la Iglesia: parroquias abiertas como refugios temporales y puntos de encuentro, y centros de acopio (incl. en la sede de la CEV en Av. Teheran, Urb. Montalban, Caracas, junto a la UCAB). Arquidiocesis de Caracas (Mons. Raul Biord) recorre parroquias evaluando necesidades. Papa Leon XIV envio 100.000 EUR.",
+      "notas": "VERIFICADO Y CORREGIDO. CONFIRMACION DEL DOMINIO EXACTO (correccion respecto a la duda del candidato): el dominio oficial es conferenciaepiscopalvenezolana.com (fetch ok), email contacto@conferenciaepiscopalvenezolana.com (alt. casaibarracev@gmail.com), tel 04163597760, Av. Teheran Urb. Montalban, Caracas. Handle X/Twitter y Facebook: @CEVmedios. Confianza_hallazgo SUBIDA de 'media' a 'alta' al confirmar URL exacta y rol activo (Vida Nueva, ACI Prensa, El Imparcial, InfoVaticana). La pagina principal NO muestra contenido de emergencia ni registro de desaparecidos; las noticias estan en /noticias/ (no es un feed estructurado, solo HTML). Refugios y familias acogidas son fuente valiosa de personas localizadas, pero la informacion esta dispersa por parroquia, sin plataforma de datos buscable. Sin API ni RSS."
+    },
+    {
+      "nombre": "Centros de Acopio Venezuela (centrosayudavenezuela.org) — agregador voluntario",
+      "url": "https://centrosayudavenezuela.org/",
+      "url_api_o_feed": "",
+      "tipo": "agregador",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "centros de acopio (ubicacion, organizacion, que reciben)",
+        "puntos de ayuda nacionales e internacionales"
+      ],
+      "descripcion": "Sitio comunitario/voluntario que lista centros de acopio para damnificados del terremoto. En esta verificacion mostro ~168 centros en 76 ciudades de 15 paises (≈98 en Venezuela, ≈70 internacionales), buscables por ciudad, organizacion o tipo de insumo. Incluye boton 'Reportar nuevo centro' para que la comunidad agregue puntos.",
+      "notas": "VERIFICADO Y CORREGIDO. El sitio resuelve y renderiza correctamente (fetch ok, sin error de cuota de Google Sheets en esta sesion). CORRECCION: NO se pudo confirmar el backend basado en Google Sheets que afirmaba el candidato; el HTML servido no expone sheet ID, gviz, docs.google.com, ni endpoint CSV/JSON visible, y no se vio el destino del formulario 'Reportar nuevo centro' (requiere inspeccion de JS/red, no disponible via fetch). Por eso url_api_o_feed queda vacio y metodo_acceso se mantiene en html_publico (scraping del listado). No es estafa aparente: no solicita donaciones monetarias a cuentas opacas ni datos personales sensibles; canaliza donaciones en especie a puntos fisicos. Confianza_hallazgo SUBIDA a 'alta' (existencia y funcion confirmadas por El Diario, El Nacional, El Pitazo). Sigue siendo infraestructura improvisada sin verificacion de los centros listados; util para capa de REFUGIOS/acopio, NO para personas desaparecidas. Verificar operador antes de ingerir."
+    },
+    {
+      "nombre": "UCAB — Universidad Catolica Andres Bello (Voluntariado UCAB / Extension Social)",
+      "url": "https://extensionsocial.ucab.edu.ve/",
+      "url_api_o_feed": "",
+      "tipo": "otro",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "media",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "voluntarios disponibles (~300 voluntarios, 12 grupos por escuela)",
+        "comunidades atendidas",
+        "coordinacion con instituciones aliadas",
+        "canal de atencion psicologica gratuita (asociado, no necesariamente alojado en este dominio)"
+      ],
+      "descripcion": "Universidad jesuita con direccion de Extension Social y red de Voluntariado UCAB. La sede de la CEV/Caritas usada como centro de acopio esta junto a la UCAB (Av. Teheran, Montalban). Universidades abrieron centros de acopio para canalizar ayuda. El P. Danny Socorro (director de la Escuela de Psicologia de la UCAB) informo sobre un canal de asistencia psicologica gratuita ante la emergencia del terremoto.",
+      "notas": "PARCIALMENTE VERIFICADO. El dominio extensionsocial.ucab.edu.ve existe (aparece en resultados de busqueda con paginas reales de Voluntariado), pero NO se pudo hacer fetch en esta sesion: 3 intentos dieron getaddrinfo ETIMEOUT (probable restriccion/latencia de infraestructura en Venezuela), por lo que el contenido exacto no se confirmo palabra por palabra. Vinculo CONCRETO con este sismo: confirmado un canal de atencion psicologica gratuita liderado por el P. Danny Socorro (UCAB Psicologia), ademas del rol general de centros de acopio universitarios. NO se confirmo ninguna plataforma de registro de desaparecidos operada por UCAB. Util como nodo de voluntarios/coordinacion y como derivacion psicosocial, NO como feed de datos de personas. Confianza_hallazgo MEDIA por la imposibilidad de fetch directo y por ser su rol de datos inferido."
+    },
+    {
+      "nombre": "IRC — International Rescue Committee (respuesta de emergencia Venezuela 2026)",
+      "url": "https://www.rescue.org/press-release/venezuela-irc-launches-emergency-response-twin-earthquakes",
+      "url_api_o_feed": "",
+      "tipo": "ong",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "oficial",
+      "confianza_hallazgo": "alta",
+      "idioma": "en",
+      "datos_que_recopila": [
+        "evaluacion de necesidades",
+        "proteccion a poblaciones vulnerables",
+        "datos agregados de salud, nutricion, WASH y proteccion"
+      ],
+      "descripcion": "ONG internacional que lanzo respuesta de emergencia tras el doble terremoto (24/06/2026): distribucion de articulos esenciales y suministros medicos a trabajadores de primera linea, evaluacion de necesidades y apoyo de proteccion a poblaciones vulnerables (presente en Venezuela desde 2021, con socios locales; servicios de salud, nutricion, WASH, proteccion, educacion y medios de vida).",
+      "notas": "VERIFICADO. Press release confirmado por fetch, fechado 25/06/2026. NO menciona registro publico de desaparecidos, Restoring Family Links (RFL), ni gestion de refugios con datos publicos; tampoco feed/API. Relevante como actor de proteccion y posible socio de datos institucional, pero SIN mecanismo de datos publico/buscable. Confianza_hallazgo SUBIDA a 'alta' en cuanto a existencia y relevancia del actor (confirmada tambien por NBC). El metodo_acceso real es solo lectura del comunicado; no hay ingesta automatizada posible."
+    },
+    {
+      "nombre": "Diaspora venezolana en Argentina: Centro Venezolano Argentino + Asociacion de Venezolanos en el AMBA (hubs de busqueda de familiares)",
+      "url": "https://www.lanacion.com.ar/sociedad/terremoto-en-venezuela-la-angustia-de-los-venezolanos-radicados-en-la-argentina-que-intentan-nid25062026/",
+      "url_api_o_feed": "https://desaparecidosterremotovenezuela.com/",
+      "tipo": "ong",
+      "idioma": "es",
+      "metodo_acceso": "solo_lectura_manual",
+      "datos_que_recopila": [
+        "reportes de familiares desaparecidos (recibidos de forma analoga/manual)",
+        "difusion de listas y nombres por redes sociales",
+        "contencion psicologica a la comunidad migrante",
+        "derivacion a plataformas digitales de busqueda"
+      ],
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "media",
+      "descripcion": "Organizaciones de la diaspora en Argentina (mas de 200.000 migrantes venezolanos; mas de 11.000 familiares sin contacto reportados) que actuan como hubs presenciales de busqueda y contencion. El Centro Venezolano Argentino (sede en Julian Alvarez 866, Buenos Aires) opera de forma continua dando apoyo institucional y psicologico; la Asociacion de Venezolanos en el AMBA (vocera Deyanira Ortiz) difunde nombres de desaparecidos, da contencion y organiza vigilias. Documentadas por LA NACION (Argentina).",
+      "notas": "VERIFICADO Y CORREGIDO. Ambas organizaciones son reales: Centro Venezolano Argentino confirmado con direccion Julian Alvarez 866, Buenos Aires (LA NACION, La Patilla, El Nacional); Asociacion de Venezolanos en el AMBA confirmada con vocera Deyanira Ortiz. CORRECCION IMPORTANTE: estas orgs son hubs MANUALES (listas, redes, contencion) y NO mantienen plataforma estructurada propia; la plataforma estructurada/buscable a la que canalizan es de terceros: desaparecidosterremotovenezuela.com (creada por voluntarios incl. Gabriela Hernandez; >12.000 personas registradas, >1.000 localizadas segun el articulo) y 'Venezuela Te Busca' (venezuelatebusca.com). Otra plataforma ciudadana relacionada: encuentralos.tecnosoft.dev. El articulo de LA NACION tambien menciona 'Alianza por Venezuela' (Palermo) como tercer hub presencial. La URL del campo principal es el articulo fuente (no un sitio propio de las orgs). url_api_o_feed apunta al portal de desaparecidos como la verdadera capa de datos de cruce; conviene verificarlo/contactar a las orgs por separado. Confianza_hallazgo MEDIA porque las orgs no exponen datos digitales propios y el cruce real ocurre en plataformas de terceros que deben evaluarse aparte."
+    },
+    {
+      "nombre": "El Pitazo — Casos de desaparecidos y plataformas de búsqueda (terremoto Venezuela)",
+      "url": "https://elpitazo.net/regiones/gran-caracas/terremotos-en-venezuela-conozca-los-casos-de-desaparecidos-y-las-plataformas-de-busqueda/",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "nombre",
+        "ubicacion_ultima_vez",
+        "estado",
+        "casos nominales narrados (ej. Vicky Urdaneta, Daibelys Tillero, Lucia Marquina madre del exdiputado Olivares)",
+        "enlaces a plataformas de busqueda (Encuentralos, terremotovenezuela.com)"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Medio independiente venezolano (El Pitazo). Articulo dedicado que combina (a) casos nominales de desaparecidos narrados editorialmente y (b) un directorio curado de plataformas de busqueda ciudadanas (Encuentralos, terremotovenezuela.com). No mantiene base propia ni feed; es fuente de cross-reference para identificar que plataformas existen y para corroborar casos individuales puntuales.",
+      "notas": "EXISTE y es RELEVANTE. WebFetch directo devolvio HTTP 403 (bloqueo de bots), pero la existencia y el contenido se corroboraron de forma independiente: la busqueda devolvio los nombres exactos de los casos del articulo (Vicky Urdaneta de 20 anios en Catia La Mar, Daibelys Tillero de 23, y la madre del exdiputado Jose Manuel Olivares, Lucia Marquina). senal_confianza = verificado_medio (medio establecido). Util como indice editorial para deduplicar plataformas y como pista de casos nominales, NO como feed estructurado de personas. Mantengo confianza alta porque medio, URL y contenido son verificables aunque el HTML completo no se pudo cargar por el 403."
+    },
+    {
+      "nombre": "El Estímulo — 'Conoce las plataformas para localizar desaparecidos y consultar edificios afectados'",
+      "url": "https://elestimulo.com/terremoto-en-venezuela/2026-06-25/conoce-las-plataformas-para-localizar-desaparecidos-y-consultar-sobre-edificios-afectados/",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "directorio de plataformas (desaparecidosterremotovenezuela.com, terremotovenezuela.com)",
+        "descripcion de que datos pide cada una: fotografias, descripciones fisicas, nombres completos, ultimos puntos de contacto"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Medio venezolano con guia curada de plataformas. Confirmado via WebFetch: caracteriza desaparecidosterremotovenezuela.com (recopila fotografias, descripciones fisicas, nombres completos y ultimos puntos de contacto; mas de 26 mil reportes al momento del articulo) y terremotovenezuela.com (mapea casas/edificios danados y zonas bajo perimetro de seguridad). El Estimulo NO mantiene base propia; solo describe iniciativas de terceros (organizaciones civiles y redes ciudadanas).",
+      "notas": "EXISTE y es RELEVANTE. Contenido verificado via WebFetch (carga limpia). Valioso para dedup: caracteriza las plataformas como iniciativas civiles (no oficiales) y enumera sus campos de datos. La seccion dedicada /terremoto-en-venezuela/ indica cobertura continua. Nota menor: en el contenido cargado NO aparecio mencionado venezuelatebusca.com (el candidato original lo citaba); el articulo se centra en desaparecidosterremotovenezuela.com y terremotovenezuela.com."
+    },
+    {
+      "nombre": "El Colombiano — 'Más de 40.000 reportados desaparecidos en plataforma ciudadana' (desaparecidosterremotovenezuela.com)",
+      "url": "https://www.elcolombiano.com/internacional/busqueda-personas-desparecidas-terremoto-venezuela-contacto-PC38188315",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "nombre completo",
+        "edad",
+        "foto reciente",
+        "ubicacion ultima vez",
+        "estado (localizado/sin contacto)"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Medio colombiano que documenta en detalle la plataforma 'Desaparecidos Terremoto Venezuela' (desaparecidosterremotovenezuela.com): campos que recoge (nombre, edad, foto reciente, ultima ubicacion, estado) y cifras (40.223 reportados / 37.380 sin contacto / 2.843 localizados, actualizandose minuto a minuto). Confirma que es base web colaborativa de origen civil, sin fines de lucro y sin API.",
+      "notas": "EXISTE y es RELEVANTE. Contenido y cifras verificados via WebFetch (40.223 / 37.380 / 2.843 confirmados exactamente). El medio NO recolecta datos de lectores; solo reporta sobre la plataforma ciudadana. El articulo confirma explicitamente que no menciona API, solo web colaborativa donde cualquiera registra a un familiar. Tiene articulo hermano sobre 'Venezuela te busca' en URL distinta: https://www.elcolombiano.com/internacional/asi-funciona-venezuela-te-busca-pagina-desaparecidos-terremoto-JD38196539"
+    },
+    {
+      "nombre": "El Tiempo (Colombia) — 'Lanzan plataforma para reportar y localizar desaparecidos: así puede acceder'",
+      "url": "https://www.eltiempo.com/mundo/venezuela/lanzan-plataforma-para-reportar-y-localizar-personas-desaparecidas-tras-los-terremotos-en-venezuela-asi-puede-acceder-3566961",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "nombre completo",
+        "ubicacion ultima vez",
+        "estado (reportado/localizado)",
+        "consulta de registros existentes"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Medio colombiano de referencia. Explica como usar la plataforma ciudadana (reportar desaparecido / notificar aparicion / consultar registros) y reporta cifras (32.351 reportados / 30.600 sin contacto / 1.751 localizados al momento del articulo). Tambien tiene live blog de cifras del jueves 25 de junio.",
+      "notas": "EXISTE y es RELEVANTE. Confirmado via WebFetch. CORRECCION respecto al candidato: el articulo cargado se centra en desaparecidosterremotovenezuela.com (no en venezuelatebusca.com como afirmaba el candidato); las tres acciones y los campos descritos corresponden a esa plataforma. El medio NO mantiene base propia; solo reporta sobre la plataforma de terceros. La advertencia explicita de 'informacion sin verificacion independiente' aparece mas asociada a la cobertura de 'Venezuela te busca' (atribuida a la emprendedora Julia Alessandra Mariano, @juliaamariano) que a este articulo concreto; util como senal de calidad de datos para el dedup. Live blog de cifras: https://www.eltiempo.com/mundo/venezuela/ultimas-noticias-del-fuerte-terremoto-en-venezuela-este-jueves-25-de-junio-...-3566923"
+    },
+    {
+      "nombre": "CNN en Español — 'Los terremotos impulsan una ola de plataformas digitales para buscar desaparecidos'",
+      "url": "https://cnnespanol.cnn.com/2026/06/25/venezuela/terremoto-plataformas-buscar-desaparecidos-orix",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "inventario de plataformas (Desaparecidos Terremoto Venezuela, Venezuela Te Busca, iniciativas en redes como 'Alianza por Venezuela')",
+        "descripcion de campos de reporte (nombre completo, ultimo lugar visto, edad, descripcion fisica, ropa, foto)"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "CNN en Español cataloga las plataformas digitales ciudadanas surgidas para buscar desaparecidos (Desaparecidos Terremoto Venezuela, Venezuela Te Busca, y cuentas de redes sociales como 'Alianza por Venezuela'). Describe los campos de reporte. No recolecta datos de lectores ni hostea tracker propio.",
+      "notas": "EXISTE y es RELEVANTE. La URL directa de CNN devolvio HTTP 451 (Unavailable For Legal Reasons / bloqueo geo-legal), pero el articulo se verifico en su totalidad via el mirror sindicado KESQ (https://kesq.com/kunamundo/noticias-cnn/cnn-spanish/2026/06/25/los-terremotos-en-venezuela-impulsan-una-ola-de-plataformas-digitales-para-buscar-desaparecidos/) y existe replica en ABC17News. Senal de calidad importante: CNN afirma explicitamente que 'no puede validar de forma independiente el funcionamiento de las plataformas' y que intento contactar a 'Desaparecidos Terremoto Venezuela' sin respuesta. SUBO confianza_hallazgo de media a alta porque el contenido quedo totalmente corroborado via mirror, pese al 451 en la URL canonica. Mismo medio tiene live blog: https://cnnespanol.cnn.com/2026/06/24/venezuela/live-news/terremoto-sismo-en-vivo-noticias-caracas-orix"
+    },
+    {
+      "nombre": "Telemundo — Live blog terremotos Venezuela (cifras de muertos/heridos/desaparecidos)",
+      "url": "https://www.telemundo.com/noticias/noticias-telemundo/desastres-naturales/live-blog/dos-terremotos-magnitud-superior-7-sacuden-venezuela-segundos-rcna351682",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "cifras agregadas (al menos 235 muertos, 4.300 heridos, 157 desaparecidos)",
+        "mencion de plataforma oficial 'BENAP' (sin URL)",
+        "casos personales narrados / historias de supervivencia"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Live blog de Telemundo con cifras en evolucion (al menos 235 muertos, 4.300 heridos, 157 desaparecidos segun la presidenta interina Delcy Rodriguez). NO incluye lista nominal de desaparecidos; solo agregados e historias personales. Menciona una plataforma OFICIAL 'BENAP' que las autoridades habilitaron para que ciudadanos reporten la desaparicion de un familiar (sin URL en el articulo).",
+      "notas": "EXISTE y es RELEVANTE. Verificado via WebFetch (carga limpia). Valor para el proyecto: (1) cifras oficiales agregadas para cuadrar totales; (2) la pista de la plataforma estatal 'BENAP', citada por Delcy Rodriguez, que conviene rastrear como posible fuente OFICIAL para reporte de desaparecidos (no se da URL; pendiente de localizar). No es feed de personas. Telemundo tiene live blogs paralelos en afiliadas (telemundo51.com/.../2797458, telemundopr.com/.../2823002)."
+    },
+    {
+      "nombre": "El Comercio (Perú) — Terremoto en Venezuela EN VIVO (tracker de cifras)",
+      "url": "https://elcomercio.pe/mundo/venezuela/terremoto-en-venezuela-en-vivo-ultimas-noticias-muertos-heridos-desaparecidos-danos-y-escenas-de-panico-en-caracas-usgs-temblor-valencia-montalban-noticia/",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "cifras agregadas (muertos, heridos, desaparecidos)",
+        "zonas afectadas",
+        "testimonios de sobrevivientes"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Live blog de El Comercio (Perú) con conteo agregado actualizado (235 muertos, 4.300 heridos; estado de emergencia; aeropuerto cerrado). Agrega reportes de oficiales, testigos y agencias (USGS, AFP, EFE). NO publica nombres de víctimas/desaparecidos ni enlaza plataformas de búsqueda ni permite reportes de lectores.",
+      "notas": "VERIFICADO vía WebFetch (HTTP 200, contenido confirmado). URL resuelve y es relevante al evento. Solo aporta cifras oficiales para cuadre de totales; NO es fuente de personas individuales. Incluir solo como referencia de magnitud, no para ingestión de registros nominales."
+    },
+    {
+      "nombre": "NBC News — Live blog Venezuela earthquakes",
+      "url": "https://www.nbcnews.com/world/venezuela/live-blog/live-updates-venezuela-earthquakes-rescue-aid-trump-delcy-caracas-rcna351701",
+      "tipo": "medio",
+      "idioma": "en",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "cifras agregadas (muertos, heridos)",
+        "mención de plataformas (Desaparecidos Terremoto Venezuela, Venezuela Te Busca) y sus volúmenes de reportes"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "media",
+      "descripcion": "Live blog internacional de NBC. Reporta cifras agregadas (al menos 235 muertos, 4.300 heridos, ~157 desaparecidos) y cita el volumen de las plataformas ciudadanas (~45.000 reportados en Desaparecidos Terremoto Venezuela, ~4.000 localizados; ~20.000 envíos en Venezuela Te Busca). No hostea tracker nominal ni recolecta reportes de lectores.",
+      "notas": "URL confirmada en búsqueda. WebFetch devolvió HTTP 403 (bloqueo anti-bot, persistente en reintento), por eso confianza_hallazgo media en el contenido exacto del live blog. Sin embargo los volúmenes citados (~45k / ~20k) están CORROBORADOS independientemente por CBC y El Colombiano con cifras idénticas, lo que eleva la confianza en el dato sustantivo. Valor: cross-reference de magnitudes de las plataformas canónicas durante el dedup. Para ingestión real del live blog usar tool autenticada o lectura manual (solo_lectura_manual efectivo)."
+    },
+    {
+      "nombre": "CBC — Live story: Venezuela earthquakes (deaths, survivors, recovery)",
+      "url": "https://www.cbc.ca/news/world/livestory/venezuela-earthquakes-deaths-survivors-recovery-aftermath-search-9.7248333",
+      "tipo": "medio",
+      "idioma": "en",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "cifras agregadas (muertos >230, miles de desaparecidos)",
+        "mención de volúmenes de plataformas ciudadanas (~45.000 / ~20.000)"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "media",
+      "descripcion": "Live story de CBC (Canadá) con cobertura de víctimas y desaparecidos a nivel agregado (>230 muertos, miles desaparecidos). Cita los volúmenes de las plataformas ciudadanas: >45.000 reportados en un sitio (poco más de 4.000 localizados) y ~20.000 envíos en otro. No mantiene lista nominal ni recolecta datos de lectores.",
+      "notas": "URL confirmada en búsqueda. WebFetch devolvió HTTP 403 (bloqueo anti-bot, persistente). No obstante, el snippet de búsqueda transcribe directamente su contenido (>230 muertos, 45.000 reportados, ~4.000 localizados, ~20.000 envíos), corroborando el dato sustantivo; por eso confianza_hallazgo media (no baja). Solo aporta cifras agregadas y volúmenes de plataformas; no es fuente de personas individuales para ingestión. Para lectura del texto completo usar tool autenticada o lectura manual."
+    },
+    {
+      "nombre": "El Español — Live blog terremoto Venezuela (desaparecidos españoles y cifras consulares)",
+      "url": "https://www.elespanol.com/mundo/america/20260625/ultima-hora-terremotos-venezuela-informa-muertos-heridos/1003744299146_10.html",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "cifras agregadas (235 muertos, 4.300 heridos)",
+        "número de ciudadanos españoles fallecidos y sin localizar (vía Ministerio de Exteriores)"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Live blog de El Español que reporta cifras agregadas del evento (235 muertos, 4.300 heridos) y, específicamente, datos consulares del Ministerio de Exteriores español: confirma 2 españoles fallecidos y eleva a 80 los ciudadanos españoles sin localizar (una actualización anterior citaba 68). Cubre además el despliegue de la UME y equipos de emergencia de España.",
+      "notas": "VERIFICADO vía WebFetch (HTTP 200). CORRECCIÓN: la cifra confirmada por Exteriores es 2 españoles muertos y 80 desaparecidos (no '68-80' genérico); 68 fue un valor de una actualización previa que luego subió a 80. CORRECCIÓN: la candidata mezclaba El Español con Vozpopuli; la URL verificada corresponde solo a El Español (no se confirmó la URL de Vozpopuli aquí). Aporta un subconjunto particular (nacionales españoles), basado en datos consulares oficiales, fuente verificada para esa cohorte. NO es tracker nominal abierto. Subo confianza_hallazgo a alta (URL resuelve y contenido confirmado)."
+    },
+    {
+      "nombre": "Listado consolidado de hospitales y clínicas habilitados (TalCual)",
+      "url": "https://talcualdigital.com/estos-son-los-hospitales-y-clinicas-que-estan-atendiendo-a-afectados-por-terremotos/",
+      "tipo": "medio",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "nombre de centro asistencial",
+        "ubicacion/municipio",
+        "tipo (publico/privado)",
+        "rol (triaje/evaluacion/hospitalizacion)"
+      ],
+      "senal_confianza": "verificado_medio",
+      "url_api_o_feed": "",
+      "confianza_hallazgo": "media",
+      "descripcion": "Articulo de TalCual que consolida la lista oficial (Ministerio de Salud) de los 20 hospitales publicos y clinicas privadas de la Gran Caracas habilitados para atender heridos del terremoto (8 hospitales publicos + 12 clinicas privadas, estas ultimas via la Asociacion de Clinicas Privadas de la Region Capital para triaje/evaluacion/hospitalizacion). No es un listado de pacientes, sino el DIRECTORIO de centros donde buscar ingresados; util como capa de normalizacion de nombres/ubicaciones de instalaciones para deduplicar reportes de heridos por hospital.",
+      "notas": "El fetch directo devolvio HTTP 403 (anti-bot, persistente en reintento), por eso confianza_hallazgo media. PERO el titulo y la lista estan CORROBORADOS de forma independiente por El Nacional ('8 hospitales publicos y 12 clinicas privadas'), AVN ('habilitan 20 hospitales y clinicas en la Gran Caracas') y Notifalcon, todos con los mismos centros nombrados. El conteo '~20 hospitales' de la candidata es correcto (8+12=20). Centros publicos: Hospital Vargas, El Algodonal (Antimano), Hospital de Lidice, Periferico de Catia, Los Magallanes de Catia, Hospital Militar Dr. Carlos Arvelo, Domingo Luciani (El Llanito), Perez de Leon II (Petare). Privadas: Clinica Santa Sofia, Centro Medico Docente La Trinidad, Hospital de Clinicas Caracas, Fenix Salud, Clinica Avila, Clinica La Floresta, Sanatrix, Urologico San Roman, Policlinica Metropolitana, Clinica Loira, Venemergencia. Nota operativa: el Hospital de Clinicas Caracas sufrio daños por los sismos (confirmado por El Nacional), considerar al normalizar capacidad real. Para ingestion del texto usar tool autenticada o lectura manual (solo_lectura_manual efectivo por el 403)."
+    },
+    {
+      "nombre": "Cronica.uno - cobertura de hospitales y listas de heridos (medio de verificacion)",
+      "url": "https://cronica.uno/familias-recorren-hospitales-caracas-lesionados-desaparecidos-terremotos/",
+      "tipo": "medio",
+      "metodo_acceso": "html_publico",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombres de hospitales que reciben heridos",
+        "descripcion de listas fisicas de ingresados pegadas en puertas de emergencia",
+        "ubicaciones / zonas afectadas"
+      ],
+      "descripcion": "Articulo periodistico de Cronica Uno (medio venezolano independiente), publicado el 25-jun-2026 por Yandris Saldivia, que documenta familias recorriendo hospitales de Caracas tras los sismos del 24-jun (M7.2 y M7.5). El personal medico registra manualmente los nombres de los heridos y las familias consultan listas pegadas en las puertas de emergencias. Sirve como capa de VERIFICACION para identificar instalaciones reales y validar que un 'listado' fisico reportado en redes corresponde a un hospital real.",
+      "url_api_o_feed": "",
+      "notas": "CORRECCION: el fetch confirma que el articulo cita Dr. Miguel Perez Carreno, Periferico de Catia, Hospital Clinico Universitario y Clinica Santa Sofia (privada). NO menciona en este articulo a Domingo Luciani, ni 'centro del Seguro Social del litoral' (esos aparecen en OTRAS coberturas, no en esta URL); se corrigio la descripcion para no atribuirle hospitales que no estan en la pieza. Confianza alta: fetch exitoso, evento corroborado por El Universal, CNN, El Nacional. No es un feed de pacientes sino fuente editorial; util como control de calidad anti-scam (cruzar nombres de hospitales reales)."
+    },
+    {
+      "nombre": "Hospital Domingo Luciani (El Llanito) - listas de heridos y menores no acompanados",
+      "url": "https://www.eluniversal.com.mx/mundo/ninos-llegan-solos-a-hospitales-tras-terremotos-en-venezuela-familias-buscan-a-desaparecidos-en-listas-de-heridos/",
+      "tipo": "hospital",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre",
+        "edad",
+        "estado del herido",
+        "condicion de no identificado / no acompanado (menores)"
+      ],
+      "descripcion": "Hospital publico del este de Caracas (El Llanito) convertido en centro clave para menores afectados; muchos llegan solos y sin identificacion porque son extraidos del escombro y trasladados de inmediato desde La Guaira. Pega largas listas manuscritas de heridos en las paredes; segun El Universal, 22 menores (4-19 anos) figuraban entre los ingresados. Fuente primaria critica para personas NO IDENTIFICADAS (ninos) tras el sismo.",
+      "url_api_o_feed": "",
+      "notas": "CORRECCION: subo confianza_hallazgo de 'media' a 'ALTA'. El WebFetch confirma explicitamente: Hospital Domingo Luciani en el este de Caracas, listas fisicas pegadas en las paredes, 22 menores de 4-19 anos, menores no acompanados, y que NO hay canal/registro digital oficial: las familias fotografian las listas y las difunden por redes. Datos sensibles de menores: tratar con cuidado de privacidad. Sin canal digital -> solo_lectura_manual correcto. Confirmado por El Universal e Infobae."
+    },
+    {
+      "nombre": "Hospitales de campana de La Guaira (respuesta de emergencia, incl. apoyo Brasil)",
+      "url": "https://www.elnacional.com/2026/06/brasil-anuncia-el-envio-de-un-hospital-de-campana-a-venezuela-tras-terremotos/",
+      "tipo": "hospital",
+      "metodo_acceso": "solo_lectura_manual",
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "media",
+      "idioma": "es",
+      "datos_que_recopila": [
+        "nombre (posible)",
+        "estado del herido"
+      ],
+      "descripcion": "Hospitales de campana instalados en La Guaira (estado mas afectado) ante la saturacion de centros locales. Brasil anuncio el envio de una mision humanitaria (36 bomberos, tecnicos de Defensa Civil, ~9 toneladas de equipos) y materiales para montar un hospital de campana. Delcy Rodriguez confirmo la instalacion de hospitales de campana en la region costera. Estos centros gestionan heridos pero su registro de pacientes NO tiene acceso publico.",
+      "url_api_o_feed": "",
+      "notas": "CORRECCION: cambie la URL de la generica de Wikipedia a la nota especifica de El Nacional que confirma el hospital de campana de Brasil; existencia tambien corroborada por CNN en Espanol y El Tiempo. Subo confianza_hallazgo de 'baja' a 'MEDIA' porque el envio de Brasil y los hospitales de campana en La Guaira estan confirmados por multiples medios; sigue SIN existir un listado de pacientes publico ni canal de consulta. Util para mapear donde hay heridos no rastreados digitalmente, NO como feed ingerible."
+    },
+    {
+      "nombre": "TerremotoVE (formulario y feed KoBoToolbox)",
+      "url": "https://ee.kobotoolbox.org/x/eaEmQ9YW",
+      "url_api_o_feed": "https://kf.kobotoolbox.org/api/v2/assets/a8XWDsdUcpBzXGtgQmiiro/data/",
+      "tipo": "agregador",
+      "idioma": "es",
+      "metodo_acceso": "api",
+      "datos_que_recopila": [
+        "Evento (categoria: edificio colapsado / persona rescatada / persona desaparecida / punto de acopio / incendio / otro)",
+        "Descripcion del evento (texto libre)",
+        "Ubicacion (geopoint lat/long)",
+        "Enlace (opcional)",
+        "Informacion adicional (opcional)"
+      ],
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Iniciativa comunitaria sobre KoBoToolbox (infra humanitaria estandar) que recolecta reportes del terremoto del 24-jun-2026: eventos georreferenciados de edificios colapsados, personas rescatadas/desaparecidas, puntos de acopio e incidentes. Asset 'TerremotoVE', owner 'mariannedh', deployment_status 'deployed', marcado publico.",
+      "notas": "VERIFICADO Y CORREGIDO. El endpoint /api/v2/assets/a8XWDsdUcpBzXGtgQmiiro/data/ responde 200 OK SIN autenticacion y devuelve JSON paginado (count ~621-622 submissions, con _geolocation). El asset figura como 'public' y 'deployed'. CORRECCION IMPORTANTE de datos_que_recopila: los campos REALES del formulario son Evento (select), Descripcion del evento, Enlace, Ubicacion (geopoint) e Informacion adicional. NO hay campos estructurados de 'nombre de persona' ni 'estado desaparecido/localizado' ni de cedula; los desaparecidos solo aparecen como categoria de 'Evento' y dentro de texto libre. Por tanto NO es un registro nominal de personas: util para MAPA de incidentes georreferenciados, no para matching por nombre/cedula. Sigue siendo la mejor fuente para ingestion automatizada (API REST + exports CSV/XLSX). Aplicar masking de cualquier dato personal que aparezca en texto libre."
+    },
+    {
+      "nombre": "Venezuela Rescue Map (ayudavene.site)",
+      "url": "https://ayudavene.site/",
+      "url_api_o_feed": "",
+      "tipo": "web",
+      "idioma": "es",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "personas desaparecidas (con opcion de marcar como encontrado)",
+        "categoria de emergencia (atrapado/rescate/urgente/a salvo/refugio)",
+        "ubicacion en mapa (GPS)",
+        "replicas sismicas"
+      ],
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "media",
+      "descripcion": "Mapa interactivo humanitario para reportar emergencias y localizar desaparecidos del terremoto; permite marcar 'encontrado' y compartir reportes por WhatsApp/Telegram. Declara 'Datos abiertos, uso libre' y 'No recopilamos informacion personal'.",
+      "notas": "VERIFICADO: el sitio existe y carga, orientado al terremoto de Venezuela. CONFIRMO: TLD generico .site (no .ve), sin afiliacion organizacional ni dueno identificable (solo soporte@ayudavene.site), no se observan pedidos de donacion ni senales claras de scam. Contradiccion notable: dice 'no recopila informacion personal' pero usa geolocalizacion GPS. NO se confirmo API/endpoint publico pese a declarar 'datos abiertos' -> metodo_acceso real = html_publico, no API. Tratar como comunitario NO verificado; validar antes de ingerir como autoritativo."
+    },
+    {
+      "nombre": "Venezuelan American Caucus (diaspora Sur de Florida)",
+      "url": "https://venezuelanamericancaucus.com/",
+      "url_api_o_feed": "",
+      "tipo": "ong",
+      "idioma": "en",
+      "metodo_acceso": "solo_lectura_manual",
+      "datos_que_recopila": [
+        "informacion de familiares en Venezuela (de forma informal, no estructurada)",
+        "coordinacion de ayuda y abogacia"
+      ],
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "media",
+      "descripcion": "Grupo de abogacia de la diaspora venezolana en el sur de Florida; su directora ejecutiva Adelys Ferro fue citada por WLRN sobre la busqueda de familiares tras el terremoto (tardo 3 horas en saber de su hermana y madre en un edificio de 13 pisos en Caracas). Es un nodo de organizacion y abogacia de la diaspora en EE.UU.",
+      "notas": "CORRECCION CRITICA DE URL: el dominio oficial es venezuelanamericancaucus.COM (confirmado por WebFetch y por resultados de WLRN), NO el .org que estaba inferido en la candidata. El sitio existe y es la organizacion real, enfocada en migracion/democracia; NO tiene formulario ni base de datos de desaparecidos del terremoto. Subo confianza_hallazgo de 'baja' a 'MEDIA' (organizacion y rol confirmados por WLRN/NPR South Florida y por el propio sitio), pero su valor es como canal de difusion/abogacia, NO como fuente de datos estructurada ingerible. Idioma del sitio: principalmente ingles."
+    },
+    {
+      "nombre": "r/vzla y r/Venezuela (subreddits de la diaspora venezolana)",
+      "url": "https://www.reddit.com/r/vzla/",
+      "url_api_o_feed": "https://www.reddit.com/r/vzla/new.json",
+      "tipo": "foro",
+      "idioma": "es",
+      "metodo_acceso": "api",
+      "datos_que_recopila": [
+        "hilos/megathreads de coordinacion ante crisis",
+        "pedidos de busqueda de familiares",
+        "enlaces a plataformas externas de desaparecidos"
+      ],
+      "senal_confianza": "comunitario",
+      "confianza_hallazgo": "baja",
+      "descripcion": "Subreddits centrales y de larga data de la comunidad/diaspora venezolana (r/vzla y r/Venezuela) donde tipicamente se crean megathreads ante crisis para coordinar la busqueda de familiares y compartir enlaces a plataformas de desaparecidos. Reddit expone una API/JSON publica (sufijo .json en cualquier listado: /new.json, /about.json, /search.json) que permite listar y filtrar posts de forma programatica.",
+      "notas": "VERIFICACION 2026-06-26: La INFRAESTRUCTURA es real y aplica (subreddits venezolanos conocidos + API .json estandar de Reddit), por eso se conserva como candidata. Pero NO se pudo confirmar un megathread especifico del terremoto desde este entorno: (a) WebSearch no indexa contenido de reddit.com aqui (consultas a r/vzla/r/Venezuela no devolvieron resultados de Reddit); (b) WebFetch esta hard-bloqueado para www.reddit.com ('unable to fetch'); (c) curl directo a https://www.reddit.com/r/vzla/about.json y /new.json devuelve HTTP 403 en este sandbox. Por eso confianza_hallazgo = BAJA. La validacion del hilo concreto debe hacerse desde el pipeline real (no este sandbox): consultar /r/vzla/new.json o /r/vzla/search.json?q=terremoto&restrict_sr=1&sort=new con un User-Agent propio NO por defecto (Reddit responde 403/429 a clientes genericos o sin UA). NO inventar la URL del hilo: debe descubrirse en vivo. Idioma predominante es pero con mezcla es/en por la diaspora."
+    },
+    {
+      "nombre": "Caracas Chronicles - 'Key Information About Venezuela's State of Emergency' (medio diaspora EN/ES)",
+      "url": "https://www.caracaschronicles.com/2026/06/25/key-information-about-venezuelas-state-of-emergency/",
+      "url_api_o_feed": "https://www.caracaschronicles.com/feed/",
+      "tipo": "medio",
+      "idioma": "en",
+      "metodo_acceso": "html_publico",
+      "datos_que_recopila": [
+        "listado curado de plataformas de desaparecidos (desaparecidosterremotovenezuela.com, venezuelatebusca.com, TerremotoVE/KoBoToolbox)",
+        "centros de acopio (Venezuela, Colombia, EE.UU., Espana, Ecuador, etc.)",
+        "cuentas de Instagram de coordinacion (Comando Con Venezuela, Voluntad Popular, G3 Logistica)"
+      ],
+      "senal_confianza": "verificado_medio",
+      "confianza_hallazgo": "alta",
+      "descripcion": "Medio orientado a la diaspora venezolana (principalmente ingles, con contenido bilingue en/es) que publica una guia agregada con las plataformas verificadas de busqueda de desaparecidos del terremoto de junio 2026: Desaparecidos Terremoto Venezuela (desaparecidosterremotovenezuela.com), Registro de Personas Desaparecidas / Venezuela Te Busca (venezuelatebusca.com) y TerremotoVE (formulario KoBoToolbox en ee.kobotoolbox.org/x/eaEmQ9YW con base de datos publica en kf.kobotoolbox.org), mas centros de acopio y cuentas de coordinacion. No es base de datos sino fuente de descubrimiento/validacion.",
+      "notas": "VERIFICACION 2026-06-26 CONFIRMADA via WebFetch: la URL resuelve y carga; titulo exacto 'Key Information About Venezuela's State of Emergency'. Enlaza explicitamente las 3 plataformas de desaparecidos con sus URLs y el formulario KoBoToolbox de TerremotoVE (ee.kobotoolbox.org/x/eaEmQ9YW) + DB publica (kf.kobotoolbox.org), ademas de centros de acopio en multiples paises e Instagram de coordinacion (Comando Con Venezuela, Voluntad Popular, G3 Logistica). Alta utilidad para deduplicar el universo de plataformas y saber cuales considera legitimas la comunidad. CORRECCIONES vs candidata original: idioma cambiado de 'es' a 'en' (el medio es primordialmente en ingles, contenido bilingue); url_api_o_feed completada con el feed RSS estandar de WordPress (/feed/) aunque el acceso primario sigue siendo html_publico para una guia curada. metodo_acceso html_publico confirmado correcto."
+    }
+  ],
+  "prioridad_integracion": [
+    "https://www.desaparecidosvenezuela.com/",
+    "https://terremotovenezuela.app/",
+    "https://sosvenezuela2026.com/",
+    "https://encuentralos.tecnosoft.dev/",
+    "https://google.org/personfinder/global/home.html",
+    "https://github.com/google/personfinder",
+    "https://ee.kobotoolbox.org/x/eaEmQ9YW",
+    "https://www.reddit.com/r/vzla/",
+    "https://desaparecidosterremotovenezuela.com/",
+    "https://venezuelatebusca.com/",
+    "https://terremotove.netlify.app/",
+    "https://venezuelareporta.org/",
+    "https://venapp.com/",
+    "https://familylinks.icrc.org/",
+    "https://recursos-venezuela.netlify.app/",
+    "https://play.google.com/store/apps/details?id=com.ringcredible",
+    "https://terremotovenezuela.com/",
+    "https://www.pcivil.gob.ve/",
+    "https://x.com/PCivil_Ve",
+    "http://www.funvisis.gob.ve/monitor.html",
+    "tel:911",
+    "https://www.vtv.gob.ve/",
+    "https://www.caracas.gob.ve/",
+    "https://www.ciudadccs.info/",
+    "https://www.me.gob.ve/",
+    "https://tracetheface.familylinks.icrc.org/",
+    "https://cruzroja.ve/",
+    "tel:+584227994880",
+    "https://www.ifrc.org/press-release/venezuela-red-cross-responds-needs-emerge-aftermath-powerful-back-back-earthquakes",
+    "https://www2.cruzroja.es/-/ayuda-terremoto-venezuela-2026",
+    "https://www.cruzrojacolombiana.org/",
+    "https://www.instagram.com/alianzaxvenezuela/",
+    "https://fakenewsvenezuela.org/",
+    "https://www.facebook.com/crisisresponse/",
+    "https://www.tiktok.com/tag/terremotovenezuela",
+    "https://t.me/s/delcyrodriguezv",
+    "https://wa.me/593984241667",
+    "https://www.estrelladigital.es/articulo/mundo/desaparecidos-terremoto-venezuela-plataformas-ciudadanas/20260625123121447982.html",
+    "https://www.rtvcnoticias.com/actualidad/venapp-la-app-para-reportar-desaparecidos-tras-el-doble-terremoto-en-venezuela",
+    "https://emergenciavenezuela.com/",
+    "https://caritasvenezuela.org/",
+    "https://conferenciaepiscopalvenezolana.com/",
+    "https://centrosayudavenezuela.org/",
+    "https://extensionsocial.ucab.edu.ve/",
+    "https://www.rescue.org/press-release/venezuela-irc-launches-emergency-response-twin-earthquakes",
+    "https://www.lanacion.com.ar/sociedad/terremoto-en-venezuela-la-angustia-de-los-venezolanos-radicados-en-la-argentina-que-intentan-nid25062026/",
+    "https://elpitazo.net/regiones/gran-caracas/terremotos-en-venezuela-conozca-los-casos-de-desaparecidos-y-las-plataformas-de-busqueda/",
+    "https://elestimulo.com/terremoto-en-venezuela/2026-06-25/conoce-las-plataformas-para-localizar-desaparecidos-y-consultar-sobre-edificios-afectados/",
+    "https://www.elcolombiano.com/internacional/busqueda-personas-desparecidas-terremoto-venezuela-contacto-PC38188315",
+    "https://www.eltiempo.com/mundo/venezuela/lanzan-plataforma-para-reportar-y-localizar-personas-desaparecidas-tras-los-terremotos-en-venezuela-asi-puede-acceder-3566961",
+    "https://cnnespanol.cnn.com/2026/06/25/venezuela/terremoto-plataformas-buscar-desaparecidos-orix",
+    "https://www.telemundo.com/noticias/noticias-telemundo/desastres-naturales/live-blog/dos-terremotos-magnitud-superior-7-sacuden-venezuela-segundos-rcna351682",
+    "https://elcomercio.pe/mundo/venezuela/terremoto-en-venezuela-en-vivo-ultimas-noticias-muertos-heridos-desaparecidos-danos-y-escenas-de-panico-en-caracas-usgs-temblor-valencia-montalban-noticia/",
+    "https://www.nbcnews.com/world/venezuela/live-blog/live-updates-venezuela-earthquakes-rescue-aid-trump-delcy-caracas-rcna351701",
+    "https://www.cbc.ca/news/world/livestory/venezuela-earthquakes-deaths-survivors-recovery-aftermath-search-9.7248333",
+    "https://www.elespanol.com/mundo/america/20260625/ultima-hora-terremotos-venezuela-informa-muertos-heridos/1003744299146_10.html",
+    "https://talcualdigital.com/estos-son-los-hospitales-y-clinicas-que-estan-atendiendo-a-afectados-por-terremotos/",
+    "https://cronica.uno/familias-recorren-hospitales-caracas-lesionados-desaparecidos-terremotos/",
+    "https://www.eluniversal.com.mx/mundo/ninos-llegan-solos-a-hospitales-tras-terremotos-en-venezuela-familias-buscan-a-desaparecidos-en-listas-de-heridos/",
+    "https://www.elnacional.com/2026/06/brasil-anuncia-el-envio-de-un-hospital-de-campana-a-venezuela-tras-terremotos/",
+    "https://ayudavene.site/",
+    "https://venezuelanamericancaucus.com/",
+    "https://www.caracaschronicles.com/2026/06/25/key-information-about-venezuelas-state-of-emergency/"
+  ],
+  "advertencias": [
+    "ALERTA scam / desinformacion - dominios falsos y campanas fraudulentas (entrada de control de calidad, NO fuente) (https://factchequeado.com/teexplicamos/20260625/terremotos-venezuela-danos-zonas-afectadas/): senal de posible scam — verificar antes de ingerir.",
+    "Patrón de SCAM: cuentas de WhatsApp secuestradas, grupos falsos de donaciones y 'desaparecidos' (regla anti-scam, no fuente) (https://efectococuyo.com/cocuyo-chequea/tacticas-estafas-digitales-mas-comunes/): senal de posible scam — verificar antes de ingerir."
+  ]
+}
