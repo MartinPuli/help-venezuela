@@ -1,7 +1,52 @@
 {
-  "generadoEn": "2026-06-27T21:07:17.940Z",
+  "generadoEn": "2026-06-27T21:37:55.416Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
+      "nombre": "Jade Rodriguez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T21:18:31.986Z",
+      "edadAprox": 4,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Recidencias caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs",
+      "nombre": "Grecymar Rodriguez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T21:17:01.145Z",
+      "edadAprox": 30,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Recidencias caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9",
+      "nombre": "Génssy Gonzalez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T21:14:30.103Z",
+      "edadAprox": 40,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Recidencias Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt",
       "nombre": "Luis Enrique Manrique",
@@ -248,50 +293,6 @@
       "reportadoEn": "2026-06-27T17:12:51.149Z",
       "ultimaUbicacion": {
         "texto": "Yaracuy · San Felipe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork",
-      "nombre": "Angel Rivas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T17:10:35.965Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn",
-      "nombre": "Andry Suárez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T17:06:43.174Z",
-      "edadAprox": 1,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u",
-      "nombre": "Efigenia Sanchez ortiz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T17:05:16.255Z",
-      "edadAprox": 75,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa grande"
       },
       "fuentes": [
         "desaparecidosvenezuela"

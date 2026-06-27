@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T21:18:31.986Z</pfif:source_date>
+    <pfif:full_name>Jade Rodriguez</pfif:full_name>
+    <pfif:given_name>Jade</pfif:given_name>
+    <pfif:family_name>Rodriguez</pfif:family_name>
+    <pfif:age>4</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Recidencias caribe</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T21:18:31.986Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T21:17:01.145Z</pfif:source_date>
+    <pfif:full_name>Grecymar Rodriguez</pfif:full_name>
+    <pfif:given_name>Grecymar</pfif:given_name>
+    <pfif:family_name>Rodriguez</pfif:family_name>
+    <pfif:age>30</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Recidencias caribe</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T21:17:01.145Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T21:14:30.103Z</pfif:source_date>
+    <pfif:full_name>Génssy Gonzalez</pfif:full_name>
+    <pfif:given_name>Génssy</pfif:given_name>
+    <pfif:family_name>Gonzalez</pfif:family_name>
+    <pfif:age>40</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Recidencias Caribe</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T21:14:30.103Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T21:06:05.900Z</pfif:source_date>
@@ -249,50 +294,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T17:12:51.149Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T17:10:35.965Z</pfif:source_date>
-    <pfif:full_name>Angel Rivas</pfif:full_name>
-    <pfif:given_name>Angel</pfif:given_name>
-    <pfif:family_name>Rivas</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T17:10:35.965Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T17:06:43.174Z</pfif:source_date>
-    <pfif:full_name>Andry Suárez</pfif:full_name>
-    <pfif:given_name>Andry</pfif:given_name>
-    <pfif:family_name>Suárez</pfif:family_name>
-    <pfif:age>1</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T17:06:43.174Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T17:05:16.255Z</pfif:source_date>
-    <pfif:full_name>Efigenia Sanchez ortiz</pfif:full_name>
-    <pfif:given_name>Efigenia</pfif:given_name>
-    <pfif:family_name>Sanchez ortiz</pfif:family_name>
-    <pfif:age>75</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Playa grande</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T17:05:16.255Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

@@ -1,7 +1,67 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T21:07:17.940Z",
+  "generado_en": "2026-06-27T21:37:55.416Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T21:18:31.986Z",
+      "full_name": "Jade Rodriguez",
+      "given_name": "Jade",
+      "family_name": "Rodriguez",
+      "age": "4",
+      "home_city": "La Guaira · La Guaira (centro) · Recidencias caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T21:18:31.986Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T21:17:01.145Z",
+      "full_name": "Grecymar Rodriguez",
+      "given_name": "Grecymar",
+      "family_name": "Rodriguez",
+      "age": "30",
+      "home_city": "La Guaira · La Guaira (centro) · Recidencias caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T21:17:01.145Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T21:14:30.103Z",
+      "full_name": "Génssy Gonzalez",
+      "given_name": "Génssy",
+      "family_name": "Gonzalez",
+      "age": "40",
+      "home_city": "La Guaira · La Guaira (centro) · Recidencias Caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T21:14:30.103Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt",
       "source_name": "desaparecidosvenezuela",
@@ -333,65 +393,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T17:12:51.149Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T17:10:35.965Z",
-      "full_name": "Angel Rivas",
-      "given_name": "Angel",
-      "family_name": "Rivas",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T17:10:35.965Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T17:06:43.174Z",
-      "full_name": "Andry Suárez",
-      "given_name": "Andry",
-      "family_name": "Suárez",
-      "age": "1",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T17:06:43.174Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T17:05:16.255Z",
-      "full_name": "Efigenia Sanchez ortiz",
-      "given_name": "Efigenia",
-      "family_name": "Sanchez ortiz",
-      "age": "75",
-      "home_city": "La Guaira · Catia La Mar · Playa grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T17:05:16.255Z"
         }
       ],
       "x_confianza": "baja",
