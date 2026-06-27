@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T09:33:38.078Z",
+  "generado_en": "2026-06-27T10:27:25.317Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T09:56:19.843Z",
+      "full_name": "Sandra Millán Alcalá",
+      "given_name": "Sandra",
+      "family_name": "Millán Alcalá",
+      "age": "57",
+      "home_city": "La Guaira · La Guaira (centro) · La guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T09:56:19.843Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
       "source_name": "desaparecidosvenezuela",
@@ -372,26 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T01:16:51.894Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T01:13:57.937Z",
-      "full_name": "Gladys Rios",
-      "given_name": "Gladys",
-      "family_name": "Rios",
-      "age": "65",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T01:13:57.937Z"
         }
       ],
       "x_confianza": "baja",

@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-27T09:33:38.078Z",
+  "generadoEn": "2026-06-27T10:27:25.317Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce",
+      "nombre": "Sandra Millán Alcalá",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T09:56:19.843Z",
+      "edadAprox": 57,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · La guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
       "nombre": "Astrid Camila Gonzalez",
@@ -275,21 +290,6 @@
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
       "reportadoEn": "2026-06-27T01:16:51.894Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha",
-      "nombre": "Gladys Rios",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T01:13:57.937Z",
-      "edadAprox": 65,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
       },

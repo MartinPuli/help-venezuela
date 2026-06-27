@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T09:56:19.843Z</pfif:source_date>
+    <pfif:full_name>Sandra Millán Alcalá</pfif:full_name>
+    <pfif:given_name>Sandra</pfif:given_name>
+    <pfif:family_name>Millán Alcalá</pfif:family_name>
+    <pfif:age>57</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · La guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T09:56:19.843Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T08:50:08.658Z</pfif:source_date>
@@ -278,21 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T01:16:51.894Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T01:13:57.937Z</pfif:source_date>
-    <pfif:full_name>Gladys Rios</pfif:full_name>
-    <pfif:given_name>Gladys</pfif:given_name>
-    <pfif:family_name>Rios</pfif:family_name>
-    <pfif:age>65</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T01:13:57.937Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
