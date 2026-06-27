@@ -1,7 +1,49 @@
 {
-  "generadoEn": "2026-06-27T17:07:52.807Z",
+  "generadoEn": "2026-06-27T17:37:34.093Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei",
+      "nombre": "ELDA MARIELDA CONTRERAS",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T17:16:23.703Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · EDF. PUNTA PIEDRAS"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we",
+      "nombre": "carlos parada",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T17:12:51.149Z",
+      "ultimaUbicacion": {
+        "texto": "Yaracuy · San Felipe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork",
+      "nombre": "Angel Rivas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T17:10:35.965Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn",
       "nombre": "Andry Suárez",
@@ -248,49 +290,6 @@
       "edadAprox": 10,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Tanaguarenas"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3",
-      "nombre": "Armando Ustariz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T13:29:10.123Z",
-      "edadAprox": 65,
-      "ultimaUbicacion": {
-        "texto": "Aragua · Maracay · Girardot"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l",
-      "nombre": "Alicia josefina",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T13:00:49.336Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2",
-      "nombre": "Andrea De abreu Level",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T12:32:53.931Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa Grande"
       },
       "fuentes": [
         "desaparecidosvenezuela"

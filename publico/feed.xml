@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T17:16:23.703Z</pfif:source_date>
+    <pfif:full_name>ELDA MARIELDA CONTRERAS</pfif:full_name>
+    <pfif:given_name>ELDA</pfif:given_name>
+    <pfif:family_name>MARIELDA CONTRERAS</pfif:family_name>
+    <pfif:home_city>La Guaira · La Guaira (centro) · EDF. PUNTA PIEDRAS</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T17:16:23.703Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T17:12:51.149Z</pfif:source_date>
+    <pfif:full_name>carlos parada</pfif:full_name>
+    <pfif:given_name>carlos</pfif:given_name>
+    <pfif:family_name>parada</pfif:family_name>
+    <pfif:home_city>Yaracuy · San Felipe</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T17:12:51.149Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T17:10:35.965Z</pfif:source_date>
+    <pfif:full_name>Angel Rivas</pfif:full_name>
+    <pfif:given_name>Angel</pfif:given_name>
+    <pfif:family_name>Rivas</pfif:family_name>
+    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm8wxp00143amqiqmqkork</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T17:10:35.965Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T17:06:43.174Z</pfif:source_date>
@@ -249,49 +291,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwfp65c000h3amqwxw8j65w</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T14:07:17.088Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T13:29:10.123Z</pfif:source_date>
-    <pfif:full_name>Armando Ustariz</pfif:full_name>
-    <pfif:given_name>Armando</pfif:given_name>
-    <pfif:family_name>Ustariz</pfif:family_name>
-    <pfif:age>65</pfif:age>
-    <pfif:home_city>Aragua · Maracay · Girardot</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T13:29:10.123Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T13:00:49.336Z</pfif:source_date>
-    <pfif:full_name>Alicia josefina</pfif:full_name>
-    <pfif:given_name>Alicia</pfif:given_name>
-    <pfif:family_name>josefina</pfif:family_name>
-    <pfif:home_city>La Guaira · Macuto</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T13:00:49.336Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T12:32:53.931Z</pfif:source_date>
-    <pfif:full_name>Andrea De abreu Level</pfif:full_name>
-    <pfif:given_name>Andrea</pfif:given_name>
-    <pfif:family_name>De abreu Level</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar · Playa Grande</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T12:32:53.931Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
