@@ -1,7 +1,47 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T05:04:42.430Z",
+  "generado_en": "2026-06-27T06:24:05.036Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T05:21:40.118Z",
+      "full_name": "Federico Nuñez Chavez",
+      "given_name": "Federico",
+      "family_name": "Nuñez Chavez",
+      "age": "50",
+      "home_city": "La Guaira · Caraballeda · Resistencia Maratea, cerca de la panadería Lenotre",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T05:21:40.118Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvwkml6001h3aqp11z2ntb4",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T05:11:52.410Z",
+      "full_name": "Francisco Jose Gamboa Brantd",
+      "given_name": "Francisco",
+      "family_name": "Jose Gamboa Brantd",
+      "age": "54",
+      "home_city": "La Guaira · Caraballeda · Puente la llanada, coliseo",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvwkml6001h3aqp11z2ntb4",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T05:11:52.410Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
       "source_name": "desaparecidosvenezuela",
@@ -351,44 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T23:52:28.219Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:46:51.754Z",
-      "full_name": "Emma González",
-      "given_name": "Emma",
-      "family_name": "González",
-      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:46:51.754Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:45:03.127Z",
-      "full_name": "Lia González",
-      "given_name": "Lia",
-      "family_name": "González",
-      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:45:03.127Z"
         }
       ],
       "x_confianza": "baja",

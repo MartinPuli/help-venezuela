@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-06-27T05:04:42.430Z",
+  "generadoEn": "2026-06-27T06:24:05.036Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu",
+      "nombre": "Federico Nuñez Chavez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T05:21:40.118Z",
+      "edadAprox": 50,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Resistencia Maratea, cerca de la panadería Lenotre"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvwkml6001h3aqp11z2ntb4",
+      "nombre": "Francisco Jose Gamboa Brantd",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T05:11:52.410Z",
+      "edadAprox": 54,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Puente la llanada, coliseo"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
       "nombre": "Derber Muños",
@@ -261,34 +291,6 @@
       "reportadoEn": "2026-06-26T23:52:28.219Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · En la CD del sebin Caraballeda edificio negra ipolita"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
-      "nombre": "Emma González",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:46:51.754Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f",
-      "nombre": "Lia González",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:45:03.127Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"

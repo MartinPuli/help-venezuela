@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T05:21:40.118Z</pfif:source_date>
+    <pfif:full_name>Federico Nuñez Chavez</pfif:full_name>
+    <pfif:given_name>Federico</pfif:given_name>
+    <pfif:family_name>Nuñez Chavez</pfif:family_name>
+    <pfif:age>50</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Resistencia Maratea, cerca de la panadería Lenotre</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T05:21:40.118Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvwkml6001h3aqp11z2ntb4</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T05:11:52.410Z</pfif:source_date>
+    <pfif:full_name>Francisco Jose Gamboa Brantd</pfif:full_name>
+    <pfif:given_name>Francisco</pfif:given_name>
+    <pfif:family_name>Jose Gamboa Brantd</pfif:family_name>
+    <pfif:age>54</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Puente la llanada, coliseo</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvwkml6001h3aqp11z2ntb4</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T05:11:52.410Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T05:02:01.262Z</pfif:source_date>
@@ -262,34 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-26T23:52:28.219Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:46:51.754Z</pfif:source_date>
-    <pfif:full_name>Emma González</pfif:full_name>
-    <pfif:given_name>Emma</pfif:given_name>
-    <pfif:family_name>González</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:46:51.754Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:45:03.127Z</pfif:source_date>
-    <pfif:full_name>Lia González</pfif:full_name>
-    <pfif:given_name>Lia</pfif:given_name>
-    <pfif:family_name>González</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:45:03.127Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
