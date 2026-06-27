@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-27T10:27:25.317Z",
+  "generadoEn": "2026-06-27T11:07:01.375Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt",
+      "nombre": "Liliana Ruiz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T10:35:03.563Z",
+      "edadAprox": 60,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce",
       "nombre": "Sandra Millán Alcalá",
@@ -278,20 +293,6 @@
       "edadAprox": 68,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Edificio palfito del mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq",
-      "nombre": "Crescencio Marotta",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T01:16:51.894Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"

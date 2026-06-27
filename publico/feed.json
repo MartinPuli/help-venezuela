@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T10:27:25.317Z",
+  "generado_en": "2026-06-27T11:07:01.375Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T10:35:03.563Z",
+      "full_name": "Liliana Ruiz",
+      "given_name": "Liliana",
+      "family_name": "Ruiz",
+      "age": "60",
+      "home_city": "La Guaira · Catia La Mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T10:35:03.563Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce",
       "source_name": "desaparecidosvenezuela",
@@ -373,25 +393,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T01:24:53.940Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T01:16:51.894Z",
-      "full_name": "Crescencio Marotta",
-      "given_name": "Crescencio",
-      "family_name": "Marotta",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T01:16:51.894Z"
         }
       ],
       "x_confianza": "baja",

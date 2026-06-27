@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T10:35:03.563Z</pfif:source_date>
+    <pfif:full_name>Liliana Ruiz</pfif:full_name>
+    <pfif:given_name>Liliana</pfif:given_name>
+    <pfif:family_name>Ruiz</pfif:family_name>
+    <pfif:age>60</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T10:35:03.563Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T09:56:19.843Z</pfif:source_date>
@@ -279,20 +294,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvogqic00103aqpt3webokt</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T01:24:53.940Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T01:16:51.894Z</pfif:source_date>
-    <pfif:full_name>Crescencio Marotta</pfif:full_name>
-    <pfif:given_name>Crescencio</pfif:given_name>
-    <pfif:family_name>Marotta</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T01:16:51.894Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
