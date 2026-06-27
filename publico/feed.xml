@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T03:38:13.684Z</pfif:source_date>
+    <pfif:full_name>Victoria Alejandra Plaz Cordero</pfif:full_name>
+    <pfif:given_name>Victoria</pfif:given_name>
+    <pfif:family_name>Alejandra Plaz Cordero</pfif:family_name>
+    <pfif:home_city>La Guaira · Catia La Mar · Zona de belo horizonte playa grande/ summa</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T03:38:13.684Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T03:28:55.303Z</pfif:source_date>
+    <pfif:full_name>Lila angelica Delgado gomez</pfif:full_name>
+    <pfif:given_name>Lila</pfif:given_name>
+    <pfif:family_name>angelica Delgado gomez</pfif:family_name>
+    <pfif:age>55</pfif:age>
+    <pfif:home_city>Distrito Capital · Caracas · Los palos grandes, edificio petunia 1</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T03:28:55.303Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T01:42:19.922Z</pfif:source_date>
@@ -264,29 +293,17 @@
     </pfif:note>
   </pfif:person>
   <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvjm2l9000k3aqpji1om9q4</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:09:04.797Z</pfif:source_date>
-    <pfif:full_name>Rosmar</pfif:full_name>
-    <pfif:given_name>Rosmar</pfif:given_name>
-    <pfif:home_city>La Guaira · Naiguatá</pfif:home_city>
+    <pfif:person_record_id>cruce-desaparecidos/terremotovenezuela-app:a38a2df2-73c0-49d8-954c-512a214608a5</pfif:person_record_id>
+    <pfif:source_name>terremotovenezuela-app</pfif:source_name>
+    <pfif:source_date>2026-06-27T02:33:52.970Z</pfif:source_date>
+    <pfif:full_name>Jose Manuel Rodriguez</pfif:full_name>
+    <pfif:given_name>Jose</pfif:given_name>
+    <pfif:family_name>Manuel Rodriguez</pfif:family_name>
+    <pfif:home_city>La Guaira</pfif:home_city>
     <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvjm2l9000k3aqpji1om9q4</pfif:note_record_id>
+      <pfif:note_record_id>cruce-desaparecidos/nota-terremotovenezuela-app:a38a2df2-73c0-49d8-954c-512a214608a5</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:09:04.797Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvjkldj000j3aqpi8ug9yau</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:07:55.831Z</pfif:source_date>
-    <pfif:full_name>Rosniely</pfif:full_name>
-    <pfif:given_name>Rosniely</pfif:given_name>
-    <pfif:home_city>La Guaira · Naiguatá</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvjkldj000j3aqpi8ug9yau</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:07:55.831Z</pfif:source_date>
+      <pfif:source_date>2026-06-27T02:33:52.970Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

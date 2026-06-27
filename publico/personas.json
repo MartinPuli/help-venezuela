@@ -1,7 +1,36 @@
 {
-  "generadoEn": "2026-06-27T02:19:32.454Z",
-  "total": 101,
+  "generadoEn": "2026-06-27T03:44:38.705Z",
+  "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
+      "nombre": "Victoria Alejandra Plaz Cordero",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T03:38:13.684Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Zona de belo horizonte playa grande/ summa"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc",
+      "nombre": "Lila angelica Delgado gomez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T03:28:55.303Z",
+      "edadAprox": 55,
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas · Los palos grandes, edificio petunia 1"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
       "nombre": "Eislen maría guevara moreno",
@@ -266,31 +295,17 @@
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqvjm2l9000k3aqpji1om9q4",
-      "nombre": "Rosmar",
-      "estado": "visto_no_confirmado",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:09:04.797Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Naiguatá"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvjkldj000j3aqpi8ug9yau",
-      "nombre": "Rosniely",
+      "id": "terremotovenezuela-app:a38a2df2-73c0-49d8-954c-512a214608a5",
+      "nombre": "Jose Manuel Rodriguez",
       "estado": "desaparecido",
       "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:07:55.831Z",
+      "fuente": "terremotovenezuela-app",
+      "reportadoEn": "2026-06-27T02:33:52.970Z",
       "ultimaUbicacion": {
-        "texto": "La Guaira · Naiguatá"
+        "texto": "La Guaira"
       },
       "fuentes": [
-        "desaparecidosvenezuela"
+        "terremotovenezuela-app"
       ]
     },
     {

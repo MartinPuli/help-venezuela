@@ -1,7 +1,46 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T02:19:32.454Z",
+  "generado_en": "2026-06-27T03:44:38.705Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T03:38:13.684Z",
+      "full_name": "Victoria Alejandra Plaz Cordero",
+      "given_name": "Victoria",
+      "family_name": "Alejandra Plaz Cordero",
+      "home_city": "La Guaira · Catia La Mar · Zona de belo horizonte playa grande/ summa",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T03:38:13.684Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T03:28:55.303Z",
+      "full_name": "Lila angelica Delgado gomez",
+      "given_name": "Lila",
+      "family_name": "angelica Delgado gomez",
+      "age": "55",
+      "home_city": "Distrito Capital · Caracas · Los palos grandes, edificio petunia 1",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T03:28:55.303Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
       "source_name": "desaparecidosvenezuela",
@@ -356,38 +395,19 @@
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvjm2l9000k3aqpji1om9q4",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:09:04.797Z",
-      "full_name": "Rosmar",
-      "given_name": "Rosmar",
-      "family_name": "",
-      "home_city": "La Guaira · Naiguatá",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:a38a2df2-73c0-49d8-954c-512a214608a5",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-27T02:33:52.970Z",
+      "full_name": "Jose Manuel Rodriguez",
+      "given_name": "Jose",
+      "family_name": "Manuel Rodriguez",
+      "home_city": "La Guaira",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvjm2l9000k3aqpji1om9q4",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:a38a2df2-73c0-49d8-954c-512a214608a5",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T23:09:04.797Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvjkldj000j3aqpi8ug9yau",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:07:55.831Z",
-      "full_name": "Rosniely",
-      "given_name": "Rosniely",
-      "family_name": "",
-      "home_city": "La Guaira · Naiguatá",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvjkldj000j3aqpi8ug9yau",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:07:55.831Z"
+          "source_date": "2026-06-27T02:33:52.970Z"
         }
       ],
       "x_confianza": "baja",
