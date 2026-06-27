@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T22:29:32.114Z</pfif:source_date>
+    <pfif:full_name>Lerwinson Emmanuel González Ortega</pfif:full_name>
+    <pfif:given_name>Lerwinson</pfif:given_name>
+    <pfif:family_name>Emmanuel González Ortega</pfif:family_name>
+    <pfif:age>14</pfif:age>
+    <pfif:home_city>La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads, Macuto Estado la Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T22:29:32.114Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwxerm9001w3amqx7o0pl6l</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T22:23:04.785Z</pfif:source_date>
+    <pfif:full_name>Ingrid Margariut Ortega Madera</pfif:full_name>
+    <pfif:given_name>Ingrid</pfif:given_name>
+    <pfif:family_name>Margariut Ortega Madera</pfif:family_name>
+    <pfif:age>40</pfif:age>
+    <pfif:home_city>La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads Macuto Estado la Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwxerm9001w3amqx7o0pl6l</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T22:23:04.785Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwwuuvx001v3amqhod0zbk5</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T22:07:35.901Z</pfif:source_date>
+    <pfif:full_name>Jeisser Tineo</pfif:full_name>
+    <pfif:given_name>Jeisser</pfif:given_name>
+    <pfif:family_name>Tineo</pfif:family_name>
+    <pfif:age>29</pfif:age>
+    <pfif:home_city>La Guaira · Edificio de los cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwwuuvx001v3amqhod0zbk5</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T22:07:35.901Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T22:01:00.039Z</pfif:source_date>
@@ -251,50 +296,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwoq7jw001a3amqj51dvgk8</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T18:20:02.108Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwomi6h00193amqtfb2otzb</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T18:17:09.257Z</pfif:source_date>
-    <pfif:full_name>Dereck Enriques</pfif:full_name>
-    <pfif:given_name>Dereck</pfif:given_name>
-    <pfif:family_name>Enriques</pfif:family_name>
-    <pfif:age>3</pfif:age>
-    <pfif:home_city>La Guaira · Los cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwomi6h00193amqtfb2otzb</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T18:17:09.257Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwob7bv00183amqa8hwog79</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T18:08:21.979Z</pfif:source_date>
-    <pfif:full_name>Andres Ricardo Rodriguez santana</pfif:full_name>
-    <pfif:given_name>Andres</pfif:given_name>
-    <pfif:family_name>Ricardo Rodriguez santana</pfif:family_name>
-    <pfif:age>39</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · En caribe edificio celtamar 1</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwob7bv00183amqa8hwog79</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T18:08:21.979Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T17:16:23.703Z</pfif:source_date>
-    <pfif:full_name>ELDA MARIELDA CONTRERAS</pfif:full_name>
-    <pfif:given_name>ELDA</pfif:given_name>
-    <pfif:family_name>MARIELDA CONTRERAS</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro) · EDF. PUNTA PIEDRAS</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T17:16:23.703Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

@@ -1,7 +1,67 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T22:06:47.309Z",
+  "generado_en": "2026-06-27T22:37:03.805Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T22:29:32.114Z",
+      "full_name": "Lerwinson Emmanuel González Ortega",
+      "given_name": "Lerwinson",
+      "family_name": "Emmanuel González Ortega",
+      "age": "14",
+      "home_city": "La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads, Macuto Estado la Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T22:29:32.114Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwxerm9001w3amqx7o0pl6l",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T22:23:04.785Z",
+      "full_name": "Ingrid Margariut Ortega Madera",
+      "given_name": "Ingrid",
+      "family_name": "Margariut Ortega Madera",
+      "age": "40",
+      "home_city": "La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads Macuto Estado la Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwxerm9001w3amqx7o0pl6l",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T22:23:04.785Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwwuuvx001v3amqhod0zbk5",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T22:07:35.901Z",
+      "full_name": "Jeisser Tineo",
+      "given_name": "Jeisser",
+      "family_name": "Tineo",
+      "age": "29",
+      "home_city": "La Guaira · Edificio de los cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwwuuvx001v3amqhod0zbk5",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T22:07:35.901Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr",
       "source_name": "desaparecidosvenezuela",
@@ -335,65 +395,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T18:20:02.108Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwomi6h00193amqtfb2otzb",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T18:17:09.257Z",
-      "full_name": "Dereck Enriques",
-      "given_name": "Dereck",
-      "family_name": "Enriques",
-      "age": "3",
-      "home_city": "La Guaira · Los cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwomi6h00193amqtfb2otzb",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T18:17:09.257Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwob7bv00183amqa8hwog79",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T18:08:21.979Z",
-      "full_name": "Andres Ricardo Rodriguez santana",
-      "given_name": "Andres",
-      "family_name": "Ricardo Rodriguez santana",
-      "age": "39",
-      "home_city": "La Guaira · Caraballeda · En caribe edificio celtamar 1",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwob7bv00183amqa8hwog79",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T18:08:21.979Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T17:16:23.703Z",
-      "full_name": "ELDA MARIELDA CONTRERAS",
-      "given_name": "ELDA",
-      "family_name": "MARIELDA CONTRERAS",
-      "home_city": "La Guaira · La Guaira (centro) · EDF. PUNTA PIEDRAS",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T17:16:23.703Z"
         }
       ],
       "x_confianza": "baja",
