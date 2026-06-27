@@ -1,7 +1,51 @@
 {
-  "generadoEn": "2026-06-27T20:40:13.741Z",
+  "generadoEn": "2026-06-27T21:07:17.940Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt",
+      "nombre": "Luis Enrique Manrique",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T21:06:05.900Z",
+      "edadAprox": 72,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · La plaza de Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwtt2fs001n3amqykbw30fk",
+      "nombre": "Eleidy Rossibel García David",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T20:42:13.528Z",
+      "edadAprox": 21,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Edificio caribe OPPO26"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwtrd57001m3amq4acdz3j3",
+      "nombre": "Jhon santiago Duben rojas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T20:40:54.091Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5",
       "nombre": "Haide Bravo",
@@ -248,49 +292,6 @@
       "edadAprox": 75,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Playa grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwm1vm600113amqskqeccym",
-      "nombre": "Ainhoa Nazareth",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T17:05:07.662Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwljby600103amqwh1khkcv",
-      "nombre": "Soraidi Brizuela",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T16:50:42.366Z",
-      "edadAprox": 50,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Misión vivienda edificio"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwlake8000y3amqbonnpf6y",
-      "nombre": "Silvana Leon",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T16:43:53.408Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Al lado del hotel Eduars"
       },
       "fuentes": [
         "desaparecidosvenezuela"

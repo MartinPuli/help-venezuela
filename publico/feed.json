@@ -1,7 +1,66 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T20:40:13.741Z",
+  "generado_en": "2026-06-27T21:07:17.940Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T21:06:05.900Z",
+      "full_name": "Luis Enrique Manrique",
+      "given_name": "Luis",
+      "family_name": "Enrique Manrique",
+      "age": "72",
+      "home_city": "La Guaira · Caraballeda · La plaza de Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T21:06:05.900Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwtt2fs001n3amqykbw30fk",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T20:42:13.528Z",
+      "full_name": "Eleidy Rossibel García David",
+      "given_name": "Eleidy",
+      "family_name": "Rossibel García David",
+      "age": "21",
+      "home_city": "La Guaira · Caraballeda · Edificio caribe OPPO26",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwtt2fs001n3amqykbw30fk",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T20:42:13.528Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwtrd57001m3amq4acdz3j3",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T20:40:54.091Z",
+      "full_name": "Jhon santiago Duben rojas",
+      "given_name": "Jhon",
+      "family_name": "santiago Duben rojas",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwtrd57001m3amq4acdz3j3",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T20:40:54.091Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5",
       "source_name": "desaparecidosvenezuela",
@@ -333,64 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T17:05:16.255Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwm1vm600113amqskqeccym",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T17:05:07.662Z",
-      "full_name": "Ainhoa Nazareth",
-      "given_name": "Ainhoa",
-      "family_name": "Nazareth",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm1vm600113amqskqeccym",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T17:05:07.662Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwljby600103amqwh1khkcv",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T16:50:42.366Z",
-      "full_name": "Soraidi Brizuela",
-      "given_name": "Soraidi",
-      "family_name": "Brizuela",
-      "age": "50",
-      "home_city": "La Guaira · Catia La Mar · Misión vivienda edificio",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwljby600103amqwh1khkcv",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T16:50:42.366Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwlake8000y3amqbonnpf6y",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T16:43:53.408Z",
-      "full_name": "Silvana Leon",
-      "given_name": "Silvana",
-      "family_name": "Leon",
-      "home_city": "La Guaira · Macuto · Al lado del hotel Eduars",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwlake8000y3amqbonnpf6y",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T16:43:53.408Z"
         }
       ],
       "x_confianza": "baja",
