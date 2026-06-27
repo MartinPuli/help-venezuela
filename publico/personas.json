@@ -1,7 +1,80 @@
 {
-  "generadoEn": "2026-06-27T16:37:49.447Z",
+  "generadoEn": "2026-06-27T17:07:52.807Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn",
+      "nombre": "Andry Suárez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T17:06:43.174Z",
+      "edadAprox": 1,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u",
+      "nombre": "Efigenia Sanchez ortiz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T17:05:16.255Z",
+      "edadAprox": 75,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwm1vm600113amqskqeccym",
+      "nombre": "Ainhoa Nazareth",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T17:05:07.662Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwljby600103amqwh1khkcv",
+      "nombre": "Soraidi Brizuela",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T16:50:42.366Z",
+      "edadAprox": 50,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Misión vivienda edificio"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwlake8000y3amqbonnpf6y",
+      "nombre": "Silvana Leon",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T16:43:53.408Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Al lado del hotel Eduars"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia",
       "nombre": "Ramón Gonzalez",
@@ -218,79 +291,6 @@
       "reportadoEn": "2026-06-27T12:32:53.931Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Playa Grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwc74a5000b3amqwgexhmqz",
-      "nombre": "WIlfredo De Abreu",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T12:29:16.013Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa Grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g",
-      "nombre": "Edymar Suárez saya",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T11:57:13.659Z",
-      "edadAprox": 40,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Av. Carlos Soublette residencia Urimare"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2",
-      "nombre": "Marcos Vargas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T11:37:09.372Z",
-      "ultimaUbicacion": {
-        "texto": "Falcón · Coro · Boca de aroa"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt",
-      "nombre": "Liliana Ruiz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T10:35:03.563Z",
-      "edadAprox": 60,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce",
-      "nombre": "Sandra Millán Alcalá",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T09:56:19.843Z",
-      "edadAprox": 57,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · La guaira"
       },
       "fuentes": [
         "desaparecidosvenezuela"

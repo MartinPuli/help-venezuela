@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T17:06:43.174Z</pfif:source_date>
+    <pfif:full_name>Andry Suárez</pfif:full_name>
+    <pfif:given_name>Andry</pfif:given_name>
+    <pfif:family_name>Suárez</pfif:family_name>
+    <pfif:age>1</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm3xba00133amq24t5gesn</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T17:06:43.174Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T17:05:16.255Z</pfif:source_date>
+    <pfif:full_name>Efigenia Sanchez ortiz</pfif:full_name>
+    <pfif:given_name>Efigenia</pfif:given_name>
+    <pfif:family_name>Sanchez ortiz</pfif:family_name>
+    <pfif:age>75</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Playa grande</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm228v00123amqhkpbv81u</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T17:05:16.255Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwm1vm600113amqskqeccym</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T17:05:07.662Z</pfif:source_date>
+    <pfif:full_name>Ainhoa Nazareth</pfif:full_name>
+    <pfif:given_name>Ainhoa</pfif:given_name>
+    <pfif:family_name>Nazareth</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwm1vm600113amqskqeccym</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T17:05:07.662Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwljby600103amqwh1khkcv</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T16:50:42.366Z</pfif:source_date>
+    <pfif:full_name>Soraidi Brizuela</pfif:full_name>
+    <pfif:given_name>Soraidi</pfif:given_name>
+    <pfif:family_name>Brizuela</pfif:family_name>
+    <pfif:age>50</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Misión vivienda edificio</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwljby600103amqwh1khkcv</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T16:50:42.366Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwlake8000y3amqbonnpf6y</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T16:43:53.408Z</pfif:source_date>
+    <pfif:full_name>Silvana Leon</pfif:full_name>
+    <pfif:given_name>Silvana</pfif:given_name>
+    <pfif:family_name>Leon</pfif:family_name>
+    <pfif:home_city>La Guaira · Macuto · Al lado del hotel Eduars</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwlake8000y3amqbonnpf6y</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T16:43:53.408Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T16:13:02.733Z</pfif:source_date>
@@ -219,79 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T12:32:53.931Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwc74a5000b3amqwgexhmqz</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T12:29:16.013Z</pfif:source_date>
-    <pfif:full_name>WIlfredo De Abreu</pfif:full_name>
-    <pfif:given_name>WIlfredo</pfif:given_name>
-    <pfif:family_name>De Abreu</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar · Playa Grande</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwc74a5000b3amqwgexhmqz</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T12:29:16.013Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T11:57:13.659Z</pfif:source_date>
-    <pfif:full_name>Edymar Suárez saya</pfif:full_name>
-    <pfif:given_name>Edymar</pfif:given_name>
-    <pfif:family_name>Suárez saya</pfif:family_name>
-    <pfif:age>40</pfif:age>
-    <pfif:home_city>La Guaira · Av. Carlos Soublette residencia Urimare</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T11:57:13.659Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T11:37:09.372Z</pfif:source_date>
-    <pfif:full_name>Marcos Vargas</pfif:full_name>
-    <pfif:given_name>Marcos</pfif:given_name>
-    <pfif:family_name>Vargas</pfif:family_name>
-    <pfif:home_city>Falcón · Coro · Boca de aroa</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T11:37:09.372Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T10:35:03.563Z</pfif:source_date>
-    <pfif:full_name>Liliana Ruiz</pfif:full_name>
-    <pfif:given_name>Liliana</pfif:given_name>
-    <pfif:family_name>Ruiz</pfif:family_name>
-    <pfif:age>60</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T10:35:03.563Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T09:56:19.843Z</pfif:source_date>
-    <pfif:full_name>Sandra Millán Alcalá</pfif:full_name>
-    <pfif:given_name>Sandra</pfif:given_name>
-    <pfif:family_name>Millán Alcalá</pfif:family_name>
-    <pfif:age>57</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · La guaira</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T09:56:19.843Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
