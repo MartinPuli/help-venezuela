@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T19:06:08.834Z</pfif:source_date>
+    <pfif:full_name>Diego Segovia</pfif:full_name>
+    <pfif:given_name>Diego</pfif:given_name>
+    <pfif:family_name>Segovia</pfif:family_name>
+    <pfif:age>5</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T19:06:08.834Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T19:04:26.672Z</pfif:source_date>
+    <pfif:full_name>Rodolfo Esposito</pfif:full_name>
+    <pfif:given_name>Rodolfo</pfif:given_name>
+    <pfif:family_name>Esposito</pfif:family_name>
+    <pfif:age>54</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Los corales playa grande</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T19:04:26.672Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T18:45:30.051Z</pfif:source_date>
+    <pfif:full_name>Danna Rodriguez Antón</pfif:full_name>
+    <pfif:given_name>Danna</pfif:given_name>
+    <pfif:family_name>Rodriguez Antón</pfif:family_name>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T18:45:30.051Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T18:23:01.084Z</pfif:source_date>
@@ -246,51 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwi6wp6000p3amq03d6cwkr</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T15:17:03.882Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwhvbv4000o3amqstaud7km</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T15:08:03.664Z</pfif:source_date>
-    <pfif:full_name>Alejandra Peña</pfif:full_name>
-    <pfif:given_name>Alejandra</pfif:given_name>
-    <pfif:family_name>Peña</pfif:family_name>
-    <pfif:age>20</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwhvbv4000o3amqstaud7km</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T15:08:03.664Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwhrm2k000n3amqil1y6m69</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T15:05:10.268Z</pfif:source_date>
-    <pfif:full_name>Jesús García</pfif:full_name>
-    <pfif:given_name>Jesús</pfif:given_name>
-    <pfif:family_name>García</pfif:family_name>
-    <pfif:age>20</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwhrm2k000n3amqil1y6m69</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T15:05:10.268Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwho8pj000m3amqjrxo41yy</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T15:02:32.983Z</pfif:source_date>
-    <pfif:full_name>Vicky Chiquinquirá Urdaneta Leal</pfif:full_name>
-    <pfif:given_name>Vicky</pfif:given_name>
-    <pfif:family_name>Chiquinquirá Urdaneta Leal</pfif:family_name>
-    <pfif:age>20</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Edificio Los Bucaneros, Catia La Mar, Estado La Guaira (Cerca del Hotel Marriott</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwho8pj000m3amqjrxo41yy</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T15:02:32.983Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

@@ -1,7 +1,66 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T18:40:05.049Z",
+  "generado_en": "2026-06-27T19:08:57.511Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T19:06:08.834Z",
+      "full_name": "Diego Segovia",
+      "given_name": "Diego",
+      "family_name": "Segovia",
+      "age": "5",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T19:06:08.834Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T19:04:26.672Z",
+      "full_name": "Rodolfo Esposito",
+      "given_name": "Rodolfo",
+      "family_name": "Esposito",
+      "age": "54",
+      "home_city": "La Guaira · Caraballeda · Los corales playa grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T19:04:26.672Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T18:45:30.051Z",
+      "full_name": "Danna Rodriguez Antón",
+      "given_name": "Danna",
+      "family_name": "Rodriguez Antón",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T18:45:30.051Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4",
       "source_name": "desaparecidosvenezuela",
@@ -330,66 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T15:17:03.882Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwhvbv4000o3amqstaud7km",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T15:08:03.664Z",
-      "full_name": "Alejandra Peña",
-      "given_name": "Alejandra",
-      "family_name": "Peña",
-      "age": "20",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwhvbv4000o3amqstaud7km",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T15:08:03.664Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwhrm2k000n3amqil1y6m69",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T15:05:10.268Z",
-      "full_name": "Jesús García",
-      "given_name": "Jesús",
-      "family_name": "García",
-      "age": "20",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwhrm2k000n3amqil1y6m69",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T15:05:10.268Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwho8pj000m3amqjrxo41yy",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T15:02:32.983Z",
-      "full_name": "Vicky Chiquinquirá Urdaneta Leal",
-      "given_name": "Vicky",
-      "family_name": "Chiquinquirá Urdaneta Leal",
-      "age": "20",
-      "home_city": "La Guaira · La Guaira (centro) · Edificio Los Bucaneros, Catia La Mar, Estado La Guaira (Cerca del Hotel Marriott",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwho8pj000m3amqjrxo41yy",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T15:02:32.983Z"
         }
       ],
       "x_confianza": "baja",

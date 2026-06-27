@@ -1,7 +1,51 @@
 {
-  "generadoEn": "2026-06-27T18:40:05.049Z",
+  "generadoEn": "2026-06-27T19:08:57.511Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w",
+      "nombre": "Diego Segovia",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T19:06:08.834Z",
+      "edadAprox": 5,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn",
+      "nombre": "Rodolfo Esposito",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T19:04:26.672Z",
+      "edadAprox": 54,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Los corales playa grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n",
+      "nombre": "Danna Rodriguez Antón",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T18:45:30.051Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4",
       "nombre": "Karina Silva",
@@ -245,51 +289,6 @@
       "reportadoEn": "2026-06-27T15:17:03.882Z",
       "ultimaUbicacion": {
         "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwhvbv4000o3amqstaud7km",
-      "nombre": "Alejandra Peña",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T15:08:03.664Z",
-      "edadAprox": 20,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwhrm2k000n3amqil1y6m69",
-      "nombre": "Jesús García",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T15:05:10.268Z",
-      "edadAprox": 20,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwho8pj000m3amqjrxo41yy",
-      "nombre": "Vicky Chiquinquirá Urdaneta Leal",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T15:02:32.983Z",
-      "edadAprox": 20,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Edificio Los Bucaneros, Catia La Mar, Estado La Guaira (Cerca del Hotel Marriott"
       },
       "fuentes": [
         "desaparecidosvenezuela"
