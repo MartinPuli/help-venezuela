@@ -1,7 +1,46 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T06:24:05.036Z",
+  "generado_en": "2026-06-27T07:32:06.908Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvzkmhe00003amqkk7xbtlt",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T06:35:51.122Z",
+      "full_name": "Cesar Cedeño",
+      "given_name": "Cesar",
+      "family_name": "Cedeño",
+      "age": "94",
+      "home_city": "La Guaira · Macuto",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvzkmhe00003amqkk7xbtlt",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T06:35:51.122Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvz74gg001j3aqpwtqaaata",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T06:25:21.232Z",
+      "full_name": "José Rosario Longa",
+      "given_name": "José",
+      "family_name": "Rosario Longa",
+      "home_city": "La Guaira · Maiquetía · Brisas del aeropuerto",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvz74gg001j3aqpwtqaaata",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T06:25:21.232Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu",
       "source_name": "desaparecidosvenezuela",
@@ -352,45 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T23:56:01.375Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:54:56.467Z",
-      "full_name": "Jeshian danieiker Gabriel Márquez Diaz",
-      "given_name": "Jeshian",
-      "family_name": "danieiker Gabriel Márquez Diaz",
-      "age": "10",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:54:56.467Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:52:28.219Z",
-      "full_name": "Kevin Alejandro Méndez Ángulo",
-      "given_name": "Kevin",
-      "family_name": "Alejandro Méndez Ángulo",
-      "home_city": "La Guaira · En la CD del sebin Caraballeda edificio negra ipolita",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:52:28.219Z"
         }
       ],
       "x_confianza": "baja",

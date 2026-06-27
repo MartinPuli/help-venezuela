@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvzkmhe00003amqkk7xbtlt</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T06:35:51.122Z</pfif:source_date>
+    <pfif:full_name>Cesar Cedeño</pfif:full_name>
+    <pfif:given_name>Cesar</pfif:given_name>
+    <pfif:family_name>Cedeño</pfif:family_name>
+    <pfif:age>94</pfif:age>
+    <pfif:home_city>La Guaira · Macuto</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvzkmhe00003amqkk7xbtlt</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T06:35:51.122Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvz74gg001j3aqpwtqaaata</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T06:25:21.232Z</pfif:source_date>
+    <pfif:full_name>José Rosario Longa</pfif:full_name>
+    <pfif:given_name>José</pfif:given_name>
+    <pfif:family_name>Rosario Longa</pfif:family_name>
+    <pfif:home_city>La Guaira · Maiquetía · Brisas del aeropuerto</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvz74gg001j3aqpwtqaaata</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T06:25:21.232Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T05:21:40.118Z</pfif:source_date>
@@ -263,35 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvlafvj000t3aqpuz405k2j</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-26T23:56:01.375Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:54:56.467Z</pfif:source_date>
-    <pfif:full_name>Jeshian danieiker Gabriel Márquez Diaz</pfif:full_name>
-    <pfif:given_name>Jeshian</pfif:given_name>
-    <pfif:family_name>danieiker Gabriel Márquez Diaz</pfif:family_name>
-    <pfif:age>10</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:54:56.467Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:52:28.219Z</pfif:source_date>
-    <pfif:full_name>Kevin Alejandro Méndez Ángulo</pfif:full_name>
-    <pfif:given_name>Kevin</pfif:given_name>
-    <pfif:family_name>Alejandro Méndez Ángulo</pfif:family_name>
-    <pfif:home_city>La Guaira · En la CD del sebin Caraballeda edificio negra ipolita</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:52:28.219Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
