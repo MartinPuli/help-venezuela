@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T21:37:55.416Z",
+  "generado_en": "2026-06-27T22:06:47.309Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T22:01:00.039Z",
+      "full_name": "José Manuel Guerra Díaz",
+      "given_name": "José",
+      "family_name": "Manuel Guerra Díaz",
+      "age": "24",
+      "home_city": "La Guaira · Macuto · Hotel Ocean Dorado Suites, calle 3 de Macuto",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T22:01:00.039Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
       "source_name": "desaparecidosvenezuela",
@@ -374,25 +394,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T17:16:23.703Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T17:12:51.149Z",
-      "full_name": "carlos parada",
-      "given_name": "carlos",
-      "family_name": "parada",
-      "home_city": "Yaracuy · San Felipe",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T17:12:51.149Z"
         }
       ],
       "x_confianza": "baja",

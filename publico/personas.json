@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-27T21:37:55.416Z",
+  "generadoEn": "2026-06-27T22:06:47.309Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr",
+      "nombre": "José Manuel Guerra Díaz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T22:01:00.039Z",
+      "edadAprox": 24,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Hotel Ocean Dorado Suites, calle 3 de Macuto"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
       "nombre": "Jade Rodriguez",
@@ -279,20 +294,6 @@
       "reportadoEn": "2026-06-27T17:16:23.703Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · EDF. PUNTA PIEDRAS"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we",
-      "nombre": "carlos parada",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T17:12:51.149Z",
-      "ultimaUbicacion": {
-        "texto": "Yaracuy · San Felipe"
       },
       "fuentes": [
         "desaparecidosvenezuela"

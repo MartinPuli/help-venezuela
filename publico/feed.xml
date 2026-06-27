@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T22:01:00.039Z</pfif:source_date>
+    <pfif:full_name>José Manuel Guerra Díaz</pfif:full_name>
+    <pfif:given_name>José</pfif:given_name>
+    <pfif:family_name>Manuel Guerra Díaz</pfif:family_name>
+    <pfif:age>24</pfif:age>
+    <pfif:home_city>La Guaira · Macuto · Hotel Ocean Dorado Suites, calle 3 de Macuto</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T22:01:00.039Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T21:18:31.986Z</pfif:source_date>
@@ -280,20 +295,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmgd9300163amq5z7s2nei</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T17:16:23.703Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T17:12:51.149Z</pfif:source_date>
-    <pfif:full_name>carlos parada</pfif:full_name>
-    <pfif:given_name>carlos</pfif:given_name>
-    <pfif:family_name>parada</pfif:family_name>
-    <pfif:home_city>Yaracuy · San Felipe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwmbt8t00153amq0b7ns1we</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T17:12:51.149Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
