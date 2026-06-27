@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-27T20:13:34.132Z",
+  "generadoEn": "2026-06-27T20:40:13.741Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5",
+      "nombre": "Haide Bravo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T20:21:56.152Z",
+      "edadAprox": 53,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c",
       "nombre": "Danielys Cedeño",
@@ -276,21 +291,6 @@
       "reportadoEn": "2026-06-27T16:43:53.408Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Macuto · Al lado del hotel Eduars"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia",
-      "nombre": "Ramón Gonzalez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T16:13:02.733Z",
-      "edadAprox": 73,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Edificio Palma Real cerca de Playa los Cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"

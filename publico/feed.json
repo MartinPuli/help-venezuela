@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T20:13:34.132Z",
+  "generado_en": "2026-06-27T20:40:13.741Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T20:21:56.152Z",
+      "full_name": "Haide Bravo",
+      "given_name": "Haide",
+      "family_name": "Bravo",
+      "age": "53",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T20:21:56.152Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c",
       "source_name": "desaparecidosvenezuela",
@@ -371,26 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T16:43:53.408Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T16:13:02.733Z",
-      "full_name": "Ramón Gonzalez",
-      "given_name": "Ramón",
-      "family_name": "Gonzalez",
-      "age": "73",
-      "home_city": "La Guaira · Edificio Palma Real cerca de Playa los Cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T16:13:02.733Z"
         }
       ],
       "x_confianza": "baja",

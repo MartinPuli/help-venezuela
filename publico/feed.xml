@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T20:21:56.152Z</pfif:source_date>
+    <pfif:full_name>Haide Bravo</pfif:full_name>
+    <pfif:given_name>Haide</pfif:given_name>
+    <pfif:family_name>Bravo</pfif:family_name>
+    <pfif:age>53</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T20:21:56.152Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T20:09:10.118Z</pfif:source_date>
@@ -277,21 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwlake8000y3amqbonnpf6y</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T16:43:53.408Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T16:13:02.733Z</pfif:source_date>
-    <pfif:full_name>Ramón Gonzalez</pfif:full_name>
-    <pfif:given_name>Ramón</pfif:given_name>
-    <pfif:family_name>Gonzalez</pfif:family_name>
-    <pfif:age>73</pfif:age>
-    <pfif:home_city>La Guaira · Edificio Palma Real cerca de Playa los Cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T16:13:02.733Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
