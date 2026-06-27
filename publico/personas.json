@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-27T11:07:01.375Z",
+  "generadoEn": "2026-06-27T11:45:30.936Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2",
+      "nombre": "Marcos Vargas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T11:37:09.372Z",
+      "ultimaUbicacion": {
+        "texto": "Falcón · Coro · Boca de aroa"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt",
       "nombre": "Liliana Ruiz",
@@ -278,21 +292,6 @@
       "edadAprox": 63,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Edificio palafito del mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvogqic00103aqpt3webokt",
-      "nombre": "Bashir Khawam",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T01:24:53.940Z",
-      "edadAprox": 68,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Edificio palfito del mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"

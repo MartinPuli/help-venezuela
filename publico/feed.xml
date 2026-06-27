@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T11:37:09.372Z</pfif:source_date>
+    <pfif:full_name>Marcos Vargas</pfif:full_name>
+    <pfif:given_name>Marcos</pfif:given_name>
+    <pfif:family_name>Vargas</pfif:family_name>
+    <pfif:home_city>Falcón · Coro · Boca de aroa</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T11:37:09.372Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw848wb00073amqsp3wjdvt</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T10:35:03.563Z</pfif:source_date>
@@ -279,21 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T01:28:14.950Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvogqic00103aqpt3webokt</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T01:24:53.940Z</pfif:source_date>
-    <pfif:full_name>Bashir Khawam</pfif:full_name>
-    <pfif:given_name>Bashir</pfif:given_name>
-    <pfif:family_name>Khawam</pfif:family_name>
-    <pfif:age>68</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Edificio palfito del mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvogqic00103aqpt3webokt</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T01:24:53.940Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
