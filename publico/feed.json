@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T13:31:35.550Z",
+  "generado_en": "2026-06-27T14:16:35.563Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwfp65c000h3amqwxw8j65w",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T14:07:17.088Z",
+      "full_name": "ARIADNYS MUNZON",
+      "given_name": "ARIADNYS",
+      "family_name": "MUNZON",
+      "age": "10",
+      "home_city": "La Guaira · La Guaira (centro) · Tanaguarenas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwfp65c000h3amqwxw8j65w",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T14:07:17.088Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3",
       "source_name": "desaparecidosvenezuela",
@@ -371,26 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T04:48:29.109Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T04:44:13.215Z",
-      "full_name": "Leandro Sebastián Peña Bustamante",
-      "given_name": "Leandro",
-      "family_name": "Sebastián Peña Bustamante",
-      "age": "17",
-      "home_city": "La Guaira · Recidencial solymar los corales",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T04:44:13.215Z"
         }
       ],
       "x_confianza": "baja",

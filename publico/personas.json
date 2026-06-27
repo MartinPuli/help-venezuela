@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-27T13:31:35.550Z",
+  "generadoEn": "2026-06-27T14:16:35.563Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwfp65c000h3amqwxw8j65w",
+      "nombre": "ARIADNYS MUNZON",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T14:07:17.088Z",
+      "edadAprox": 10,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Tanaguarenas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3",
       "nombre": "Armando Ustariz",
@@ -276,21 +291,6 @@
       "reportadoEn": "2026-06-27T04:48:29.109Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri",
-      "nombre": "Leandro Sebastián Peña Bustamante",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T04:44:13.215Z",
-      "edadAprox": 17,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Recidencial solymar los corales"
       },
       "fuentes": [
         "desaparecidosvenezuela"
