@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwh7zj8000k3amqkvvaoa1f</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T14:49:54.596Z</pfif:source_date>
+    <pfif:full_name>Jhoana Valente</pfif:full_name>
+    <pfif:given_name>Jhoana</pfif:given_name>
+    <pfif:family_name>Valente</pfif:family_name>
+    <pfif:age>46</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Al lado del edificio, catimar puerto viejo</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwh7zj8000k3amqkvvaoa1f</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T14:49:54.596Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwgpwg4000j3amq3wkki3c6</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T14:35:50.788Z</pfif:source_date>
+    <pfif:full_name>Breiner , Chay Eduardo , brainer y consuelo berroteran Rangel</pfif:full_name>
+    <pfif:given_name>Breiner</pfif:given_name>
+    <pfif:family_name>, Chay Eduardo , brainer y consuelo berroteran Rangel</pfif:family_name>
+    <pfif:age>15</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Caraballeda , avenida guayquery edificio golf mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwgpwg4000j3amq3wkki3c6</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T14:35:50.788Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwfp65c000h3amqwxw8j65w</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T14:07:17.088Z</pfif:source_date>
@@ -263,35 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvwkml6001h3aqp11z2ntb4</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T05:11:52.410Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T05:02:01.262Z</pfif:source_date>
-    <pfif:full_name>Derber Muños</pfif:full_name>
-    <pfif:given_name>Derber</pfif:given_name>
-    <pfif:family_name>Muños</pfif:family_name>
-    <pfif:age>38</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T05:02:01.262Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T04:48:29.109Z</pfif:source_date>
-    <pfif:full_name>kiliam zambrano</pfif:full_name>
-    <pfif:given_name>kiliam</pfif:given_name>
-    <pfif:family_name>zambrano</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T04:48:29.109Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

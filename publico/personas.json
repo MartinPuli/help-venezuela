@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-06-27T14:16:35.563Z",
+  "generadoEn": "2026-06-27T15:00:36.339Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwh7zj8000k3amqkvvaoa1f",
+      "nombre": "Jhoana Valente",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T14:49:54.596Z",
+      "edadAprox": 46,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Al lado del edificio, catimar puerto viejo"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwgpwg4000j3amq3wkki3c6",
+      "nombre": "Breiner , Chay Eduardo , brainer y consuelo berroteran Rangel",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T14:35:50.788Z",
+      "edadAprox": 15,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Caraballeda , avenida guayquery edificio golf mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwfp65c000h3amqwxw8j65w",
       "nombre": "ARIADNYS MUNZON",
@@ -262,35 +292,6 @@
       "edadAprox": 54,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Puente la llanada, coliseo"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
-      "nombre": "Derber Muños",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T05:02:01.262Z",
-      "edadAprox": 38,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix",
-      "nombre": "kiliam zambrano",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T04:48:29.109Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
       },
       "fuentes": [
         "desaparecidosvenezuela"

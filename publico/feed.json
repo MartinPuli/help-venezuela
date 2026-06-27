@@ -1,7 +1,47 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T14:16:35.563Z",
+  "generado_en": "2026-06-27T15:00:36.339Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwh7zj8000k3amqkvvaoa1f",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T14:49:54.596Z",
+      "full_name": "Jhoana Valente",
+      "given_name": "Jhoana",
+      "family_name": "Valente",
+      "age": "46",
+      "home_city": "La Guaira · Catia La Mar · Al lado del edificio, catimar puerto viejo",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwh7zj8000k3amqkvvaoa1f",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T14:49:54.596Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwgpwg4000j3amq3wkki3c6",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T14:35:50.788Z",
+      "full_name": "Breiner , Chay Eduardo , brainer y consuelo berroteran Rangel",
+      "given_name": "Breiner",
+      "family_name": ", Chay Eduardo , brainer y consuelo berroteran Rangel",
+      "age": "15",
+      "home_city": "La Guaira · La Guaira (centro) · Caraballeda , avenida guayquery edificio golf mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwgpwg4000j3amq3wkki3c6",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T14:35:50.788Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwfp65c000h3amqwxw8j65w",
       "source_name": "desaparecidosvenezuela",
@@ -352,45 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T05:11:52.410Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T05:02:01.262Z",
-      "full_name": "Derber Muños",
-      "given_name": "Derber",
-      "family_name": "Muños",
-      "age": "38",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T05:02:01.262Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T04:48:29.109Z",
-      "full_name": "kiliam zambrano",
-      "given_name": "kiliam",
-      "family_name": "zambrano",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T04:48:29.109Z"
         }
       ],
       "x_confianza": "baja",
