@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-06-27T08:37:37.237Z",
+  "generadoEn": "2026-06-27T09:33:38.078Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
+      "nombre": "Astrid Camila Gonzalez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T08:50:08.658Z",
+      "edadAprox": 15,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Camuri Chico"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqw49atf00043amqbqspsch3",
+      "nombre": "Sildre Josery Gonzalez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T08:47:00.867Z",
+      "edadAprox": 34,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Camuri Chico"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei",
       "nombre": "Samantha Mosquera Gil",
@@ -262,36 +292,6 @@
       "edadAprox": 65,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8",
-      "nombre": "José Rafael Rossi Ydrogo",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T00:57:33.907Z",
-      "edadAprox": 47,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Hotel santuario"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11",
-      "nombre": "Risbelys Mata",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T00:56:34.259Z",
-      "edadAprox": 17,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Las quince letras o cerca"
       },
       "fuentes": [
         "desaparecidosvenezuela"

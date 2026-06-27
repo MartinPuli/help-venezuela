@@ -1,7 +1,47 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T08:37:37.237Z",
+  "generado_en": "2026-06-27T09:33:38.078Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T08:50:08.658Z",
+      "full_name": "Astrid Camila Gonzalez",
+      "given_name": "Astrid",
+      "family_name": "Camila Gonzalez",
+      "age": "15",
+      "home_city": "La Guaira · Macuto · Camuri Chico",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T08:50:08.658Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw49atf00043amqbqspsch3",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T08:47:00.867Z",
+      "full_name": "Sildre Josery Gonzalez",
+      "given_name": "Sildre",
+      "family_name": "Josery Gonzalez",
+      "age": "34",
+      "home_city": "La Guaira · Macuto · Camuri Chico",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw49atf00043amqbqspsch3",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T08:47:00.867Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei",
       "source_name": "desaparecidosvenezuela",
@@ -352,46 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T01:13:57.937Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T00:57:33.907Z",
-      "full_name": "José Rafael Rossi Ydrogo",
-      "given_name": "José",
-      "family_name": "Rafael Rossi Ydrogo",
-      "age": "47",
-      "home_city": "La Guaira · Macuto · Hotel santuario",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T00:57:33.907Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T00:56:34.259Z",
-      "full_name": "Risbelys Mata",
-      "given_name": "Risbelys",
-      "family_name": "Mata",
-      "age": "17",
-      "home_city": "La Guaira · Macuto · Las quince letras o cerca",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T00:56:34.259Z"
         }
       ],
       "x_confianza": "baja",

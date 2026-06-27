@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T08:50:08.658Z</pfif:source_date>
+    <pfif:full_name>Astrid Camila Gonzalez</pfif:full_name>
+    <pfif:given_name>Astrid</pfif:given_name>
+    <pfif:family_name>Camila Gonzalez</pfif:family_name>
+    <pfif:age>15</pfif:age>
+    <pfif:home_city>La Guaira · Macuto · Camuri Chico</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T08:50:08.658Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw49atf00043amqbqspsch3</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T08:47:00.867Z</pfif:source_date>
+    <pfif:full_name>Sildre Josery Gonzalez</pfif:full_name>
+    <pfif:given_name>Sildre</pfif:given_name>
+    <pfif:family_name>Josery Gonzalez</pfif:family_name>
+    <pfif:age>34</pfif:age>
+    <pfif:home_city>La Guaira · Macuto · Camuri Chico</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw49atf00043amqbqspsch3</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T08:47:00.867Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T08:00:35.563Z</pfif:source_date>
@@ -263,36 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T01:13:57.937Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T00:57:33.907Z</pfif:source_date>
-    <pfif:full_name>José Rafael Rossi Ydrogo</pfif:full_name>
-    <pfif:given_name>José</pfif:given_name>
-    <pfif:family_name>Rafael Rossi Ydrogo</pfif:family_name>
-    <pfif:age>47</pfif:age>
-    <pfif:home_city>La Guaira · Macuto · Hotel santuario</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T00:57:33.907Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T00:56:34.259Z</pfif:source_date>
-    <pfif:full_name>Risbelys Mata</pfif:full_name>
-    <pfif:given_name>Risbelys</pfif:given_name>
-    <pfif:family_name>Mata</pfif:family_name>
-    <pfif:age>17</pfif:age>
-    <pfif:home_city>La Guaira · Macuto · Las quince letras o cerca</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T00:56:34.259Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
