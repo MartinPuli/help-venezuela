@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T13:29:10.123Z</pfif:source_date>
+    <pfif:full_name>Armando Ustariz</pfif:full_name>
+    <pfif:given_name>Armando</pfif:given_name>
+    <pfif:family_name>Ustariz</pfif:family_name>
+    <pfif:age>65</pfif:age>
+    <pfif:home_city>Aragua · Maracay · Girardot</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T13:29:10.123Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T13:00:49.336Z</pfif:source_date>
+    <pfif:full_name>Alicia josefina</pfif:full_name>
+    <pfif:given_name>Alicia</pfif:given_name>
+    <pfif:family_name>josefina</pfif:family_name>
+    <pfif:home_city>La Guaira · Macuto</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T13:00:49.336Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T12:32:53.931Z</pfif:source_date>
@@ -263,35 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T04:44:13.215Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T03:50:10.036Z</pfif:source_date>
-    <pfif:full_name>Jhonailys Ortega</pfif:full_name>
-    <pfif:given_name>Jhonailys</pfif:given_name>
-    <pfif:family_name>Ortega</pfif:family_name>
-    <pfif:age>36</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Residencia palma real. Calle playa cerca la playa</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T03:50:10.036Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T03:38:13.684Z</pfif:source_date>
-    <pfif:full_name>Victoria Alejandra Plaz Cordero</pfif:full_name>
-    <pfif:given_name>Victoria</pfif:given_name>
-    <pfif:family_name>Alejandra Plaz Cordero</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar · Zona de belo horizonte playa grande/ summa</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T03:38:13.684Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

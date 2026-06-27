@@ -1,7 +1,36 @@
 {
-  "generadoEn": "2026-06-27T12:54:42.024Z",
+  "generadoEn": "2026-06-27T13:31:35.550Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3",
+      "nombre": "Armando Ustariz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T13:29:10.123Z",
+      "edadAprox": 65,
+      "ultimaUbicacion": {
+        "texto": "Aragua · Maracay · Girardot"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l",
+      "nombre": "Alicia josefina",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T13:00:49.336Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2",
       "nombre": "Andrea De abreu Level",
@@ -262,35 +291,6 @@
       "edadAprox": 17,
       "ultimaUbicacion": {
         "texto": "La Guaira · Recidencial solymar los corales"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu",
-      "nombre": "Jhonailys Ortega",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T03:50:10.036Z",
-      "edadAprox": 36,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencia palma real. Calle playa cerca la playa"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
-      "nombre": "Victoria Alejandra Plaz Cordero",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T03:38:13.684Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Zona de belo horizonte playa grande/ summa"
       },
       "fuentes": [
         "desaparecidosvenezuela"

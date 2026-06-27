@@ -1,7 +1,46 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T12:54:42.024Z",
+  "generado_en": "2026-06-27T13:31:35.550Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T13:29:10.123Z",
+      "full_name": "Armando Ustariz",
+      "given_name": "Armando",
+      "family_name": "Ustariz",
+      "age": "65",
+      "home_city": "Aragua · Maracay · Girardot",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwec5ij000f3amqiuqmdcr3",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T13:29:10.123Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T13:00:49.336Z",
+      "full_name": "Alicia josefina",
+      "given_name": "Alicia",
+      "family_name": "josefina",
+      "home_city": "La Guaira · Macuto",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwdbp6g000e3amqssn5jx9l",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T13:00:49.336Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2",
       "source_name": "desaparecidosvenezuela",
@@ -352,45 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T04:44:13.215Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T03:50:10.036Z",
-      "full_name": "Jhonailys Ortega",
-      "given_name": "Jhonailys",
-      "family_name": "Ortega",
-      "age": "36",
-      "home_city": "La Guaira · Caraballeda · Residencia palma real. Calle playa cerca la playa",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T03:50:10.036Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T03:38:13.684Z",
-      "full_name": "Victoria Alejandra Plaz Cordero",
-      "given_name": "Victoria",
-      "family_name": "Alejandra Plaz Cordero",
-      "home_city": "La Guaira · Catia La Mar · Zona de belo horizonte playa grande/ summa",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T03:38:13.684Z"
         }
       ],
       "x_confianza": "baja",
