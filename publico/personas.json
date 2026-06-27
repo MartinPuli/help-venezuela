@@ -1,7 +1,66 @@
 {
-  "generadoEn": "2026-06-27T03:44:38.705Z",
+  "generadoEn": "2026-06-27T05:04:42.430Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
+      "nombre": "Derber Muños",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T05:02:01.262Z",
+      "edadAprox": 38,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix",
+      "nombre": "kiliam zambrano",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T04:48:29.109Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri",
+      "nombre": "Leandro Sebastián Peña Bustamante",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T04:44:13.215Z",
+      "edadAprox": 17,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Recidencial solymar los corales"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu",
+      "nombre": "Jhonailys Ortega",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T03:50:10.036Z",
+      "edadAprox": 36,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencia palma real. Calle playa cerca la playa"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
       "nombre": "Victoria Alejandra Plaz Cordero",
@@ -230,65 +289,6 @@
       "reportadoEn": "2026-06-26T23:45:03.127Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1",
-      "nombre": "Kleiver D'",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:41:46.996Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q",
-      "nombre": "Marisol Vera",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:40:28.319Z",
-      "edadAprox": 66,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Avenida el Ejército, Edificio Santa María, Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj",
-      "nombre": "Neiber Paez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:24:13.145Z",
-      "edadAprox": 12,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvjz6f3000l3aqpgfdly0ml",
-      "nombre": "Dalimar Hurtado",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T23:19:16.287Z",
-      "edadAprox": 23,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 torre C Los Cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"

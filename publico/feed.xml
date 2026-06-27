@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T05:02:01.262Z</pfif:source_date>
+    <pfif:full_name>Derber Muños</pfif:full_name>
+    <pfif:given_name>Derber</pfif:given_name>
+    <pfif:family_name>Muños</pfif:family_name>
+    <pfif:age>38</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T05:02:01.262Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T04:48:29.109Z</pfif:source_date>
+    <pfif:full_name>kiliam zambrano</pfif:full_name>
+    <pfif:given_name>kiliam</pfif:given_name>
+    <pfif:family_name>zambrano</pfif:family_name>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T04:48:29.109Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T04:44:13.215Z</pfif:source_date>
+    <pfif:full_name>Leandro Sebastián Peña Bustamante</pfif:full_name>
+    <pfif:given_name>Leandro</pfif:given_name>
+    <pfif:family_name>Sebastián Peña Bustamante</pfif:family_name>
+    <pfif:age>17</pfif:age>
+    <pfif:home_city>La Guaira · Recidencial solymar los corales</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T04:44:13.215Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T03:50:10.036Z</pfif:source_date>
+    <pfif:full_name>Jhonailys Ortega</pfif:full_name>
+    <pfif:given_name>Jhonailys</pfif:given_name>
+    <pfif:family_name>Ortega</pfif:family_name>
+    <pfif:age>36</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Residencia palma real. Calle playa cerca la playa</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T03:50:10.036Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T03:38:13.684Z</pfif:source_date>
@@ -231,65 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkwbyv000p3aqp85iawp5f</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-26T23:45:03.127Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:41:46.996Z</pfif:source_date>
-    <pfif:full_name>Kleiver D'</pfif:full_name>
-    <pfif:given_name>Kleiver</pfif:given_name>
-    <pfif:family_name>D'</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:41:46.996Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:40:28.319Z</pfif:source_date>
-    <pfif:full_name>Marisol Vera</pfif:full_name>
-    <pfif:given_name>Marisol</pfif:given_name>
-    <pfif:family_name>Vera</pfif:family_name>
-    <pfif:age>66</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Avenida el Ejército, Edificio Santa María, Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:40:28.319Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:24:13.145Z</pfif:source_date>
-    <pfif:full_name>Neiber Paez</pfif:full_name>
-    <pfif:given_name>Neiber</pfif:given_name>
-    <pfif:family_name>Paez</pfif:family_name>
-    <pfif:age>12</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:24:13.145Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvjz6f3000l3aqpgfdly0ml</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T23:19:16.287Z</pfif:source_date>
-    <pfif:full_name>Dalimar Hurtado</pfif:full_name>
-    <pfif:given_name>Dalimar</pfif:given_name>
-    <pfif:family_name>Hurtado</pfif:family_name>
-    <pfif:age>23</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 torre C Los Cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvjz6f3000l3aqpgfdly0ml</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T23:19:16.287Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

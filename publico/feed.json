@@ -1,7 +1,86 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T03:44:38.705Z",
+  "generado_en": "2026-06-27T05:04:42.430Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T05:02:01.262Z",
+      "full_name": "Derber Muños",
+      "given_name": "Derber",
+      "family_name": "Muños",
+      "age": "38",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvw7yge001f3aqpguzvtyv7",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T05:02:01.262Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T04:48:29.109Z",
+      "full_name": "kiliam zambrano",
+      "given_name": "kiliam",
+      "family_name": "zambrano",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvqjsl001e3aqp98uecoix",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T04:48:29.109Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T04:44:13.215Z",
+      "full_name": "Leandro Sebastián Peña Bustamante",
+      "given_name": "Leandro",
+      "family_name": "Sebastián Peña Bustamante",
+      "age": "17",
+      "home_city": "La Guaira · Recidencial solymar los corales",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvvl2cf001d3aqpsmja2eri",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T04:44:13.215Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T03:50:10.036Z",
+      "full_name": "Jhonailys Ortega",
+      "given_name": "Jhonailys",
+      "family_name": "Ortega",
+      "age": "36",
+      "home_city": "La Guaira · Caraballeda · Residencia palma real. Calle playa cerca la playa",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvtnjw3001b3aqpcd8s3wnu",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T03:50:10.036Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvt875g001a3aqp1g3lnrcx",
       "source_name": "desaparecidosvenezuela",
@@ -310,85 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T23:45:03.127Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:41:46.996Z",
-      "full_name": "Kleiver D'",
-      "given_name": "Kleiver",
-      "family_name": "D'",
-      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvks4ms000o3aqp4pu7e1t1",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:41:46.996Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:40:28.319Z",
-      "full_name": "Marisol Vera",
-      "given_name": "Marisol",
-      "family_name": "Vera",
-      "age": "66",
-      "home_city": "La Guaira · Catia La Mar · Avenida el Ejército, Edificio Santa María, Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvkqfxb000n3aqp0ohdly3q",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:40:28.319Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:24:13.145Z",
-      "full_name": "Neiber Paez",
-      "given_name": "Neiber",
-      "family_name": "Paez",
-      "age": "12",
-      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvk5jh5000m3aqprrvn97gj",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:24:13.145Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvjz6f3000l3aqpgfdly0ml",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T23:19:16.287Z",
-      "full_name": "Dalimar Hurtado",
-      "given_name": "Dalimar",
-      "family_name": "Hurtado",
-      "age": "23",
-      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 torre C Los Cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvjz6f3000l3aqpgfdly0ml",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T23:19:16.287Z"
         }
       ],
       "x_confianza": "baja",
