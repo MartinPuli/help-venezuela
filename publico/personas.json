@@ -1,7 +1,96 @@
 {
-  "generadoEn": "2026-06-27T15:00:36.339Z",
+  "generadoEn": "2026-06-27T15:41:59.198Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwisqpa000r3amqugu563wr",
+      "nombre": "Sebastián Bracamonte",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T15:34:02.542Z",
+      "edadAprox": 20,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Naiguatá"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwi6wp6000p3amq03d6cwkr",
+      "nombre": "Luis angel Valero",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T15:17:03.882Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwhvbv4000o3amqstaud7km",
+      "nombre": "Alejandra Peña",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T15:08:03.664Z",
+      "edadAprox": 20,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwhrm2k000n3amqil1y6m69",
+      "nombre": "Jesús García",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T15:05:10.268Z",
+      "edadAprox": 20,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwho8pj000m3amqjrxo41yy",
+      "nombre": "Vicky Chiquinquirá Urdaneta Leal",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T15:02:32.983Z",
+      "edadAprox": 20,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Edificio Los Bucaneros, Catia La Mar, Estado La Guaira (Cerca del Hotel Marriott"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwhmprs000l3amqkp1se5tb",
+      "nombre": "Yolbert Blanco",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T15:01:21.784Z",
+      "edadAprox": 39,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwh7zj8000k3amqkvvaoa1f",
       "nombre": "Jhoana Valente",
@@ -203,95 +292,6 @@
       "edadAprox": 15,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Edificio Aguja Azul"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqw2fg2700023amquy9clynh",
-      "nombre": "Eileen Gil",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T07:55:48.367Z",
-      "edadAprox": 41,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edificio Aguja Azul"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqw2743c00013amqz9btwy08",
-      "nombre": "Yelimar García",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T07:49:19.608Z",
-      "edadAprox": 20,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvzkmhe00003amqkk7xbtlt",
-      "nombre": "Cesar Cedeño",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T06:35:51.122Z",
-      "edadAprox": 94,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvz74gg001j3aqpwtqaaata",
-      "nombre": "José Rosario Longa",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T06:25:21.232Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Maiquetía · Brisas del aeropuerto"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvwx82e001i3aqp8cmq9znu",
-      "nombre": "Federico Nuñez Chavez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T05:21:40.118Z",
-      "edadAprox": 50,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Resistencia Maratea, cerca de la panadería Lenotre"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvwkml6001h3aqp11z2ntb4",
-      "nombre": "Francisco Jose Gamboa Brantd",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T05:11:52.410Z",
-      "edadAprox": 54,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Puente la llanada, coliseo"
       },
       "fuentes": [
         "desaparecidosvenezuela"
