@@ -1,7 +1,46 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T01:26:01.735Z",
+  "generado_en": "2026-06-27T02:19:32.454Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T01:42:19.922Z",
+      "full_name": "Eislen maría guevara moreno",
+      "given_name": "Eislen",
+      "family_name": "maría guevara moreno",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T01:42:19.922Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T01:28:14.950Z",
+      "full_name": "Andreina Esposito",
+      "given_name": "Andreina",
+      "family_name": "Esposito",
+      "age": "63",
+      "home_city": "La Guaira · La Guaira (centro) · Edificio palafito del mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T01:28:14.950Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvogqic00103aqpt3webokt",
       "source_name": "desaparecidosvenezuela",
@@ -355,39 +394,40 @@
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvirfol000i3aqpai1k8l43",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T22:45:15.429Z",
-      "full_name": "Victor Fernandes",
-      "given_name": "Victor",
-      "family_name": "Fernandes",
-      "home_city": "La Guaira · La Guaira (centro)",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:367b1e12-863a-4e6d-adeb-6a66cd71d895",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-27T02:10:48.825Z",
+      "full_name": "Delia Da Silva",
+      "given_name": "Delia",
+      "family_name": "Da Silva",
+      "age": "47",
+      "home_city": "Edificio Maratea Caribe",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvirfol000i3aqpai1k8l43",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:367b1e12-863a-4e6d-adeb-6a66cd71d895",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T22:45:15.429Z"
+          "source_date": "2026-06-27T02:10:48.825Z"
         }
       ],
       "x_confianza": "baja",
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T22:08:45.562Z",
-      "full_name": "Ronald Medina",
-      "given_name": "Ronald",
-      "family_name": "Medina",
-      "age": "42",
-      "home_city": "La Guaira · Naiguatá",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:121274c1-a95a-4e2d-ae1b-f53fd8d7f11e",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-27T02:09:03.100Z",
+      "full_name": "Delia Da Silva",
+      "given_name": "Delia",
+      "family_name": "Da Silva",
+      "age": "47",
+      "home_city": "Edificio Maratea Caribe",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:121274c1-a95a-4e2d-ae1b-f53fd8d7f11e",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-26T22:08:45.562Z"
+          "source_date": "2026-06-27T02:09:03.100Z"
         }
       ],
       "x_confianza": "baja",

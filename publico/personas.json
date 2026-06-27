@@ -1,7 +1,36 @@
 {
-  "generadoEn": "2026-06-27T01:26:01.735Z",
-  "total": 99,
+  "generadoEn": "2026-06-27T02:19:32.454Z",
+  "total": 101,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
+      "nombre": "Eislen maría guevara moreno",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T01:42:19.922Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh",
+      "nombre": "Andreina Esposito",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T01:28:14.950Z",
+      "edadAprox": 63,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Edificio palafito del mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvogqic00103aqpt3webokt",
       "nombre": "Bashir Khawam",
@@ -265,32 +294,33 @@
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqvirfol000i3aqpai1k8l43",
-      "nombre": "Victor Fernandes",
+      "id": "terremotovenezuela-app:367b1e12-863a-4e6d-adeb-6a66cd71d895",
+      "nombre": "Delia Da Silva",
       "estado": "desaparecido",
       "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T22:45:15.429Z",
+      "fuente": "terremotovenezuela-app",
+      "reportadoEn": "2026-06-27T02:10:48.825Z",
+      "edadAprox": 47,
       "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
+        "texto": "Edificio Maratea Caribe"
       },
       "fuentes": [
-        "desaparecidosvenezuela"
+        "terremotovenezuela-app"
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqvhghyy000d3aqpvx88chej",
-      "nombre": "Ronald Medina",
+      "id": "terremotovenezuela-app:121274c1-a95a-4e2d-ae1b-f53fd8d7f11e",
+      "nombre": "Delia Da Silva",
       "estado": "desaparecido",
       "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T22:08:45.562Z",
-      "edadAprox": 42,
+      "fuente": "terremotovenezuela-app",
+      "reportadoEn": "2026-06-27T02:09:03.100Z",
+      "edadAprox": 47,
       "ultimaUbicacion": {
-        "texto": "La Guaira · Naiguatá"
+        "texto": "Edificio Maratea Caribe"
       },
       "fuentes": [
-        "desaparecidosvenezuela"
+        "terremotovenezuela-app"
       ]
     },
     {
