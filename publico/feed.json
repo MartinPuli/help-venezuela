@@ -1,7 +1,45 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T12:24:59.897Z",
+  "generado_en": "2026-06-27T12:54:42.024Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T12:32:53.931Z",
+      "full_name": "Andrea De abreu Level",
+      "given_name": "Andrea",
+      "family_name": "De abreu Level",
+      "home_city": "La Guaira · Catia La Mar · Playa Grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T12:32:53.931Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwc74a5000b3amqwgexhmqz",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T12:29:16.013Z",
+      "full_name": "WIlfredo De Abreu",
+      "given_name": "WIlfredo",
+      "family_name": "De Abreu",
+      "home_city": "La Guaira · Catia La Mar · Playa Grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwc74a5000b3amqwgexhmqz",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T12:29:16.013Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g",
       "source_name": "desaparecidosvenezuela",
@@ -353,45 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T03:38:13.684Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T03:28:55.303Z",
-      "full_name": "Lila angelica Delgado gomez",
-      "given_name": "Lila",
-      "family_name": "angelica Delgado gomez",
-      "age": "55",
-      "home_city": "Distrito Capital · Caracas · Los palos grandes, edificio petunia 1",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T03:28:55.303Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T01:42:19.922Z",
-      "full_name": "Eislen maría guevara moreno",
-      "given_name": "Eislen",
-      "family_name": "maría guevara moreno",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T01:42:19.922Z"
         }
       ],
       "x_confianza": "baja",

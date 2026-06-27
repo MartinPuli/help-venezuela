@@ -1,7 +1,35 @@
 {
-  "generadoEn": "2026-06-27T12:24:59.897Z",
+  "generadoEn": "2026-06-27T12:54:42.024Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwcbsff000c3amqyelo59q2",
+      "nombre": "Andrea De abreu Level",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T12:32:53.931Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa Grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwc74a5000b3amqwgexhmqz",
+      "nombre": "WIlfredo De Abreu",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T12:29:16.013Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa Grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g",
       "nombre": "Edymar Suárez saya",
@@ -263,35 +291,6 @@
       "reportadoEn": "2026-06-27T03:38:13.684Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Zona de belo horizonte playa grande/ summa"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvsw8av00193aqpkf3qbkgc",
-      "nombre": "Lila angelica Delgado gomez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T03:28:55.303Z",
-      "edadAprox": 55,
-      "ultimaUbicacion": {
-        "texto": "Distrito Capital · Caracas · Los palos grandes, edificio petunia 1"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3",
-      "nombre": "Eislen maría guevara moreno",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T01:42:19.922Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
       },
       "fuentes": [
         "desaparecidosvenezuela"
