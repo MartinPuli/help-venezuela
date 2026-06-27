@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-06-27T23:06:53.432Z",
+  "generadoEn": "2026-06-27T23:35:54.991Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof",
+      "nombre": "Francisco Jose Gamboa Brantd",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T23:33:14.655Z",
+      "edadAprox": 54,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Puente la llanada"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy",
+      "nombre": "Dulfa Maldonado Margarita Ramones",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T23:20:58.508Z",
+      "edadAprox": 60,
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5",
       "nombre": "Lerwinson Emmanuel González Ortega",
@@ -265,36 +295,6 @@
       "reportadoEn": "2026-06-27T18:45:30.051Z",
       "ultimaUbicacion": {
         "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4",
-      "nombre": "Karina Silva",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T18:23:01.084Z",
-      "edadAprox": 38,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwoq7jw001a3amqj51dvgk8",
-      "nombre": "Risbel Katiuska Guerrero Pérez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T18:20:02.108Z",
-      "edadAprox": 33,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Los cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"

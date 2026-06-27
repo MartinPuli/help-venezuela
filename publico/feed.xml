@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T23:33:14.655Z</pfif:source_date>
+    <pfif:full_name>Francisco Jose Gamboa Brantd</pfif:full_name>
+    <pfif:given_name>Francisco</pfif:given_name>
+    <pfif:family_name>Jose Gamboa Brantd</pfif:family_name>
+    <pfif:age>54</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Puente la llanada</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T23:33:14.655Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T23:20:58.508Z</pfif:source_date>
+    <pfif:full_name>Dulfa Maldonado Margarita Ramones</pfif:full_name>
+    <pfif:given_name>Dulfa</pfif:given_name>
+    <pfif:family_name>Maldonado Margarita Ramones</pfif:family_name>
+    <pfif:age>60</pfif:age>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T23:20:58.508Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T22:29:32.114Z</pfif:source_date>
@@ -266,36 +296,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T18:45:30.051Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T18:23:01.084Z</pfif:source_date>
-    <pfif:full_name>Karina Silva</pfif:full_name>
-    <pfif:given_name>Karina</pfif:given_name>
-    <pfif:family_name>Silva</pfif:family_name>
-    <pfif:age>38</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T18:23:01.084Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwoq7jw001a3amqj51dvgk8</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T18:20:02.108Z</pfif:source_date>
-    <pfif:full_name>Risbel Katiuska Guerrero Pérez</pfif:full_name>
-    <pfif:given_name>Risbel</pfif:given_name>
-    <pfif:family_name>Katiuska Guerrero Pérez</pfif:family_name>
-    <pfif:age>33</pfif:age>
-    <pfif:home_city>La Guaira · Los cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwoq7jw001a3amqj51dvgk8</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T18:20:02.108Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

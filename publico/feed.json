@@ -1,7 +1,47 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T23:06:53.432Z",
+  "generado_en": "2026-06-27T23:35:54.991Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T23:33:14.655Z",
+      "full_name": "Francisco Jose Gamboa Brantd",
+      "given_name": "Francisco",
+      "family_name": "Jose Gamboa Brantd",
+      "age": "54",
+      "home_city": "La Guaira · Caraballeda · Puente la llanada",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T23:33:14.655Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T23:20:58.508Z",
+      "full_name": "Dulfa Maldonado Margarita Ramones",
+      "given_name": "Dulfa",
+      "family_name": "Maldonado Margarita Ramones",
+      "age": "60",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T23:20:58.508Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5",
       "source_name": "desaparecidosvenezuela",
@@ -355,46 +395,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T18:45:30.051Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T18:23:01.084Z",
-      "full_name": "Karina Silva",
-      "given_name": "Karina",
-      "family_name": "Silva",
-      "age": "38",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwou1ng001b3amq2nf7s1c4",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T18:23:01.084Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwoq7jw001a3amqj51dvgk8",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T18:20:02.108Z",
-      "full_name": "Risbel Katiuska Guerrero Pérez",
-      "given_name": "Risbel",
-      "family_name": "Katiuska Guerrero Pérez",
-      "age": "33",
-      "home_city": "La Guaira · Los cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwoq7jw001a3amqj51dvgk8",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T18:20:02.108Z"
         }
       ],
       "x_confianza": "baja",
