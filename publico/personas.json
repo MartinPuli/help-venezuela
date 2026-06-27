@@ -1,7 +1,95 @@
 {
-  "generadoEn": "2026-06-27T00:33:47.184Z",
+  "generadoEn": "2026-06-27T01:26:01.735Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvogqic00103aqpt3webokt",
+      "nombre": "Bashir Khawam",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T01:24:53.940Z",
+      "edadAprox": 68,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Edificio palfito del mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq",
+      "nombre": "Crescencio Marotta",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T01:16:51.894Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha",
+      "nombre": "Gladys Rios",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T01:13:57.937Z",
+      "edadAprox": 65,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8",
+      "nombre": "José Rafael Rossi Ydrogo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T00:57:33.907Z",
+      "edadAprox": 47,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Hotel santuario"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11",
+      "nombre": "Risbelys Mata",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T00:56:34.259Z",
+      "edadAprox": 17,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Las quince letras o cerca"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvn5n0q000v3aqpfqr977ea",
+      "nombre": "Javiercy Alvarez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T00:48:16.586Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvmm4k9000u3aqpt6u3n5tq",
       "nombre": "Zunimar Moronta",
@@ -200,93 +288,6 @@
       "edadAprox": 42,
       "ultimaUbicacion": {
         "texto": "La Guaira · Naiguatá"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6",
-      "nombre": "Ronald Medina",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T21:57:10.711Z",
-      "edadAprox": 42,
-      "ultimaUbicacion": {
-        "texto": "Miranda · Los Teques · Guaicaipuro"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
-      "nombre": "Luis Enrique Manrique",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T21:22:08.573Z",
-      "edadAprox": 68,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7",
-      "nombre": "Gervys Vasquez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T21:19:27.509Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau",
-      "nombre": "Lian González",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T21:16:43.467Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Maiquetía"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h",
-      "nombre": "María Correia",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T21:12:27.197Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Panadería la almendraba playa grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6",
-      "nombre": "Luis hubrea",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:33:11.395Z",
-      "edadAprox": 29,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · tanaguarena"
       },
       "fuentes": [
         "desaparecidosvenezuela"

@@ -1,7 +1,125 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T00:33:47.184Z",
+  "generado_en": "2026-06-27T01:26:01.735Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvogqic00103aqpt3webokt",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T01:24:53.940Z",
+      "full_name": "Bashir Khawam",
+      "given_name": "Bashir",
+      "family_name": "Khawam",
+      "age": "68",
+      "home_city": "La Guaira · La Guaira (centro) · Edificio palfito del mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvogqic00103aqpt3webokt",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T01:24:53.940Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T01:16:51.894Z",
+      "full_name": "Crescencio Marotta",
+      "given_name": "Crescencio",
+      "family_name": "Marotta",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo6ek6000z3aqp4ssqymhq",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T01:16:51.894Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T01:13:57.937Z",
+      "full_name": "Gladys Rios",
+      "given_name": "Gladys",
+      "family_name": "Rios",
+      "age": "65",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvo2oc1000y3aqp5r24paha",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T01:13:57.937Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T00:57:33.907Z",
+      "full_name": "José Rafael Rossi Ydrogo",
+      "given_name": "José",
+      "family_name": "Rafael Rossi Ydrogo",
+      "age": "47",
+      "home_city": "La Guaira · Macuto · Hotel santuario",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvnhl1v000x3aqpuynla8p8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T00:57:33.907Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T00:56:34.259Z",
+      "full_name": "Risbelys Mata",
+      "given_name": "Risbelys",
+      "family_name": "Mata",
+      "age": "17",
+      "home_city": "La Guaira · Macuto · Las quince letras o cerca",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvngb0z000w3aqpma5r0p11",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T00:56:34.259Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvn5n0q000v3aqpfqr977ea",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T00:48:16.586Z",
+      "full_name": "Javiercy Alvarez",
+      "given_name": "Javiercy",
+      "family_name": "Alvarez",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvn5n0q000v3aqpfqr977ea",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T00:48:16.586Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvmm4k9000u3aqpt6u3n5tq",
       "source_name": "desaparecidosvenezuela",
@@ -270,123 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T22:08:45.562Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T21:57:10.711Z",
-      "full_name": "Ronald Medina",
-      "given_name": "Ronald",
-      "family_name": "Medina",
-      "age": "42",
-      "home_city": "Miranda · Los Teques · Guaicaipuro",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvh1ltj000c3aqpi3zggep6",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T21:57:10.711Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T21:22:08.573Z",
-      "full_name": "Luis Enrique Manrique",
-      "given_name": "Luis",
-      "family_name": "Enrique Manrique",
-      "age": "68",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfsjst000a3aqp7oiiraoo",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T21:22:08.573Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T21:19:27.509Z",
-      "full_name": "Gervys Vasquez",
-      "given_name": "Gervys",
-      "family_name": "Vasquez",
-      "home_city": "La Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfp3it00093aqp0yc9asm7",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T21:19:27.509Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T21:16:43.467Z",
-      "full_name": "Lian González",
-      "given_name": "Lian",
-      "family_name": "González",
-      "home_city": "La Guaira · Maiquetía",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvflky300083aqpbi3nmxau",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T21:16:43.467Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T21:12:27.197Z",
-      "full_name": "María Correia",
-      "given_name": "María",
-      "family_name": "Correia",
-      "home_city": "La Guaira · Panadería la almendraba playa grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvfg37h00073aqpavq1r19h",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T21:12:27.197Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:33:11.395Z",
-      "full_name": "Luis hubrea",
-      "given_name": "Luis",
-      "family_name": "hubrea",
-      "age": "29",
-      "home_city": "La Guaira · La Guaira (centro) · tanaguarena",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:33:11.395Z"
         }
       ],
       "x_confianza": "baja",
