@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvmm4k9000u3aqpt6u3n5tq</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T00:33:06.201Z</pfif:source_date>
+    <pfif:full_name>Zunimar Moronta</pfif:full_name>
+    <pfif:given_name>Zunimar</pfif:given_name>
+    <pfif:family_name>Moronta</pfif:family_name>
+    <pfif:age>38</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvmm4k9000u3aqpt6u3n5tq</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T00:33:06.201Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvlafvj000t3aqpuz405k2j</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T23:56:01.375Z</pfif:source_date>
+    <pfif:full_name>Isabel Patricia Núñez Bracamonte</pfif:full_name>
+    <pfif:given_name>Isabel</pfif:given_name>
+    <pfif:family_name>Patricia Núñez Bracamonte</pfif:family_name>
+    <pfif:age>46</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvlafvj000t3aqpuz405k2j</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T23:56:01.375Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T23:54:56.467Z</pfif:source_date>
+    <pfif:full_name>Jeshian danieiker Gabriel Márquez Diaz</pfif:full_name>
+    <pfif:given_name>Jeshian</pfif:given_name>
+    <pfif:family_name>danieiker Gabriel Márquez Diaz</pfif:family_name>
+    <pfif:age>10</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T23:54:56.467Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-26T23:52:28.219Z</pfif:source_date>
+    <pfif:full_name>Kevin Alejandro Méndez Ángulo</pfif:full_name>
+    <pfif:given_name>Kevin</pfif:given_name>
+    <pfif:family_name>Alejandro Méndez Ángulo</pfif:family_name>
+    <pfif:home_city>La Guaira · En la CD del sebin Caraballeda edificio negra ipolita</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-26T23:52:28.219Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-26T23:46:51.754Z</pfif:source_date>
@@ -227,62 +286,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqve1lgj00053aqp22y3czj6</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-26T20:33:11.395Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvdx99w00043aqpd22qsclm</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:29:48.980Z</pfif:source_date>
-    <pfif:full_name>Ruth Vargas</pfif:full_name>
-    <pfif:given_name>Ruth</pfif:given_name>
-    <pfif:family_name>Vargas</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Residencias El Caribe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdx99w00043aqpd22qsclm</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:29:48.980Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvdsy4n00033aqpxgtjkdy8</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:26:27.911Z</pfif:source_date>
-    <pfif:full_name>Angel Figuera</pfif:full_name>
-    <pfif:given_name>Angel</pfif:given_name>
-    <pfif:family_name>Figuera</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdsy4n00033aqpxgtjkdy8</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:26:27.911Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvdnblb00023aqphu1m7smi</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:22:05.423Z</pfif:source_date>
-    <pfif:full_name>Daniel Guilarte Urbaneja</pfif:full_name>
-    <pfif:given_name>Daniel</pfif:given_name>
-    <pfif:family_name>Guilarte Urbaneja</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdnblb00023aqphu1m7smi</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:22:05.423Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvdg9g800083apks36jfwfp</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-26T20:16:36.056Z</pfif:source_date>
-    <pfif:full_name>Valentina Bernal</pfif:full_name>
-    <pfif:given_name>Valentina</pfif:given_name>
-    <pfif:family_name>Bernal</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Los cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdg9g800083apks36jfwfp</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-26T20:16:36.056Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

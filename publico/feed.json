@@ -1,7 +1,86 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-26T23:49:20.906Z",
+  "generado_en": "2026-06-27T00:33:47.184Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvmm4k9000u3aqpt6u3n5tq",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T00:33:06.201Z",
+      "full_name": "Zunimar Moronta",
+      "given_name": "Zunimar",
+      "family_name": "Moronta",
+      "age": "38",
+      "home_city": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvmm4k9000u3aqpt6u3n5tq",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T00:33:06.201Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvlafvj000t3aqpuz405k2j",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T23:56:01.375Z",
+      "full_name": "Isabel Patricia Núñez Bracamonte",
+      "given_name": "Isabel",
+      "family_name": "Patricia Núñez Bracamonte",
+      "age": "46",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvlafvj000t3aqpuz405k2j",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T23:56:01.375Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T23:54:56.467Z",
+      "full_name": "Jeshian danieiker Gabriel Márquez Diaz",
+      "given_name": "Jeshian",
+      "family_name": "danieiker Gabriel Márquez Diaz",
+      "age": "10",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T23:54:56.467Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-26T23:52:28.219Z",
+      "full_name": "Kevin Alejandro Méndez Ángulo",
+      "given_name": "Kevin",
+      "family_name": "Alejandro Méndez Ángulo",
+      "home_city": "La Guaira · En la CD del sebin Caraballeda edificio negra ipolita",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-26T23:52:28.219Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
       "source_name": "desaparecidosvenezuela",
@@ -308,82 +387,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-26T20:33:11.395Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvdx99w00043aqpd22qsclm",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:29:48.980Z",
-      "full_name": "Ruth Vargas",
-      "given_name": "Ruth",
-      "family_name": "Vargas",
-      "home_city": "La Guaira · La Guaira (centro) · Residencias El Caribe",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdx99w00043aqpd22qsclm",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:29:48.980Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvdsy4n00033aqpxgtjkdy8",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:26:27.911Z",
-      "full_name": "Angel Figuera",
-      "given_name": "Angel",
-      "family_name": "Figuera",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdsy4n00033aqpxgtjkdy8",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:26:27.911Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvdnblb00023aqphu1m7smi",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:22:05.423Z",
-      "full_name": "Daniel Guilarte Urbaneja",
-      "given_name": "Daniel",
-      "family_name": "Guilarte Urbaneja",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdnblb00023aqphu1m7smi",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:22:05.423Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvdg9g800083apks36jfwfp",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-26T20:16:36.056Z",
-      "full_name": "Valentina Bernal",
-      "given_name": "Valentina",
-      "family_name": "Bernal",
-      "home_city": "La Guaira · La Guaira (centro) · Los cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvdg9g800083apks36jfwfp",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-26T20:16:36.056Z"
         }
       ],
       "x_confianza": "baja",

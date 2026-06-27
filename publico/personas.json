@@ -1,7 +1,66 @@
 {
-  "generadoEn": "2026-06-26T23:49:20.906Z",
+  "generadoEn": "2026-06-27T00:33:47.184Z",
   "total": 99,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqvmm4k9000u3aqpt6u3n5tq",
+      "nombre": "Zunimar Moronta",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T00:33:06.201Z",
+      "edadAprox": 38,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencia Brisas del mar Opppe 26 Torre C Playa Los Cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvlafvj000t3aqpuz405k2j",
+      "nombre": "Isabel Patricia Núñez Bracamonte",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:56:01.375Z",
+      "edadAprox": 46,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvl91sj000s3aqpfh9lvjk6",
+      "nombre": "Jeshian danieiker Gabriel Márquez Diaz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:54:56.467Z",
+      "edadAprox": 10,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqvl5vej000r3aqpl2v1lmyq",
+      "nombre": "Kevin Alejandro Méndez Ángulo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-26T23:52:28.219Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · En la CD del sebin Caraballeda edificio negra ipolita"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqvkynsa000q3aqpbbwwvl4z",
       "nombre": "Emma González",
@@ -228,62 +287,6 @@
       "edadAprox": 29,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · tanaguarena"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvdx99w00043aqpd22qsclm",
-      "nombre": "Ruth Vargas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:29:48.980Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Residencias El Caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvdsy4n00033aqpxgtjkdy8",
-      "nombre": "Angel Figuera",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:26:27.911Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvdnblb00023aqphu1m7smi",
-      "nombre": "Daniel Guilarte Urbaneja",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:22:05.423Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvdg9g800083apks36jfwfp",
-      "nombre": "Valentina Bernal",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-26T20:16:36.056Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Los cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"
