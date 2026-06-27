@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T11:57:13.659Z</pfif:source_date>
+    <pfif:full_name>Edymar Suárez saya</pfif:full_name>
+    <pfif:given_name>Edymar</pfif:given_name>
+    <pfif:family_name>Suárez saya</pfif:family_name>
+    <pfif:age>40</pfif:age>
+    <pfif:home_city>La Guaira · Av. Carlos Soublette residencia Urimare</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T11:57:13.659Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T11:37:09.372Z</pfif:source_date>
@@ -278,21 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvp35ld00153aqppgzt0ko3</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T01:42:19.922Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T01:28:14.950Z</pfif:source_date>
-    <pfif:full_name>Andreina Esposito</pfif:full_name>
-    <pfif:given_name>Andreina</pfif:given_name>
-    <pfif:family_name>Esposito</pfif:family_name>
-    <pfif:age>63</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Edificio palafito del mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T01:28:14.950Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

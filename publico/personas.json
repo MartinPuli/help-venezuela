@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-27T11:45:30.936Z",
+  "generadoEn": "2026-06-27T12:24:59.897Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g",
+      "nombre": "Edymar Suárez saya",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T11:57:13.659Z",
+      "edadAprox": 40,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Av. Carlos Soublette residencia Urimare"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2",
       "nombre": "Marcos Vargas",
@@ -277,21 +292,6 @@
       "reportadoEn": "2026-06-27T01:42:19.922Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh",
-      "nombre": "Andreina Esposito",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T01:28:14.950Z",
-      "edadAprox": 63,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Edificio palafito del mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"

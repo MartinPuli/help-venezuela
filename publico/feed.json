@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T11:45:30.936Z",
+  "generado_en": "2026-06-27T12:24:59.897Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T11:57:13.659Z",
+      "full_name": "Edymar Suárez saya",
+      "given_name": "Edymar",
+      "family_name": "Suárez saya",
+      "age": "40",
+      "home_city": "La Guaira · Av. Carlos Soublette residencia Urimare",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwb1wzf00093amqazbngg1g",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T11:57:13.659Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwac3r000083amqvxafqpv2",
       "source_name": "desaparecidosvenezuela",
@@ -372,26 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T01:42:19.922Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T01:28:14.950Z",
-      "full_name": "Andreina Esposito",
-      "given_name": "Andreina",
-      "family_name": "Esposito",
-      "age": "63",
-      "home_city": "La Guaira · La Guaira (centro) · Edificio palafito del mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqvol1ly00113aqp8zv2fxhh",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T01:28:14.950Z"
         }
       ],
       "x_confianza": "baja",
