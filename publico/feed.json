@@ -1,7 +1,47 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T19:44:57.720Z",
+  "generado_en": "2026-06-27T20:13:34.132Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T20:09:10.118Z",
+      "full_name": "Danielys Cedeño",
+      "given_name": "Danielys",
+      "family_name": "Cedeño",
+      "age": "14",
+      "home_city": "La Guaira · Caraballeda · Detrás de la clínica camuribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T20:09:10.118Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwskxuk001i3amq76ke2e8c",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T20:07:54.716Z",
+      "full_name": "Diego Tovar",
+      "given_name": "Diego",
+      "family_name": "Tovar",
+      "age": "16",
+      "home_city": "La Guaira · La Guaira (centro) · OPPE 27, piso 7 Tanaguarena sector Caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwskxuk001i3amq76ke2e8c",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T20:07:54.716Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwrqrdc001h3amq85lt9yue",
       "source_name": "desaparecidosvenezuela",
@@ -351,45 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T16:13:02.733Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T16:09:36.662Z",
-      "full_name": "Luis alberto Marchan Hernández",
-      "given_name": "Luis",
-      "family_name": "alberto Marchan Hernández",
-      "age": "25",
-      "home_city": "La Guaira · Maiquetía · Vuelo 164 de repatriados desde usa",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T16:09:36.662Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T15:42:47.019Z",
-      "full_name": "Julio Benaventa bolivar",
-      "given_name": "Julio",
-      "family_name": "Benaventa bolivar",
-      "home_city": "La Guaira · Catia La Mar · Por la escuela naval",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T15:42:47.019Z"
         }
       ],
       "x_confianza": "baja",

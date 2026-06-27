@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-06-27T19:44:57.720Z",
+  "generadoEn": "2026-06-27T20:13:34.132Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c",
+      "nombre": "Danielys Cedeño",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T20:09:10.118Z",
+      "edadAprox": 14,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Detrás de la clínica camuribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwskxuk001i3amq76ke2e8c",
+      "nombre": "Diego Tovar",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T20:07:54.716Z",
+      "edadAprox": 16,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · OPPE 27, piso 7 Tanaguarena sector Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwrqrdc001h3amq85lt9yue",
       "nombre": "Jenifer delfina Moreno Sánchez",
@@ -261,35 +291,6 @@
       "edadAprox": 73,
       "ultimaUbicacion": {
         "texto": "La Guaira · Edificio Palma Real cerca de Playa los Cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn",
-      "nombre": "Luis alberto Marchan Hernández",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T16:09:36.662Z",
-      "edadAprox": 25,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Maiquetía · Vuelo 164 de repatriados desde usa"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
-      "nombre": "Julio Benaventa bolivar",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T15:42:47.019Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Por la escuela naval"
       },
       "fuentes": [
         "desaparecidosvenezuela"
