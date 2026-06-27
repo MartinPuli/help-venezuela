@@ -1,7 +1,47 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T16:09:24.127Z",
+  "generado_en": "2026-06-27T16:37:49.447Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T16:13:02.733Z",
+      "full_name": "Ramón Gonzalez",
+      "given_name": "Ramón",
+      "family_name": "Gonzalez",
+      "age": "73",
+      "home_city": "La Guaira · Edificio Palma Real cerca de Playa los Cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T16:13:02.733Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T16:09:36.662Z",
+      "full_name": "Luis alberto Marchan Hernández",
+      "given_name": "Luis",
+      "family_name": "alberto Marchan Hernández",
+      "age": "25",
+      "home_city": "La Guaira · Maiquetía · Vuelo 164 de repatriados desde usa",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T16:09:36.662Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
       "source_name": "desaparecidosvenezuela",
@@ -351,46 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T09:56:19.843Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T08:50:08.658Z",
-      "full_name": "Astrid Camila Gonzalez",
-      "given_name": "Astrid",
-      "family_name": "Camila Gonzalez",
-      "age": "15",
-      "home_city": "La Guaira · Macuto · Camuri Chico",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T08:50:08.658Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw49atf00043amqbqspsch3",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T08:47:00.867Z",
-      "full_name": "Sildre Josery Gonzalez",
-      "given_name": "Sildre",
-      "family_name": "Josery Gonzalez",
-      "age": "34",
-      "home_city": "La Guaira · Macuto · Camuri Chico",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw49atf00043amqbqspsch3",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T08:47:00.867Z"
         }
       ],
       "x_confianza": "baja",

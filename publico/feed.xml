@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T16:13:02.733Z</pfif:source_date>
+    <pfif:full_name>Ramón Gonzalez</pfif:full_name>
+    <pfif:given_name>Ramón</pfif:given_name>
+    <pfif:family_name>Gonzalez</pfif:family_name>
+    <pfif:age>73</pfif:age>
+    <pfif:home_city>La Guaira · Edificio Palma Real cerca de Playa los Cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T16:13:02.733Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T16:09:36.662Z</pfif:source_date>
+    <pfif:full_name>Luis alberto Marchan Hernández</pfif:full_name>
+    <pfif:given_name>Luis</pfif:given_name>
+    <pfif:family_name>alberto Marchan Hernández</pfif:family_name>
+    <pfif:age>25</pfif:age>
+    <pfif:home_city>La Guaira · Maiquetía · Vuelo 164 de repatriados desde usa</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T16:09:36.662Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T15:42:47.019Z</pfif:source_date>
@@ -262,36 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw6qfwj00063amqsq54qzce</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T09:56:19.843Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T08:50:08.658Z</pfif:source_date>
-    <pfif:full_name>Astrid Camila Gonzalez</pfif:full_name>
-    <pfif:given_name>Astrid</pfif:given_name>
-    <pfif:family_name>Camila Gonzalez</pfif:family_name>
-    <pfif:age>15</pfif:age>
-    <pfif:home_city>La Guaira · Macuto · Camuri Chico</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T08:50:08.658Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw49atf00043amqbqspsch3</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T08:47:00.867Z</pfif:source_date>
-    <pfif:full_name>Sildre Josery Gonzalez</pfif:full_name>
-    <pfif:given_name>Sildre</pfif:given_name>
-    <pfif:family_name>Josery Gonzalez</pfif:family_name>
-    <pfif:age>34</pfif:age>
-    <pfif:home_city>La Guaira · Macuto · Camuri Chico</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw49atf00043amqbqspsch3</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T08:47:00.867Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

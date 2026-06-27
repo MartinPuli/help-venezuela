@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-06-27T16:09:24.127Z",
+  "generadoEn": "2026-06-27T16:37:49.447Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwk6wel000w3amqdmioq0ia",
+      "nombre": "Ramón Gonzalez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T16:13:02.733Z",
+      "edadAprox": 73,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Edificio Palma Real cerca de Playa los Cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqwk2hee000v3amqhp3g97gn",
+      "nombre": "Luis alberto Marchan Hernández",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T16:09:36.662Z",
+      "edadAprox": 25,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Maiquetía · Vuelo 164 de repatriados desde usa"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
       "nombre": "Julio Benaventa bolivar",
@@ -261,36 +291,6 @@
       "edadAprox": 57,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · La guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqw4dbpu00053amqstg7dgic",
-      "nombre": "Astrid Camila Gonzalez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T08:50:08.658Z",
-      "edadAprox": 15,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Camuri Chico"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqw49atf00043amqbqspsch3",
-      "nombre": "Sildre Josery Gonzalez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T08:47:00.867Z",
-      "edadAprox": 34,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Camuri Chico"
       },
       "fuentes": [
         "desaparecidosvenezuela"
