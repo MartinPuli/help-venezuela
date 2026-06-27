@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-27T15:41:59.198Z",
+  "generadoEn": "2026-06-27T16:09:24.127Z",
   "total": 102,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
+      "nombre": "Julio Benaventa bolivar",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T15:42:47.019Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Por la escuela naval"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwisqpa000r3amqugu563wr",
       "nombre": "Sebastián Bracamonte",
@@ -277,21 +291,6 @@
       "edadAprox": 34,
       "ultimaUbicacion": {
         "texto": "La Guaira · Macuto · Camuri Chico"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei",
-      "nombre": "Samantha Mosquera Gil",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T08:00:35.563Z",
-      "edadAprox": 15,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edificio Aguja Azul"
       },
       "fuentes": [
         "desaparecidosvenezuela"

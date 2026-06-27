@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T15:41:59.198Z",
+  "generado_en": "2026-06-27T16:09:24.127Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T15:42:47.019Z",
+      "full_name": "Julio Benaventa bolivar",
+      "given_name": "Julio",
+      "family_name": "Benaventa bolivar",
+      "home_city": "La Guaira · Catia La Mar · Por la escuela naval",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T15:42:47.019Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwisqpa000r3amqugu563wr",
       "source_name": "desaparecidosvenezuela",
@@ -372,26 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T08:47:00.867Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T08:00:35.563Z",
-      "full_name": "Samantha Mosquera Gil",
-      "given_name": "Samantha",
-      "family_name": "Mosquera Gil",
-      "age": "15",
-      "home_city": "La Guaira · Catia La Mar · Edificio Aguja Azul",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T08:00:35.563Z"
         }
       ],
       "x_confianza": "baja",

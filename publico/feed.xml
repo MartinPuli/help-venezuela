@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-27T15:42:47.019Z</pfif:source_date>
+    <pfif:full_name>Julio Benaventa bolivar</pfif:full_name>
+    <pfif:given_name>Julio</pfif:given_name>
+    <pfif:family_name>Benaventa bolivar</pfif:family_name>
+    <pfif:home_city>La Guaira · Catia La Mar · Por la escuela naval</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwj3ze3000s3amqf0vz84w2</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-27T15:42:47.019Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwisqpa000r3amqugu563wr</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T15:34:02.542Z</pfif:source_date>
@@ -278,21 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw49atf00043amqbqspsch3</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T08:47:00.867Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T08:00:35.563Z</pfif:source_date>
-    <pfif:full_name>Samantha Mosquera Gil</pfif:full_name>
-    <pfif:given_name>Samantha</pfif:given_name>
-    <pfif:family_name>Mosquera Gil</pfif:family_name>
-    <pfif:age>15</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Edificio Aguja Azul</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqw2llnv00033amq2ygjegei</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T08:00:35.563Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
