@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T18:39:46.137Z",
+  "generado_en": "2026-06-28T19:08:50.957Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy5kloj00353amq7pt70mu8",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T18:59:20.131Z",
+      "full_name": "Victoria getsemani Campos Sandoval",
+      "given_name": "Victoria",
+      "family_name": "getsemani Campos Sandoval",
+      "age": "19",
+      "home_city": "La Guaira · Vistas por ultima vez en el edificio caribe (Los Cocos) las torres opp 26 piso 9",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy5kloj00353amq7pt70mu8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T18:59:20.131Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy4u2ef00343amqyz2abra2",
       "source_name": "desaparecidosvenezuela",
@@ -371,25 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T04:21:12.145Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx81f14002j3amq899l0otj",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T03:20:37.720Z",
-      "full_name": "Juan pablo Peñaloza",
-      "given_name": "Juan",
-      "family_name": "pablo Peñaloza",
-      "home_city": "La Guaira · Residencia La Gabarra",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx81f14002j3amq899l0otj",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T03:20:37.720Z"
         }
       ],
       "x_confianza": "baja",

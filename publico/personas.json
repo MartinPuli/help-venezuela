@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-28T18:39:46.137Z",
+  "generadoEn": "2026-06-28T19:08:50.957Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqy5kloj00353amq7pt70mu8",
+      "nombre": "Victoria getsemani Campos Sandoval",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T18:59:20.131Z",
+      "edadAprox": 19,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Vistas por ultima vez en el edificio caribe (Los Cocos) las torres opp 26 piso 9"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqy4u2ef00343amqyz2abra2",
       "nombre": "Gabriel Wilson",
@@ -276,20 +291,6 @@
       "edadAprox": 55,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Edificio la trinidad playa grande! Diagonal al hotel naval"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqx81f14002j3amq899l0otj",
-      "nombre": "Juan pablo Peñaloza",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T03:20:37.720Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Residencia La Gabarra"
       },
       "fuentes": [
         "desaparecidosvenezuela"
