@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T12:12:00.507Z</pfif:source_date>
+    <pfif:full_name>Adalberto Rincon</pfif:full_name>
+    <pfif:given_name>Adalberto</pfif:given_name>
+    <pfif:family_name>Rincon</pfif:family_name>
+    <pfif:age>23</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T12:12:00.507Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T11:42:41.457Z</pfif:source_date>
@@ -275,21 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx5na5h002b3amqmb49xqtn</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T02:13:38.981Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T01:41:16.173Z</pfif:source_date>
-    <pfif:full_name>Miliber Mata</pfif:full_name>
-    <pfif:given_name>Miliber</pfif:given_name>
-    <pfif:family_name>Mata</pfif:family_name>
-    <pfif:age>40</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T01:41:16.173Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

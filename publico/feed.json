@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T11:55:04.371Z",
+  "generado_en": "2026-06-28T12:25:53.437Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T12:12:00.507Z",
+      "full_name": "Adalberto Rincon",
+      "given_name": "Adalberto",
+      "family_name": "Rincon",
+      "age": "23",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T12:12:00.507Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170",
       "source_name": "desaparecidosvenezuela",
@@ -369,26 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T02:13:38.981Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T01:41:16.173Z",
-      "full_name": "Miliber Mata",
-      "given_name": "Miliber",
-      "family_name": "Mata",
-      "age": "40",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T01:41:16.173Z"
         }
       ],
       "x_confianza": "baja",
