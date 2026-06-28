@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-28T19:08:50.957Z",
+  "generadoEn": "2026-06-28T19:45:40.380Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqy6yoov00383amqblbu4jud",
+      "nombre": "Natalia Caraballo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T19:38:16.831Z",
+      "edadAprox": 19,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Maiquetía · Residencia Vista Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqy5kloj00353amq7pt70mu8",
       "nombre": "Victoria getsemani Campos Sandoval",
@@ -276,21 +291,6 @@
       "reportadoEn": "2026-06-28T04:23:24.818Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Edificio las arenas 2 playa grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxa7bdd002l3amqtfpvqoiz",
-      "nombre": "Víctor Méndez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T04:21:12.145Z",
-      "edadAprox": 55,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edificio la trinidad playa grande! Diagonal al hotel naval"
       },
       "fuentes": [
         "desaparecidosvenezuela"

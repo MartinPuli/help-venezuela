@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy6yoov00383amqblbu4jud</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T19:38:16.831Z</pfif:source_date>
+    <pfif:full_name>Natalia Caraballo</pfif:full_name>
+    <pfif:given_name>Natalia</pfif:given_name>
+    <pfif:family_name>Caraballo</pfif:family_name>
+    <pfif:age>19</pfif:age>
+    <pfif:home_city>La Guaira · Maiquetía · Residencia Vista Mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy6yoov00383amqblbu4jud</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T19:38:16.831Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy5kloj00353amq7pt70mu8</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T18:59:20.131Z</pfif:source_date>
@@ -277,21 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T04:23:24.818Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxa7bdd002l3amqtfpvqoiz</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T04:21:12.145Z</pfif:source_date>
-    <pfif:full_name>Víctor Méndez</pfif:full_name>
-    <pfif:given_name>Víctor</pfif:given_name>
-    <pfif:family_name>Méndez</pfif:family_name>
-    <pfif:age>55</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Edificio la trinidad playa grande! Diagonal al hotel naval</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxa7bdd002l3amqtfpvqoiz</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T04:21:12.145Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
