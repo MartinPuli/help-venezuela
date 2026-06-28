@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T16:41:21.781Z",
+  "generado_en": "2026-06-28T17:09:59.551Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy155qk00333amqyf446piy",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T16:55:21.164Z",
+      "full_name": "Olgamarina Chirinos tovar",
+      "given_name": "Olgamarina",
+      "family_name": "Chirinos tovar",
+      "home_city": "Miranda · Caracas (Este) · Sucre (Petare)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy155qk00333amqyf446piy",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T16:55:21.164Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxxqsao00313amqw8sfkxbn",
       "source_name": "desaparecidosvenezuela",
@@ -370,26 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T03:12:39.154Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx67xbi002f3amqjzwvhjw4",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T02:29:42.126Z",
-      "full_name": "Abraham Avila",
-      "given_name": "Abraham",
-      "family_name": "Avila",
-      "age": "14",
-      "home_city": "La Guaira · La Guaira (centro) · OPP 26 Caribe Los coco",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx67xbi002f3amqjzwvhjw4",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T02:29:42.126Z"
         }
       ],
       "x_confianza": "baja",

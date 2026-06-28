@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-28T16:41:21.781Z",
+  "generadoEn": "2026-06-28T17:09:59.551Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqy155qk00333amqyf446piy",
+      "nombre": "Olgamarina Chirinos tovar",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T16:55:21.164Z",
+      "ultimaUbicacion": {
+        "texto": "Miranda · Caracas (Este) · Sucre (Petare)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqxxqsao00313amqw8sfkxbn",
       "nombre": "Juan gonzalo Bastidas rodriguez",
@@ -275,21 +289,6 @@
       "reportadoEn": "2026-06-28T03:12:39.154Z",
       "ultimaUbicacion": {
         "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqx67xbi002f3amqjzwvhjw4",
-      "nombre": "Abraham Avila",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T02:29:42.126Z",
-      "edadAprox": 14,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · OPP 26 Caribe Los coco"
       },
       "fuentes": [
         "desaparecidosvenezuela"
