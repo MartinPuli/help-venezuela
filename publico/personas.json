@@ -1,7 +1,79 @@
 {
-  "generadoEn": "2026-06-28T20:47:50.139Z",
+  "generadoEn": "2026-06-28T21:22:49.219Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqy9tkfw003i3amq0inulart",
+      "nombre": "Jesus Romero",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:58:16.892Z",
+      "edadAprox": 39,
+      "ultimaUbicacion": {
+        "texto": "Carabobo · Puerto Cabello · Moltalban"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqy9o4ra003h3amqx55edqyt",
+      "nombre": "Jeanpiero José D’ Angelo Abreu",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:54:03.286Z",
+      "edadAprox": 17,
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas · Libertador · Palo grande, edificio Petunia, piso 4"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5",
+      "nombre": "Deiver Gael Guzmán Izaguirre",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:51:33.199Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd",
+      "nombre": "Darlin Victoria Guzmán Izaguirre",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:50:16.908Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj",
+      "nombre": "Luisangel José Guzmán Izaguirre",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:48:44.304Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj",
       "nombre": "Arling Neyesca Guzmán Sanchez",
@@ -217,79 +289,6 @@
       "edadAprox": 37,
       "ultimaUbicacion": {
         "texto": "Distrito Capital · Caracas · Libertador"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen",
-      "nombre": "Carlos Gutierrez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T09:35:46.469Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Auro"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7",
-      "nombre": "Gabriela Chacon",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T08:14:50.050Z",
-      "edadAprox": 17,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxhqmm6002s3amqsv1ag55k",
-      "nombre": "Miryam Mayorga",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T07:52:10.494Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencias Mar de leva"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxhj40u002r3amq0ewv2ep8",
-      "nombre": "Mayrim Biarretia",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T07:46:19.806Z",
-      "edadAprox": 50,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencias Mar de leva"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxend7z002q3amql57je30w",
-      "nombre": "Maylin Sanchez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T06:25:39.504Z",
-      "edadAprox": 34,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"

@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9tkfw003i3amq0inulart</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:58:16.892Z</pfif:source_date>
+    <pfif:full_name>Jesus Romero</pfif:full_name>
+    <pfif:given_name>Jesus</pfif:given_name>
+    <pfif:family_name>Romero</pfif:family_name>
+    <pfif:age>39</pfif:age>
+    <pfif:home_city>Carabobo · Puerto Cabello · Moltalban</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9tkfw003i3amq0inulart</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:58:16.892Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9o4ra003h3amqx55edqyt</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:54:03.286Z</pfif:source_date>
+    <pfif:full_name>Jeanpiero José D’ Angelo Abreu</pfif:full_name>
+    <pfif:given_name>Jeanpiero</pfif:given_name>
+    <pfif:family_name>José D’ Angelo Abreu</pfif:family_name>
+    <pfif:age>17</pfif:age>
+    <pfif:home_city>Distrito Capital · Caracas · Libertador · Palo grande, edificio Petunia, piso 4</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9o4ra003h3amqx55edqyt</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:54:03.286Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:51:33.199Z</pfif:source_date>
+    <pfif:full_name>Deiver Gael Guzmán Izaguirre</pfif:full_name>
+    <pfif:given_name>Deiver</pfif:given_name>
+    <pfif:family_name>Gael Guzmán Izaguirre</pfif:family_name>
+    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:51:33.199Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:50:16.908Z</pfif:source_date>
+    <pfif:full_name>Darlin Victoria Guzmán Izaguirre</pfif:full_name>
+    <pfif:given_name>Darlin</pfif:given_name>
+    <pfif:family_name>Victoria Guzmán Izaguirre</pfif:family_name>
+    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:50:16.908Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:48:44.304Z</pfif:source_date>
+    <pfif:full_name>Luisangel José Guzmán Izaguirre</pfif:full_name>
+    <pfif:given_name>Luisangel</pfif:given_name>
+    <pfif:family_name>José Guzmán Izaguirre</pfif:family_name>
+    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:48:44.304Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T20:47:08.770Z</pfif:source_date>
@@ -218,79 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T10:54:07.971Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T09:35:46.469Z</pfif:source_date>
-    <pfif:full_name>Carlos Gutierrez</pfif:full_name>
-    <pfif:given_name>Carlos</pfif:given_name>
-    <pfif:family_name>Gutierrez</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Auro</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T09:35:46.469Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T08:14:50.050Z</pfif:source_date>
-    <pfif:full_name>Gabriela Chacon</pfif:full_name>
-    <pfif:given_name>Gabriela</pfif:given_name>
-    <pfif:family_name>Chacon</pfif:family_name>
-    <pfif:age>17</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T08:14:50.050Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxhqmm6002s3amqsv1ag55k</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T07:52:10.494Z</pfif:source_date>
-    <pfif:full_name>Miryam Mayorga</pfif:full_name>
-    <pfif:given_name>Miryam</pfif:given_name>
-    <pfif:family_name>Mayorga</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Residencias Mar de leva</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxhqmm6002s3amqsv1ag55k</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T07:52:10.494Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxhj40u002r3amq0ewv2ep8</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T07:46:19.806Z</pfif:source_date>
-    <pfif:full_name>Mayrim Biarretia</pfif:full_name>
-    <pfif:given_name>Mayrim</pfif:given_name>
-    <pfif:family_name>Biarretia</pfif:family_name>
-    <pfif:age>50</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Residencias Mar de leva</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxhj40u002r3amq0ewv2ep8</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T07:46:19.806Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxend7z002q3amql57je30w</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T06:25:39.504Z</pfif:source_date>
-    <pfif:full_name>Maylin Sanchez</pfif:full_name>
-    <pfif:given_name>Maylin</pfif:given_name>
-    <pfif:family_name>Sanchez</pfif:family_name>
-    <pfif:age>34</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxend7z002q3amql57je30w</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T06:25:39.504Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
