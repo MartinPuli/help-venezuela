@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqydfrfx003n3amql0hqaz9o</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T22:39:31.245Z</pfif:source_date>
+    <pfif:full_name>Angel Briceño</pfif:full_name>
+    <pfif:given_name>Angel</pfif:given_name>
+    <pfif:family_name>Briceño</pfif:family_name>
+    <pfif:home_city>La Guaira · Opp los cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqydfrfx003n3amql0hqaz9o</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T22:39:31.245Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqyd57ts003m3amq6hiuwppp</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T22:31:19.264Z</pfif:source_date>
+    <pfif:full_name>Carlos Santana</pfif:full_name>
+    <pfif:given_name>Carlos</pfif:given_name>
+    <pfif:family_name>Santana</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqyd57ts003m3amq6hiuwppp</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T22:31:19.264Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T22:12:06.084Z</pfif:source_date>
@@ -259,35 +287,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxwe8nx002z3amq4x1jhw0q</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T14:42:26.781Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxw40nb002y3amq5bwp7d21</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T14:34:29.831Z</pfif:source_date>
-    <pfif:full_name>María gabriela Lopez</pfif:full_name>
-    <pfif:given_name>María</pfif:given_name>
-    <pfif:family_name>gabriela Lopez</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · Residencias coral</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxw40nb002y3amq5bwp7d21</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T14:34:29.831Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T12:12:00.507Z</pfif:source_date>
-    <pfif:full_name>Adalberto Rincon</pfif:full_name>
-    <pfif:given_name>Adalberto</pfif:given_name>
-    <pfif:family_name>Rincon</pfif:family_name>
-    <pfif:age>23</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T12:12:00.507Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

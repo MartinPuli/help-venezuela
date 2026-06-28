@@ -1,7 +1,35 @@
 {
-  "generadoEn": "2026-06-28T22:21:12.648Z",
+  "generadoEn": "2026-06-28T22:47:46.005Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqydfrfx003n3amql0hqaz9o",
+      "nombre": "Angel Briceño",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T22:39:31.245Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Opp los cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqyd57ts003m3amq6hiuwppp",
+      "nombre": "Carlos Santana",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T22:31:19.264Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca",
       "nombre": "AURA ISABEL SERRANO ROMERO",
@@ -258,35 +286,6 @@
       "edadAprox": 20,
       "ultimaUbicacion": {
         "texto": "La Guaira · Tanaguarena opp25 torre g cerca de la iglesia y adelante del auto lavado vi"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxw40nb002y3amq5bwp7d21",
-      "nombre": "María gabriela Lopez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T14:34:29.831Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Residencias coral"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k",
-      "nombre": "Adalberto Rincon",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T12:12:00.507Z",
-      "edadAprox": 23,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
       },
       "fuentes": [
         "desaparecidosvenezuela"
