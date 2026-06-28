@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T08:07:27.622Z",
+  "generado_en": "2026-06-28T09:21:34.257Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T08:14:50.050Z",
+      "full_name": "Gabriela Chacon",
+      "given_name": "Gabriela",
+      "family_name": "Chacon",
+      "age": "17",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T08:14:50.050Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxhqmm6002s3amqsv1ag55k",
       "source_name": "desaparecidosvenezuela",
@@ -369,26 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T01:14:44.473Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx37alj00253amqt8kvxx3j",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T01:05:13.831Z",
-      "full_name": "Carlos Daniel Reyes",
-      "given_name": "Carlos",
-      "family_name": "Daniel Reyes",
-      "age": "25",
-      "home_city": "La Guaira · Residencia club los Caribe",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx37alj00253amqt8kvxx3j",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T01:05:13.831Z"
         }
       ],
       "x_confianza": "baja",

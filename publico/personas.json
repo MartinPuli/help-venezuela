@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-28T08:07:27.622Z",
+  "generadoEn": "2026-06-28T09:21:34.257Z",
   "total": 103,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7",
+      "nombre": "Gabriela Chacon",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T08:14:50.050Z",
+      "edadAprox": 17,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqxhqmm6002s3amqsv1ag55k",
       "nombre": "Miryam Mayorga",
@@ -274,21 +289,6 @@
       "edadAprox": 31,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Restaurante Hon Kong playa los cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqx37alj00253amqt8kvxx3j",
-      "nombre": "Carlos Daniel Reyes",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T01:05:13.831Z",
-      "edadAprox": 25,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Residencia club los Caribe"
       },
       "fuentes": [
         "desaparecidosvenezuela"
