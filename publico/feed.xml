@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T04:29:10.711Z</pfif:source_date>
+    <pfif:full_name>Jimmy Gomes</pfif:full_name>
+    <pfif:given_name>Jimmy</pfif:given_name>
+    <pfif:family_name>Gomes</pfif:family_name>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Sector playa Grande</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T04:29:10.711Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T04:23:24.818Z</pfif:source_date>
+    <pfif:full_name>Alexander Ramos</pfif:full_name>
+    <pfif:given_name>Alexander</pfif:given_name>
+    <pfif:family_name>Ramos</pfif:family_name>
+    <pfif:home_city>La Guaira · Catia La Mar · Edificio las arenas 2 playa grande</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T04:23:24.818Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxa7bdd002l3amqtfpvqoiz</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T04:21:12.145Z</pfif:source_date>
+    <pfif:full_name>Víctor Méndez</pfif:full_name>
+    <pfif:given_name>Víctor</pfif:given_name>
+    <pfif:family_name>Méndez</pfif:family_name>
+    <pfif:age>55</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Edificio la trinidad playa grande! Diagonal al hotel naval</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxa7bdd002l3amqtfpvqoiz</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T04:21:12.145Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx81f14002j3amq899l0otj</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T03:20:37.720Z</pfif:source_date>
@@ -246,51 +289,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx0cz8x00203amqego8jhh0</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T23:45:40.209Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T23:33:14.655Z</pfif:source_date>
-    <pfif:full_name>Francisco Jose Gamboa Brantd</pfif:full_name>
-    <pfif:given_name>Francisco</pfif:given_name>
-    <pfif:family_name>Jose Gamboa Brantd</pfif:family_name>
-    <pfif:age>54</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Puente la llanada</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T23:33:14.655Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T23:20:58.508Z</pfif:source_date>
-    <pfif:full_name>Dulfa Maldonado Margarita Ramones</pfif:full_name>
-    <pfif:given_name>Dulfa</pfif:given_name>
-    <pfif:family_name>Maldonado Margarita Ramones</pfif:family_name>
-    <pfif:age>60</pfif:age>
-    <pfif:home_city>La Guaira</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T23:20:58.508Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T22:29:32.114Z</pfif:source_date>
-    <pfif:full_name>Lerwinson Emmanuel González Ortega</pfif:full_name>
-    <pfif:given_name>Lerwinson</pfif:given_name>
-    <pfif:family_name>Emmanuel González Ortega</pfif:family_name>
-    <pfif:age>14</pfif:age>
-    <pfif:home_city>La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads, Macuto Estado la Guaira</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T22:29:32.114Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

@@ -1,7 +1,65 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T03:45:24.527Z",
+  "generado_en": "2026-06-28T05:29:09.477Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T04:29:10.711Z",
+      "full_name": "Jimmy Gomes",
+      "given_name": "Jimmy",
+      "family_name": "Gomes",
+      "home_city": "La Guaira · La Guaira (centro) · Sector playa Grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T04:29:10.711Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T04:23:24.818Z",
+      "full_name": "Alexander Ramos",
+      "given_name": "Alexander",
+      "family_name": "Ramos",
+      "home_city": "La Guaira · Catia La Mar · Edificio las arenas 2 playa grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T04:23:24.818Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxa7bdd002l3amqtfpvqoiz",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T04:21:12.145Z",
+      "full_name": "Víctor Méndez",
+      "given_name": "Víctor",
+      "family_name": "Méndez",
+      "age": "55",
+      "home_city": "La Guaira · Catia La Mar · Edificio la trinidad playa grande! Diagonal al hotel naval",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxa7bdd002l3amqtfpvqoiz",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T04:21:12.145Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx81f14002j3amq899l0otj",
       "source_name": "desaparecidosvenezuela",
@@ -330,66 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T23:45:40.209Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T23:33:14.655Z",
-      "full_name": "Francisco Jose Gamboa Brantd",
-      "given_name": "Francisco",
-      "family_name": "Jose Gamboa Brantd",
-      "age": "54",
-      "home_city": "La Guaira · Caraballeda · Puente la llanada",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T23:33:14.655Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T23:20:58.508Z",
-      "full_name": "Dulfa Maldonado Margarita Ramones",
-      "given_name": "Dulfa",
-      "family_name": "Maldonado Margarita Ramones",
-      "age": "60",
-      "home_city": "La Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwzh7yk001y3amqoi7piryy",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T23:20:58.508Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T22:29:32.114Z",
-      "full_name": "Lerwinson Emmanuel González Ortega",
-      "given_name": "Lerwinson",
-      "family_name": "Emmanuel González Ortega",
-      "age": "14",
-      "home_city": "La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads, Macuto Estado la Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwxn2he001x3amqeuofg0x5",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T22:29:32.114Z"
         }
       ],
       "x_confianza": "baja",
