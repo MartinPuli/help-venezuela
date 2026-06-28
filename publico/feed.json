@@ -1,7 +1,66 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-27T23:35:54.991Z",
+  "generado_en": "2026-06-28T00:06:47.294Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx0ii9900223amq3ujqe0ns",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T23:49:58.125Z",
+      "full_name": "Arantza Camargo",
+      "given_name": "Arantza",
+      "family_name": "Camargo",
+      "age": "14",
+      "home_city": "La Guaira · playa grande res. sol marino palace",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx0ii9900223amq3ujqe0ns",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T23:49:58.125Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx0dsku00213amqis8tpany",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T23:46:18.222Z",
+      "full_name": "Leslie Zaragoza",
+      "given_name": "Leslie",
+      "family_name": "Zaragoza",
+      "age": "10",
+      "home_city": "La Guaira · Caraballeda · Misión vivienda, entrada hacia playa los cocos.",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx0dsku00213amqis8tpany",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T23:46:18.222Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx0cz8x00203amqego8jhh0",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-27T23:45:40.209Z",
+      "full_name": "Daniel alejandro Núñez ramirez",
+      "given_name": "Daniel",
+      "family_name": "alejandro Núñez ramirez",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx0cz8x00203amqego8jhh0",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-27T23:45:40.209Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof",
       "source_name": "desaparecidosvenezuela",
@@ -342,59 +401,20 @@
       "x_verificado": false
     },
     {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T19:06:08.834Z",
-      "full_name": "Diego Segovia",
-      "given_name": "Diego",
-      "family_name": "Segovia",
-      "age": "5",
-      "home_city": "La Guaira · La Guaira (centro)",
+      "person_record_id": "cruce-desaparecidos/terremotovenezuela-app:86ea327b-d3d8-47a3-bcc0-92b6bd12bf98",
+      "source_name": "terremotovenezuela-app",
+      "source_date": "2026-06-27T23:54:49.293Z",
+      "full_name": "Olga Hernández",
+      "given_name": "Olga",
+      "family_name": "Hernández",
+      "age": "75",
+      "home_city": "Vista en su casa por última vez",
       "notes": [
         {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w",
+          "note_record_id": "cruce-desaparecidos/nota-terremotovenezuela-app:86ea327b-d3d8-47a3-bcc0-92b6bd12bf98",
           "status": "believed_missing",
           "author_made_contact": false,
-          "source_date": "2026-06-27T19:06:08.834Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T19:04:26.672Z",
-      "full_name": "Rodolfo Esposito",
-      "given_name": "Rodolfo",
-      "family_name": "Esposito",
-      "age": "54",
-      "home_city": "La Guaira · Caraballeda · Los corales playa grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T19:04:26.672Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T18:45:30.051Z",
-      "full_name": "Danna Rodriguez Antón",
-      "given_name": "Danna",
-      "family_name": "Rodriguez Antón",
-      "home_city": "La Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T18:45:30.051Z"
+          "source_date": "2026-06-27T23:54:49.293Z"
         }
       ],
       "x_confianza": "baja",

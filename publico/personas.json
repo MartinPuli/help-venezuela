@@ -1,7 +1,51 @@
 {
-  "generadoEn": "2026-06-27T23:35:54.991Z",
-  "total": 102,
+  "generadoEn": "2026-06-28T00:06:47.294Z",
+  "total": 103,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqx0ii9900223amq3ujqe0ns",
+      "nombre": "Arantza Camargo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T23:49:58.125Z",
+      "edadAprox": 14,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · playa grande res. sol marino palace"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx0dsku00213amqis8tpany",
+      "nombre": "Leslie Zaragoza",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T23:46:18.222Z",
+      "edadAprox": 10,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Misión vivienda, entrada hacia playa los cocos."
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx0cz8x00203amqego8jhh0",
+      "nombre": "Daniel alejandro Núñez ramirez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-27T23:45:40.209Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqwzwzz3001z3amq44n0vtof",
       "nombre": "Francisco Jose Gamboa Brantd",
@@ -257,47 +301,18 @@
       ]
     },
     {
-      "id": "desaparecidosvenezuela:cmqwqdide001f3amq5kawot4w",
-      "nombre": "Diego Segovia",
+      "id": "terremotovenezuela-app:86ea327b-d3d8-47a3-bcc0-92b6bd12bf98",
+      "nombre": "Olga Hernández",
       "estado": "desaparecido",
       "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T19:06:08.834Z",
-      "edadAprox": 5,
+      "fuente": "terremotovenezuela-app",
+      "reportadoEn": "2026-06-27T23:54:49.293Z",
+      "edadAprox": 75,
       "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
+        "texto": "Vista en su casa por última vez"
       },
       "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwqbbjj001e3amq7cn2bocn",
-      "nombre": "Rodolfo Esposito",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T19:04:26.672Z",
-      "edadAprox": 54,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Los corales playa grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwpmyir001d3amqw29ess0n",
-      "nombre": "Danna Rodriguez Antón",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T18:45:30.051Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
+        "terremotovenezuela-app"
       ]
     },
     {
