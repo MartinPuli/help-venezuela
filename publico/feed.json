@@ -1,7 +1,85 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T02:18:14.842Z",
+  "generado_en": "2026-06-28T03:45:24.527Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx81f14002j3amq899l0otj",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T03:20:37.720Z",
+      "full_name": "Juan pablo Peñaloza",
+      "given_name": "Juan",
+      "family_name": "pablo Peñaloza",
+      "home_city": "La Guaira · Residencia La Gabarra",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx81f14002j3amq899l0otj",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T03:20:37.720Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx7r5rm002g3amqo97mm3ot",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T03:12:39.154Z",
+      "full_name": "Irlanda Rodríguez",
+      "given_name": "Irlanda",
+      "family_name": "Rodríguez",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx7r5rm002g3amqo97mm3ot",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T03:12:39.154Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx67xbi002f3amqjzwvhjw4",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T02:29:42.126Z",
+      "full_name": "Abraham Avila",
+      "given_name": "Abraham",
+      "family_name": "Avila",
+      "age": "14",
+      "home_city": "La Guaira · La Guaira (centro) · OPP 26 Caribe Los coco",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx67xbi002f3amqjzwvhjw4",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T02:29:42.126Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx640h8002e3amq9gtzwgff",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T02:26:39.596Z",
+      "full_name": "Keila Torres",
+      "given_name": "Keila",
+      "family_name": "Torres",
+      "age": "40",
+      "home_city": "La Guaira · Caraballeda · Edificio Costa Azul",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx640h8002e3amq9gtzwgff",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T02:26:39.596Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx5qyzh002d3amqxhm4ntgo",
       "source_name": "desaparecidosvenezuela",
@@ -312,86 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T22:29:32.114Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwxerm9001w3amqx7o0pl6l",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T22:23:04.785Z",
-      "full_name": "Ingrid Margariut Ortega Madera",
-      "given_name": "Ingrid",
-      "family_name": "Margariut Ortega Madera",
-      "age": "40",
-      "home_city": "La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads Macuto Estado la Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwxerm9001w3amqx7o0pl6l",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T22:23:04.785Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwwuuvx001v3amqhod0zbk5",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T22:07:35.901Z",
-      "full_name": "Jeisser Tineo",
-      "given_name": "Jeisser",
-      "family_name": "Tineo",
-      "age": "29",
-      "home_city": "La Guaira · Edificio de los cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwwuuvx001v3amqhod0zbk5",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T22:07:35.901Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T22:01:00.039Z",
-      "full_name": "José Manuel Guerra Díaz",
-      "given_name": "José",
-      "family_name": "Manuel Guerra Díaz",
-      "age": "24",
-      "home_city": "La Guaira · Macuto · Hotel Ocean Dorado Suites, calle 3 de Macuto",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T22:01:00.039Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T21:18:31.986Z",
-      "full_name": "Jade Rodriguez",
-      "given_name": "Jade",
-      "family_name": "Rodriguez",
-      "age": "4",
-      "home_city": "La Guaira · La Guaira (centro) · Recidencias caribe",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T21:18:31.986Z"
         }
       ],
       "x_confianza": "baja",

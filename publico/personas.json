@@ -1,7 +1,65 @@
 {
-  "generadoEn": "2026-06-28T02:18:14.842Z",
+  "generadoEn": "2026-06-28T03:45:24.527Z",
   "total": 103,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqx81f14002j3amq899l0otj",
+      "nombre": "Juan pablo Peñaloza",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T03:20:37.720Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Residencia La Gabarra"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx7r5rm002g3amqo97mm3ot",
+      "nombre": "Irlanda Rodríguez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T03:12:39.154Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx67xbi002f3amqjzwvhjw4",
+      "nombre": "Abraham Avila",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T02:29:42.126Z",
+      "edadAprox": 14,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · OPP 26 Caribe Los coco"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx640h8002e3amq9gtzwgff",
+      "nombre": "Keila Torres",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T02:26:39.596Z",
+      "edadAprox": 40,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Edificio Costa Azul"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqx5qyzh002d3amqxhm4ntgo",
       "nombre": "Ramón Olivo Chavarria Rangel",
@@ -232,66 +290,6 @@
       "edadAprox": 14,
       "ultimaUbicacion": {
         "texto": "La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads, Macuto Estado la Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwxerm9001w3amqx7o0pl6l",
-      "nombre": "Ingrid Margariut Ortega Madera",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T22:23:04.785Z",
-      "edadAprox": 40,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Edificio la estrella, al lado del hotel Edwads Macuto Estado la Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwwuuvx001v3amqhod0zbk5",
-      "nombre": "Jeisser Tineo",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T22:07:35.901Z",
-      "edadAprox": 29,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Edificio de los cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwwmdfr001u3amqpipp8qvr",
-      "nombre": "José Manuel Guerra Díaz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T22:01:00.039Z",
-      "edadAprox": 24,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto · Hotel Ocean Dorado Suites, calle 3 de Macuto"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6",
-      "nombre": "Jade Rodriguez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T21:18:31.986Z",
-      "edadAprox": 4,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Recidencias caribe"
       },
       "fuentes": [
         "desaparecidosvenezuela"
