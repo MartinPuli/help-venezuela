@@ -1,6 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T01:22:01.964Z</pfif:source_date>
+    <pfif:full_name>Eriannys Urruchurto</pfif:full_name>
+    <pfif:given_name>Eriannys</pfif:given_name>
+    <pfif:family_name>Urruchurto</pfif:family_name>
+    <pfif:age>8</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Edificio opp 27 los coco</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T01:22:01.964Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T01:14:44.473Z</pfif:source_date>
+    <pfif:full_name>Gabriel García Duran</pfif:full_name>
+    <pfif:given_name>Gabriel</pfif:given_name>
+    <pfif:family_name>García Duran</pfif:family_name>
+    <pfif:age>31</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Restaurante Hon Kong playa los cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T01:14:44.473Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx37alj00253amqt8kvxx3j</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T01:05:13.831Z</pfif:source_date>
+    <pfif:full_name>Carlos Daniel Reyes</pfif:full_name>
+    <pfif:given_name>Carlos</pfif:given_name>
+    <pfif:family_name>Daniel Reyes</pfif:family_name>
+    <pfif:age>25</pfif:age>
+    <pfif:home_city>La Guaira · Residencia club los Caribe</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx37alj00253amqt8kvxx3j</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T01:05:13.831Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx2r8ro00243amq9rbiawj3</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T00:52:44.965Z</pfif:source_date>
+    <pfif:full_name>Gabriel García duran</pfif:full_name>
+    <pfif:given_name>Gabriel</pfif:given_name>
+    <pfif:family_name>García duran</pfif:family_name>
+    <pfif:home_city>La Guaira · Naiguatá · Restaurante</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx2r8ro00243amq9rbiawj3</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T00:52:44.965Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx2mq5800233amqclyupwpb</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T00:49:14.204Z</pfif:source_date>
+    <pfif:full_name>Matías Brazon</pfif:full_name>
+    <pfif:given_name>Matías</pfif:given_name>
+    <pfif:family_name>Brazon</pfif:family_name>
+    <pfif:age>8</pfif:age>
+    <pfif:home_city>Distrito Capital · Caracas · En un hospital en Caracas, desconocemos su ubicación.</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx2mq5800233amqclyupwpb</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T00:49:14.204Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx0ii9900223amq3ujqe0ns</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-27T23:49:58.125Z</pfif:source_date>
@@ -221,81 +295,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwtrd57001m3amq4acdz3j3</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T20:40:54.091Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T20:21:56.152Z</pfif:source_date>
-    <pfif:full_name>Haide Bravo</pfif:full_name>
-    <pfif:given_name>Haide</pfif:given_name>
-    <pfif:family_name>Bravo</pfif:family_name>
-    <pfif:age>53</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T20:21:56.152Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T20:09:10.118Z</pfif:source_date>
-    <pfif:full_name>Danielys Cedeño</pfif:full_name>
-    <pfif:given_name>Danielys</pfif:given_name>
-    <pfif:family_name>Cedeño</pfif:family_name>
-    <pfif:age>14</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Detrás de la clínica camuribe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T20:09:10.118Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwskxuk001i3amq76ke2e8c</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T20:07:54.716Z</pfif:source_date>
-    <pfif:full_name>Diego Tovar</pfif:full_name>
-    <pfif:given_name>Diego</pfif:given_name>
-    <pfif:family_name>Tovar</pfif:family_name>
-    <pfif:age>16</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · OPPE 27, piso 7 Tanaguarena sector Caribe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwskxuk001i3amq76ke2e8c</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T20:07:54.716Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwrqrdc001h3amq85lt9yue</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T19:44:26.640Z</pfif:source_date>
-    <pfif:full_name>Jenifer delfina Moreno Sánchez</pfif:full_name>
-    <pfif:given_name>Jenifer</pfif:given_name>
-    <pfif:family_name>delfina Moreno Sánchez</pfif:family_name>
-    <pfif:age>43</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwrqrdc001h3amq85lt9yue</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T19:44:26.640Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwrk68t001g3amqmumk9w3n</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T19:39:19.325Z</pfif:source_date>
-    <pfif:full_name>David Cienfuego</pfif:full_name>
-    <pfif:given_name>David</pfif:given_name>
-    <pfif:family_name>Cienfuego</pfif:family_name>
-    <pfif:age>28</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Residencias arichuna</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwrk68t001g3amqmumk9w3n</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T19:39:19.325Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

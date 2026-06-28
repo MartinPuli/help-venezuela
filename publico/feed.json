@@ -1,7 +1,106 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T00:06:47.294Z",
+  "generado_en": "2026-06-28T01:22:14.853Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T01:22:01.964Z",
+      "full_name": "Eriannys Urruchurto",
+      "given_name": "Eriannys",
+      "family_name": "Urruchurto",
+      "age": "8",
+      "home_city": "La Guaira · La Guaira (centro) · Edificio opp 27 los coco",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T01:22:01.964Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T01:14:44.473Z",
+      "full_name": "Gabriel García Duran",
+      "given_name": "Gabriel",
+      "family_name": "García Duran",
+      "age": "31",
+      "home_city": "La Guaira · Catia La Mar · Restaurante Hon Kong playa los cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T01:14:44.473Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx37alj00253amqt8kvxx3j",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T01:05:13.831Z",
+      "full_name": "Carlos Daniel Reyes",
+      "given_name": "Carlos",
+      "family_name": "Daniel Reyes",
+      "age": "25",
+      "home_city": "La Guaira · Residencia club los Caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx37alj00253amqt8kvxx3j",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T01:05:13.831Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx2r8ro00243amq9rbiawj3",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T00:52:44.965Z",
+      "full_name": "Gabriel García duran",
+      "given_name": "Gabriel",
+      "family_name": "García duran",
+      "home_city": "La Guaira · Naiguatá · Restaurante",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx2r8ro00243amq9rbiawj3",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T00:52:44.965Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx2mq5800233amqclyupwpb",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T00:49:14.204Z",
+      "full_name": "Matías Brazon",
+      "given_name": "Matías",
+      "family_name": "Brazon",
+      "age": "8",
+      "home_city": "Distrito Capital · Caracas · En un hospital en Caracas, desconocemos su ubicación.",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx2mq5800233amqclyupwpb",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T00:49:14.204Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx0ii9900223amq3ujqe0ns",
       "source_name": "desaparecidosvenezuela",
@@ -295,106 +394,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-27T20:40:54.091Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T20:21:56.152Z",
-      "full_name": "Haide Bravo",
-      "given_name": "Haide",
-      "family_name": "Bravo",
-      "age": "53",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwt2z3s001k3amq4o5h49b5",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T20:21:56.152Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T20:09:10.118Z",
-      "full_name": "Danielys Cedeño",
-      "given_name": "Danielys",
-      "family_name": "Cedeño",
-      "age": "14",
-      "home_city": "La Guaira · Caraballeda · Detrás de la clínica camuribe",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwsmk12001j3amq948uo62c",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T20:09:10.118Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwskxuk001i3amq76ke2e8c",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T20:07:54.716Z",
-      "full_name": "Diego Tovar",
-      "given_name": "Diego",
-      "family_name": "Tovar",
-      "age": "16",
-      "home_city": "La Guaira · La Guaira (centro) · OPPE 27, piso 7 Tanaguarena sector Caribe",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwskxuk001i3amq76ke2e8c",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T20:07:54.716Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwrqrdc001h3amq85lt9yue",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T19:44:26.640Z",
-      "full_name": "Jenifer delfina Moreno Sánchez",
-      "given_name": "Jenifer",
-      "family_name": "delfina Moreno Sánchez",
-      "age": "43",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwrqrdc001h3amq85lt9yue",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T19:44:26.640Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqwrk68t001g3amqmumk9w3n",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-27T19:39:19.325Z",
-      "full_name": "David Cienfuego",
-      "given_name": "David",
-      "family_name": "Cienfuego",
-      "age": "28",
-      "home_city": "La Guaira · Catia La Mar · Residencias arichuna",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwrk68t001g3amqmumk9w3n",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-27T19:39:19.325Z"
         }
       ],
       "x_confianza": "baja",
