@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T22:12:06.084Z</pfif:source_date>
+    <pfif:full_name>AURA ISABEL SERRANO ROMERO</pfif:full_name>
+    <pfif:given_name>AURA</pfif:given_name>
+    <pfif:family_name>ISABEL SERRANO ROMERO</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T22:12:06.084Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T22:09:37.498Z</pfif:source_date>
+    <pfif:full_name>Feliz URBANO</pfif:full_name>
+    <pfif:given_name>Feliz</pfif:given_name>
+    <pfif:family_name>URBANO</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T22:09:37.498Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9tkfw003i3amq0inulart</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T20:58:16.892Z</pfif:source_date>
@@ -260,36 +288,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T12:12:00.507Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T11:42:41.457Z</pfif:source_date>
-    <pfif:full_name>vanesa silveira</pfif:full_name>
-    <pfif:given_name>vanesa</pfif:given_name>
-    <pfif:family_name>silveira</pfif:family_name>
-    <pfif:age>41</pfif:age>
-    <pfif:home_city>La Guaira</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T11:42:41.457Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T10:54:07.971Z</pfif:source_date>
-    <pfif:full_name>Hanny Pérez perez</pfif:full_name>
-    <pfif:given_name>Hanny</pfif:given_name>
-    <pfif:family_name>Pérez perez</pfif:family_name>
-    <pfif:age>37</pfif:age>
-    <pfif:home_city>Distrito Capital · Caracas · Libertador</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T10:54:07.971Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

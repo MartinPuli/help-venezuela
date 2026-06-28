@@ -1,7 +1,45 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T21:48:36.001Z",
+  "generado_en": "2026-06-28T22:21:12.648Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T22:12:06.084Z",
+      "full_name": "AURA ISABEL SERRANO ROMERO",
+      "given_name": "AURA",
+      "family_name": "ISABEL SERRANO ROMERO",
+      "home_city": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T22:12:06.084Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T22:09:37.498Z",
+      "full_name": "Feliz URBANO",
+      "given_name": "Feliz",
+      "family_name": "URBANO",
+      "home_city": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T22:09:37.498Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy9tkfw003i3amq0inulart",
       "source_name": "desaparecidosvenezuela",
@@ -349,46 +387,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T12:12:00.507Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T11:42:41.457Z",
-      "full_name": "vanesa silveira",
-      "given_name": "vanesa",
-      "family_name": "silveira",
-      "age": "41",
-      "home_city": "La Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T11:42:41.457Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T10:54:07.971Z",
-      "full_name": "Hanny Pérez perez",
-      "given_name": "Hanny",
-      "family_name": "Pérez perez",
-      "age": "37",
-      "home_city": "Distrito Capital · Caracas · Libertador",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T10:54:07.971Z"
         }
       ],
       "x_confianza": "baja",

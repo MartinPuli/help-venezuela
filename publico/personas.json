@@ -1,7 +1,35 @@
 {
-  "generadoEn": "2026-06-28T21:48:36.001Z",
+  "generadoEn": "2026-06-28T22:21:12.648Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca",
+      "nombre": "AURA ISABEL SERRANO ROMERO",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T22:12:06.084Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk",
+      "nombre": "Feliz URBANO",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T22:09:37.498Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqy9tkfw003i3amq0inulart",
       "nombre": "Jesus Romero",
@@ -259,36 +287,6 @@
       "edadAprox": 23,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170",
-      "nombre": "vanesa silveira",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T11:42:41.457Z",
-      "edadAprox": 41,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83",
-      "nombre": "Hanny Pérez perez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T10:54:07.971Z",
-      "edadAprox": 37,
-      "ultimaUbicacion": {
-        "texto": "Distrito Capital · Caracas · Libertador"
       },
       "fuentes": [
         "desaparecidosvenezuela"
