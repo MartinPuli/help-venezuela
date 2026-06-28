@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T10:54:07.971Z</pfif:source_date>
+    <pfif:full_name>Hanny Pérez perez</pfif:full_name>
+    <pfif:given_name>Hanny</pfif:given_name>
+    <pfif:family_name>Pérez perez</pfif:family_name>
+    <pfif:age>37</pfif:age>
+    <pfif:home_city>Distrito Capital · Caracas · Libertador</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T10:54:07.971Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T09:35:46.469Z</pfif:source_date>
@@ -274,21 +289,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3wzm800293amqp02f4kx4</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T01:25:12.656Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T01:22:01.964Z</pfif:source_date>
-    <pfif:full_name>Eriannys Urruchurto</pfif:full_name>
-    <pfif:given_name>Eriannys</pfif:given_name>
-    <pfif:family_name>Urruchurto</pfif:family_name>
-    <pfif:age>8</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Edificio opp 27 los coco</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T01:22:01.964Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
