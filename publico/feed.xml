@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T11:42:41.457Z</pfif:source_date>
+    <pfif:full_name>vanesa silveira</pfif:full_name>
+    <pfif:given_name>vanesa</pfif:given_name>
+    <pfif:family_name>silveira</pfif:family_name>
+    <pfif:age>41</pfif:age>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T11:42:41.457Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T10:54:07.971Z</pfif:source_date>
@@ -275,20 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T01:41:16.173Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx3wzm800293amqp02f4kx4</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T01:25:12.656Z</pfif:source_date>
-    <pfif:full_name>Wilmer Pérez Galeano</pfif:full_name>
-    <pfif:given_name>Wilmer</pfif:given_name>
-    <pfif:family_name>Pérez Galeano</pfif:family_name>
-    <pfif:home_city>La Guaira · Macuto</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3wzm800293amqp02f4kx4</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T01:25:12.656Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

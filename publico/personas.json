@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-28T11:13:39.040Z",
+  "generadoEn": "2026-06-28T11:55:04.371Z",
   "total": 103,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqxpz2nl002w3amqj6ncl170",
+      "nombre": "vanesa silveira",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T11:42:41.457Z",
+      "edadAprox": 41,
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqxo8mlf002v3amq97194r83",
       "nombre": "Hanny Pérez perez",
@@ -274,20 +289,6 @@
       "edadAprox": 40,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqx3wzm800293amqp02f4kx4",
-      "nombre": "Wilmer Pérez Galeano",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T01:25:12.656Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Macuto"
       },
       "fuentes": [
         "desaparecidosvenezuela"
