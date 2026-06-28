@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T09:35:46.469Z</pfif:source_date>
+    <pfif:full_name>Carlos Gutierrez</pfif:full_name>
+    <pfif:given_name>Carlos</pfif:given_name>
+    <pfif:family_name>Gutierrez</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · Auro</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T09:35:46.469Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T08:14:50.050Z</pfif:source_date>
@@ -275,21 +289,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T01:22:01.964Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T01:14:44.473Z</pfif:source_date>
-    <pfif:full_name>Gabriel García Duran</pfif:full_name>
-    <pfif:given_name>Gabriel</pfif:given_name>
-    <pfif:family_name>García Duran</pfif:family_name>
-    <pfif:age>31</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Restaurante Hon Kong playa los cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T01:14:44.473Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>

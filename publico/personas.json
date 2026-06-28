@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-28T09:21:34.257Z",
+  "generadoEn": "2026-06-28T10:17:40.602Z",
   "total": 103,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen",
+      "nombre": "Carlos Gutierrez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T09:35:46.469Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Auro"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7",
       "nombre": "Gabriela Chacon",
@@ -274,21 +288,6 @@
       "edadAprox": 8,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Edificio opp 27 los coco"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw",
-      "nombre": "Gabriel García Duran",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T01:14:44.473Z",
-      "edadAprox": 31,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Restaurante Hon Kong playa los cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"

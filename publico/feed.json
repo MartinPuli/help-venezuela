@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T09:21:34.257Z",
+  "generado_en": "2026-06-28T10:17:40.602Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T09:35:46.469Z",
+      "full_name": "Carlos Gutierrez",
+      "given_name": "Carlos",
+      "family_name": "Gutierrez",
+      "home_city": "La Guaira · Caraballeda · Auro",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxlfuw4002u3amq52q35oen",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T09:35:46.469Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxijrnm002t3amqvxdotog7",
       "source_name": "desaparecidosvenezuela",
@@ -369,26 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T01:22:01.964Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T01:14:44.473Z",
-      "full_name": "Gabriel García Duran",
-      "given_name": "Gabriel",
-      "family_name": "García Duran",
-      "age": "31",
-      "home_city": "La Guaira · Catia La Mar · Restaurante Hon Kong playa los cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3jiwp00263amq8x1tutiw",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T01:14:44.473Z"
         }
       ],
       "x_confianza": "baja",
