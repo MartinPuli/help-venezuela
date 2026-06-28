@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:47:08.770Z</pfif:source_date>
+    <pfif:full_name>Arling Neyesca Guzmán Sanchez</pfif:full_name>
+    <pfif:given_name>Arling</pfif:given_name>
+    <pfif:family_name>Neyesca Guzmán Sanchez</pfif:family_name>
+    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:47:08.770Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9db9x003c3amq4bz7ernk</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:45:38.517Z</pfif:source_date>
+    <pfif:full_name>Gesica Ninoska Sanchez Gómez</pfif:full_name>
+    <pfif:given_name>Gesica</pfif:given_name>
+    <pfif:family_name>Ninoska Sanchez Gómez</pfif:family_name>
+    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9db9x003c3amq4bz7ernk</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:45:38.517Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy968cv003b3amq6s6sgphd</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:40:08.143Z</pfif:source_date>
+    <pfif:full_name>Daviexis Monterola</pfif:full_name>
+    <pfif:given_name>Daviexis</pfif:given_name>
+    <pfif:family_name>Monterola</pfif:family_name>
+    <pfif:age>18</pfif:age>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy968cv003b3amq6s6sgphd</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:40:08.143Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy92mvb003a3amq90suqlqb</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T20:37:20.327Z</pfif:source_date>
+    <pfif:full_name>Santiago Garrido</pfif:full_name>
+    <pfif:given_name>Santiago</pfif:given_name>
+    <pfif:family_name>Garrido</pfif:family_name>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy92mvb003a3amq90suqlqb</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T20:37:20.327Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy6yoov00383amqblbu4jud</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T19:38:16.831Z</pfif:source_date>
@@ -234,64 +291,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxend7z002q3amql57je30w</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T06:25:39.504Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxd8iu0002p3amqwy7a8lzj</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T05:46:07.321Z</pfif:source_date>
-    <pfif:full_name>Rosmery Carolina ladera romero Ladera romero</pfif:full_name>
-    <pfif:given_name>Rosmery</pfif:given_name>
-    <pfif:family_name>Carolina ladera romero Ladera romero</pfif:family_name>
-    <pfif:age>39</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Edificio Ali primera</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxd8iu0002p3amqwy7a8lzj</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T05:46:07.321Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxczrqx002o3amqwpta5ysr</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T05:39:18.969Z</pfif:source_date>
-    <pfif:full_name>Dilan Nietos</pfif:full_name>
-    <pfif:given_name>Dilan</pfif:given_name>
-    <pfif:family_name>Nietos</pfif:family_name>
-    <pfif:age>18</pfif:age>
-    <pfif:home_city>La Guaira · Naiguatá · No se</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxczrqx002o3amqwpta5ysr</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T05:39:18.969Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T04:29:10.711Z</pfif:source_date>
-    <pfif:full_name>Jimmy Gomes</pfif:full_name>
-    <pfif:given_name>Jimmy</pfif:given_name>
-    <pfif:family_name>Gomes</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Sector playa Grande</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T04:29:10.711Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T04:23:24.818Z</pfif:source_date>
-    <pfif:full_name>Alexander Ramos</pfif:full_name>
-    <pfif:given_name>Alexander</pfif:given_name>
-    <pfif:family_name>Ramos</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar · Edificio las arenas 2 playa grande</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T04:23:24.818Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

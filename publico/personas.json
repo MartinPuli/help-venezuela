@@ -1,7 +1,64 @@
 {
-  "generadoEn": "2026-06-28T20:25:11.381Z",
+  "generadoEn": "2026-06-28T20:47:50.139Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj",
+      "nombre": "Arling Neyesca Guzmán Sanchez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:47:08.770Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqy9db9x003c3amq4bz7ernk",
+      "nombre": "Gesica Ninoska Sanchez Gómez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:45:38.517Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqy968cv003b3amq6s6sgphd",
+      "nombre": "Daviexis Monterola",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:40:08.143Z",
+      "edadAprox": 18,
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqy92mvb003a3amq90suqlqb",
+      "nombre": "Santiago Garrido",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T20:37:20.327Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqy6yoov00383amqblbu4jud",
       "nombre": "Natalia Caraballo",
@@ -233,64 +290,6 @@
       "edadAprox": 34,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxd8iu0002p3amqwy7a8lzj",
-      "nombre": "Rosmery Carolina ladera romero Ladera romero",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T05:46:07.321Z",
-      "edadAprox": 39,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Edificio Ali primera"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxczrqx002o3amqwpta5ysr",
-      "nombre": "Dilan Nietos",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T05:39:18.969Z",
-      "edadAprox": 18,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Naiguatá · No se"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp",
-      "nombre": "Jimmy Gomes",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T04:29:10.711Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Sector playa Grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y",
-      "nombre": "Alexander Ramos",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T04:23:24.818Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edificio las arenas 2 playa grande"
       },
       "fuentes": [
         "desaparecidosvenezuela"

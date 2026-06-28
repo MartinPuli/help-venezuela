@@ -1,7 +1,84 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T20:25:11.381Z",
+  "generado_en": "2026-06-28T20:47:50.139Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T20:47:08.770Z",
+      "full_name": "Arling Neyesca Guzmán Sanchez",
+      "given_name": "Arling",
+      "family_name": "Neyesca Guzmán Sanchez",
+      "home_city": "La Guaira · Los cocos, misión vivienda, edificio OPP 26",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T20:47:08.770Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy9db9x003c3amq4bz7ernk",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T20:45:38.517Z",
+      "full_name": "Gesica Ninoska Sanchez Gómez",
+      "given_name": "Gesica",
+      "family_name": "Ninoska Sanchez Gómez",
+      "home_city": "La Guaira · Los cocos, misión vivienda, edificio OPP 26",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9db9x003c3amq4bz7ernk",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T20:45:38.517Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy968cv003b3amq6s6sgphd",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T20:40:08.143Z",
+      "full_name": "Daviexis Monterola",
+      "given_name": "Daviexis",
+      "family_name": "Monterola",
+      "age": "18",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy968cv003b3amq6s6sgphd",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T20:40:08.143Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy92mvb003a3amq90suqlqb",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T20:37:20.327Z",
+      "full_name": "Santiago Garrido",
+      "given_name": "Santiago",
+      "family_name": "Garrido",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy92mvb003a3amq90suqlqb",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T20:37:20.327Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy6yoov00383amqblbu4jud",
       "source_name": "desaparecidosvenezuela",
@@ -313,84 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T06:25:39.504Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxd8iu0002p3amqwy7a8lzj",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T05:46:07.321Z",
-      "full_name": "Rosmery Carolina ladera romero Ladera romero",
-      "given_name": "Rosmery",
-      "family_name": "Carolina ladera romero Ladera romero",
-      "age": "39",
-      "home_city": "La Guaira · La Guaira (centro) · Edificio Ali primera",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxd8iu0002p3amqwy7a8lzj",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T05:46:07.321Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxczrqx002o3amqwpta5ysr",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T05:39:18.969Z",
-      "full_name": "Dilan Nietos",
-      "given_name": "Dilan",
-      "family_name": "Nietos",
-      "age": "18",
-      "home_city": "La Guaira · Naiguatá · No se",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxczrqx002o3amqwpta5ysr",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T05:39:18.969Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T04:29:10.711Z",
-      "full_name": "Jimmy Gomes",
-      "given_name": "Jimmy",
-      "family_name": "Gomes",
-      "home_city": "La Guaira · La Guaira (centro) · Sector playa Grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxahkmv002n3amqq3t4qnmp",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T04:29:10.711Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T04:23:24.818Z",
-      "full_name": "Alexander Ramos",
-      "given_name": "Alexander",
-      "family_name": "Ramos",
-      "home_city": "La Guaira · Catia La Mar · Edificio las arenas 2 playa grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxaa5qq002m3amqzr9skc0y",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T04:23:24.818Z"
         }
       ],
       "x_confianza": "baja",
