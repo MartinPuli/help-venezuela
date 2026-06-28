@@ -1,7 +1,66 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T14:22:44.519Z",
+  "generado_en": "2026-06-28T15:01:13.071Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxwwb3600303amq1c03weet",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T14:56:29.730Z",
+      "full_name": "Carlos alberto Medina tiverio",
+      "given_name": "Carlos",
+      "family_name": "alberto Medina tiverio",
+      "age": "58",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxwwb3600303amq1c03weet",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T14:56:29.730Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxwe8nx002z3amq4x1jhw0q",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T14:42:26.781Z",
+      "full_name": "Braulio Paruta",
+      "given_name": "Braulio",
+      "family_name": "Paruta",
+      "age": "20",
+      "home_city": "La Guaira · Tanaguarena opp25 torre g cerca de la iglesia y adelante del auto lavado vi",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxwe8nx002z3amq4x1jhw0q",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T14:42:26.781Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxw40nb002y3amq5bwp7d21",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T14:34:29.831Z",
+      "full_name": "María gabriela Lopez",
+      "given_name": "María",
+      "family_name": "gabriela Lopez",
+      "home_city": "La Guaira · Caraballeda · Residencias coral",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxw40nb002y3amq5bwp7d21",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T14:34:29.831Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqxr0ry3002x3amq0rwf3p5k",
       "source_name": "desaparecidosvenezuela",
@@ -331,64 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T02:26:39.596Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx5qyzh002d3amqxhm4ntgo",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T02:16:31.133Z",
-      "full_name": "Ramón Olivo Chavarria Rangel",
-      "given_name": "Ramón",
-      "family_name": "Olivo Chavarria Rangel",
-      "home_city": "La Guaira · Caraballeda · Residencias Caraballeda Sol",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx5qyzh002d3amqxhm4ntgo",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T02:16:31.133Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx5nfsg002c3amqsk6p9pvj",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T02:13:46.288Z",
-      "full_name": "Hercila Benaventes",
-      "given_name": "Hercila",
-      "family_name": "Benaventes",
-      "home_city": "La Guaira · Caraballeda · Residencias Caraballeda sol",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx5nfsg002c3amqsk6p9pvj",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T02:13:46.288Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx5na5h002b3amqmb49xqtn",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T02:13:38.981Z",
-      "full_name": "Juan carlos Guzman Millan",
-      "given_name": "Juan",
-      "family_name": "carlos Guzman Millan",
-      "age": "20",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx5na5h002b3amqmb49xqtn",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T02:13:38.981Z"
         }
       ],
       "x_confianza": "baja",
