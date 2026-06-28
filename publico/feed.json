@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-28T18:07:09.162Z",
+  "generado_en": "2026-06-28T18:39:46.137Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy4u2ef00343amqyz2abra2",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-28T18:38:42.087Z",
+      "full_name": "Gabriel Wilson",
+      "given_name": "Gabriel",
+      "family_name": "Wilson",
+      "age": "18",
+      "home_city": "La Guaira · Caraballeda · fiesta de san juan, se supone que estaba ahi por ultima vez",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy4u2ef00343amqyz2abra2",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-28T18:38:42.087Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy155qk00333amqyf446piy",
       "source_name": "desaparecidosvenezuela",
@@ -370,25 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T03:20:37.720Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqx7r5rm002g3amqo97mm3ot",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T03:12:39.154Z",
-      "full_name": "Irlanda Rodríguez",
-      "given_name": "Irlanda",
-      "family_name": "Rodríguez",
-      "home_city": "La Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx7r5rm002g3amqo97mm3ot",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T03:12:39.154Z"
         }
       ],
       "x_confianza": "baja",

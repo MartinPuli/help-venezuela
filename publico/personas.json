@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-28T18:07:09.162Z",
+  "generadoEn": "2026-06-28T18:39:46.137Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqy4u2ef00343amqyz2abra2",
+      "nombre": "Gabriel Wilson",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T18:38:42.087Z",
+      "edadAprox": 18,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · fiesta de san juan, se supone que estaba ahi por ultima vez"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqy155qk00333amqyf446piy",
       "nombre": "Olgamarina Chirinos tovar",
@@ -275,20 +290,6 @@
       "reportadoEn": "2026-06-28T03:20:37.720Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Residencia La Gabarra"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqx7r5rm002g3amqo97mm3ot",
-      "nombre": "Irlanda Rodríguez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T03:12:39.154Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
       },
       "fuentes": [
         "desaparecidosvenezuela"
