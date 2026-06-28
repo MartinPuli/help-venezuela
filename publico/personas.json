@@ -1,7 +1,79 @@
 {
-  "generadoEn": "2026-06-28T01:22:14.853Z",
+  "generadoEn": "2026-06-28T02:18:14.842Z",
   "total": 103,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqx5qyzh002d3amqxhm4ntgo",
+      "nombre": "Ramón Olivo Chavarria Rangel",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T02:16:31.133Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencias Caraballeda Sol"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx5nfsg002c3amqsk6p9pvj",
+      "nombre": "Hercila Benaventes",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T02:13:46.288Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencias Caraballeda sol"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx5na5h002b3amqmb49xqtn",
+      "nombre": "Juan carlos Guzman Millan",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T02:13:38.981Z",
+      "edadAprox": 20,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22",
+      "nombre": "Miliber Mata",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T01:41:16.173Z",
+      "edadAprox": 40,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqx3wzm800293amqp02f4kx4",
+      "nombre": "Wilmer Pérez Galeano",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T01:25:12.656Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o",
       "nombre": "Eriannys Urruchurto",
@@ -220,80 +292,6 @@
       "edadAprox": 4,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Recidencias caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs",
-      "nombre": "Grecymar Rodriguez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T21:17:01.145Z",
-      "edadAprox": 30,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Recidencias caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9",
-      "nombre": "Génssy Gonzalez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T21:14:30.103Z",
-      "edadAprox": 40,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Recidencias Caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt",
-      "nombre": "Luis Enrique Manrique",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T21:06:05.900Z",
-      "edadAprox": 72,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · La plaza de Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwtt2fs001n3amqykbw30fk",
-      "nombre": "Eleidy Rossibel García David",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T20:42:13.528Z",
-      "edadAprox": 21,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Edificio caribe OPPO26"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqwtrd57001m3amq4acdz3j3",
-      "nombre": "Jhon santiago Duben rojas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-27T20:40:54.091Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"

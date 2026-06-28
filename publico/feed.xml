@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx5qyzh002d3amqxhm4ntgo</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T02:16:31.133Z</pfif:source_date>
+    <pfif:full_name>Ramón Olivo Chavarria Rangel</pfif:full_name>
+    <pfif:given_name>Ramón</pfif:given_name>
+    <pfif:family_name>Olivo Chavarria Rangel</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · Residencias Caraballeda Sol</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx5qyzh002d3amqxhm4ntgo</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T02:16:31.133Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx5nfsg002c3amqsk6p9pvj</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T02:13:46.288Z</pfif:source_date>
+    <pfif:full_name>Hercila Benaventes</pfif:full_name>
+    <pfif:given_name>Hercila</pfif:given_name>
+    <pfif:family_name>Benaventes</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda · Residencias Caraballeda sol</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx5nfsg002c3amqsk6p9pvj</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T02:13:46.288Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx5na5h002b3amqmb49xqtn</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T02:13:38.981Z</pfif:source_date>
+    <pfif:full_name>Juan carlos Guzman Millan</pfif:full_name>
+    <pfif:given_name>Juan</pfif:given_name>
+    <pfif:family_name>carlos Guzman Millan</pfif:family_name>
+    <pfif:age>20</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx5na5h002b3amqmb49xqtn</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T02:13:38.981Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T01:41:16.173Z</pfif:source_date>
+    <pfif:full_name>Miliber Mata</pfif:full_name>
+    <pfif:given_name>Miliber</pfif:given_name>
+    <pfif:family_name>Mata</pfif:family_name>
+    <pfif:age>40</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx4hn2l002a3amqamhagw22</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T01:41:16.173Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx3wzm800293amqp02f4kx4</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T01:25:12.656Z</pfif:source_date>
+    <pfif:full_name>Wilmer Pérez Galeano</pfif:full_name>
+    <pfif:given_name>Wilmer</pfif:given_name>
+    <pfif:family_name>Pérez Galeano</pfif:family_name>
+    <pfif:home_city>La Guaira · Macuto</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx3wzm800293amqp02f4kx4</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T01:25:12.656Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx3swh800273amq7ee8lm1o</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T01:22:01.964Z</pfif:source_date>
@@ -221,80 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwv3rci001r3amqw5z8c3n6</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-27T21:18:31.986Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T21:17:01.145Z</pfif:source_date>
-    <pfif:full_name>Grecymar Rodriguez</pfif:full_name>
-    <pfif:given_name>Grecymar</pfif:given_name>
-    <pfif:family_name>Rodriguez</pfif:family_name>
-    <pfif:age>30</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Recidencias caribe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwv1t95001q3amqm3bas6bs</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T21:17:01.145Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T21:14:30.103Z</pfif:source_date>
-    <pfif:full_name>Génssy Gonzalez</pfif:full_name>
-    <pfif:given_name>Génssy</pfif:given_name>
-    <pfif:family_name>Gonzalez</pfif:family_name>
-    <pfif:age>40</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Recidencias Caribe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwuykpj001p3amq6seo9fs9</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T21:14:30.103Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T21:06:05.900Z</pfif:source_date>
-    <pfif:full_name>Luis Enrique Manrique</pfif:full_name>
-    <pfif:given_name>Luis</pfif:given_name>
-    <pfif:family_name>Enrique Manrique</pfif:family_name>
-    <pfif:age>72</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · La plaza de Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwunrnw001o3amqnpn87edt</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T21:06:05.900Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwtt2fs001n3amqykbw30fk</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T20:42:13.528Z</pfif:source_date>
-    <pfif:full_name>Eleidy Rossibel García David</pfif:full_name>
-    <pfif:given_name>Eleidy</pfif:given_name>
-    <pfif:family_name>Rossibel García David</pfif:family_name>
-    <pfif:age>21</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Edificio caribe OPPO26</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwtt2fs001n3amqykbw30fk</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T20:42:13.528Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqwtrd57001m3amq4acdz3j3</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-27T20:40:54.091Z</pfif:source_date>
-    <pfif:full_name>Jhon santiago Duben rojas</pfif:full_name>
-    <pfif:given_name>Jhon</pfif:given_name>
-    <pfif:family_name>santiago Duben rojas</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqwtrd57001m3amq4acdz3j3</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-27T20:40:54.091Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
   <pfif:person>
