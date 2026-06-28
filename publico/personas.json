@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-28T15:01:13.071Z",
+  "generadoEn": "2026-06-28T15:42:54.216Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqxxqsao00313amqw8sfkxbn",
+      "nombre": "Juan gonzalo Bastidas rodriguez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-28T15:20:11.712Z",
+      "edadAprox": 55,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Playa Grande Residencia Orca"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqxwwb3600303amq1c03weet",
       "nombre": "Carlos alberto Medina tiverio",
@@ -275,21 +290,6 @@
       "edadAprox": 14,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · OPP 26 Caribe Los coco"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqx640h8002e3amq9gtzwgff",
-      "nombre": "Keila Torres",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T02:26:39.596Z",
-      "edadAprox": 40,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Edificio Costa Azul"
       },
       "fuentes": [
         "desaparecidosvenezuela"

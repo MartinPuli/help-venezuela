@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxxqsao00313amqw8sfkxbn</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-28T15:20:11.712Z</pfif:source_date>
+    <pfif:full_name>Juan gonzalo Bastidas rodriguez</pfif:full_name>
+    <pfif:given_name>Juan</pfif:given_name>
+    <pfif:family_name>gonzalo Bastidas rodriguez</pfif:family_name>
+    <pfif:age>55</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Playa Grande Residencia Orca</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxxqsao00313amqw8sfkxbn</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-28T15:20:11.712Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxwwb3600303amq1c03weet</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T14:56:29.730Z</pfif:source_date>
@@ -276,21 +291,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx67xbi002f3amqjzwvhjw4</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T02:29:42.126Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqx640h8002e3amq9gtzwgff</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T02:26:39.596Z</pfif:source_date>
-    <pfif:full_name>Keila Torres</pfif:full_name>
-    <pfif:given_name>Keila</pfif:given_name>
-    <pfif:family_name>Torres</pfif:family_name>
-    <pfif:age>40</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Edificio Costa Azul</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqx640h8002e3amq9gtzwgff</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T02:26:39.596Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
