@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-29T19:21:59.853Z",
+  "generado_en": "2026-06-29T20:11:20.931Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-29T19:44:24.767Z",
+      "full_name": "Julio César Lacruz Rondon",
+      "given_name": "Julio",
+      "family_name": "César Lacruz Rondon",
+      "age": "35",
+      "home_city": "La Guaira · La Guaira (centro) · Hotel Catimar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-29T19:44:24.767Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqz713n000413amqcjt08lwl",
       "source_name": "desaparecidosvenezuela",
@@ -367,25 +387,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T20:54:03.286Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T20:51:33.199Z",
-      "full_name": "Deiver Gael Guzmán Izaguirre",
-      "given_name": "Deiver",
-      "family_name": "Gael Guzmán Izaguirre",
-      "home_city": "La Guaira · Los cocos, misión vivienda, edificio OPP 26",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T20:51:33.199Z"
         }
       ],
       "x_confianza": "baja",

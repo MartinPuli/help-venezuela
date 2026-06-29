@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-29T19:44:24.767Z</pfif:source_date>
+    <pfif:full_name>Julio César Lacruz Rondon</pfif:full_name>
+    <pfif:given_name>Julio</pfif:given_name>
+    <pfif:family_name>César Lacruz Rondon</pfif:family_name>
+    <pfif:age>35</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Hotel Catimar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-29T19:44:24.767Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqz713n000413amqcjt08lwl</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-29T12:27:55.692Z</pfif:source_date>
@@ -273,20 +288,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9o4ra003h3amqx55edqyt</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T20:54:03.286Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T20:51:33.199Z</pfif:source_date>
-    <pfif:full_name>Deiver Gael Guzmán Izaguirre</pfif:full_name>
-    <pfif:given_name>Deiver</pfif:given_name>
-    <pfif:family_name>Gael Guzmán Izaguirre</pfif:family_name>
-    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T20:51:33.199Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

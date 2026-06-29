@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-29T19:21:59.853Z",
+  "generadoEn": "2026-06-29T20:11:20.931Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5",
+      "nombre": "Julio César Lacruz Rondon",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T19:44:24.767Z",
+      "edadAprox": 35,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Hotel Catimar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqz713n000413amqcjt08lwl",
       "nombre": "Marcos Sousa",
@@ -272,20 +287,6 @@
       "edadAprox": 17,
       "ultimaUbicacion": {
         "texto": "Distrito Capital · Caracas · Libertador · Palo grande, edificio Petunia, piso 4"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5",
-      "nombre": "Deiver Gael Guzmán Izaguirre",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T20:51:33.199Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
       },
       "fuentes": [
         "desaparecidosvenezuela"
