@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-29T21:30:28.077Z",
+  "generado_en": "2026-06-29T22:07:43.351Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-29T21:48:27.117Z",
+      "full_name": "ALICIA FALCON",
+      "given_name": "ALICIA",
+      "family_name": "FALCON",
+      "age": "67",
+      "home_city": "La Guaira · AVENIDA LA PLAYA RESIDENCIA BAHIA MAR",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-29T21:48:27.117Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y",
       "source_name": "desaparecidosvenezuela",
@@ -368,25 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T22:12:06.084Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T22:09:37.498Z",
-      "full_name": "Feliz URBANO",
-      "given_name": "Feliz",
-      "family_name": "URBANO",
-      "home_city": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T22:09:37.498Z"
         }
       ],
       "x_confianza": "baja",

@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-29T21:30:28.077Z",
+  "generadoEn": "2026-06-29T22:07:43.351Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
+      "nombre": "ALICIA FALCON",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T21:48:27.117Z",
+      "edadAprox": 67,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · AVENIDA LA PLAYA RESIDENCIA BAHIA MAR"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y",
       "nombre": "Humberto Madero",
@@ -271,20 +286,6 @@
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
       "reportadoEn": "2026-06-28T22:12:06.084Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqycdbdm003j3amqthqaf1kk",
-      "nombre": "Feliz URBANO",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T22:09:37.498Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE"
       },
