@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-29T00:13:10.142Z</pfif:source_date>
+    <pfif:full_name>Moisés y Jesús García mantilla</pfif:full_name>
+    <pfif:given_name>Moisés</pfif:given_name>
+    <pfif:family_name>y Jesús García mantilla</pfif:family_name>
+    <pfif:age>15</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Edificios perlamar piso 2</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-29T00:13:10.142Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqydfrfx003n3amql0hqaz9o</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-28T22:39:31.245Z</pfif:source_date>
@@ -272,21 +287,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxwwb3600303amq1c03weet</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T14:56:29.730Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqxwe8nx002z3amq4x1jhw0q</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T14:42:26.781Z</pfif:source_date>
-    <pfif:full_name>Braulio Paruta</pfif:full_name>
-    <pfif:given_name>Braulio</pfif:given_name>
-    <pfif:family_name>Paruta</pfif:family_name>
-    <pfif:age>20</pfif:age>
-    <pfif:home_city>La Guaira · Tanaguarena opp25 torre g cerca de la iglesia y adelante del auto lavado vi</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqxwe8nx002z3amq4x1jhw0q</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T14:42:26.781Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-28T23:50:44.762Z",
+  "generadoEn": "2026-06-29T00:35:07.226Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco",
+      "nombre": "Moisés y Jesús García mantilla",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T00:13:10.142Z",
+      "edadAprox": 15,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Edificios perlamar piso 2"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqydfrfx003n3amql0hqaz9o",
       "nombre": "Angel Briceño",
@@ -271,21 +286,6 @@
       "edadAprox": 58,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxwe8nx002z3amq4x1jhw0q",
-      "nombre": "Braulio Paruta",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T14:42:26.781Z",
-      "edadAprox": 20,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Tanaguarena opp25 torre g cerca de la iglesia y adelante del auto lavado vi"
       },
       "fuentes": [
         "desaparecidosvenezuela"
