@@ -1,7 +1,122 @@
 {
-  "generadoEn": "2026-06-29T01:31:31.428Z",
+  "generadoEn": "2026-06-29T02:39:22.226Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqylxocy003x3amql3ek6g88",
+      "nombre": "Jhonger Florian",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T02:37:23.986Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqylutr1003w3amqm056jv71",
+      "nombre": "Samuel Florian",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T02:35:11.005Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqylsimm003v3amqpacoucpt",
+      "nombre": "Eisy Escalona",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T02:33:23.278Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqylpkrw003u3amqnxpp4sbp",
+      "nombre": "Leidis elena Escalona",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T02:31:06.092Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqyl56wv003t3amqn4mz4f62",
+      "nombre": "Gabriel Enrique Landaeta Cárdenas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T02:15:15.007Z",
+      "edadAprox": 19,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Tacaguarena, edificio opp 34"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqyk7nza003r3amq0n897m8a",
+      "nombre": "Daniel Cortez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T01:49:10.822Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqyjzckz003q3amqo9ate647",
+      "nombre": "AIRAN ROMERO RAMIREZ",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T01:42:42.803Z",
+      "edadAprox": 22,
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqyjwn9c003p3amqeuu69zur",
+      "nombre": "Omary Herrera",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T01:40:36.672Z",
+      "edadAprox": 23,
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco",
       "nombre": "Moisés y Jesús García mantilla",
@@ -168,124 +283,6 @@
       "reportadoEn": "2026-06-28T20:45:38.517Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy968cv003b3amq6s6sgphd",
-      "nombre": "Daviexis Monterola",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T20:40:08.143Z",
-      "edadAprox": 18,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy92mvb003a3amq90suqlqb",
-      "nombre": "Santiago Garrido",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T20:37:20.327Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy6yoov00383amqblbu4jud",
-      "nombre": "Natalia Caraballo",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T19:38:16.831Z",
-      "edadAprox": 19,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Maiquetía · Residencia Vista Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy5kloj00353amq7pt70mu8",
-      "nombre": "Victoria getsemani Campos Sandoval",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T18:59:20.131Z",
-      "edadAprox": 19,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Vistas por ultima vez en el edificio caribe (Los Cocos) las torres opp 26 piso 9"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy4u2ef00343amqyz2abra2",
-      "nombre": "Gabriel Wilson",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T18:38:42.087Z",
-      "edadAprox": 18,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · fiesta de san juan, se supone que estaba ahi por ultima vez"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy155qk00333amqyf446piy",
-      "nombre": "Olgamarina Chirinos tovar",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T16:55:21.164Z",
-      "ultimaUbicacion": {
-        "texto": "Miranda · Caracas (Este) · Sucre (Petare)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxxqsao00313amqw8sfkxbn",
-      "nombre": "Juan gonzalo Bastidas rodriguez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T15:20:11.712Z",
-      "edadAprox": 55,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Playa Grande Residencia Orca"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqxwwb3600303amq1c03weet",
-      "nombre": "Carlos alberto Medina tiverio",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T14:56:29.730Z",
-      "edadAprox": 58,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
       },
       "fuentes": [
         "desaparecidosvenezuela"
