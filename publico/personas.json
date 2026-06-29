@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-29T02:39:22.226Z",
+  "generadoEn": "2026-06-29T04:07:31.349Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqym0bu5003y3amqdwckizua",
+      "nombre": "Carlos Montilla",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T02:39:27.725Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqylxocy003x3amql3ek6g88",
       "nombre": "Jhonger Florian",
@@ -267,20 +281,6 @@
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
       "reportadoEn": "2026-06-28T20:47:08.770Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy9db9x003c3amq4bz7ernk",
-      "nombre": "Gesica Ninoska Sanchez Gómez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T20:45:38.517Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
       },
