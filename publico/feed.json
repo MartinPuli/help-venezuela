@@ -1,7 +1,67 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-29T11:14:09.786Z",
+  "generado_en": "2026-06-29T12:45:00.200Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqz713n000413amqcjt08lwl",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-29T12:27:55.692Z",
+      "full_name": "Marcos Sousa",
+      "given_name": "Marcos",
+      "family_name": "Sousa",
+      "age": "16",
+      "home_city": "La Guaira · Catia La Mar · Edificio horizonte bello",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz713n000413amqcjt08lwl",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-29T12:27:55.692Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-29T11:59:47.079Z",
+      "full_name": "Manuel Araujo",
+      "given_name": "Manuel",
+      "family_name": "Araujo",
+      "age": "48",
+      "home_city": "La Guaira · La Guaira (centro) · Los cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-29T11:59:47.079Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-29T11:57:55.602Z",
+      "full_name": "Manuel Araguo",
+      "given_name": "Manuel",
+      "family_name": "Araguo",
+      "age": "48",
+      "home_city": "La Guaira · La Guaira (centro) · Los cocos",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-29T11:57:55.602Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqym0bu5003y3amqdwckizua",
       "source_name": "desaparecidosvenezuela",
@@ -326,63 +386,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T20:51:33.199Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T20:50:16.908Z",
-      "full_name": "Darlin Victoria Guzmán Izaguirre",
-      "given_name": "Darlin",
-      "family_name": "Victoria Guzmán Izaguirre",
-      "home_city": "La Guaira · Los cocos, misión vivienda, edificio OPP 26",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T20:50:16.908Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T20:48:44.304Z",
-      "full_name": "Luisangel José Guzmán Izaguirre",
-      "given_name": "Luisangel",
-      "family_name": "José Guzmán Izaguirre",
-      "home_city": "La Guaira · Los cocos, misión vivienda, edificio OPP 26",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T20:48:44.304Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T20:47:08.770Z",
-      "full_name": "Arling Neyesca Guzmán Sanchez",
-      "given_name": "Arling",
-      "family_name": "Neyesca Guzmán Sanchez",
-      "home_city": "La Guaira · Los cocos, misión vivienda, edificio OPP 26",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T20:47:08.770Z"
         }
       ],
       "x_confianza": "baja",

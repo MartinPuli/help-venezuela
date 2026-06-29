@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqz713n000413amqcjt08lwl</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-29T12:27:55.692Z</pfif:source_date>
+    <pfif:full_name>Marcos Sousa</pfif:full_name>
+    <pfif:given_name>Marcos</pfif:given_name>
+    <pfif:family_name>Sousa</pfif:family_name>
+    <pfif:age>16</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Edificio horizonte bello</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz713n000413amqcjt08lwl</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-29T12:27:55.692Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-29T11:59:47.079Z</pfif:source_date>
+    <pfif:full_name>Manuel Araujo</pfif:full_name>
+    <pfif:given_name>Manuel</pfif:given_name>
+    <pfif:family_name>Araujo</pfif:family_name>
+    <pfif:age>48</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Los cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-29T11:59:47.079Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-29T11:57:55.602Z</pfif:source_date>
+    <pfif:full_name>Manuel Araguo</pfif:full_name>
+    <pfif:given_name>Manuel</pfif:given_name>
+    <pfif:family_name>Araguo</pfif:family_name>
+    <pfif:age>48</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Los cocos</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-29T11:57:55.602Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqym0bu5003y3amqdwckizua</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-29T02:39:27.725Z</pfif:source_date>
@@ -242,48 +287,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9kwy6003g3amq5n5bezv5</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T20:51:33.199Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T20:50:16.908Z</pfif:source_date>
-    <pfif:full_name>Darlin Victoria Guzmán Izaguirre</pfif:full_name>
-    <pfif:given_name>Darlin</pfif:given_name>
-    <pfif:family_name>Victoria Guzmán Izaguirre</pfif:family_name>
-    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T20:50:16.908Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T20:48:44.304Z</pfif:source_date>
-    <pfif:full_name>Luisangel José Guzmán Izaguirre</pfif:full_name>
-    <pfif:given_name>Luisangel</pfif:given_name>
-    <pfif:family_name>José Guzmán Izaguirre</pfif:family_name>
-    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T20:48:44.304Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T20:47:08.770Z</pfif:source_date>
-    <pfif:full_name>Arling Neyesca Guzmán Sanchez</pfif:full_name>
-    <pfif:given_name>Arling</pfif:given_name>
-    <pfif:family_name>Neyesca Guzmán Sanchez</pfif:family_name>
-    <pfif:home_city>La Guaira · Los cocos, misión vivienda, edificio OPP 26</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T20:47:08.770Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

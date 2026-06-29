@@ -1,7 +1,52 @@
 {
-  "generadoEn": "2026-06-29T11:14:09.786Z",
+  "generadoEn": "2026-06-29T12:45:00.200Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqz713n000413amqcjt08lwl",
+      "nombre": "Marcos Sousa",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T12:27:55.692Z",
+      "edadAprox": 16,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Edificio horizonte bello"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe",
+      "nombre": "Manuel Araujo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T11:59:47.079Z",
+      "edadAprox": 48,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Los cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f",
+      "nombre": "Manuel Araguo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T11:57:55.602Z",
+      "edadAprox": 48,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Los cocos"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqym0bu5003y3amqdwckizua",
       "nombre": "Carlos Montilla",
@@ -239,48 +284,6 @@
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
       "reportadoEn": "2026-06-28T20:51:33.199Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy9ja30003f3amqmr7p5bmd",
-      "nombre": "Darlin Victoria Guzmán Izaguirre",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T20:50:16.908Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy9hamo003e3amq2wp936kj",
-      "nombre": "Luisangel José Guzmán Izaguirre",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T20:48:44.304Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqy9f8wy003d3amqpdiq55sj",
-      "nombre": "Arling Neyesca Guzmán Sanchez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T20:47:08.770Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Los cocos, misión vivienda, edificio OPP 26"
       },
