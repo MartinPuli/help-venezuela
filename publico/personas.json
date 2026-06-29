@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-29T23:06:14.418Z",
+  "generadoEn": "2026-06-29T23:36:00.137Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
+      "nombre": "adriana rivero",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-29T23:21:25.351Z",
+      "edadAprox": 38,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
       "nombre": "ALICIA FALCON",
@@ -274,20 +289,6 @@
       "reportadoEn": "2026-06-28T22:31:19.264Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca",
-      "nombre": "AURA ISABEL SERRANO ROMERO",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T22:12:06.084Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE"
       },
       "fuentes": [
         "desaparecidosvenezuela"

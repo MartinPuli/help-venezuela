@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-29T23:06:14.418Z",
+  "generado_en": "2026-06-29T23:36:00.137Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-29T23:21:25.351Z",
+      "full_name": "adriana rivero",
+      "given_name": "adriana",
+      "family_name": "rivero",
+      "age": "38",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-29T23:21:25.351Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
       "source_name": "desaparecidosvenezuela",
@@ -369,25 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T22:31:19.264Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T22:12:06.084Z",
-      "full_name": "AURA ISABEL SERRANO ROMERO",
-      "given_name": "AURA",
-      "family_name": "ISABEL SERRANO ROMERO",
-      "home_city": "La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T22:12:06.084Z"
         }
       ],
       "x_confianza": "baja",

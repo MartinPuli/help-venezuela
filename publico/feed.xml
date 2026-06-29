@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-29T23:21:25.351Z</pfif:source_date>
+    <pfif:full_name>adriana rivero</pfif:full_name>
+    <pfif:given_name>adriana</pfif:given_name>
+    <pfif:family_name>rivero</pfif:family_name>
+    <pfif:age>38</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-29T23:21:25.351Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-29T21:48:27.117Z</pfif:source_date>
@@ -275,20 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqyd57ts003m3amq6hiuwppp</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-28T22:31:19.264Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-28T22:12:06.084Z</pfif:source_date>
-    <pfif:full_name>AURA ISABEL SERRANO ROMERO</pfif:full_name>
-    <pfif:given_name>AURA</pfif:given_name>
-    <pfif:family_name>ISABEL SERRANO ROMERO</pfif:family_name>
-    <pfif:home_city>La Guaira · Caraballeda · EDIFICIO BAHÍA MAR, PISO 2, APARTAMENTO 2-11. AVENIDA LA COSTANERA CON CARABALLE</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqycgi10003k3amqtqjkfdca</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-28T22:12:06.084Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
