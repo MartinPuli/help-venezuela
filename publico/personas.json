@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-30T13:59:25.803Z",
+  "generadoEn": "2026-06-30T15:03:09.072Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8",
+      "nombre": "Vicky Chiquinquirá Urdaneta Leal",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T14:01:08.020Z",
+      "edadAprox": 20,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Edificio Los Bucaneros piso 7, Catia La Mar,"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36",
       "nombre": "JESUS ALEJANDRO SANCHEZ SANTANA",
@@ -275,21 +290,6 @@
       "edadAprox": 23,
       "ultimaUbicacion": {
         "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco",
-      "nombre": "Moisés y Jesús García mantilla",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T00:13:10.142Z",
-      "edadAprox": 15,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Edificios perlamar piso 2"
       },
       "fuentes": [
         "desaparecidosvenezuela"

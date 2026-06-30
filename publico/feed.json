@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-30T13:59:25.803Z",
+  "generado_en": "2026-06-30T15:03:09.072Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T14:01:08.020Z",
+      "full_name": "Vicky Chiquinquirá Urdaneta Leal",
+      "given_name": "Vicky",
+      "family_name": "Chiquinquirá Urdaneta Leal",
+      "age": "20",
+      "home_city": "La Guaira · Edificio Los Bucaneros piso 7, Catia La Mar,",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T14:01:08.020Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36",
       "source_name": "desaparecidosvenezuela",
@@ -370,26 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T01:40:36.672Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T00:13:10.142Z",
-      "full_name": "Moisés y Jesús García mantilla",
-      "given_name": "Moisés",
-      "family_name": "y Jesús García mantilla",
-      "age": "15",
-      "home_city": "La Guaira · Caraballeda · Edificios perlamar piso 2",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T00:13:10.142Z"
         }
       ],
       "x_confianza": "baja",

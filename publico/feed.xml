@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-30T14:01:08.020Z</pfif:source_date>
+    <pfif:full_name>Vicky Chiquinquirá Urdaneta Leal</pfif:full_name>
+    <pfif:given_name>Vicky</pfif:given_name>
+    <pfif:family_name>Chiquinquirá Urdaneta Leal</pfif:family_name>
+    <pfif:age>20</pfif:age>
+    <pfif:home_city>La Guaira · Edificio Los Bucaneros piso 7, Catia La Mar,</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-30T14:01:08.020Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-30T13:10:45.924Z</pfif:source_date>
@@ -276,21 +291,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqyjwn9c003p3amqeuu69zur</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-29T01:40:36.672Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-29T00:13:10.142Z</pfif:source_date>
-    <pfif:full_name>Moisés y Jesús García mantilla</pfif:full_name>
-    <pfif:given_name>Moisés</pfif:given_name>
-    <pfif:family_name>y Jesús García mantilla</pfif:family_name>
-    <pfif:age>15</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Edificios perlamar piso 2</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqygs70e003o3amqkmj19aco</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-29T00:13:10.142Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
