@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-30T02:18:19.460Z",
+  "generado_en": "2026-06-30T03:44:55.191Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr02fe0t004a3amq51rr641o",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T03:06:50.429Z",
+      "full_name": "Deyanira Coromoto Rodriguez",
+      "given_name": "Deyanira",
+      "family_name": "Coromoto Rodriguez",
+      "age": "60",
+      "home_city": "La Guaira · Catia La Mar · Playa grande, residencias La trinidad calle 6, playa grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr02fe0t004a3amq51rr641o",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T03:06:50.429Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
       "source_name": "desaparecidosvenezuela",
@@ -370,25 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-28T22:39:31.245Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqyd57ts003m3amq6hiuwppp",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-28T22:31:19.264Z",
-      "full_name": "Carlos Santana",
-      "given_name": "Carlos",
-      "family_name": "Santana",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqyd57ts003m3amq6hiuwppp",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-28T22:31:19.264Z"
         }
       ],
       "x_confianza": "baja",

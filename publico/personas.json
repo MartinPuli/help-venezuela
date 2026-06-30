@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-30T02:18:19.460Z",
+  "generadoEn": "2026-06-30T03:44:55.191Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr02fe0t004a3amq51rr641o",
+      "nombre": "Deyanira Coromoto Rodriguez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T03:06:50.429Z",
+      "edadAprox": 60,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa grande, residencias La trinidad calle 6, playa grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
       "nombre": "adriana rivero",
@@ -275,20 +290,6 @@
       "reportadoEn": "2026-06-28T22:39:31.245Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Opp los cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqyd57ts003m3amq6hiuwppp",
-      "nombre": "Carlos Santana",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T22:31:19.264Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"
