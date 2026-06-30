@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-30T18:20:43.895Z",
+  "generadoEn": "2026-06-30T19:06:52.516Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
+      "nombre": "Pablo Andrés Armas borges",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T18:21:27.577Z",
+      "edadAprox": 26,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Edif atrium avenida Atlántida añl lado Hotel playa grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2",
       "nombre": "Ruth Noemí Vargas Jiménez",
@@ -275,20 +290,6 @@
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
       "reportadoEn": "2026-06-29T02:37:23.986Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqylutr1003w3amqm056jv71",
-      "nombre": "Samuel Florian",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T02:35:11.005Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
       },

@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-30T18:20:43.895Z",
+  "generado_en": "2026-06-30T19:06:52.516Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T18:21:27.577Z",
+      "full_name": "Pablo Andrés Armas borges",
+      "given_name": "Pablo",
+      "family_name": "Andrés Armas borges",
+      "age": "26",
+      "home_city": "La Guaira · Catia La Mar · Edif atrium avenida Atlántida añl lado Hotel playa grande",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T18:21:27.577Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2",
       "source_name": "desaparecidosvenezuela",
@@ -372,25 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T02:37:23.986Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqylutr1003w3amqm056jv71",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T02:35:11.005Z",
-      "full_name": "Samuel Florian",
-      "given_name": "Samuel",
-      "family_name": "Florian",
-      "home_city": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqylutr1003w3amqm056jv71",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T02:35:11.005Z"
         }
       ],
       "x_confianza": "baja",
