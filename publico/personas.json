@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-30T23:08:15.810Z",
+  "generadoEn": "2026-06-30T23:40:33.644Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr19japr004o3amql0gyljvz",
+      "nombre": "William Alberto Petit",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T23:13:36.255Z",
+      "edadAprox": 71,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi",
       "nombre": "Omar Zambrano Viana",
@@ -276,21 +291,6 @@
       "edadAprox": 35,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Hotel Catimar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqz713n000413amqcjt08lwl",
-      "nombre": "Marcos Sousa",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T12:27:55.692Z",
-      "edadAprox": 16,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edificio horizonte bello"
       },
       "fuentes": [
         "desaparecidosvenezuela"
