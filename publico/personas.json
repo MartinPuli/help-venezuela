@@ -1,7 +1,35 @@
 {
-  "generadoEn": "2026-06-30T19:53:07.177Z",
+  "generadoEn": "2026-06-30T20:36:51.301Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
+      "nombre": "luis revoredo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T20:24:35.200Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh",
+      "nombre": "Reyna Isabel Balladares Chavarría",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T20:19:45.613Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
       "nombre": "Pablo Andrés Armas borges",
@@ -264,34 +292,6 @@
       "edadAprox": 48,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Los cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqym0bu5003y3amqdwckizua",
-      "nombre": "Carlos Montilla",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T02:39:27.725Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqylxocy003x3amql3ek6g88",
-      "nombre": "Jhonger Florian",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T02:37:23.986Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
       },
       "fuentes": [
         "desaparecidosvenezuela"

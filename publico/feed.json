@@ -1,7 +1,45 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-30T19:53:07.177Z",
+  "generado_en": "2026-06-30T20:36:51.301Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T20:24:35.200Z",
+      "full_name": "luis revoredo",
+      "given_name": "luis",
+      "family_name": "revoredo",
+      "home_city": "La Guaira · Catia La Mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T20:24:35.200Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T20:19:45.613Z",
+      "full_name": "Reyna Isabel Balladares Chavarría",
+      "given_name": "Reyna",
+      "family_name": "Isabel Balladares Chavarría",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T20:19:45.613Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
       "source_name": "desaparecidosvenezuela",
@@ -354,44 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T11:57:55.602Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqym0bu5003y3amqdwckizua",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T02:39:27.725Z",
-      "full_name": "Carlos Montilla",
-      "given_name": "Carlos",
-      "family_name": "Montilla",
-      "home_city": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqym0bu5003y3amqdwckizua",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T02:39:27.725Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqylxocy003x3amql3ek6g88",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T02:37:23.986Z",
-      "full_name": "Jhonger Florian",
-      "given_name": "Jhonger",
-      "family_name": "Florian",
-      "home_city": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqylxocy003x3amql3ek6g88",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T02:37:23.986Z"
         }
       ],
       "x_confianza": "baja",
