@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-30T16:57:14.619Z",
+  "generado_en": "2026-06-30T17:40:33.741Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0whucd004h3amq2ego09ba",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T17:08:33.373Z",
+      "full_name": "Marco Gil",
+      "given_name": "Marco",
+      "family_name": "Gil",
+      "home_city": "La Guaira · residencias country mar avenida granada, caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0whucd004h3amq2ego09ba",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T17:08:33.373Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0u60pg004g3amqdjo8js8h",
       "source_name": "desaparecidosvenezuela",
@@ -371,25 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T02:33:23.278Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqylpkrw003u3amqnxpp4sbp",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T02:31:06.092Z",
-      "full_name": "Leidis elena Escalona",
-      "given_name": "Leidis",
-      "family_name": "elena Escalona",
-      "home_city": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqylpkrw003u3amqnxpp4sbp",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T02:31:06.092Z"
         }
       ],
       "x_confianza": "baja",
