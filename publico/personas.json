@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-30T22:34:35.202Z",
+  "generadoEn": "2026-06-30T23:08:15.810Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi",
+      "nombre": "Omar Zambrano Viana",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T23:05:37.866Z",
+      "edadAprox": 51,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Edificio Belo Horizonte Torre B"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
       "nombre": "Ana Maria Lopez Diaz",
@@ -276,21 +291,6 @@
       "edadAprox": 16,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Edificio horizonte bello"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe",
-      "nombre": "Manuel Araujo",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T11:59:47.079Z",
-      "edadAprox": 48,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Los cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"

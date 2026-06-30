@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-30T22:34:35.202Z",
+  "generado_en": "2026-06-30T23:08:15.810Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T23:05:37.866Z",
+      "full_name": "Omar Zambrano Viana",
+      "given_name": "Omar",
+      "family_name": "Zambrano Viana",
+      "age": "51",
+      "home_city": "La Guaira · Catia La Mar · Edificio Belo Horizonte Torre B",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T23:05:37.866Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
       "source_name": "desaparecidosvenezuela",
@@ -371,26 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T12:27:55.692Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T11:59:47.079Z",
-      "full_name": "Manuel Araujo",
-      "given_name": "Manuel",
-      "family_name": "Araujo",
-      "age": "48",
-      "home_city": "La Guaira · La Guaira (centro) · Los cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T11:59:47.079Z"
         }
       ],
       "x_confianza": "baja",
