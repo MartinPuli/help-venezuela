@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-06-30T15:03:09.072Z",
+  "generadoEn": "2026-06-30T16:07:07.303Z",
   "fuentesActivas": [
     "comunidad",
     "desaparecidosvenezuela",
@@ -10,7 +10,7 @@
     "registrosEntrada": 20,
     "personas": 20,
     "fusionesAutomaticasPorCedula": 0,
-    "candidatosRevisionHumana": 1,
+    "candidatosRevisionHumana": 2,
     "posiblesDuplicados": 0
   },
   "porEstado": {

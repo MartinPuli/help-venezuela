@@ -1,7 +1,66 @@
 {
-  "generadoEn": "2026-06-30T15:03:09.072Z",
+  "generadoEn": "2026-06-30T16:07:07.303Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr0u60pg004g3amqdjo8js8h",
+      "nombre": "Ivelice Correa",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T16:03:22.516Z",
+      "edadAprox": 69,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa grande, edificio belo horizonte"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmr0tzr3v004f3amqhmjdsxnd",
+      "nombre": "Ivelice Correa",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T15:58:30.139Z",
+      "edadAprox": 69,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa grande"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmr0tajbj004e3amqzt4sr8zh",
+      "nombre": "Aron Ricardo Lopez Perez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T15:38:53.647Z",
+      "edadAprox": 12,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Tanaguarenas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmr0si6ye004d3amqy536mpkq",
+      "nombre": "Astrid Garcia",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T15:16:51.254Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Camurí Chico"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8",
       "nombre": "Vicky Chiquinquirá Urdaneta Leal",
@@ -231,65 +290,6 @@
       "reportadoEn": "2026-06-29T02:31:06.092Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqyl56wv003t3amqn4mz4f62",
-      "nombre": "Gabriel Enrique Landaeta Cárdenas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T02:15:15.007Z",
-      "edadAprox": 19,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Tacaguarena, edificio opp 34"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqyk7nza003r3amq0n897m8a",
-      "nombre": "Daniel Cortez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T01:49:10.822Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqyjzckz003q3amqo9ate647",
-      "nombre": "AIRAN ROMERO RAMIREZ",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T01:42:42.803Z",
-      "edadAprox": 22,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqyjwn9c003p3amqeuu69zur",
-      "nombre": "Omary Herrera",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T01:40:36.672Z",
-      "edadAprox": 23,
-      "ultimaUbicacion": {
-        "texto": "La Guaira"
       },
       "fuentes": [
         "desaparecidosvenezuela"
