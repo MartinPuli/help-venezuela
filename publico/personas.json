@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-06-30T17:40:33.741Z",
+  "generadoEn": "2026-06-30T18:20:43.895Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2",
+      "nombre": "Ruth Noemí Vargas Jiménez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T18:04:22.923Z",
+      "edadAprox": 60,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Conjunto residencial Caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr0whucd004h3amq2ego09ba",
       "nombre": "Marco Gil",
@@ -274,20 +289,6 @@
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
       "reportadoEn": "2026-06-29T02:35:11.005Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqylsimm003v3amqpacoucpt",
-      "nombre": "Eisy Escalona",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T02:33:23.278Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Oppe 27 edificio A, avenida naiguata frente a la bomba texaco"
       },
