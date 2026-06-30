@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-30T12:26:22.368Z",
+  "generadoEn": "2026-06-30T13:13:27.333Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36",
+      "nombre": "JESUS ALEJANDRO SANCHEZ SANTANA",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T13:10:45.924Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · cesar nieves"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr02fe0t004a3amq51rr641o",
       "nombre": "Deyanira Coromoto Rodriguez",
@@ -276,20 +290,6 @@
       "edadAprox": 15,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Edificios perlamar piso 2"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqydfrfx003n3amql0hqaz9o",
-      "nombre": "Angel Briceño",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-28T22:39:31.245Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Opp los cocos"
       },
       "fuentes": [
         "desaparecidosvenezuela"
