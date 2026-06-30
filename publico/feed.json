@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-06-30T21:17:55.665Z",
+  "generado_en": "2026-06-30T21:58:37.627Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-06-30T21:54:43.029Z",
+      "full_name": "Ana Maria Lopez Diaz",
+      "given_name": "Ana",
+      "family_name": "Maria Lopez Diaz",
+      "home_city": "Distrito Capital · Caracas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-06-30T21:54:43.029Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
       "source_name": "desaparecidosvenezuela",
@@ -372,26 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T11:59:47.079Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T11:57:55.602Z",
-      "full_name": "Manuel Araguo",
-      "given_name": "Manuel",
-      "family_name": "Araguo",
-      "age": "48",
-      "home_city": "La Guaira · La Guaira (centro) · Los cocos",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T11:57:55.602Z"
         }
       ],
       "x_confianza": "baja",

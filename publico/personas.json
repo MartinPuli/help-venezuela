@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-06-30T21:17:55.665Z",
+  "generadoEn": "2026-06-30T21:58:37.627Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
+      "nombre": "Ana Maria Lopez Diaz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-06-30T21:54:43.029Z",
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
       "nombre": "luis revoredo",
@@ -274,21 +288,6 @@
       "confianza": "baja",
       "fuente": "desaparecidosvenezuela",
       "reportadoEn": "2026-06-29T11:59:47.079Z",
-      "edadAprox": 48,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Los cocos"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f",
-      "nombre": "Manuel Araguo",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T11:57:55.602Z",
       "edadAprox": 48,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Los cocos"

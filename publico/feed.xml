@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-06-30T21:54:43.029Z</pfif:source_date>
+    <pfif:full_name>Ana Maria Lopez Diaz</pfif:full_name>
+    <pfif:given_name>Ana</pfif:given_name>
+    <pfif:family_name>Maria Lopez Diaz</pfif:family_name>
+    <pfif:home_city>Distrito Capital · Caracas</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-06-30T21:54:43.029Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-30T20:24:35.200Z</pfif:source_date>
@@ -278,21 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz60wp300403amqr48nr1qe</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-29T11:59:47.079Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-29T11:57:55.602Z</pfif:source_date>
-    <pfif:full_name>Manuel Araguo</pfif:full_name>
-    <pfif:given_name>Manuel</pfif:given_name>
-    <pfif:family_name>Araguo</pfif:family_name>
-    <pfif:age>48</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Los cocos</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqz5yioi003z3amq3upgex8f</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-29T11:57:55.602Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
