@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-01T16:17:01.581Z",
+  "generado_en": "2026-07-01T17:15:03.960Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-01T16:33:00.826Z",
+      "full_name": "TOMAS PRiBANiC",
+      "given_name": "TOMAS",
+      "family_name": "PRiBANiC",
+      "age": "79",
+      "home_city": "La Guaira · Caraballeda · Frente Hoyel Sheraton",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-01T16:33:00.826Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
       "source_name": "desaparecidosvenezuela",
@@ -368,26 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T13:10:45.924Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr02fe0t004a3amq51rr641o",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T03:06:50.429Z",
-      "full_name": "Deyanira Coromoto Rodriguez",
-      "given_name": "Deyanira",
-      "family_name": "Coromoto Rodriguez",
-      "age": "60",
-      "home_city": "La Guaira · Catia La Mar · Playa grande, residencias La trinidad calle 6, playa grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr02fe0t004a3amq51rr641o",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T03:06:50.429Z"
         }
       ],
       "x_confianza": "baja",

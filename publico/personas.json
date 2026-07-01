@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-01T16:17:01.581Z",
+  "generadoEn": "2026-07-01T17:15:03.960Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
+      "nombre": "TOMAS PRiBANiC",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T16:33:00.826Z",
+      "edadAprox": 79,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Frente Hoyel Sheraton"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
       "nombre": "Liam Gabriel Marquez Gonzalez",
@@ -273,21 +288,6 @@
       "reportadoEn": "2026-06-30T13:10:45.924Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · cesar nieves"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr02fe0t004a3amq51rr641o",
-      "nombre": "Deyanira Coromoto Rodriguez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T03:06:50.429Z",
-      "edadAprox": 60,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa grande, residencias La trinidad calle 6, playa grande"
       },
       "fuentes": [
         "desaparecidosvenezuela"
