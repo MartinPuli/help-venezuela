@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-01T01:34:17.382Z</pfif:source_date>
+    <pfif:full_name>Erick Navas</pfif:full_name>
+    <pfif:given_name>Erick</pfif:given_name>
+    <pfif:family_name>Navas</pfif:family_name>
+    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-01T01:34:17.382Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-01T00:38:17.905Z</pfif:source_date>
@@ -277,21 +291,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-29T20:49:07.169Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqzoume400453amq5qpzhm40</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-29T20:46:46.492Z</pfif:source_date>
-    <pfif:full_name>Milagros Suarez</pfif:full_name>
-    <pfif:given_name>Milagros</pfif:given_name>
-    <pfif:family_name>Suarez</pfif:family_name>
-    <pfif:age>74</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Edificio Bahía Mar piso 7</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzoume400453amq5qpzhm40</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-29T20:46:46.492Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

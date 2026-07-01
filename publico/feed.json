@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-01T01:22:33.584Z",
+  "generado_en": "2026-07-01T02:18:08.090Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-01T01:34:17.382Z",
+      "full_name": "Erick Navas",
+      "given_name": "Erick",
+      "family_name": "Navas",
+      "home_city": "La Guaira · Catia La Mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-01T01:34:17.382Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3",
       "source_name": "desaparecidosvenezuela",
@@ -371,26 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T20:49:07.169Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzoume400453amq5qpzhm40",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T20:46:46.492Z",
-      "full_name": "Milagros Suarez",
-      "given_name": "Milagros",
-      "family_name": "Suarez",
-      "age": "74",
-      "home_city": "La Guaira · Caraballeda · Edificio Bahía Mar piso 7",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzoume400453amq5qpzhm40",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T20:46:46.492Z"
         }
       ],
       "x_confianza": "baja",

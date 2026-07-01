@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-07-01T01:22:33.584Z",
+  "generadoEn": "2026-07-01T02:18:08.090Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
+      "nombre": "Erick Navas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T01:34:17.382Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3",
       "nombre": "Mariangel De freitas",
@@ -276,21 +290,6 @@
       "edadAprox": 77,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Bahía Mar piso 7"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqzoume400453amq5qpzhm40",
-      "nombre": "Milagros Suarez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T20:46:46.492Z",
-      "edadAprox": 74,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Edificio Bahía Mar piso 7"
       },
       "fuentes": [
         "desaparecidosvenezuela"
