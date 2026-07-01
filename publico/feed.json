@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-01T15:24:24.726Z",
+  "generado_en": "2026-07-01T16:17:01.581Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-01T15:41:34.777Z",
+      "full_name": "Liam Gabriel Marquez Gonzalez",
+      "given_name": "Liam",
+      "family_name": "Gabriel Marquez Gonzalez",
+      "age": "7",
+      "home_city": "La Guaira · OPP 26 Torre H, Misión Vivienda los cocos, la Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-01T15:41:34.777Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
       "source_name": "desaparecidosvenezuela",
@@ -368,26 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T03:06:50.429Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T23:21:25.351Z",
-      "full_name": "adriana rivero",
-      "given_name": "adriana",
-      "family_name": "rivero",
-      "age": "38",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T23:21:25.351Z"
         }
       ],
       "x_confianza": "baja",

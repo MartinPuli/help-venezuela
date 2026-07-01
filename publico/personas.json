@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-01T15:24:24.726Z",
+  "generadoEn": "2026-07-01T16:17:01.581Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
+      "nombre": "Liam Gabriel Marquez Gonzalez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T15:41:34.777Z",
+      "edadAprox": 7,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · OPP 26 Torre H, Misión Vivienda los cocos, la Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
       "nombre": "almarys rojas",
@@ -273,21 +288,6 @@
       "edadAprox": 60,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Playa grande, residencias La trinidad calle 6, playa grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17",
-      "nombre": "adriana rivero",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T23:21:25.351Z",
-      "edadAprox": 38,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"
