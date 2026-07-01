@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-01T00:38:17.905Z</pfif:source_date>
+    <pfif:full_name>Mariangel De freitas</pfif:full_name>
+    <pfif:given_name>Mariangel</pfif:given_name>
+    <pfif:family_name>De freitas</pfif:family_name>
+    <pfif:age>30</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-01T00:38:17.905Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr19japr004o3amql0gyljvz</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-06-30T23:13:36.255Z</pfif:source_date>
@@ -277,21 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzoume400453amq5qpzhm40</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-29T20:46:46.492Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-29T19:44:24.767Z</pfif:source_date>
-    <pfif:full_name>Julio César Lacruz Rondon</pfif:full_name>
-    <pfif:given_name>Julio</pfif:given_name>
-    <pfif:family_name>César Lacruz Rondon</pfif:family_name>
-    <pfif:age>35</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Hotel Catimar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-29T19:44:24.767Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

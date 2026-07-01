@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-01T00:07:46.621Z",
+  "generadoEn": "2026-07-01T01:22:33.584Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3",
+      "nombre": "Mariangel De freitas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T00:38:17.905Z",
+      "edadAprox": 30,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr19japr004o3amql0gyljvz",
       "nombre": "William Alberto Petit",
@@ -276,21 +291,6 @@
       "edadAprox": 74,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Edificio Bahía Mar piso 7"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqzmmf9b00423amqu9n5i8w5",
-      "nombre": "Julio César Lacruz Rondon",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T19:44:24.767Z",
-      "edadAprox": 35,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Hotel Catimar"
       },
       "fuentes": [
         "desaparecidosvenezuela"
