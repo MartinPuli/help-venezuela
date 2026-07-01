@@ -1,7 +1,35 @@
 {
-  "generadoEn": "2026-07-01T03:45:24.898Z",
+  "generadoEn": "2026-07-01T05:31:29.548Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
+      "nombre": "almarys rojas",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T04:50:47.076Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq",
+      "nombre": "Carmen Josefina Vasconcelos",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T04:32:06.723Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
       "nombre": "Erick Navas",
@@ -260,36 +288,6 @@
       "edadAprox": 38,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
-      "nombre": "ALICIA FALCON",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T21:48:27.117Z",
-      "edadAprox": 67,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · AVENIDA LA PLAYA RESIDENCIA BAHIA MAR"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y",
-      "nombre": "Humberto Madero",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-29T20:49:07.169Z",
-      "edadAprox": 77,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Bahía Mar piso 7"
       },
       "fuentes": [
         "desaparecidosvenezuela"

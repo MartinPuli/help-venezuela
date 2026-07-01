@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-01T04:50:47.076Z</pfif:source_date>
+    <pfif:full_name>almarys rojas</pfif:full_name>
+    <pfif:given_name>almarys</pfif:given_name>
+    <pfif:family_name>rojas</pfif:family_name>
+    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-01T04:50:47.076Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-01T04:32:06.723Z</pfif:source_date>
+    <pfif:full_name>Carmen Josefina Vasconcelos</pfif:full_name>
+    <pfif:given_name>Carmen</pfif:given_name>
+    <pfif:family_name>Josefina Vasconcelos</pfif:family_name>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-01T04:32:06.723Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-01T01:34:17.382Z</pfif:source_date>
@@ -261,36 +289,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzudi0700483amqa0xd2n17</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-29T23:21:25.351Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-29T21:48:27.117Z</pfif:source_date>
-    <pfif:full_name>ALICIA FALCON</pfif:full_name>
-    <pfif:given_name>ALICIA</pfif:given_name>
-    <pfif:family_name>FALCON</pfif:family_name>
-    <pfif:age>67</pfif:age>
-    <pfif:home_city>La Guaira · AVENIDA LA PLAYA RESIDENCIA BAHIA MAR</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-29T21:48:27.117Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-29T20:49:07.169Z</pfif:source_date>
-    <pfif:full_name>Humberto Madero</pfif:full_name>
-    <pfif:given_name>Humberto</pfif:given_name>
-    <pfif:family_name>Madero</pfif:family_name>
-    <pfif:age>77</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda · Bahía Mar piso 7</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-29T20:49:07.169Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

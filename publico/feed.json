@@ -1,7 +1,45 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-01T03:45:24.898Z",
+  "generado_en": "2026-07-01T05:31:29.548Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-01T04:50:47.076Z",
+      "full_name": "almarys rojas",
+      "given_name": "almarys",
+      "family_name": "rojas",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-01T04:50:47.076Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-01T04:32:06.723Z",
+      "full_name": "Carmen Josefina Vasconcelos",
+      "given_name": "Carmen",
+      "family_name": "Josefina Vasconcelos",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-01T04:32:06.723Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
       "source_name": "desaparecidosvenezuela",
@@ -350,46 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-29T23:21:25.351Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T21:48:27.117Z",
-      "full_name": "ALICIA FALCON",
-      "given_name": "ALICIA",
-      "family_name": "FALCON",
-      "age": "67",
-      "home_city": "La Guaira · AVENIDA LA PLAYA RESIDENCIA BAHIA MAR",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzr1xt900473amqb4ycney9",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T21:48:27.117Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-29T20:49:07.169Z",
-      "full_name": "Humberto Madero",
-      "given_name": "Humberto",
-      "family_name": "Madero",
-      "age": "77",
-      "home_city": "La Guaira · Caraballeda · Bahía Mar piso 7",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmqzoxmxt00463amqsi3nkw3y",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-29T20:49:07.169Z"
         }
       ],
       "x_confianza": "baja",
