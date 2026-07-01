@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-01T20:33:36.181Z</pfif:source_date>
+    <pfif:full_name>Lohana Gil Maraima</pfif:full_name>
+    <pfif:given_name>Lohana</pfif:given_name>
+    <pfif:family_name>Gil Maraima</pfif:family_name>
+    <pfif:age>24</pfif:age>
+    <pfif:home_city>La Guaira · Catia La Mar · Playa Grande Edificio Vallarta</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-01T20:33:36.181Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr2anziy004w3amqriech29p</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-01T16:33:00.826Z</pfif:source_date>
@@ -275,20 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T14:01:08.020Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T13:10:45.924Z</pfif:source_date>
-    <pfif:full_name>JESUS ALEJANDRO SANCHEZ SANTANA</pfif:full_name>
-    <pfif:given_name>JESUS</pfif:given_name>
-    <pfif:family_name>ALEJANDRO SANCHEZ SANTANA</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar · cesar nieves</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T13:10:45.924Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

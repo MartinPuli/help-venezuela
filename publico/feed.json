@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-01T20:23:11.905Z",
+  "generado_en": "2026-07-01T21:01:21.844Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-01T20:33:36.181Z",
+      "full_name": "Lohana Gil Maraima",
+      "given_name": "Lohana",
+      "family_name": "Gil Maraima",
+      "age": "24",
+      "home_city": "La Guaira · Catia La Mar · Playa Grande Edificio Vallarta",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-01T20:33:36.181Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
       "source_name": "desaparecidosvenezuela",
@@ -369,25 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T14:01:08.020Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T13:10:45.924Z",
-      "full_name": "JESUS ALEJANDRO SANCHEZ SANTANA",
-      "given_name": "JESUS",
-      "family_name": "ALEJANDRO SANCHEZ SANTANA",
-      "home_city": "La Guaira · Catia La Mar · cesar nieves",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T13:10:45.924Z"
         }
       ],
       "x_confianza": "baja",

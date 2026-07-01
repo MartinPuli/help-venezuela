@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-01T20:23:11.905Z",
+  "generadoEn": "2026-07-01T21:01:21.844Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
+      "nombre": "Lohana Gil Maraima",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T20:33:36.181Z",
+      "edadAprox": 24,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar · Playa Grande Edificio Vallarta"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
       "nombre": "TOMAS PRiBANiC",
@@ -274,20 +289,6 @@
       "edadAprox": 20,
       "ultimaUbicacion": {
         "texto": "La Guaira · Edificio Los Bucaneros piso 7, Catia La Mar,"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0o01ic004b3amqhr59ma36",
-      "nombre": "JESUS ALEJANDRO SANCHEZ SANTANA",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T13:10:45.924Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · cesar nieves"
       },
       "fuentes": [
         "desaparecidosvenezuela"
