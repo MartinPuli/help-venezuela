@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-02T10:21:46.318Z",
+  "generado_en": "2026-07-02T11:21:31.893Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-02T10:34:57.032Z",
+      "full_name": "María Laura Hernandez",
+      "given_name": "María",
+      "family_name": "Laura Hernandez",
+      "age": "43",
+      "home_city": "La Guaira · Maiquetía · Hotel catimar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-02T10:34:57.032Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2ymb47004z3amq0pjim6q4",
       "source_name": "desaparecidosvenezuela",
@@ -369,26 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T15:58:30.139Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0tajbj004e3amqzt4sr8zh",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T15:38:53.647Z",
-      "full_name": "Aron Ricardo Lopez Perez",
-      "given_name": "Aron",
-      "family_name": "Ricardo Lopez Perez",
-      "age": "12",
-      "home_city": "La Guaira · Tanaguarenas",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0tajbj004e3amqzt4sr8zh",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T15:38:53.647Z"
         }
       ],
       "x_confianza": "baja",

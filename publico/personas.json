@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-02T10:21:46.318Z",
+  "generadoEn": "2026-07-02T11:21:31.893Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne",
+      "nombre": "María Laura Hernandez",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-02T10:34:57.032Z",
+      "edadAprox": 43,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Maiquetía · Hotel catimar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr2ymb47004z3amq0pjim6q4",
       "nombre": "Gabriela Nohemi Villarreal Morales",
@@ -274,21 +289,6 @@
       "edadAprox": 69,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Playa grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0tajbj004e3amqzt4sr8zh",
-      "nombre": "Aron Ricardo Lopez Perez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T15:38:53.647Z",
-      "edadAprox": 12,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Tanaguarenas"
       },
       "fuentes": [
         "desaparecidosvenezuela"

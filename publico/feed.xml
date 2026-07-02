@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-02T10:34:57.032Z</pfif:source_date>
+    <pfif:full_name>María Laura Hernandez</pfif:full_name>
+    <pfif:given_name>María</pfif:given_name>
+    <pfif:family_name>Laura Hernandez</pfif:family_name>
+    <pfif:age>43</pfif:age>
+    <pfif:home_city>La Guaira · Maiquetía · Hotel catimar</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-02T10:34:57.032Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr2ymb47004z3amq0pjim6q4</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-02T03:43:33.319Z</pfif:source_date>
@@ -275,21 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0tzr3v004f3amqhmjdsxnd</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T15:58:30.139Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0tajbj004e3amqzt4sr8zh</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T15:38:53.647Z</pfif:source_date>
-    <pfif:full_name>Aron Ricardo Lopez Perez</pfif:full_name>
-    <pfif:given_name>Aron</pfif:given_name>
-    <pfif:family_name>Ricardo Lopez Perez</pfif:family_name>
-    <pfif:age>12</pfif:age>
-    <pfif:home_city>La Guaira · Tanaguarenas</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0tajbj004e3amqzt4sr8zh</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T15:38:53.647Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
