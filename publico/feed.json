@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-01T23:56:48.643Z",
+  "generado_en": "2026-07-02T00:54:49.281Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2qkzya004y3amqdbyt43fs",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-01T23:58:35.266Z",
+      "full_name": "Rosmar Sivira",
+      "given_name": "Rosmar",
+      "family_name": "Sivira",
+      "home_city": "La Guaira · Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2qkzya004y3amqdbyt43fs",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-01T23:58:35.266Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
       "source_name": "desaparecidosvenezuela",
@@ -369,26 +388,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T15:16:51.254Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T14:01:08.020Z",
-      "full_name": "Vicky Chiquinquirá Urdaneta Leal",
-      "given_name": "Vicky",
-      "family_name": "Chiquinquirá Urdaneta Leal",
-      "age": "20",
-      "home_city": "La Guaira · Edificio Los Bucaneros piso 7, Catia La Mar,",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T14:01:08.020Z"
         }
       ],
       "x_confianza": "baja",

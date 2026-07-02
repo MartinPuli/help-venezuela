@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-07-01T23:56:48.643Z",
+  "generadoEn": "2026-07-02T00:54:49.281Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr2qkzya004y3amqdbyt43fs",
+      "nombre": "Rosmar Sivira",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-01T23:58:35.266Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
       "nombre": "Lohana Gil Maraima",
@@ -274,21 +288,6 @@
       "reportadoEn": "2026-06-30T15:16:51.254Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Camurí Chico"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0pstdg004c3amq84n14rp8",
-      "nombre": "Vicky Chiquinquirá Urdaneta Leal",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T14:01:08.020Z",
-      "edadAprox": 20,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Edificio Los Bucaneros piso 7, Catia La Mar,"
       },
       "fuentes": [
         "desaparecidosvenezuela"
