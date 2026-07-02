@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-02T02:39:00.687Z",
+  "generado_en": "2026-07-02T04:06:30.305Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2ymb47004z3amq0pjim6q4",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-02T03:43:33.319Z",
+      "full_name": "Gabriela Nohemi Villarreal Morales",
+      "given_name": "Gabriela",
+      "family_name": "Nohemi Villarreal Morales",
+      "age": "2",
+      "home_city": "La Guaira · Caraballeda · Opp 27 torre A piso 1 residencias caribe",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2ymb47004z3amq0pjim6q4",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-02T03:43:33.319Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2qkzya004y3amqdbyt43fs",
       "source_name": "desaparecidosvenezuela",
@@ -369,25 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T15:38:53.647Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0si6ye004d3amqy536mpkq",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T15:16:51.254Z",
-      "full_name": "Astrid Garcia",
-      "given_name": "Astrid",
-      "family_name": "Garcia",
-      "home_city": "La Guaira · Camurí Chico",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0si6ye004d3amqy536mpkq",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T15:16:51.254Z"
         }
       ],
       "x_confianza": "baja",

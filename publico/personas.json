@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-02T02:39:00.687Z",
+  "generadoEn": "2026-07-02T04:06:30.305Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr2ymb47004z3amq0pjim6q4",
+      "nombre": "Gabriela Nohemi Villarreal Morales",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-02T03:43:33.319Z",
+      "edadAprox": 2,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Opp 27 torre A piso 1 residencias caribe"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr2qkzya004y3amqdbyt43fs",
       "nombre": "Rosmar Sivira",
@@ -274,20 +289,6 @@
       "edadAprox": 12,
       "ultimaUbicacion": {
         "texto": "La Guaira · Tanaguarenas"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0si6ye004d3amqy536mpkq",
-      "nombre": "Astrid Garcia",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T15:16:51.254Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Camurí Chico"
       },
       "fuentes": [
         "desaparecidosvenezuela"
