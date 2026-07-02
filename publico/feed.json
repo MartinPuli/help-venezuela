@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-02T12:14:22.076Z",
+  "generado_en": "2026-07-02T12:58:58.358Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr3hyggf00533amqn4wb6ger",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-02T12:44:52.815Z",
+      "full_name": "Modesta González",
+      "given_name": "Modesta",
+      "family_name": "González",
+      "age": "53",
+      "home_city": "La Guaira · Carayaca",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr3hyggf00533amqn4wb6ger",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-02T12:44:52.815Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne",
       "source_name": "desaparecidosvenezuela",
@@ -369,26 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T16:03:22.516Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0tzr3v004f3amqhmjdsxnd",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T15:58:30.139Z",
-      "full_name": "Ivelice Correa",
-      "given_name": "Ivelice",
-      "family_name": "Correa",
-      "age": "69",
-      "home_city": "La Guaira · Catia La Mar · Playa grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0tzr3v004f3amqhmjdsxnd",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T15:58:30.139Z"
         }
       ],
       "x_confianza": "baja",

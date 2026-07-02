@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr3hyggf00533amqn4wb6ger</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-02T12:44:52.815Z</pfif:source_date>
+    <pfif:full_name>Modesta González</pfif:full_name>
+    <pfif:given_name>Modesta</pfif:given_name>
+    <pfif:family_name>González</pfif:family_name>
+    <pfif:age>53</pfif:age>
+    <pfif:home_city>La Guaira · Carayaca</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr3hyggf00533amqn4wb6ger</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-02T12:44:52.815Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-02T10:34:57.032Z</pfif:source_date>
@@ -275,21 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0u60pg004g3amqdjo8js8h</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T16:03:22.516Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0tzr3v004f3amqhmjdsxnd</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T15:58:30.139Z</pfif:source_date>
-    <pfif:full_name>Ivelice Correa</pfif:full_name>
-    <pfif:given_name>Ivelice</pfif:given_name>
-    <pfif:family_name>Correa</pfif:family_name>
-    <pfif:age>69</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Playa grande</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0tzr3v004f3amqhmjdsxnd</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T15:58:30.139Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
