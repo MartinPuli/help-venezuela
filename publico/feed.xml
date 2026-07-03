@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr4tvdrf00543amqdf2xdcxq</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-03T11:06:10.923Z</pfif:source_date>
+    <pfif:full_name>Ángel David Sánchez López</pfif:full_name>
+    <pfif:given_name>Ángel</pfif:given_name>
+    <pfif:family_name>David Sánchez López</pfif:family_name>
+    <pfif:age>32</pfif:age>
+    <pfif:home_city>La Guaira · Edificios Punta Brisas las 15 letras</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr4tvdrf00543amqdf2xdcxq</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-03T11:06:10.923Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr3hyggf00533amqn4wb6ger</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-02T12:44:52.815Z</pfif:source_date>
@@ -275,21 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0whucd004h3amq2ego09ba</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T17:08:33.373Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0u60pg004g3amqdjo8js8h</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T16:03:22.516Z</pfif:source_date>
-    <pfif:full_name>Ivelice Correa</pfif:full_name>
-    <pfif:given_name>Ivelice</pfif:given_name>
-    <pfif:family_name>Correa</pfif:family_name>
-    <pfif:age>69</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Playa grande, edificio belo horizonte</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0u60pg004g3amqdjo8js8h</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T16:03:22.516Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

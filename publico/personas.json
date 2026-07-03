@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-03T10:53:19.279Z",
+  "generadoEn": "2026-07-03T11:46:07.869Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr4tvdrf00543amqdf2xdcxq",
+      "nombre": "Ángel David Sánchez López",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-03T11:06:10.923Z",
+      "edadAprox": 32,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Edificios Punta Brisas las 15 letras"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr3hyggf00533amqn4wb6ger",
       "nombre": "Modesta González",
@@ -274,21 +289,6 @@
       "reportadoEn": "2026-06-30T17:08:33.373Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · residencias country mar avenida granada, caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0u60pg004g3amqdjo8js8h",
-      "nombre": "Ivelice Correa",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T16:03:22.516Z",
-      "edadAprox": 69,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa grande, edificio belo horizonte"
       },
       "fuentes": [
         "desaparecidosvenezuela"
