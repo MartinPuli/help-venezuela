@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-03T19:19:48.392Z</pfif:source_date>
+    <pfif:full_name>Víctor Gabriel Maritato</pfif:full_name>
+    <pfif:given_name>Víctor</pfif:given_name>
+    <pfif:family_name>Gabriel Maritato</pfif:family_name>
+    <pfif:age>30</pfif:age>
+    <pfif:home_city>Distrito Capital · Caracas</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-03T19:19:48.392Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr53q64g00563amq1jq8wyrj</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-03T15:42:03.904Z</pfif:source_date>
@@ -276,21 +291,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T18:21:27.577Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T18:04:22.923Z</pfif:source_date>
-    <pfif:full_name>Ruth Noemí Vargas Jiménez</pfif:full_name>
-    <pfif:given_name>Ruth</pfif:given_name>
-    <pfif:family_name>Noemí Vargas Jiménez</pfif:family_name>
-    <pfif:age>60</pfif:age>
-    <pfif:home_city>La Guaira · La Guaira (centro) · Conjunto residencial Caribe</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T18:04:22.923Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-03T18:52:43.048Z",
+  "generado_en": "2026-07-03T19:29:48.412Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-03T19:19:48.392Z",
+      "full_name": "Víctor Gabriel Maritato",
+      "given_name": "Víctor",
+      "family_name": "Gabriel Maritato",
+      "age": "30",
+      "home_city": "Distrito Capital · Caracas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-03T19:19:48.392Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr53q64g00563amq1jq8wyrj",
       "source_name": "desaparecidosvenezuela",
@@ -370,26 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T18:21:27.577Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T18:04:22.923Z",
-      "full_name": "Ruth Noemí Vargas Jiménez",
-      "given_name": "Ruth",
-      "family_name": "Noemí Vargas Jiménez",
-      "age": "60",
-      "home_city": "La Guaira · La Guaira (centro) · Conjunto residencial Caribe",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T18:04:22.923Z"
         }
       ],
       "x_confianza": "baja",

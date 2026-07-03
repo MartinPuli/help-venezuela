@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-03T18:52:43.048Z",
+  "generadoEn": "2026-07-03T19:29:48.412Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5",
+      "nombre": "Víctor Gabriel Maritato",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-03T19:19:48.392Z",
+      "edadAprox": 30,
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr53q64g00563amq1jq8wyrj",
       "nombre": "Thais Guevara",
@@ -275,21 +290,6 @@
       "edadAprox": 26,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Edif atrium avenida Atlántida añl lado Hotel playa grande"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0yhmvf004i3amqlf06jpq2",
-      "nombre": "Ruth Noemí Vargas Jiménez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T18:04:22.923Z",
-      "edadAprox": 60,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro) · Conjunto residencial Caribe"
       },
       "fuentes": [
         "desaparecidosvenezuela"
