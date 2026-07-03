@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-03T15:01:06.646Z",
+  "generado_en": "2026-07-03T15:52:42.214Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr53q64g00563amq1jq8wyrj",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-03T15:42:03.904Z",
+      "full_name": "Thais Guevara",
+      "given_name": "Thais",
+      "family_name": "Guevara",
+      "age": "62",
+      "home_city": "La Guaira · Caraballeda · Res sol de Caraballeda",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr53q64g00563amq1jq8wyrj",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-03T15:42:03.904Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr4tvdrf00543amqdf2xdcxq",
       "source_name": "desaparecidosvenezuela",
@@ -370,25 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T18:04:22.923Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0whucd004h3amq2ego09ba",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T17:08:33.373Z",
-      "full_name": "Marco Gil",
-      "given_name": "Marco",
-      "family_name": "Gil",
-      "home_city": "La Guaira · residencias country mar avenida granada, caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0whucd004h3amq2ego09ba",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T17:08:33.373Z"
         }
       ],
       "x_confianza": "baja",

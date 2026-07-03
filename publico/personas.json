@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-03T15:01:06.646Z",
+  "generadoEn": "2026-07-03T15:52:42.214Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr53q64g00563amq1jq8wyrj",
+      "nombre": "Thais Guevara",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-03T15:42:03.904Z",
+      "edadAprox": 62,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Res sol de Caraballeda"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr4tvdrf00543amqdf2xdcxq",
       "nombre": "Ángel David Sánchez López",
@@ -275,20 +290,6 @@
       "edadAprox": 60,
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro) · Conjunto residencial Caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0whucd004h3amq2ego09ba",
-      "nombre": "Marco Gil",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T17:08:33.373Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · residencias country mar avenida granada, caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"
