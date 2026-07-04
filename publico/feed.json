@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-04T17:57:53.958Z",
+  "generado_en": "2026-07-04T19:11:12.858Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr6q6bh900583amqauvi970y",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-04T18:58:15.069Z",
+      "full_name": "Ivis Guevara",
+      "given_name": "Ivis",
+      "family_name": "Guevara",
+      "home_city": "La Guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr6q6bh900583amqauvi970y",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-04T18:58:15.069Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5",
       "source_name": "desaparecidosvenezuela",
@@ -370,26 +389,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T20:19:45.613Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T18:21:27.577Z",
-      "full_name": "Pablo Andrés Armas borges",
-      "given_name": "Pablo",
-      "family_name": "Andrés Armas borges",
-      "age": "26",
-      "home_city": "La Guaira · Catia La Mar · Edif atrium avenida Atlántida añl lado Hotel playa grande",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T18:21:27.577Z"
         }
       ],
       "x_confianza": "baja",

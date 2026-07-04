@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr6q6bh900583amqauvi970y</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-04T18:58:15.069Z</pfif:source_date>
+    <pfif:full_name>Ivis Guevara</pfif:full_name>
+    <pfif:given_name>Ivis</pfif:given_name>
+    <pfif:family_name>Guevara</pfif:family_name>
+    <pfif:home_city>La Guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr6q6bh900583amqauvi970y</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-04T18:58:15.069Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-03T19:19:48.392Z</pfif:source_date>
@@ -276,21 +290,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T20:19:45.613Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T18:21:27.577Z</pfif:source_date>
-    <pfif:full_name>Pablo Andrés Armas borges</pfif:full_name>
-    <pfif:given_name>Pablo</pfif:given_name>
-    <pfif:family_name>Andrés Armas borges</pfif:family_name>
-    <pfif:age>26</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Edif atrium avenida Atlántida añl lado Hotel playa grande</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T18:21:27.577Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-07-04T17:57:53.958Z",
+  "generadoEn": "2026-07-04T19:11:12.858Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr6q6bh900583amqauvi970y",
+      "nombre": "Ivis Guevara",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-04T18:58:15.069Z",
+      "ultimaUbicacion": {
+        "texto": "La Guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr5bi6qv00573amqcc9tvhz5",
       "nombre": "Víctor Gabriel Maritato",
@@ -275,21 +289,6 @@
       "reportadoEn": "2026-06-30T20:19:45.613Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr0z3li1004j3amql1zml41o",
-      "nombre": "Pablo Andrés Armas borges",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T18:21:27.577Z",
-      "edadAprox": 26,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edif atrium avenida Atlántida añl lado Hotel playa grande"
       },
       "fuentes": [
         "desaparecidosvenezuela"
