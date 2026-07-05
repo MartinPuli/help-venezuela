@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-05T12:11:07.223Z</pfif:source_date>
+    <pfif:full_name>Matriannys Morom</pfif:full_name>
+    <pfif:given_name>Matriannys</pfif:given_name>
+    <pfif:family_name>Morom</pfif:family_name>
+    <pfif:age>25</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Oppp26 caribe torrec c</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-05T12:11:07.223Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr6q6bh900583amqauvi970y</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-04T18:58:15.069Z</pfif:source_date>
@@ -276,20 +291,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T20:24:35.200Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T20:19:45.613Z</pfif:source_date>
-    <pfif:full_name>Reyna Isabel Balladares Chavarría</pfif:full_name>
-    <pfif:given_name>Reyna</pfif:given_name>
-    <pfif:family_name>Isabel Balladares Chavarría</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T20:19:45.613Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

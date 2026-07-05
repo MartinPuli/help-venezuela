@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-05T12:03:15.138Z",
+  "generadoEn": "2026-07-05T14:06:55.049Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq",
+      "nombre": "Matriannys Morom",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-05T12:11:07.223Z",
+      "edadAprox": 25,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Oppp26 caribe torrec c"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr6q6bh900583amqauvi970y",
       "nombre": "Ivis Guevara",
@@ -275,20 +290,6 @@
       "reportadoEn": "2026-06-30T20:24:35.200Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh",
-      "nombre": "Reyna Isabel Balladares Chavarría",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T20:19:45.613Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
       },
       "fuentes": [
         "desaparecidosvenezuela"

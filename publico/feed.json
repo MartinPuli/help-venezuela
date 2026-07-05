@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-05T12:03:15.138Z",
+  "generado_en": "2026-07-05T14:06:55.049Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-05T12:11:07.223Z",
+      "full_name": "Matriannys Morom",
+      "given_name": "Matriannys",
+      "family_name": "Morom",
+      "age": "25",
+      "home_city": "La Guaira · Caraballeda · Oppp26 caribe torrec c",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-05T12:11:07.223Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr6q6bh900583amqauvi970y",
       "source_name": "desaparecidosvenezuela",
@@ -370,25 +390,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T20:24:35.200Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T20:19:45.613Z",
-      "full_name": "Reyna Isabel Balladares Chavarría",
-      "given_name": "Reyna",
-      "family_name": "Isabel Balladares Chavarría",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13bqdp004k3amqlu0euybh",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T20:19:45.613Z"
         }
       ],
       "x_confianza": "baja",
