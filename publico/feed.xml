@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr82asm9005a3amqnq3hpupm</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-05T17:25:25.473Z</pfif:source_date>
+    <pfif:full_name>Jose Sabe</pfif:full_name>
+    <pfif:given_name>Jose</pfif:given_name>
+    <pfif:family_name>Sabe</pfif:family_name>
+    <pfif:age>80</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr82asm9005a3amqnq3hpupm</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-05T17:25:25.473Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-05T12:11:07.223Z</pfif:source_date>
@@ -277,20 +292,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T21:54:43.029Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T20:24:35.200Z</pfif:source_date>
-    <pfif:full_name>luis revoredo</pfif:full_name>
-    <pfif:given_name>luis</pfif:given_name>
-    <pfif:family_name>revoredo</pfif:family_name>
-    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T20:24:35.200Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

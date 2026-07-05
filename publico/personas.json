@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-05T16:41:53.986Z",
+  "generadoEn": "2026-07-05T17:44:34.904Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr82asm9005a3amqnq3hpupm",
+      "nombre": "Jose Sabe",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-05T17:25:25.473Z",
+      "edadAprox": 80,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq",
       "nombre": "Matriannys Morom",
@@ -276,20 +291,6 @@
       "reportadoEn": "2026-06-30T21:54:43.029Z",
       "ultimaUbicacion": {
         "texto": "Distrito Capital · Caracas"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
-      "nombre": "luis revoredo",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T20:24:35.200Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"

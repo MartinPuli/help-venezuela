@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-05T16:41:53.986Z",
+  "generado_en": "2026-07-05T17:44:34.904Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr82asm9005a3amqnq3hpupm",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-05T17:25:25.473Z",
+      "full_name": "Jose Sabe",
+      "given_name": "Jose",
+      "family_name": "Sabe",
+      "age": "80",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr82asm9005a3amqnq3hpupm",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-05T17:25:25.473Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr7r2lhz00593amq8734bbxq",
       "source_name": "desaparecidosvenezuela",
@@ -371,25 +391,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T21:54:43.029Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T20:24:35.200Z",
-      "full_name": "luis revoredo",
-      "given_name": "luis",
-      "family_name": "revoredo",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr13hxts004l3amq8rqj11xy",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T20:24:35.200Z"
         }
       ],
       "x_confianza": "baja",
