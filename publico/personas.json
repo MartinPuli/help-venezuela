@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-06T23:21:57.996Z",
+  "generadoEn": "2026-07-07T01:14:04.656Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmr9v8966005b3amqjiqzn7wb",
+      "nombre": "Jonathan Diaz",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-06T23:43:01.998Z",
+      "edadAprox": 19,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Tanaguarenas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr82asm9005a3amqnq3hpupm",
       "nombre": "Jose Sabe",
@@ -277,20 +292,6 @@
       "edadAprox": 51,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Edificio Belo Horizonte Torre B"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
-      "nombre": "Ana Maria Lopez Diaz",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T21:54:43.029Z",
-      "ultimaUbicacion": {
-        "texto": "Distrito Capital · Caracas"
       },
       "fuentes": [
         "desaparecidosvenezuela"

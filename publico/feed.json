@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-06T23:21:57.996Z",
+  "generado_en": "2026-07-07T01:14:04.656Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr9v8966005b3amqjiqzn7wb",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-06T23:43:01.998Z",
+      "full_name": "Jonathan Diaz",
+      "given_name": "Jonathan",
+      "family_name": "Diaz",
+      "age": "19",
+      "home_city": "La Guaira · Caraballeda · Tanaguarenas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr9v8966005b3amqjiqzn7wb",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-06T23:43:01.998Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr82asm9005a3amqnq3hpupm",
       "source_name": "desaparecidosvenezuela",
@@ -372,25 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T23:05:37.866Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T21:54:43.029Z",
-      "full_name": "Ana Maria Lopez Diaz",
-      "given_name": "Ana",
-      "family_name": "Maria Lopez Diaz",
-      "home_city": "Distrito Capital · Caracas",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr16puj9004m3amqsml1k1h8",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T21:54:43.029Z"
         }
       ],
       "x_confianza": "baja",
