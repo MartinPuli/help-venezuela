@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-08T18:52:59.495Z",
+  "generado_en": "2026-07-08T20:16:52.993Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-08T18:55:48.892Z",
+      "full_name": "Daniel Baena",
+      "given_name": "Daniel",
+      "family_name": "Baena",
+      "age": "65",
+      "home_city": "La Guaira · Caraballeda · Residencias El Palmar Este",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-08T18:55:48.892Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr9v8966005b3amqjiqzn7wb",
       "source_name": "desaparecidosvenezuela",
@@ -372,26 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-06-30T23:13:36.255Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T23:05:37.866Z",
-      "full_name": "Omar Zambrano Viana",
-      "given_name": "Omar",
-      "family_name": "Zambrano Viana",
-      "age": "51",
-      "home_city": "La Guaira · Catia La Mar · Edificio Belo Horizonte Torre B",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T23:05:37.866Z"
         }
       ],
       "x_confianza": "baja",

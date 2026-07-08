@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-08T18:52:59.495Z",
+  "generadoEn": "2026-07-08T20:16:52.993Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m",
+      "nombre": "Daniel Baena",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-08T18:55:48.892Z",
+      "edadAprox": 65,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Residencias El Palmar Este"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmr9v8966005b3amqjiqzn7wb",
       "nombre": "Jonathan Diaz",
@@ -277,21 +292,6 @@
       "edadAprox": 71,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi",
-      "nombre": "Omar Zambrano Viana",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T23:05:37.866Z",
-      "edadAprox": 51,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Edificio Belo Horizonte Torre B"
       },
       "fuentes": [
         "desaparecidosvenezuela"

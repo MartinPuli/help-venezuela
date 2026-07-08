@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-08T18:55:48.892Z</pfif:source_date>
+    <pfif:full_name>Daniel Baena</pfif:full_name>
+    <pfif:given_name>Daniel</pfif:given_name>
+    <pfif:family_name>Baena</pfif:family_name>
+    <pfif:age>65</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Residencias El Palmar Este</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-08T18:55:48.892Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr9v8966005b3amqjiqzn7wb</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-06T23:43:01.998Z</pfif:source_date>
@@ -278,21 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr19japr004o3amql0gyljvz</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-06-30T23:13:36.255Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T23:05:37.866Z</pfif:source_date>
-    <pfif:full_name>Omar Zambrano Viana</pfif:full_name>
-    <pfif:given_name>Omar</pfif:given_name>
-    <pfif:family_name>Zambrano Viana</pfif:family_name>
-    <pfif:age>51</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Edificio Belo Horizonte Torre B</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1991l6004n3amq0tb9yzdi</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T23:05:37.866Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
