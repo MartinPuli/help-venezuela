@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-09T22:15:00.355Z",
+  "generadoEn": "2026-07-09T23:37:59.131Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmre2f9a3005e3amqrhfkt4ei",
+      "nombre": "Andinel Meneses",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-09T22:15:30.748Z",
+      "edadAprox": 21,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro) · Edificio opp26 tanaguarena la guaira"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5",
       "nombre": "Daniela Albarrán",
@@ -277,21 +292,6 @@
       "reportadoEn": "2026-07-01T01:34:17.382Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3",
-      "nombre": "Mariangel De freitas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T00:38:17.905Z",
-      "edadAprox": 30,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"

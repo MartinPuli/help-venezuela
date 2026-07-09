@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmre2f9a3005e3amqrhfkt4ei</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-09T22:15:30.748Z</pfif:source_date>
+    <pfif:full_name>Andinel Meneses</pfif:full_name>
+    <pfif:given_name>Andinel</pfif:given_name>
+    <pfif:family_name>Meneses</pfif:family_name>
+    <pfif:age>21</pfif:age>
+    <pfif:home_city>La Guaira · La Guaira (centro) · Edificio opp26 tanaguarena la guaira</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmre2f9a3005e3amqrhfkt4ei</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-09T22:15:30.748Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-09T02:33:39.633Z</pfif:source_date>
@@ -278,21 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-07-01T01:34:17.382Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-07-01T00:38:17.905Z</pfif:source_date>
-    <pfif:full_name>Mariangel De freitas</pfif:full_name>
-    <pfif:given_name>Mariangel</pfif:given_name>
-    <pfif:family_name>De freitas</pfif:family_name>
-    <pfif:age>30</pfif:age>
-    <pfif:home_city>La Guaira · Caraballeda</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-07-01T00:38:17.905Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-09T22:15:00.355Z",
+  "generado_en": "2026-07-09T23:37:59.131Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmre2f9a3005e3amqrhfkt4ei",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-09T22:15:30.748Z",
+      "full_name": "Andinel Meneses",
+      "given_name": "Andinel",
+      "family_name": "Meneses",
+      "age": "21",
+      "home_city": "La Guaira · La Guaira (centro) · Edificio opp26 tanaguarena la guaira",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmre2f9a3005e3amqrhfkt4ei",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-09T22:15:30.748Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5",
       "source_name": "desaparecidosvenezuela",
@@ -372,26 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T01:34:17.382Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-01T00:38:17.905Z",
-      "full_name": "Mariangel De freitas",
-      "given_name": "Mariangel",
-      "family_name": "De freitas",
-      "age": "30",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-01T00:38:17.905Z"
         }
       ],
       "x_confianza": "baja",
