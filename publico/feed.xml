@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-09T02:33:39.633Z</pfif:source_date>
+    <pfif:full_name>Daniela Albarrán</pfif:full_name>
+    <pfif:given_name>Daniela</pfif:given_name>
+    <pfif:family_name>Albarrán</pfif:family_name>
+    <pfif:age>16</pfif:age>
+    <pfif:home_city>La Guaira · Misión vivienda los coco edificio opp27 apartamento 707 A piso 7</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-09T02:33:39.633Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-08T18:55:48.892Z</pfif:source_date>
@@ -278,21 +293,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ck7qp004q3amqrc80pwg3</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-07-01T00:38:17.905Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr19japr004o3amql0gyljvz</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-06-30T23:13:36.255Z</pfif:source_date>
-    <pfif:full_name>William Alberto Petit</pfif:full_name>
-    <pfif:given_name>William</pfif:given_name>
-    <pfif:family_name>Alberto Petit</pfif:family_name>
-    <pfif:age>71</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr19japr004o3amql0gyljvz</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-06-30T23:13:36.255Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

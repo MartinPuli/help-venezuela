@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-09T01:16:37.612Z",
+  "generado_en": "2026-07-09T05:30:09.862Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-09T02:33:39.633Z",
+      "full_name": "Daniela Albarrán",
+      "given_name": "Daniela",
+      "family_name": "Albarrán",
+      "age": "16",
+      "home_city": "La Guaira · Misión vivienda los coco edificio opp27 apartamento 707 A piso 7",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-09T02:33:39.633Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m",
       "source_name": "desaparecidosvenezuela",
@@ -372,26 +392,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T00:38:17.905Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr19japr004o3amql0gyljvz",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-06-30T23:13:36.255Z",
-      "full_name": "William Alberto Petit",
-      "given_name": "William",
-      "family_name": "Alberto Petit",
-      "age": "71",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr19japr004o3amql0gyljvz",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-06-30T23:13:36.255Z"
         }
       ],
       "x_confianza": "baja",

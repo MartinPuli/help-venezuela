@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-09T01:16:37.612Z",
+  "generadoEn": "2026-07-09T05:30:09.862Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrcw7dwx005d3amq2h9ar4z5",
+      "nombre": "Daniela Albarrán",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-09T02:33:39.633Z",
+      "edadAprox": 16,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Misión vivienda los coco edificio opp27 apartamento 707 A piso 7"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrcfulcr005c3amq977jxl6m",
       "nombre": "Daniel Baena",
@@ -277,21 +292,6 @@
       "edadAprox": 30,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr19japr004o3amql0gyljvz",
-      "nombre": "William Alberto Petit",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-06-30T23:13:36.255Z",
-      "edadAprox": 71,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"
