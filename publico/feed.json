@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-10T11:31:56.878Z",
+  "generado_en": "2026-07-10T13:34:17.360Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrevgi8t005g3amq4wg8gwiv",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-10T11:48:17.885Z",
+      "full_name": "Andreina Belmonte",
+      "given_name": "Andreina",
+      "family_name": "Belmonte",
+      "age": "40",
+      "home_city": "La Guaira · Catia La Mar",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrevgi8t005g3amq4wg8gwiv",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-10T11:48:17.885Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmre2f9a3005e3amqrhfkt4ei",
       "source_name": "desaparecidosvenezuela",
@@ -373,25 +393,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T04:32:06.723Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-01T01:34:17.382Z",
-      "full_name": "Erick Navas",
-      "given_name": "Erick",
-      "family_name": "Navas",
-      "home_city": "La Guaira · Catia La Mar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-01T01:34:17.382Z"
         }
       ],
       "x_confianza": "baja",

@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-10T11:31:56.878Z",
+  "generadoEn": "2026-07-10T13:34:17.360Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrevgi8t005g3amq4wg8gwiv",
+      "nombre": "Andreina Belmonte",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-10T11:48:17.885Z",
+      "edadAprox": 40,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Catia La Mar"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmre2f9a3005e3amqrhfkt4ei",
       "nombre": "Andinel Meneses",
@@ -278,20 +293,6 @@
       "reportadoEn": "2026-07-01T04:32:06.723Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · La Guaira (centro)"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr1ek7xi004r3amqawakvh4l",
-      "nombre": "Erick Navas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T01:34:17.382Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar"
       },
       "fuentes": [
         "desaparecidosvenezuela"
