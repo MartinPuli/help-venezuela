@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrh24qt5005h3amq25wpwb6x</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-12T00:30:38.777Z</pfif:source_date>
+    <pfif:full_name>Joaquin Pardo</pfif:full_name>
+    <pfif:given_name>Joaquin</pfif:given_name>
+    <pfif:family_name>Pardo</pfif:family_name>
+    <pfif:home_city>Distrito Capital · Caracas</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmrh24qt5005h3amq25wpwb6x</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-12T00:30:38.777Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrevgi8t005g3amq4wg8gwiv</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-10T11:48:17.885Z</pfif:source_date>
@@ -280,20 +294,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-07-01T04:50:47.076Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-07-01T04:32:06.723Z</pfif:source_date>
-    <pfif:full_name>Carmen Josefina Vasconcelos</pfif:full_name>
-    <pfif:given_name>Carmen</pfif:given_name>
-    <pfif:family_name>Josefina Vasconcelos</pfif:family_name>
-    <pfif:home_city>La Guaira · La Guaira (centro)</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-07-01T04:32:06.723Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

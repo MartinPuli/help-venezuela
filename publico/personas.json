@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-07-11T23:28:43.022Z",
+  "generadoEn": "2026-07-12T01:05:05.949Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrh24qt5005h3amq25wpwb6x",
+      "nombre": "Joaquin Pardo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-12T00:30:38.777Z",
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrevgi8t005g3amq4wg8gwiv",
       "nombre": "Andreina Belmonte",
@@ -279,20 +293,6 @@
       "reportadoEn": "2026-07-01T04:50:47.076Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq",
-      "nombre": "Carmen Josefina Vasconcelos",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T04:32:06.723Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · La Guaira (centro)"
       },
       "fuentes": [
         "desaparecidosvenezuela"

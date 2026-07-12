@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-11T23:28:43.022Z",
+  "generado_en": "2026-07-12T01:05:05.949Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrh24qt5005h3amq25wpwb6x",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-12T00:30:38.777Z",
+      "full_name": "Joaquin Pardo",
+      "given_name": "Joaquin",
+      "family_name": "Pardo",
+      "home_city": "Distrito Capital · Caracas",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrh24qt5005h3amq25wpwb6x",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-12T00:30:38.777Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrevgi8t005g3amq4wg8gwiv",
       "source_name": "desaparecidosvenezuela",
@@ -374,25 +393,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T04:50:47.076Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-01T04:32:06.723Z",
-      "full_name": "Carmen Josefina Vasconcelos",
-      "given_name": "Carmen",
-      "family_name": "Josefina Vasconcelos",
-      "home_city": "La Guaira · La Guaira (centro)",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1kwwg3004t3amqrjj4gzmq",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-01T04:32:06.723Z"
         }
       ],
       "x_confianza": "baja",
