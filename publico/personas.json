@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-14T01:02:31.072Z",
+  "generadoEn": "2026-07-14T04:15:30.857Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrk5069r005i3amqcxfaz4a4",
+      "nombre": "Fabiana Andreina Ramírez Cardozo",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-14T04:14:22.911Z",
+      "edadAprox": 21,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Naiguatá"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrh24qt5005h3amq25wpwb6x",
       "nombre": "Joaquin Pardo",
@@ -279,20 +294,6 @@
       "edadAprox": 7,
       "ultimaUbicacion": {
         "texto": "La Guaira · OPP 26 Torre H, Misión Vivienda los cocos, la Guaira"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
-      "nombre": "almarys rojas",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T04:50:47.076Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"

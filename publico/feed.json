@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-14T01:02:31.072Z",
+  "generado_en": "2026-07-14T04:15:30.857Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrk5069r005i3amqcxfaz4a4",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-14T04:14:22.911Z",
+      "full_name": "Fabiana Andreina Ramírez Cardozo",
+      "given_name": "Fabiana",
+      "family_name": "Andreina Ramírez Cardozo",
+      "age": "21",
+      "home_city": "La Guaira · Naiguatá",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrk5069r005i3amqcxfaz4a4",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-14T04:14:22.911Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrh24qt5005h3amq25wpwb6x",
       "source_name": "desaparecidosvenezuela",
@@ -374,25 +394,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T15:41:34.777Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-01T04:50:47.076Z",
-      "full_name": "almarys rojas",
-      "given_name": "almarys",
-      "family_name": "rojas",
-      "home_city": "La Guaira · Caraballeda",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr1lkwwz004u3amq86tloqch",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-01T04:50:47.076Z"
         }
       ],
       "x_confianza": "baja",
