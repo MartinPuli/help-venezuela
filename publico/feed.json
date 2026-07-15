@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-15T21:13:33.177Z",
+  "generado_en": "2026-07-15T22:12:49.523Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrmmm1yw005k3amq5l4h9n5a",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-15T22:02:49.592Z",
+      "full_name": "Ghislaim Tamara Camacho Guerrero",
+      "given_name": "Ghislaim",
+      "family_name": "Tamara Camacho Guerrero",
+      "age": "70",
+      "home_city": "La Guaira · Caraballeda · Avenida Guaicaipuro Residencias YurreBeach",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrmmm1yw005k3amq5l4h9n5a",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-15T22:02:49.592Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrm642n0005j3amqcb6mxa99",
       "source_name": "desaparecidosvenezuela",
@@ -374,26 +394,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T20:33:36.181Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-01T16:33:00.826Z",
-      "full_name": "TOMAS PRiBANiC",
-      "given_name": "TOMAS",
-      "family_name": "PRiBANiC",
-      "age": "79",
-      "home_city": "La Guaira · Caraballeda · Frente Hoyel Sheraton",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-01T16:33:00.826Z"
         }
       ],
       "x_confianza": "baja",

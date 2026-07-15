@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-15T21:13:33.177Z",
+  "generadoEn": "2026-07-15T22:12:49.523Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrmmm1yw005k3amq5l4h9n5a",
+      "nombre": "Ghislaim Tamara Camacho Guerrero",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-15T22:02:49.592Z",
+      "edadAprox": 70,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Avenida Guaicaipuro Residencias YurreBeach"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrm642n0005j3amqcb6mxa99",
       "nombre": "Yajaira Marimon Severiche",
@@ -279,21 +294,6 @@
       "edadAprox": 24,
       "ultimaUbicacion": {
         "texto": "La Guaira · Catia La Mar · Playa Grande Edificio Vallarta"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr2anziy004w3amqriech29p",
-      "nombre": "TOMAS PRiBANiC",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T16:33:00.826Z",
-      "edadAprox": 79,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Frente Hoyel Sheraton"
       },
       "fuentes": [
         "desaparecidosvenezuela"
