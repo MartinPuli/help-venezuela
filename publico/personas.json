@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-15T13:41:00.386Z",
+  "generadoEn": "2026-07-15T15:10:59.090Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrm642n0005j3amqcb6mxa99",
+      "nombre": "Yajaira Marimon Severiche",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-15T14:20:56.796Z",
+      "edadAprox": 42,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Caraballeda · Opp 26, Caribe, piso 1"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrk5069r005i3amqcxfaz4a4",
       "nombre": "Fabiana Andreina Ramírez Cardozo",
@@ -279,21 +294,6 @@
       "edadAprox": 79,
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda · Frente Hoyel Sheraton"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
-      "nombre": "Liam Gabriel Marquez Gonzalez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T15:41:34.777Z",
-      "edadAprox": 7,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · OPP 26 Torre H, Misión Vivienda los cocos, la Guaira"
       },
       "fuentes": [
         "desaparecidosvenezuela"

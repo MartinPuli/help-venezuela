@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-15T13:41:00.386Z",
+  "generado_en": "2026-07-15T15:10:59.090Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrm642n0005j3amqcb6mxa99",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-15T14:20:56.796Z",
+      "full_name": "Yajaira Marimon Severiche",
+      "given_name": "Yajaira",
+      "family_name": "Marimon Severiche",
+      "age": "42",
+      "home_city": "La Guaira · Caraballeda · Opp 26, Caribe, piso 1",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrm642n0005j3amqcb6mxa99",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-15T14:20:56.796Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrk5069r005i3amqcxfaz4a4",
       "source_name": "desaparecidosvenezuela",
@@ -374,26 +394,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T16:33:00.826Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-01T15:41:34.777Z",
-      "full_name": "Liam Gabriel Marquez Gonzalez",
-      "given_name": "Liam",
-      "family_name": "Gabriel Marquez Gonzalez",
-      "age": "7",
-      "home_city": "La Guaira · OPP 26 Torre H, Misión Vivienda los cocos, la Guaira",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-01T15:41:34.777Z"
         }
       ],
       "x_confianza": "baja",

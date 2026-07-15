@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrm642n0005j3amqcb6mxa99</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-15T14:20:56.796Z</pfif:source_date>
+    <pfif:full_name>Yajaira Marimon Severiche</pfif:full_name>
+    <pfif:given_name>Yajaira</pfif:given_name>
+    <pfif:family_name>Marimon Severiche</pfif:family_name>
+    <pfif:age>42</pfif:age>
+    <pfif:home_city>La Guaira · Caraballeda · Opp 26, Caribe, piso 1</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmrm642n0005j3amqcb6mxa99</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-15T14:20:56.796Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrk5069r005i3amqcxfaz4a4</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-14T04:14:22.911Z</pfif:source_date>
@@ -280,21 +295,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2anziy004w3amqriech29p</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-07-01T16:33:00.826Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-07-01T15:41:34.777Z</pfif:source_date>
-    <pfif:full_name>Liam Gabriel Marquez Gonzalez</pfif:full_name>
-    <pfif:given_name>Liam</pfif:given_name>
-    <pfif:family_name>Gabriel Marquez Gonzalez</pfif:family_name>
-    <pfif:age>7</pfif:age>
-    <pfif:home_city>La Guaira · OPP 26 Torre H, Misión Vivienda los cocos, la Guaira</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr28tubd004v3amqfyvjiwot</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-07-01T15:41:34.777Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>
