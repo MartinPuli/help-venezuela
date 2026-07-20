@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pfif:pfif xmlns:pfif="http://zesty.ca/pfif/1.4">
   <pfif:person>
+    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrtgfc6x005n3amq6nm63o27</pfif:person_record_id>
+    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
+    <pfif:source_date>2026-07-20T16:44:01.785Z</pfif:source_date>
+    <pfif:full_name>Hombre adulto, tercera edad,</pfif:full_name>
+    <pfif:given_name>Hombre</pfif:given_name>
+    <pfif:family_name>adulto, tercera edad,</pfif:family_name>
+    <pfif:home_city>Distrito Capital · Caracas · Libertador · Hospital de Lídice caracas, en emergencia</pfif:home_city>
+    <pfif:note>
+      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmrtgfc6x005n3amq6nm63o27</pfif:note_record_id>
+      <pfif:status>believed_missing</pfif:status>
+      <pfif:source_date>2026-07-20T16:44:01.785Z</pfif:source_date>
+    </pfif:note>
+  </pfif:person>
+  <pfif:person>
     <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmrmmm1yw005k3amq5l4h9n5a</pfif:person_record_id>
     <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
     <pfif:source_date>2026-07-15T22:02:49.592Z</pfif:source_date>
@@ -280,21 +294,6 @@
       <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2qkzya004y3amqdbyt43fs</pfif:note_record_id>
       <pfif:status>believed_missing</pfif:status>
       <pfif:source_date>2026-07-01T23:58:35.266Z</pfif:source_date>
-    </pfif:note>
-  </pfif:person>
-  <pfif:person>
-    <pfif:person_record_id>cruce-desaparecidos/desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra</pfif:person_record_id>
-    <pfif:source_name>desaparecidosvenezuela</pfif:source_name>
-    <pfif:source_date>2026-07-01T20:33:36.181Z</pfif:source_date>
-    <pfif:full_name>Lohana Gil Maraima</pfif:full_name>
-    <pfif:given_name>Lohana</pfif:given_name>
-    <pfif:family_name>Gil Maraima</pfif:family_name>
-    <pfif:age>24</pfif:age>
-    <pfif:home_city>La Guaira · Catia La Mar · Playa Grande Edificio Vallarta</pfif:home_city>
-    <pfif:note>
-      <pfif:note_record_id>cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra</pfif:note_record_id>
-      <pfif:status>believed_missing</pfif:status>
-      <pfif:source_date>2026-07-01T20:33:36.181Z</pfif:source_date>
     </pfif:note>
   </pfif:person>
 </pfif:pfif>

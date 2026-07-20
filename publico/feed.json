@@ -1,7 +1,26 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-20T16:13:24.169Z",
+  "generado_en": "2026-07-20T18:19:40.136Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrtgfc6x005n3amq6nm63o27",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-20T16:44:01.785Z",
+      "full_name": "Hombre adulto, tercera edad,",
+      "given_name": "Hombre",
+      "family_name": "adulto, tercera edad,",
+      "home_city": "Distrito Capital · Caracas · Libertador · Hospital de Lídice caracas, en emergencia",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmrtgfc6x005n3amq6nm63o27",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-20T16:44:01.785Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrmmm1yw005k3amq5l4h9n5a",
       "source_name": "desaparecidosvenezuela",
@@ -374,26 +393,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-01T23:58:35.266Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-01T20:33:36.181Z",
-      "full_name": "Lohana Gil Maraima",
-      "given_name": "Lohana",
-      "family_name": "Gil Maraima",
-      "age": "24",
-      "home_city": "La Guaira · Catia La Mar · Playa Grande Edificio Vallarta",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-01T20:33:36.181Z"
         }
       ],
       "x_confianza": "baja",

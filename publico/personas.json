@@ -1,7 +1,21 @@
 {
-  "generadoEn": "2026-07-20T16:13:24.169Z",
+  "generadoEn": "2026-07-20T18:19:40.136Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrtgfc6x005n3amq6nm63o27",
+      "nombre": "Hombre adulto, tercera edad,",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-20T16:44:01.785Z",
+      "ultimaUbicacion": {
+        "texto": "Distrito Capital · Caracas · Libertador · Hospital de Lídice caracas, en emergencia"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrmmm1yw005k3amq5l4h9n5a",
       "nombre": "Ghislaim Tamara Camacho Guerrero",
@@ -279,21 +293,6 @@
       "reportadoEn": "2026-07-01T23:58:35.266Z",
       "ultimaUbicacion": {
         "texto": "La Guaira · Caraballeda"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr2j9dx1004x3amqu8z5lyra",
-      "nombre": "Lohana Gil Maraima",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T20:33:36.181Z",
-      "edadAprox": 24,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Catia La Mar · Playa Grande Edificio Vallarta"
       },
       "fuentes": [
         "desaparecidosvenezuela"
