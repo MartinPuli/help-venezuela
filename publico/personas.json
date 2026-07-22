@@ -1,7 +1,37 @@
 {
-  "generadoEn": "2026-07-22T22:54:26.226Z",
+  "generadoEn": "2026-07-22T23:55:31.768Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmrwomjyn005p3amqprvcuf8e",
+      "nombre": "Mirna Gutierrez de Mundarain",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-22T22:56:53.903Z",
+      "edadAprox": 64,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Las 15 Letras, Macuto, Vargas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
+    {
+      "id": "desaparecidosvenezuela:cmrwolhoj005o3amqebpxxual",
+      "nombre": "Jose Mundarain",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-22T22:56:04.292Z",
+      "edadAprox": 66,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · Macuto · Las 15 Letras, Macuto, Vargas"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrtgfc6x005n3amq6nm63o27",
       "nombre": "Hombre adulto, tercera edad,",
@@ -264,35 +294,6 @@
       "edadAprox": 43,
       "ultimaUbicacion": {
         "texto": "La Guaira · Maiquetía · Hotel catimar"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr2ymb47004z3amq0pjim6q4",
-      "nombre": "Gabriela Nohemi Villarreal Morales",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-02T03:43:33.319Z",
-      "edadAprox": 2,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda · Opp 27 torre A piso 1 residencias caribe"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr2qkzya004y3amqdbyt43fs",
-      "nombre": "Rosmar Sivira",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-01T23:58:35.266Z",
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Caraballeda"
       },
       "fuentes": [
         "desaparecidosvenezuela"
