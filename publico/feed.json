@@ -1,7 +1,27 @@
 {
   "pfif_version": "1.4",
-  "generado_en": "2026-07-23T23:28:49.754Z",
+  "generado_en": "2026-07-24T00:55:36.655Z",
   "persons": [
+    {
+      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmry6qshj005q3amqdrsmswa0",
+      "source_name": "desaparecidosvenezuela",
+      "source_date": "2026-07-24T00:11:50.839Z",
+      "full_name": "Franklin De la mothe",
+      "given_name": "Franklin",
+      "family_name": "De la mothe",
+      "age": "65",
+      "home_city": "La Guaira · La Guaira (centro)",
+      "notes": [
+        {
+          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmry6qshj005q3amqdrsmswa0",
+          "status": "believed_missing",
+          "author_made_contact": false,
+          "source_date": "2026-07-24T00:11:50.839Z"
+        }
+      ],
+      "x_confianza": "baja",
+      "x_verificado": false
+    },
     {
       "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmrwomjyn005p3amqprvcuf8e",
       "source_name": "desaparecidosvenezuela",
@@ -374,26 +394,6 @@
           "status": "believed_missing",
           "author_made_contact": false,
           "source_date": "2026-07-02T12:44:52.815Z"
-        }
-      ],
-      "x_confianza": "baja",
-      "x_verificado": false
-    },
-    {
-      "person_record_id": "cruce-desaparecidos/desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne",
-      "source_name": "desaparecidosvenezuela",
-      "source_date": "2026-07-02T10:34:57.032Z",
-      "full_name": "María Laura Hernandez",
-      "given_name": "María",
-      "family_name": "Laura Hernandez",
-      "age": "43",
-      "home_city": "La Guaira · Maiquetía · Hotel catimar",
-      "notes": [
-        {
-          "note_record_id": "cruce-desaparecidos/nota-desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne",
-          "status": "believed_missing",
-          "author_made_contact": false,
-          "source_date": "2026-07-02T10:34:57.032Z"
         }
       ],
       "x_confianza": "baja",

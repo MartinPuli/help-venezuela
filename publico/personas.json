@@ -1,7 +1,22 @@
 {
-  "generadoEn": "2026-07-23T23:28:49.754Z",
+  "generadoEn": "2026-07-24T00:55:36.655Z",
   "total": 20,
   "personas": [
+    {
+      "id": "desaparecidosvenezuela:cmry6qshj005q3amqdrsmswa0",
+      "nombre": "Franklin De la mothe",
+      "estado": "desaparecido",
+      "confianza": "baja",
+      "fuente": "desaparecidosvenezuela",
+      "reportadoEn": "2026-07-24T00:11:50.839Z",
+      "edadAprox": 65,
+      "ultimaUbicacion": {
+        "texto": "La Guaira · La Guaira (centro)"
+      },
+      "fuentes": [
+        "desaparecidosvenezuela"
+      ]
+    },
     {
       "id": "desaparecidosvenezuela:cmrwomjyn005p3amqprvcuf8e",
       "nombre": "Mirna Gutierrez de Mundarain",
@@ -279,21 +294,6 @@
       "edadAprox": 53,
       "ultimaUbicacion": {
         "texto": "La Guaira · Carayaca"
-      },
-      "fuentes": [
-        "desaparecidosvenezuela"
-      ]
-    },
-    {
-      "id": "desaparecidosvenezuela:cmr3dbd6w00523amqy62xtyne",
-      "nombre": "María Laura Hernandez",
-      "estado": "desaparecido",
-      "confianza": "baja",
-      "fuente": "desaparecidosvenezuela",
-      "reportadoEn": "2026-07-02T10:34:57.032Z",
-      "edadAprox": 43,
-      "ultimaUbicacion": {
-        "texto": "La Guaira · Maiquetía · Hotel catimar"
       },
       "fuentes": [
         "desaparecidosvenezuela"
